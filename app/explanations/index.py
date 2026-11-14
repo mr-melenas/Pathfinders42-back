@@ -1,6 +1,5 @@
 """
 ES: Búsqueda BM25 en Python puro sobre el corpus (sin modelos, sin dependencias, sin red).
-EN: Pure-Python BM25 search over the corpus (no models, no dependencies, no network).
 """
 
 import json
@@ -11,10 +10,10 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
-# ES: Ruta del corpus (una línea JSON por fragmento). EN: Corpus path (one JSON line per fragment).
+# ES: Ruta del corpus (una línea JSON por fragmento).
 CORPUS_PATH = Path(os.getenv("RAG_CORPUS", "data/rag/corpus.jsonl"))
 
-# ES: Palabras vacías en español, sin tildes. EN: Spanish stopwords, accent-free.
+# ES: Palabras vacías en español, sin tildes.
 STOPWORDS = {
     "a",
     "al",
@@ -96,8 +95,7 @@ class TextIndex:
         """
         ES: Devuelve (posición, puntuación) de los k mejores fragmentos. `kind` filtra por "tipo";
         `site_id` excluye fragmentos de OTRO sitio concreto (los generales se mantienen).
-        EN: Returns (position, score) for the top k fragments. `kind` filters on "tipo";
-        `site_id` excludes fragments tied to a DIFFERENT site (general ones are kept).
+       
         """
         query_terms = tokenize(query)
         scored: list[tuple[int, float]] = []
@@ -122,7 +120,7 @@ class TextIndex:
     ) -> list[dict]:
         """
         ES: Igual que search_positions pero devuelve los fragmentos con su "puntuacion".
-        EN: Same as search_positions but returns the fragments with their "puntuacion".
+       
         """
         return [
             {**self.fragments[pos], "puntuacion": round(score, 3)}
@@ -135,7 +133,7 @@ _index: TextIndex | None = None
 
 def get_index() -> TextIndex:
     """
-    ES: Índice compartido, cargado una sola vez. EN: Shared index, loaded once.
+    ES: Índice compartido, cargado una sola vez. 
     """
     global _index
     if _index is None:

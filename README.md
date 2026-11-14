@@ -11,7 +11,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -e ".[dev]"
 cp .env.example .env
 python scripts/sync_data.py --origen "/ruta/a/Hackathon Nasa/06_web"   # copia los datos a data/06_web
-uvicorn app.main:app --reload
+python -m uvicorn --env-file .env app.main:app --reload
 ```
 
 Documentación interactiva en <http://localhost:8000/docs>. El contrato para el front es

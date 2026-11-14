@@ -51,3 +51,11 @@ def test_main_builds_corpus_that_the_index_can_search(tmp_path, monkeypatch):
 
     index = TextIndex(path=tmp_path / "corpus.jsonl")
     assert index.search("gravedad", kind="limites")[0]["fuente"] == "Notas de límites"
+
+
+def test_long_paragraph_without_blank_lines_is_split():
+    text = " ".join(f"Frase número {i} con algo de texto." for i in range(200))  # one ~7000-char paragraph
+    chunks = build_corpus.split_text(text)
+    assert len(chunks) > 3 and all(len(c) <= build_corpus.CHUNK_SIZE + build_corpus.OVERLAP for c in chunks)
+    giant_word = build_corpus.split_text("a" * 5000)
+    assert len(giant_word) > 1 and all(len(c) <= build_corpus.CHUNK_SIZE + build_corpus.OVERLAP for c in giant_word)

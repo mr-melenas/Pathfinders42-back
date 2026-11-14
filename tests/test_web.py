@@ -135,3 +135,45 @@ def test_expired_cache_entry_is_refreshed_but_cache_only_still_serves_it():
     assert len(CALLS) == calls_before  # cache_only serves stale data / sirve datos antiguos
     search_web("hielo polar", provider=fake_provider, cache_path=cache_path, cache_only=False)
     assert len(CALLS) == calls_before + 1  # expired: goes online / caducada: sale a la red
+
+
+def test_html_is_stripped_empty_results_not_cached_and_key_has_n():
+    cache_path = Path(tempfile.mkdtemp()) / "cache.json"
+
+    def html_provider(query, count, domains):
+        CALLS.append(query)
+        return [{"title": "<b>NASA</b> &amp; co", "url": "https://www.nasa.gov/a", "text": "un <strong>dato</strong> &amp; más"}]
+
+    r = search_web("tema html", provider=html_provider, cache_path=cache_path, cache_only=False)
+    assert r[0]["texto"] == "un dato & más" and r[0]["fuente"] == "NASA & co"
+
+    def empty(query, count, domains):
+        CALLS.append(query)
+        return []
+
+    before = len(CALLS)
+    search_web("sin nada", provider=empty, cache_path=cache_path, cache_only=False)
+    search_web("sin nada", provider=empty, cache_path=cache_path, cache_only=False)
+    assert len(CALLS) == before + 2  # empty answers are retried / las vacías se reintentan
+    before = len(CALLS)
+    search_web("tema html", n=5, provider=html_provider, cache_path=cache_path, cache_only=False)
+    assert len(CALLS) == before + 1  # other n -> other entry / otro n -> otra entrada
+
+
+def test_cache_write_leaves_no_temp_files():
+    cache_path = Path(tempfile.mkdtemp()) / "cache.json"
+    search_web("hielo", provider=fake_provider, cache_path=cache_path, cache_only=False)
+    assert [p.name for p in cache_path.parent.iterdir()] == ["cache.json"]
+
+
+def test_long_queries_are_capped_for_providers(monkeypatch):
+    sent = {}
+
+    def fake_post(url, headers, json, timeout):
+        sent["q"] = json["query"]
+        return FakeHttpResponse({"results": []})
+
+    monkeypatch.setenv("TAVILY_API_KEY", "k")
+    monkeypatch.setattr(web.httpx, "post", fake_post)
+    web._tavily("x" * 900, 3, ("nasa.gov",))
+    assert len(sent["q"]) == web.MAX_QUERY_CHARS

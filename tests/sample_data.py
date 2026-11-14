@@ -1,8 +1,6 @@
 """
 ES: Datos de ejemplo compartidos. La ficha es la de Malapert Massif del contexto del equipo; el
 corpus es texto de PRUEBA, no contenido científico del proyecto.
-EN: Shared sample data. The record is the Malapert Massif one from the team context; the corpus is
-TEST text, not project scientific content.
 """
 
 SAMPLE_RECORD = {
