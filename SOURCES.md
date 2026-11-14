@@ -36,6 +36,8 @@ cubre cada fuente. «—» significa que es otra fuente abierta.
 | Química | Marte | Mars Odyssey GRS (Fe, Si, Cl, H₂O, K, Th) | NASA PDS | Dominio público (NASA) |
 | Cloruros | Marte | Osterloo et al. (2010); Leask y Ehlmann (2021) | — | Cita requerida |
 | Hielo | Luna | LRO Diviner PRP (hielo estable bajo la superficie) | LRO Diviner | Dominio público (NASA) |
+| Hielo (radar) | Luna | LRO Mini-RF, mosaico global de CPR a 32 px/grado (`LRO-L-MRFLRO-5-GLOBAL-MOSAIC-V1.0`); capa `hielo_lro` | LRO (PDS Geosciences) | Dominio público (NASA) |
+| Hielo (neutrones) | Luna | LRO LEND, datos promediados ALD del polo sur (`LRO-L-LEND-4/5-RDR-V1.0`); capa `hielo_lro` | LRO (PDS Geosciences) | Dominio público (NASA) |
 | Hielo | Marte | SWIM, *Subsurface Water Ice Mapping* (PSI, NASA/JPL) | — | Datos abiertos con cita |
 | Permafrost | Tierra | Obu et al. (2019), probabilidad de permafrost a 1 km (PANGAEA) | — | CC BY (cita requerida) |
 | Bases antárticas | Tierra | COMNAP, instalaciones antárticas | — | Según sus condiciones de uso |
@@ -53,13 +55,6 @@ cubre cada fuente. «—» significa que es otra fuente abierta.
 | Emisividad térmica | CAMEL (a través del índice lunar `luna_v0.3`) | NASA Earthdata | Datos abiertos NASA |
 | Roca volcánica | GLiM (a través del índice lunar `luna_v0.3`) | — | CC BY (cita requerida) |
 | Nombres de lugar | GeoNames (a través de `reverse_geocoder`) | — | CC BY 4.0 |
-
-## En preparación
-
-| Capa | Fuente | Recurso del reto | Estado |
-|---|---|---|---|
-| Hielo lunar v1 | LRO Mini-RF, mosaico global de CPR a 32 px/grado (`LRO-L-MRFLRO-5-GLOBAL-MOSAIC-V1.0`) | LRO (PDS Geosciences) | Notebook `hielo_v1` |
-| Hielo lunar v1 | LRO LEND, datos promediados ALD del polo sur (`LRO-L-LEND-4/5-RDR-V1.0`) | LRO (PDS Geosciences) | Notebook `hielo_v1` |
 
 ## Recursos del reto que todavía no usamos
 
