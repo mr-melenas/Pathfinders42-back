@@ -1,0 +1,80 @@
+{
+  "version": "v1.3",
+  "generado": "2026-10-30T18:12:13",
+  "proyecto": "NASA Space Apps 2026 - prueba",
+  "cuerpos": {
+    "marte": {
+      "version": "v1.3",
+      "carpeta": "v1.3"
+    },
+    "luna": {
+      "version": "luna_v0.3",
+      "carpeta": "luna_v0.3",
+      "nombre": "Luna (basalto)"
+    }
+  },
+  "capas": {
+    "clima": {
+      "version": "clima_v1",
+      "carpeta": "clima_v1",
+      "archivo": "clima_v1/clima.json"
+    },
+    "sitios": {
+      "version": "sitios_v0",
+      "carpeta": "sitios_v0",
+      "archivo": "sitios_v0/sitios.geojson"
+    },
+    "topografia_sitios": {
+      "version": "topografia_sitios_v2",
+      "carpeta": "topografia_sitios_v2",
+      "archivo": "topografia_sitios_v2/topografia_sitios.json"
+    },
+    "geologia": {
+      "version": "geologia_v0",
+      "carpeta": "geologia_v0",
+      "archivo": "geologia_v0/geologia_sitios.json"
+    },
+    "hielo": {
+      "version": "hielo_v0",
+      "carpeta": "hielo_v0",
+      "archivo": "hielo_v0/hielo.json"
+    },
+    "cuevas_v2": {
+      "version": "cuevas_v2",
+      "carpeta": "cuevas_v2",
+      "archivo": "cuevas_v2/cuevas.json",
+      "sitios": "sitios_cuevas_v0/sitios_cuevas.geojson"
+    },
+    "anortosita": {
+      "version": "anortosita_v0",
+      "carpeta": "anortosita_v0",
+      "archivo": "anortosita_v0/anortosita.json"
+    },
+    "pendiente": {
+      "version": "pendiente_v0",
+      "carpeta": "pendiente_v0",
+      "archivo": "pendiente_v0/pendiente.json"
+    },
+    "trampa": {
+      "version": "x",
+      "archivo": "../../../etc/passwd"
+    },
+    "m1": {
+      "version": "m1_v0",
+      "carpeta": "m1_v0",
+      "archivo": "m1_v0/candidatos.json",
+      "geojson": "m1_v0/candidatos.geojson",
+      "leyenda": "m1_v0/leyenda.json",
+      "mapas": {
+        "marte_seco": "m1_v0/mapa_marte_seco.png",
+        "volcanico_basaltico": "m1_v0/mapa_volcanico_basaltico.png"
+      }
+    }
+  },
+  "png_limites": {
+    "oeste": -180,
+    "sur": -85.0511287798,
+    "este": 180,
+    "norte": 85.0511287798
+  }
+}

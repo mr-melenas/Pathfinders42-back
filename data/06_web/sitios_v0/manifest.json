@@ -1,0 +1,22 @@
+{
+  "version": "sitios_v0",
+  "generado": "2026-10-26T16:50:07",
+  "archivo": "sitios.geojson",
+  "crs": "grados en el sistema de cada cuerpo (latitud planetocéntrica, longitud este −180..180); no es WGS84",
+  "tipos": {
+    "region_aterrizaje_artemis": "regiones candidatas del polo sur lunar (polígono)",
+    "exploration_zone": "zonas de exploración humana propuestas en Marte (punto; radio de 100 km)",
+    "aterrizaje_tripulado": "alunizajes Apollo (punto)",
+    "aterrizaje_robotico": "aterrizajes robóticos con éxito, landers y rovers (punto)",
+    "aterrizaje_planificado": "misiones con sitio de aterrizaje ya elegido (punto)"
+  },
+  "conteo": {
+    "region_aterrizaje_artemis": 9,
+    "exploration_zone": 47,
+    "aterrizaje_tripulado": 6,
+    "aterrizaje_robotico": 33,
+    "aterrizaje_planificado": 2
+  },
+  "origen_exploration_zones": "OpenPlanetary (47 EZ)",
+  "nota_artemis": "Desde febrero de 2026 el primer alunizaje es Artemis IV (2028); las 9 regiones siguen siendo las candidatas."
+}

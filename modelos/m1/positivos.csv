@@ -1,0 +1,34 @@
+id,nombre,lat,lon,familia,verificacion,fuente,motivo_exclusion
+qaidam,Cuenca de Qaidam occidental (Lenghu),38.7,93.3,marte_seco,verificada,https://doi.org/10.1002/2017JE005293,
+axel_heiberg,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),79.4,-90.73,marte_seco,verificada,https://doi.org/10.3389/fmicb.2017.02527,
+devon,Isla Devon (Haughton-Mars Project),75.43,-89.87,marte_seco,verificada,https://marsinstitute.no/hmp,
+atacama,"Desierto de Atacama, núcleo hiperárido (ARADS)",-24.1,-70.0,marte_seco,verificada,https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/,
+mcmurdo,Valles Secos de McMurdo,-77.5,161.5,marte_seco,verificada,https://ntrs.nasa.gov/citations/20100003844,
+tso_kar,"Tso Kar, Ladakh (ISRO HOPE)",33.3,78.0,marte_seco,verificada,https://indico.fais.uj.edu.pl/event/45/contributions/302/,
+university_valley,University Valley (Valles Secos de McMurdo),-77.866,160.732,marte_seco,verificada,https://doi.org/10.1038/ismej.2015.239,
+cordillera_sal,Cuevas de sal de la Cordillera de la Sal (Atacama),-22.95,-68.3,marte_seco,verificada,https://doaj.org/article/d2826e72343e4b88ad58d1017ed7299c,
+lanzarote,Lanzarote (ESA PANGAEA),29.0,-13.75,volcanico_basaltico,verificada,https://www.esa.int/ESA_Multimedia/Images/2021/03/Geological_training_in_terrestrial_Moon_and_Mars_analogue_environments,
+la_corona,Tubo de lava de La Corona (Lanzarote),29.16,-13.44,volcanico_basaltico,verificada,https://blogs.esa.int/caves/?p=2369,
+mauna_kea,"Mauna Kea, laderas bajas (PISCES)",19.82,-155.47,volcanico_basaltico,verificada,https://ascelibrary.com/doi/10.1061/41096%28366%29108,
+kilauea,Kīlauea,19.41,-155.28,volcanico_basaltico,verificada,https://doi.org/10.1029/2009JE003347,
+kilauea_pozos,Cráteres de colapso del Kīlauea,19.385,-155.216,volcanico_basaltico,verificada,https://doi.org/10.1029/2022JE007303,
+mauna_loa_tubos,Tubos de lava del Mauna Loa (HI-SEAS),19.6,-155.48,volcanico_basaltico,verificada,https://www.hawaiinewsnow.com/2021/04/14/prepare-life-mars-scientists-are-descending-into-mauna-loas-lava-tubes/,
+craters_moon,Craters of the Moon,43.42,-113.52,volcanico_basaltico,verificada,https://dsears.hosted.uark.edu/publications/pub%20by%20year/2017%20papers/Heldmann%20et%20al%202017%20-%20Analog%20research%20wrt%20the%20Moon%20(LEAG%20abs%205024).pdf,
+pinacate,Sierra del Pinacate,31.77,-113.5,volcanico_basaltico,verificada,https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf,
+lava_beds,"Valentine Cave, Lava Beds",41.72,-121.51,volcanico_basaltico,verificada,https://www.nasa.gov/feature/ames/braille,
+askja,Askja,65.03,-16.75,volcanico_basaltico,verificada,https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf,
+krafla_fisuras,Fisuras y pozos tectónicos de Krafla,65.72,-16.78,volcanico_basaltico,verificada,https://geovires.unimib.it/volcano-tectonics/sinkholes-northern-volcanic-zone-of-iceland/,
+lofthellir,"Lofthellir (tubo de lava con hielo, Mývatn)",65.53,-16.8,volcanico_basaltico,verificada,https://www.astrobotic.com/drone-maps-icy-lava-tube-in-iceland-in-preparation-for-cave-exploration-on-the-moon-and-mars/,
+surtshellir,Surtshellir–Stefánshellir (Hallmundarhraun),64.78,-20.72,volcanico_basaltico,verificada,https://indico.stfc.ac.uk/event/1058/contributions/6721/,
+golan_jubas,Jubas del norte del Golán,33.2,35.75,volcanico_basaltico,verificada,https://doi.org/10.1127/zfg/2019/0614,
+lop_nur,Lop Nur (cuenca del Tarim),40.43,90.79,,pendiente,https://science.nasa.gov/earth/earth-observatory/lop-nur-xinjiang-china-51039/,sin fuente que lo llame análogo (pendiente)
+rio_tinto,Río Tinto (MARTE),37.7,-6.55,,verificada,https://ntrs.nasa.gov/citations/20040062221,la analogía es química (aguas ácidas y hierro); la rejilla no mide química
+meteor_crater,Meteor Crater (cráter Barringer),35.03,-111.02,,verificada,https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf,cráter de impacto; la rejilla no tiene una variable de impacto
+lofoten_flakstadoy,Lofoten (macizo de Flakstadøy),68.1,13.25,,verificada,https://blogs.esa.int/caves/?p=2772,anortosita; la rejilla no distingue anortosita (lo cubre la capa anortosita_v0)
+mistastin,Cráter Mistastin,55.883,-63.3,,verificada,https://news.westernu.ca/2021/08/astronaut-training/,anortosita e impacto; no medible en la rejilla
+stillwater,Complejo de Stillwater (Picket Pin),45.449,-110.051,,verificada,https://science.nasa.gov/earth/earth-observatory/montanas-moon-like-rocks-146650,anortosita; no medible en la rejilla
+shawmere,Anortosita de Shawmere (Foleyet),48.1309,-82.7919,,verificada,https://ares.jsc.nasa.gov/projects/simulants/ob-1.html,anortosita; no medible en la rejilla
+white_mountain,White Mountain (Qaqortorsuaq),66.556,-52.07,,verificada,https://ares.jsc.nasa.gov/projects/simulants/greenspar.html,anortosita; no medible en la rejilla
+undara,Tubos de lava de Undara,-18.25,144.6,,candidato,https://www.universetoday.com/147360/lava-tubes-on-the-moon-and-mars-are-really-really-big-big-enough-to-fit-an-entire-planetary-base,candidato: se usa como prueba ciega de la familia volcánica
+egersund,Anortosita de Egersund (Rogaland),58.45,6.0,,candidato,https://www.mn.uio.no/geo/english/studies/mastertheses/earth-structure-planetary/analogues-for-mars-and-the-moon-among-norwegian-ge.html,candidato y anortosita
+erebus_cuevas,Cuevas de hielo del Erebus,-77.517,167.165,,candidato,https://doi.org/10.3389/fmicb.2015.00179,candidato (análogo de Europa)

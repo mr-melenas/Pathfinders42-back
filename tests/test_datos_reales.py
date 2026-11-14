@@ -1,0 +1,61 @@
+"""Comprueba los datos versionados en data/06_web (se salta si no están)."""
+
+import json
+from pathlib import Path
+
+import pytest
+
+from app.datos import Datos
+
+DATA = Path(__file__).resolve().parent.parent / "data" / "06_web"
+pytestmark = pytest.mark.skipif(not (DATA / "manifest.json").is_file(), reason="sin data/06_web")
+
+
+def rutas_de_capas(datos: Datos) -> list[tuple[str, str]]:
+    return [
+        (capa, ruta)
+        for capa, info in datos.capas.items()
+        for clave, ruta in info.items()
+        if clave != "carpeta" and isinstance(ruta, str) and "/" in ruta
+    ]
+
+
+def test_todas_las_capas_tienen_sus_archivos():
+    datos = Datos(DATA)
+    faltan = [f"{capa}: {ruta}" for capa, ruta in rutas_de_capas(datos) if datos.ruta_segura(ruta) is None]
+    assert not faltan, f"Archivos del manifest que no están en data/06_web: {faltan}"
+
+
+def test_los_json_se_leen():
+    datos = Datos(DATA)
+    rotos = []
+    for capa, ruta in rutas_de_capas(datos):
+        if ruta.endswith((".json", ".geojson")):
+            try:
+                json.loads(datos.ruta_segura(ruta).read_text(encoding="utf-8"))
+            except (ValueError, AttributeError) as e:
+                rotos.append(f"{capa}: {ruta} ({e})")
+    assert not rotos, rotos
+
+
+def test_version_de_la_sincronizacion():
+    version = json.loads((DATA.parent / "VERSION.json").read_text(encoding="utf-8"))
+    assert {"sincronizado", "hash", "archivos"} <= set(version)
+
+
+def test_indice_de_sitios_completo():
+    datos = Datos(DATA)
+    sitios = datos.sitios.sitios
+    assert len(sitios) >= 160  # 97 sitios + 63 sitios-cueva
+    sin_capas = [s.id for s in sitios.values() if not s.capas]
+    assert not sin_capas, f"Sitios sin datos en ninguna capa: {sin_capas}"
+
+
+def test_m1_completo():
+    datos = Datos(DATA)
+    if datos.m1 is None:
+        pytest.skip("sin capa m1")
+    assert set(datos.m1.familias) == {"marte_seco", "volcanico_basaltico"}
+    for familia in datos.m1.familias:
+        assert datos.m1.ruta_mapa(familia) is not None, f"falta el mapa de {familia}"
+    assert all(c["explicacion"] for c in datos.m1.candidatos.values())

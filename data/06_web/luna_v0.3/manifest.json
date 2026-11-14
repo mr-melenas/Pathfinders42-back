@@ -1,0 +1,127 @@
+{
+  "version": "luna_v0.3",
+  "cuerpo": "luna",
+  "generado": "2026-10-24T19:56:07",
+  "proyecto": "NASA Space Apps 2026 - análogos terrestres de la Luna",
+  "perfil": {
+    "nombre": "Luna (basalto)",
+    "name_en": "Moon (basalt)",
+    "descripcion": "Roca volcánica desnuda y pobre en cuarzo, como los mares basálticos lunares. Candidatas: percentil ≥ 95 del índice de emisividad térmica y ≥ 50 % de roca volcánica según GLiM.",
+    "description_en": "Bare, quartz-poor volcanic rock like the lunar basaltic maria. Candidates: thermal-emissivity index ≥ 95th percentile and ≥ 50 % volcanic rock in the GLiM map.",
+    "capa": "indice_luna.png"
+  },
+  "crs": {
+    "geojson": "EPSG:4326 (lon, lat)",
+    "png": "EPSG:3857 Web Mercator"
+  },
+  "png_limites": {
+    "oeste": -180,
+    "sur": -85.0511287798,
+    "este": 180,
+    "norte": 85.0511287798
+  },
+  "regiones": {
+    "archivo": "regiones.geojson",
+    "umbral_percentil": 95,
+    "filtro": "glim_volcanica >= 0.5",
+    "orden": "área",
+    "nota": "analogo_conocido = Sí / Pendiente / Campo volcánico (sin fuente lunar) si hay un punto de referencia a <= 50 km"
+  },
+  "analogos": {
+    "archivo": "analogos.geojson"
+  },
+  "celdas": {
+    "archivo": "celdas.parquet",
+    "resolucion": "0.05° x 0.05°",
+    "nota": "solo celdas del dominio (suelo desnudo, sin nieve ni carbonatos) con percentil >= 50"
+  },
+  "leyenda": "leyenda.json",
+  "validacion": {
+    "resumen": [
+      {
+        "tipo": "analogo_luna",
+        "n": 6,
+        "con_dato": 6,
+        "mediana": 97.4,
+        "minimo": 48.2,
+        "maximo": 100.0
+      },
+      {
+        "tipo": "control_arena",
+        "n": 5,
+        "con_dato": 5,
+        "mediana": 13.2,
+        "minimo": 3.6,
+        "maximo": 48.3
+      },
+      {
+        "tipo": "control_ciudad",
+        "n": 6,
+        "con_dato": 0,
+        "mediana": null,
+        "minimo": null,
+        "maximo": null
+      },
+      {
+        "tipo": "impacto",
+        "n": 1,
+        "con_dato": 1,
+        "mediana": 64.8,
+        "minimo": 64.8,
+        "maximo": 64.8
+      },
+      {
+        "tipo": "volcanico_prueba",
+        "n": 6,
+        "con_dato": 6,
+        "mediana": 92.6,
+        "minimo": 81.0,
+        "maximo": 99.9
+      }
+    ],
+    "auc": {
+      "analogos_vs_controles": 0.96,
+      "volcanicos_prueba_vs_controles": 1.0
+    },
+    "separacion_medianas": 84.39999999999999,
+    "glim_enriquecimiento_p95": {
+      "basalto": 6.986702721897835,
+      "volcanica": 4.009696168867568,
+      "evaporitas": 4.24590469852368,
+      "carbonatos": 1.8447852107396863,
+      "sedimentos": 0.6031053158826475,
+      "cristalinas": 0.9969809075789826,
+      "agua_hielo": 5.2972719252523
+    }
+  },
+  "fuentes_datos": {
+    "emisividad": "CAMEL CAM5K30EMCLIM v003, climatología 2003-2021; julio (norte) y enero (sur)",
+    "vegetacion": "VIIRS VNP13C2 v002 2023, NDVI mediano anual y del mes de la emisividad (jul. norte / ene. sur)",
+    "litologia": "GLiM v1.0 rasterizado a 0,01° y resumido a 0,05° (validación)"
+  },
+  "limitaciones": [
+    "MI alto no es exclusivo del basalto",
+    "celdas de ~5 km mezclan coladas con otros terrenos",
+    "coordenadas de los puntos de referencia aproximadas",
+    "Kīlauea puntúa bajo: posibles recubrimientos de sílice opalina en las coladas del desierto de Ka'u (Seelos et al. 2010, doi:10.1029/2009JE003347), que en el infrarrojo térmico enmascaran el basalto (Kraft et al. 2003, doi:10.1029/2003GL018848)",
+    "carbonatos: ~19 % de la superficie del 10 % superior según GLiM (el filtro CI no los elimina del todo)",
+    "evaporitas y salinas también puntúan alto; por eso las regiones exportadas se filtran con GLiM"
+  ],
+  "archivos": {
+    "analogos.geojson": {
+      "bytes": 6232
+    },
+    "celdas.parquet": {
+      "bytes": 835533
+    },
+    "indice_luna.png": {
+      "bytes": 506239
+    },
+    "leyenda.json": {
+      "bytes": 532
+    },
+    "regiones.geojson": {
+      "bytes": 193815
+    }
+  }
+}

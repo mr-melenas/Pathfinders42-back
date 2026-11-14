@@ -1,0 +1,192 @@
+{
+  "version": "v1.3",
+  "generado": "2026-10-24T19:55:49",
+  "proyecto": "NASA Space Apps 2026 - análogos terrestres de Marte",
+  "crs": {
+    "geojson": "EPSG:4326 (lon, lat)",
+    "png": "EPSG:3857 Web Mercator"
+  },
+  "png_limites": {
+    "oeste": -180,
+    "sur": -85.0511287798,
+    "este": 180,
+    "norte": 85.0511287798
+  },
+  "perfiles": {
+    "marte_polar": {
+      "nombre": "Marte polar",
+      "name_en": "Polar Mars",
+      "descripcion": "Desiertos polares fríos y secos con veranos que no deshielan (|lat| ≥ 60°).",
+      "description_en": "Cold, dry polar deserts with summers that stay frozen (|lat| ≥ 60°).",
+      "pesos": {
+        "frio": 0.45,
+        "verano_frio": 0.2,
+        "seco": 0.35
+      },
+      "capa": "indice_marte_polar.png"
+    },
+    "marte_altura": {
+      "nombre": "Marte de altura",
+      "name_en": "High-altitude Mars",
+      "descripcion": "Mesetas frías y secas por encima de 2500 m, con menos presión y más radiación UV.",
+      "description_en": "Cold, dry plateaus above 2,500 m, with lower pressure and more UV.",
+      "pesos": {
+        "frio": 0.25,
+        "seco": 0.35,
+        "presion": 0.25,
+        "desnudo": 0.15
+      },
+      "capa": "indice_marte_altura.png"
+    },
+    "marte_arido": {
+      "nombre": "Marte árido",
+      "name_en": "Arid Mars",
+      "descripcion": "Desiertos hiperáridos con suelo desnudo y fuertes contrastes térmicos.",
+      "description_en": "Hyper-arid deserts with bare ground and strong temperature swings.",
+      "pesos": {
+        "seco": 0.65,
+        "amplitud": 0.15,
+        "desnudo": 0.2
+      },
+      "capa": "indice_marte_arido.png"
+    }
+  },
+  "capa_combinada": "indice_todos.png",
+  "regiones": {
+    "archivo": "regiones.geojson",
+    "umbral_percentil": 95,
+    "por_perfil": 10,
+    "nota": "analogo_conocido = Sí/Pendiente si un análogo del catálogo está a <= 100 km de la región"
+  },
+  "analogos": {
+    "archivo": "analogos.geojson",
+    "nota": "campos sat_* = celda de ~50 km (NDVI ~5 km), no el sitio exacto; sat_calidad avisa si no es representativo"
+  },
+  "celdas": {
+    "archivo": "celdas.parquet",
+    "resolucion": "0.5° lat x 0.625° lon",
+    "nota": "solo celdas de tierra sin hielo; percentil dentro de su perfil"
+  },
+  "leyenda": "leyenda.json",
+  "validacion": {
+    "version": "v1.3",
+    "mediana_analogos": 92.8,
+    "mediana_controles": 35.0,
+    "max_control": 58.0,
+    "separacion_medianas": 57.9,
+    "peor_analogo_menos_mejor_control": 24.3
+  },
+  "fuentes_datos": {
+    "clima": "MERRA-2 2014-2023 (M2TMNXSLV, M2TMNXFLX, M2C0NXASM)",
+    "vegetacion": "VIIRS VNP13C2 v002 2023, umbral suelo desnudo NDVI < 0.15",
+    "control_calidad": "GPM IMERG v07 mensual"
+  },
+  "archivos": {
+    "analogos.geojson": {
+      "bytes": 12438
+    },
+    "celdas.parquet": {
+      "bytes": 1919901
+    },
+    "indice_marte_altura.png": {
+      "bytes": 10344
+    },
+    "indice_marte_arido.png": {
+      "bytes": 66152
+    },
+    "indice_marte_polar.png": {
+      "bytes": 13342
+    },
+    "indice_todos.png": {
+      "bytes": 77221
+    },
+    "leyenda.json": {
+      "bytes": 492
+    },
+    "regiones.geojson": {
+      "bytes": 39824
+    }
+  },
+  "cuerpos": {
+    "marte": {
+      "version": "v1.3",
+      "carpeta": "v1.3",
+      "manifest": "v1.3/manifest.json"
+    },
+    "luna": {
+      "version": "luna_v0.3",
+      "carpeta": "luna_v0.3",
+      "manifest": "luna_v0.3/manifest.json",
+      "nombre": "Luna (basalto)",
+      "name_en": "Moon (basalt)",
+      "descripcion": "Roca volcánica desnuda y pobre en cuarzo, como los mares basálticos lunares. Candidatas: percentil ≥ 95 del índice de emisividad térmica y ≥ 50 % de roca volcánica según GLiM.",
+      "description_en": "Bare, quartz-poor volcanic rock like the lunar basaltic maria. Candidates: thermal-emissivity index ≥ 95th percentile and ≥ 50 % volcanic rock in the GLiM map."
+    }
+  },
+  "capas": {
+    "cuevas": {
+      "version": "cuevas_v0",
+      "carpeta": "cuevas_v0",
+      "archivo": "cuevas_v0/cuevas.geojson",
+      "manifest": "cuevas_v0/manifest.json"
+    },
+    "topografia": {
+      "version": "topografia_v2",
+      "carpeta": "topografia_v2",
+      "archivo": "topografia_v2/topografia.json"
+    },
+    "sitios": {
+      "version": "sitios_v0",
+      "carpeta": "sitios_v0",
+      "archivo": "sitios_v0/sitios.geojson"
+    },
+    "topografia_sitios": {
+      "version": "topografia_sitios_v2",
+      "carpeta": "topografia_sitios_v2",
+      "archivo": "topografia_sitios_v2/topografia_sitios.json"
+    },
+    "clima": {
+      "version": "clima_v1",
+      "carpeta": "clima_v1",
+      "archivo": "clima_v1/clima.json"
+    },
+    "geologia": {
+      "version": "geologia_v0",
+      "carpeta": "geologia_v0",
+      "archivo": "geologia_v0/geologia_sitios.json"
+    },
+    "hielo": {
+      "version": "hielo_v0",
+      "carpeta": "hielo_v0",
+      "archivo": "hielo_v0/hielo.json"
+    },
+    "cuevas_sitios": {
+      "version": "cuevas_v1",
+      "carpeta": "cuevas_v1",
+      "archivo": "cuevas_v1/cuevas.json",
+      "puntos": "cuevas_v1/cuevas_luna_marte.geojson"
+    },
+    "cuevas_v2": {
+      "version": "cuevas_v2",
+      "carpeta": "cuevas_v2",
+      "archivo": "cuevas_v2/cuevas.json",
+      "sitios": "sitios_cuevas_v0/sitios_cuevas.geojson"
+    },
+    "anortosita": {
+      "version": "anortosita_v0",
+      "carpeta": "anortosita_v0",
+      "archivo": "anortosita_v0/anortosita.json"
+    },
+    "m1": {
+      "version": "m1_v0",
+      "carpeta": "m1_v0",
+      "archivo": "m1_v0/candidatos.json",
+      "geojson": "m1_v0/candidatos.geojson",
+      "leyenda": "m1_v0/leyenda.json",
+      "mapas": {
+        "marte_seco": "m1_v0/mapa_marte_seco.png",
+        "volcanico_basaltico": "m1_v0/mapa_volcanico_basaltico.png"
+      }
+    }
+  }
+}

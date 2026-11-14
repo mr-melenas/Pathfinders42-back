@@ -1,0 +1,33 @@
+{
+  "variable": "percentil del índice Luna (MI de CAMEL dentro del dominio desnudo)",
+  "min": 50,
+  "max": 100,
+  "transparente_por_debajo_de": 50,
+  "opacidad": 0.85,
+  "paradas": [
+    {
+      "valor": 50,
+      "color": "#ffffcc"
+    },
+    {
+      "valor": 60,
+      "color": "#fee187"
+    },
+    {
+      "valor": 70,
+      "color": "#feab49"
+    },
+    {
+      "valor": 80,
+      "color": "#fc5b2e"
+    },
+    {
+      "valor": 90,
+      "color": "#d41020"
+    },
+    {
+      "valor": 100,
+      "color": "#800026"
+    }
+  ]
+}

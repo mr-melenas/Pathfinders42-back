@@ -1,0 +1,33 @@
+{
+  "variable": "percentil de la puntuación de M1 dentro de la rejilla",
+  "min": 80,
+  "max": 100,
+  "transparente_por_debajo_de": 80,
+  "opacidad": 0.85,
+  "paradas": [
+    {
+      "valor": 80,
+      "color": "#ffffcc"
+    },
+    {
+      "valor": 84,
+      "color": "#fee187"
+    },
+    {
+      "valor": 88,
+      "color": "#feab49"
+    },
+    {
+      "valor": 92,
+      "color": "#fc5b2e"
+    },
+    {
+      "valor": 96,
+      "color": "#d41020"
+    },
+    {
+      "valor": 100,
+      "color": "#800026"
+    }
+  ]
+}

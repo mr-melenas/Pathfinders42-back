@@ -1,0 +1,18 @@
+{
+  "version": "cuevas_v0",
+  "archivo": "cuevas.geojson",
+  "crs": "EPSG:4326",
+  "descripcion": "Cuevas análogas documentadas y entradas de cueva de OpenStreetMap en las regiones candidatas de Luna y Marte",
+  "description_en": "Documented analogue caves and OpenStreetMap cave entrances in the Moon and Mars candidate regions",
+  "atribucion": "© OpenStreetMap contributors (ODbL)",
+  "recuentos": {
+    "entradas_osm": 960,
+    "en_regiones": 195,
+    "posibles_tubos_lava_en_regiones": 31
+  },
+  "campos": {
+    "origen": "literatura | openstreetmap",
+    "posible_tubo_lava": "roca volcánica (GLiM) o nombre que lo indica",
+    "region_id": "id de la región en regiones.geojson del cuerpo correspondiente"
+  }
+}

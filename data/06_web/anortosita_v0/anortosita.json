@@ -1,0 +1,810 @@
+{
+ "version": "anortosita_v0",
+ "regla": {
+  "umbral_topo": 0.2,
+  "umbral_geo": 0.4,
+  "d_total": "media de d_geo y d_topo"
+ },
+ "sitios": {
+  "artemis-peak-near-cabeus-b": {
+   "nombre": "Peak Near Cabeus B",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Provincia de Alto Badajshán, Tayikistán",
+   "antes_d_topo": 0.224,
+   "antes_d_geo": 0.848,
+   "antes_completo": "No",
+   "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+   "verificacion": "verificada",
+   "d_geo": 0.3,
+   "d_topo": 0.149,
+   "d_total": 0.224,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.331,
+     "d_total": 0.166,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.149,
+     "d_total": 0.224,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "stillwater",
+     "lugar": "Complejo de Stillwater (Picket Pin), Montana",
+     "verificacion": "verificada",
+     "d_geo": 0.5,
+     "d_topo": 0.289,
+     "d_total": 0.394,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-haworth": {
+   "nombre": "Haworth",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Tso Kar, Ladakh (ISRO HOPE)",
+   "antes_d_topo": 0.308,
+   "antes_d_geo": 0.7,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.243,
+   "d_total": 0.121,
+   "analogo_completo": "No",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.243,
+     "d_total": 0.121,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.583,
+     "d_total": 0.291,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.476,
+     "d_total": 0.388,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-malapert-massif": {
+   "nombre": "Malapert Massif",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Provincia de Alto Badajshán, Tayikistán",
+   "antes_d_topo": 0.125,
+   "antes_d_geo": 0.848,
+   "antes_completo": "No",
+   "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+   "verificacion": "verificada",
+   "d_geo": 0.3,
+   "d_topo": 0.158,
+   "d_total": 0.229,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.201,
+     "d_total": 0.101,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.158,
+     "d_total": 0.229,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "stillwater",
+     "lugar": "Complejo de Stillwater (Picket Pin), Montana",
+     "verificacion": "verificada",
+     "d_geo": 0.5,
+     "d_topo": 0.179,
+     "d_total": 0.34,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-mons-mouton-plateau": {
+   "nombre": "Mons Mouton Plateau",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Valles Secos de McMurdo",
+   "antes_d_topo": 0.179,
+   "antes_d_geo": 0.8,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.158,
+   "d_total": 0.079,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.158,
+     "d_total": 0.079,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.578,
+     "d_total": 0.289,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.369,
+     "d_total": 0.335,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-mons-mouton": {
+   "nombre": "Mons Mouton",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Valles Secos de McMurdo",
+   "antes_d_topo": 0.192,
+   "antes_d_geo": 0.8,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.171,
+   "d_total": 0.086,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.171,
+     "d_total": 0.086,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.655,
+     "d_total": 0.328,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.377,
+     "d_total": 0.339,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-nobile-rim-1": {
+   "nombre": "Nobile Rim 1",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Valles Secos de McMurdo",
+   "antes_d_topo": 0.18,
+   "antes_d_geo": 0.8,
+   "antes_completo": "No",
+   "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+   "verificacion": "verificada",
+   "d_geo": 0.3,
+   "d_topo": 0.167,
+   "d_total": 0.233,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.203,
+     "d_total": 0.102,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.167,
+     "d_total": 0.233,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "stillwater",
+     "lugar": "Complejo de Stillwater (Picket Pin), Montana",
+     "verificacion": "verificada",
+     "d_geo": 0.5,
+     "d_topo": 0.204,
+     "d_total": 0.352,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-nobile-rim-2": {
+   "nombre": "Nobile Rim 2",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Valles Secos de McMurdo",
+   "antes_d_topo": 0.19,
+   "antes_d_geo": 0.8,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.149,
+   "d_total": 0.074,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.149,
+     "d_total": 0.074,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.589,
+     "d_total": 0.294,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.376,
+     "d_total": 0.338,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-de-gerlache-rim-2": {
+   "nombre": "de Gerlache Rim 2",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Mauna Kea, Hawái",
+   "antes_d_topo": 0.097,
+   "antes_d_geo": 0.9,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.16,
+   "d_total": 0.08,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.16,
+     "d_total": 0.08,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.369,
+     "d_total": 0.335,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "stillwater",
+     "lugar": "Complejo de Stillwater (Picket Pin), Montana",
+     "verificacion": "verificada",
+     "d_geo": 0.5,
+     "d_topo": 0.176,
+     "d_total": 0.338,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "artemis-slater-plain": {
+   "nombre": "Slater Plain",
+   "tipo": "region_aterrizaje_artemis",
+   "f_anortosita": 1.0,
+   "antes_region": "Irán",
+   "antes_d_topo": 0.114,
+   "antes_d_geo": 0.866,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.342,
+   "d_total": 0.171,
+   "analogo_completo": "No",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.342,
+     "d_total": 0.171,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.471,
+     "d_total": 0.235,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.545,
+     "d_total": 0.422,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "apollo-16": {
+   "nombre": "Apollo 16",
+   "tipo": "aterrizaje_tripulado",
+   "f_anortosita": 0.975,
+   "antes_region": "Provincia de Tabuk, Arabia Saudita",
+   "antes_d_topo": 0.097,
+   "antes_d_geo": 0.777,
+   "antes_completo": "No",
+   "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+   "verificacion": "candidato",
+   "d_geo": 0.025,
+   "d_topo": 0.147,
+   "d_total": 0.086,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.025,
+     "d_topo": 0.147,
+     "d_total": 0.086,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "shawmere",
+     "lugar": "Anortosita de Shawmere (Foleyet), Ontario",
+     "verificacion": "verificada",
+     "d_geo": 0.025,
+     "d_topo": 0.512,
+     "d_total": 0.269,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.025,
+     "d_topo": 0.584,
+     "d_total": 0.304,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "aterrizaje-surveyor-7": {
+   "nombre": "Surveyor 7",
+   "tipo": "aterrizaje_robotico",
+   "f_anortosita": 1.0,
+   "antes_region": "Desierto de Atacama, núcleo hiperárido (ARADS)",
+   "antes_d_topo": 0.182,
+   "antes_d_geo": 0.8,
+   "antes_completo": "No",
+   "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+   "verificacion": "candidato",
+   "d_geo": 0.0,
+   "d_topo": 0.237,
+   "d_total": 0.118,
+   "analogo_completo": "No",
+   "top3": [
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.237,
+     "d_total": 0.118,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.561,
+     "d_total": 0.281,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "shawmere",
+     "lugar": "Anortosita de Shawmere (Foleyet), Ontario",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.763,
+     "d_total": 0.382,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "aterrizaje-chandrayaan-3": {
+   "nombre": "Chandrayaan-3",
+   "tipo": "aterrizaje_robotico",
+   "f_anortosita": 1.0,
+   "antes_region": "Región de Antofagasta, Chile",
+   "antes_d_topo": 0.093,
+   "antes_d_geo": 0.776,
+   "antes_completo": "No",
+   "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+   "verificacion": "candidato",
+   "d_geo": 0.0,
+   "d_topo": 0.201,
+   "d_total": 0.101,
+   "analogo_completo": "No",
+   "top3": [
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.201,
+     "d_total": 0.101,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "shawmere",
+     "lugar": "Anortosita de Shawmere (Foleyet), Ontario",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.448,
+     "d_total": 0.224,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "mistastin",
+     "lugar": "Cráter Mistastin (Kamestastin), Labrador",
+     "verificacion": "verificada",
+     "d_geo": 0.27,
+     "d_topo": 0.288,
+     "d_total": 0.279,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "aterrizaje-slim": {
+   "nombre": "SLIM",
+   "tipo": "aterrizaje_robotico",
+   "f_anortosita": 1.0,
+   "antes_region": "Tso Kar, Ladakh (ISRO HOPE)",
+   "antes_d_topo": 0.308,
+   "antes_d_geo": 0.7,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.425,
+   "d_total": 0.212,
+   "analogo_completo": "No",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.425,
+     "d_total": 0.212,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.524,
+     "d_total": 0.262,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "shawmere",
+     "lugar": "Anortosita de Shawmere (Foleyet), Ontario",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.882,
+     "d_total": 0.441,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "aterrizaje-im-1-odysseus": {
+   "nombre": "IM-1 Odysseus",
+   "tipo": "aterrizaje_robotico",
+   "f_anortosita": 1.0,
+   "antes_region": "Tso Kar, Ladakh (ISRO HOPE)",
+   "antes_d_topo": 0.199,
+   "antes_d_geo": 0.7,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.17,
+   "d_total": 0.085,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.17,
+     "d_total": 0.085,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.567,
+     "d_total": 0.283,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.332,
+     "d_total": 0.316,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "aterrizaje-im-2-athena": {
+   "nombre": "IM-2 Athena",
+   "tipo": "aterrizaje_robotico",
+   "f_anortosita": 1.0,
+   "antes_region": "Desierto de Atacama, núcleo hiperárido (ARADS)",
+   "antes_d_topo": 0.161,
+   "antes_d_geo": 0.8,
+   "antes_completo": "No",
+   "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+   "verificacion": "candidato",
+   "d_geo": 0.0,
+   "d_topo": 0.191,
+   "d_total": 0.096,
+   "analogo_completo": "Sí",
+   "top3": [
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.191,
+     "d_total": 0.096,
+     "analogo_completo": "Sí"
+    },
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.633,
+     "d_total": 0.317,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "shawmere",
+     "lugar": "Anortosita de Shawmere (Foleyet), Ontario",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.746,
+     "d_total": 0.373,
+     "analogo_completo": "No"
+    }
+   ]
+  },
+  "aterrizaje-chang-e-7": {
+   "nombre": "Chang'e 7",
+   "tipo": "aterrizaje_planificado",
+   "f_anortosita": 1.0,
+   "antes_region": "Tso Kar, Ladakh (ISRO HOPE)",
+   "antes_d_topo": 0.329,
+   "antes_d_geo": 0.7,
+   "antes_completo": "No",
+   "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "verificacion": "verificada",
+   "d_geo": 0.0,
+   "d_topo": 0.305,
+   "d_total": 0.152,
+   "analogo_completo": "No",
+   "top3": [
+    {
+     "id_t": "white_mountain",
+     "lugar": "White Mountain (Qaqortorsuaq), Groenlandia",
+     "verificacion": "verificada",
+     "d_geo": 0.0,
+     "d_topo": 0.305,
+     "d_total": 0.152,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "egersund",
+     "lugar": "Anortosita de Egersund (Rogaland), Noruega",
+     "verificacion": "candidato",
+     "d_geo": 0.0,
+     "d_topo": 0.651,
+     "d_total": 0.326,
+     "analogo_completo": "No"
+    },
+    {
+     "id_t": "lofoten_flakstadoy",
+     "lugar": "Lofoten (macizo de Flakstadøy), Noruega",
+     "verificacion": "verificada",
+     "d_geo": 0.3,
+     "d_topo": 0.539,
+     "d_total": 0.419,
+     "analogo_completo": "No"
+    }
+   ]
+  }
+ },
+ "tierra": {
+  "lofoten_flakstadoy": {
+   "nombre": "Lofoten (macizo de Flakstadøy), Noruega",
+   "lat": 68.1,
+   "lon": 13.25,
+   "verificacion": "verificada",
+   "composicion": {
+    "anortosita": 0.7,
+    "corteza_mixta": 0.3
+   },
+   "nota_composicion": "supuesto: macizo de anortosita con mangerita y granito (suite AMCG)",
+   "fuente": "https://blogs.esa.int/caves/?p=2772",
+   "origen": "ficha",
+   "pendiente_mediana": 18.25,
+   "relieve_mediano_m": 388.0,
+   "frac_agua": 0.53
+  },
+  "mistastin": {
+   "nombre": "Cráter Mistastin (Kamestastin), Labrador",
+   "lat": 55.883,
+   "lon": -63.3,
+   "verificacion": "verificada",
+   "composicion": {
+    "anortosita": 0.73,
+    "corteza_mixta": 0.27
+   },
+   "nota_composicion": "fundido de impacto: ~73 % anortosita, 7 % mangerita y 20 % granodiorita (estimación publicada)",
+   "fuente": "https://news.westernu.ca/2021/08/astronaut-training/",
+   "origen": "ficha",
+   "pendiente_mediana": 2.0,
+   "relieve_mediano_m": 41.0,
+   "frac_agua": 0.45
+  },
+  "stillwater": {
+   "nombre": "Complejo de Stillwater (Picket Pin), Montana",
+   "lat": 45.449,
+   "lon": -110.051,
+   "verificacion": "verificada",
+   "composicion": {
+    "anortosita": 0.5,
+    "basalto": 0.5
+   },
+   "nota_composicion": "supuesto: serie bandeada de norita, gabro y anortosita alternas",
+   "fuente": "https://science.nasa.gov/earth/earth-observatory/montanas-moon-like-rocks-146650",
+   "origen": "ficha",
+   "pendiente_mediana": 14.0,
+   "relieve_mediano_m": 310.0,
+   "frac_agua": 0.0
+  },
+  "shawmere": {
+   "nombre": "Anortosita de Shawmere (Foleyet), Ontario",
+   "lat": 48.131,
+   "lon": -82.792,
+   "verificacion": "verificada",
+   "composicion": {
+    "anortosita": 1.0
+   },
+   "nota_composicion": "cantera de anortosita (simulante OB-1)",
+   "fuente": "https://ares.jsc.nasa.gov/projects/simulants/ob-1.html",
+   "origen": "ficha",
+   "pendiente_mediana": 1.5,
+   "relieve_mediano_m": 32.0,
+   "frac_agua": 0.04
+  },
+  "white_mountain": {
+   "nombre": "White Mountain (Qaqortorsuaq), Groenlandia",
+   "lat": 66.556,
+   "lon": -52.07,
+   "verificacion": "verificada",
+   "composicion": {
+    "anortosita": 1.0
+   },
+   "nota_composicion": "anortosita cálcica casi monomineral; centrado en la planta de la mina junto al fiordo Kangerlussuaq (DCE TR353)",
+   "fuente": "https://ares.jsc.nasa.gov/projects/simulants/greenspar.html",
+   "origen": "ficha",
+   "pendiente_mediana": 13.25,
+   "relieve_mediano_m": 283.0,
+   "frac_agua": 0.21
+  },
+  "egersund": {
+   "nombre": "Anortosita de Egersund (Rogaland), Noruega",
+   "lat": 58.45,
+   "lon": 6.0,
+   "verificacion": "candidato",
+   "composicion": {
+    "anortosita": 1.0
+   },
+   "nota_composicion": "supuesto: macizo de anortosita; coordenada aproximada",
+   "fuente": "https://www.mn.uio.no/geo/english/studies/mastertheses/earth-structure-planetary/analogues-for-mars-and-the-moon-among-norwegian-ge.html",
+   "origen": "ficha",
+   "pendiente_mediana": 4.0,
+   "relieve_mediano_m": 81.0,
+   "frac_agua": 0.31
+  }
+ },
+ "nota": "unir con 06_web/sitios_v0/sitios.geojson por sitio_id"
+}

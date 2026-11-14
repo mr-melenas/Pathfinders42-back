@@ -1,0 +1,43 @@
+[project]
+name = "pathfinders42-api"
+version = "0.3.0"
+description = "API de análogos terrestres de la Luna y Marte (NASA Space Apps Challenge 2026)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pydantic>=2.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "httpx>=0.27",
+    "ruff>=0.6",
+]
+# Solo para entrenar M1 (python -m modelos.m1.entrenar); la API no los necesita
+ml = [
+    "pandas>=2.2",
+    "pyarrow>=16",
+    "lightgbm>=4.3",
+    "shap>=0.45",
+    "pillow>=10",
+    "reverse_geocoder>=1.5",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]  # las líneas largas las corta ruff format

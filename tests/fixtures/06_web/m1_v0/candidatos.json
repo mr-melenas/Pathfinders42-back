@@ -1,0 +1,1039 @@
+{
+  "version": "m1_v0",
+  "generado": "2026-11-10T21:28:23",
+  "modelo": {
+    "metodo": "Aprendizaje PU con bagging (Mordelet y Vert, 2014) y LightGBM; explicación con SHAP",
+    "lightgbm": {
+      "n_estimators": 150,
+      "learning_rate": 0.05,
+      "num_leaves": 7,
+      "max_depth": 3,
+      "min_child_samples": 3,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 1.0,
+      "verbose": -1
+    },
+    "n_bolsas": 100,
+    "negativos_por_positivo": 10,
+    "zona_amortiguacion_km": 150,
+    "separacion_candidatos_km": 500,
+    "nuevo_si_no_hay_analogo_a_km": 200,
+    "semilla": 42,
+    "nota": "puntuacion ordena celdas (0–1); no es una probabilidad calibrada"
+  },
+  "rejilla": {
+    "resolucion": "0.5° lat x 0.625° lon (MERRA-2, ~50 km)",
+    "n_celdas": 39507,
+    "nota": "solo tierra sin hielo entre 55° S y 84° N: no incluye la Antártida ni islas pequeñas"
+  },
+  "variables": {
+    "T_media": "temperatura media anual del aire (°C, MERRA-2)",
+    "T_frio": "temperatura media del mes más frío (°C)",
+    "T_calido": "temperatura media del mes más cálido (°C)",
+    "amplitud_termica": "mes cálido menos mes frío (°C)",
+    "P_anual": "precipitación anual (mm)",
+    "elevacion": "elevación media de la celda (m)",
+    "rugosidad": "desviación de la elevación con las 8 celdas vecinas (m): relieve a ~150 km",
+    "ndvi_max": "NDVI máximo (VIIRS): cuánta vegetación hay",
+    "frac_desnudo": "fracción de suelo desnudo (NDVI < 0,15)",
+    "emis_p_max": "percentil máximo del índice de emisividad lunar dentro de la celda (0 si no hay dominio)",
+    "frac_emis_p90": "fracción de la celda con índice de emisividad ≥ p90",
+    "frac_volcanica": "fracción de la celda con ≥ 50 % de roca volcánica (GLiM) en suelo desnudo"
+  },
+  "familias": {
+    "marte_seco": {
+      "id": "marte_seco",
+      "nombre": "Marte seco (desiertos fríos y áridos)",
+      "descripcion": "Desiertos polares, de altura e hiperáridos: muy secos, con poca o ninguna vegetación y temperaturas extremas. Análogos de las llanuras y depósitos salinos de Marte.",
+      "variables": [
+        "T_media",
+        "T_frio",
+        "T_calido",
+        "amplitud_termica",
+        "P_anual",
+        "elevacion",
+        "rugosidad",
+        "ndvi_max",
+        "frac_desnudo"
+      ],
+      "monotonia": {
+        "P_anual": -1,
+        "ndvi_max": -1,
+        "frac_desnudo": 1
+      },
+      "positivos": [
+        {
+          "id": "qaidam",
+          "nombre": "Cuenca de Qaidam occidental (Lenghu)",
+          "lat": 38.7,
+          "lon": 93.3,
+          "id_celda": "c257_437",
+          "dist_celda_km": 26.9,
+          "fuente": "https://doi.org/10.1002/2017JE005293"
+        },
+        {
+          "id": "axel_heiberg",
+          "nombre": "Isla Axel Heiberg (Gypsum Hill / M.A.R.S.)",
+          "lat": 79.4,
+          "lon": -90.73,
+          "id_celda": "c339_146",
+          "dist_celda_km": 41.8,
+          "fuente": "https://doi.org/10.3389/fmicb.2017.02527"
+        },
+        {
+          "id": "devon",
+          "nombre": "Isla Devon (Haughton-Mars Project)",
+          "lat": 75.43,
+          "lon": -89.87,
+          "id_celda": "c331_144",
+          "dist_celda_km": 8.6,
+          "fuente": "https://marsinstitute.no/hmp"
+        },
+        {
+          "id": "atacama",
+          "nombre": "Desierto de Atacama, núcleo hiperárido (ARADS)",
+          "lat": -24.1,
+          "lon": -70.0,
+          "id_celda": "c132_176",
+          "dist_celda_km": 11.1,
+          "fuente": "https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/"
+        },
+        {
+          "id": "tso_kar",
+          "nombre": "Tso Kar, Ladakh (ISRO HOPE)",
+          "lat": 33.3,
+          "lon": 78.0,
+          "id_celda": "c247_413",
+          "dist_celda_km": 25.1,
+          "fuente": "https://indico.fais.uj.edu.pl/event/45/contributions/302/"
+        },
+        {
+          "id": "cordillera_sal",
+          "nombre": "Cuevas de sal de la Cordillera de la Sal (Atacama)",
+          "lat": -22.95,
+          "lon": -68.3,
+          "id_celda": "c134_179",
+          "dist_celda_km": 18.8,
+          "fuente": "https://doaj.org/article/d2826e72343e4b88ad58d1017ed7299c"
+        }
+      ],
+      "sin_celda": [
+        {
+          "id": "mcmurdo",
+          "nombre": "Valles Secos de McMurdo",
+          "motivo": "la celda más cercana está a 3462 km"
+        },
+        {
+          "id": "university_valley",
+          "nombre": "University Valley (Valles Secos de McMurdo)",
+          "motivo": "la celda más cercana está a 3505 km"
+        }
+      ],
+      "validacion": {
+        "metodo": "dejar fuera cada grupo de análogos (≤ 300 km), 30 bolsas",
+        "celdas": [
+          {
+            "analogos": [
+              "atacama"
+            ],
+            "percentil_m1": 91.1,
+            "percentil_indice": 98.0
+          },
+          {
+            "analogos": [
+              "cordillera_sal"
+            ],
+            "percentil_m1": 96.1,
+            "percentil_indice": 82.2
+          },
+          {
+            "analogos": [
+              "tso_kar"
+            ],
+            "percentil_m1": 96.7,
+            "percentil_indice": 82.3
+          },
+          {
+            "analogos": [
+              "qaidam"
+            ],
+            "percentil_m1": 99.0,
+            "percentil_indice": 90.8
+          },
+          {
+            "analogos": [
+              "devon"
+            ],
+            "percentil_m1": 80.1,
+            "percentil_indice": 85.0
+          },
+          {
+            "analogos": [
+              "axel_heiberg"
+            ],
+            "percentil_m1": 99.5,
+            "percentil_indice": 96.5
+          }
+        ],
+        "mediana_m1": 96.4,
+        "minimo_m1": 80.1,
+        "top5_m1": 0.67,
+        "top10_m1": 0.83,
+        "mediana_indice": 87.9,
+        "top10_indice": 0.5,
+        "controles": [
+          {
+            "nombre": "Amazonía central",
+            "lat": -3.0,
+            "lon": -60.0,
+            "percentil_m1": 36.2
+          },
+          {
+            "nombre": "Cuenca del Congo",
+            "lat": 0.0,
+            "lon": 20.0,
+            "percentil_m1": 12.8
+          },
+          {
+            "nombre": "Delta del Ganges (Bangladés)",
+            "lat": 24.0,
+            "lon": 90.0,
+            "percentil_m1": 26.8
+          },
+          {
+            "nombre": "París",
+            "lat": 48.85,
+            "lon": 2.35,
+            "percentil_m1": 48.8
+          },
+          {
+            "nombre": "Borneo",
+            "lat": 1.0,
+            "lon": 114.0,
+            "percentil_m1": 37.0
+          },
+          {
+            "nombre": "Pampa húmeda",
+            "lat": -34.0,
+            "lon": -61.0,
+            "percentil_m1": 3.3
+          },
+          {
+            "nombre": "Taiga de Siberia",
+            "lat": 60.0,
+            "lon": 100.0,
+            "percentil_m1": 60.6
+          },
+          {
+            "nombre": "Gran Erg Occidental (arena, Sáhara)",
+            "lat": 30.0,
+            "lon": 1.0,
+            "percentil_m1": 85.8
+          }
+        ]
+      },
+      "importancia": [
+        {
+          "variable": "T_calido",
+          "media_abs_shap": 1.099
+        },
+        {
+          "variable": "ndvi_max",
+          "media_abs_shap": 0.973
+        },
+        {
+          "variable": "P_anual",
+          "media_abs_shap": 0.432
+        },
+        {
+          "variable": "frac_desnudo",
+          "media_abs_shap": 0.281
+        },
+        {
+          "variable": "rugosidad",
+          "media_abs_shap": 0.181
+        },
+        {
+          "variable": "amplitud_termica",
+          "media_abs_shap": 0.126
+        },
+        {
+          "variable": "elevacion",
+          "media_abs_shap": 0.121
+        },
+        {
+          "variable": "T_media",
+          "media_abs_shap": 0.112
+        },
+        {
+          "variable": "T_frio",
+          "media_abs_shap": 0.042
+        }
+      ],
+      "mapa": "m1_v0/mapa_marte_seco.png",
+      "candidatos": [
+        {
+          "id": "marte_seco-1",
+          "familia": "marte_seco",
+          "rango": 1,
+          "nombre": "A 100 km de Rutog (Tibet Autonomous Region, CN)",
+          "pais_iso": "CN",
+          "referencia": {
+            "poblacion": "Rutog",
+            "region": "Tibet Autonomous Region",
+            "dist_km": 105
+          },
+          "lat": 34.0,
+          "lon": 78.75,
+          "puntuacion": 0.986,
+          "percentil": 100.0,
+          "n_celdas": 166,
+          "area_km2": 516500,
+          "nuevo": false,
+          "analogo_cercano": {
+            "id": "tso_kar",
+            "nombre": "Tso Kar, Ladakh (ISRO HOPE)",
+            "dist_km": 104
+          },
+          "variables": {
+            "T_media": -7.354,
+            "T_frio": -20.751,
+            "T_calido": 6.284,
+            "amplitud_termica": 27.035,
+            "P_anual": 241.849,
+            "elevacion": 5207.333,
+            "rugosidad": 172.371,
+            "ndvi_max": 0.086,
+            "frac_desnudo": 0.946
+          },
+          "explicacion": [
+            {
+              "variable": "ndvi_max",
+              "valor": 0.086,
+              "contribucion": 3.13,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "T_calido",
+              "valor": 6.284,
+              "contribucion": 2.706,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "frac_desnudo",
+              "valor": 0.946,
+              "contribucion": 0.852,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "P_anual",
+              "valor": 241.849,
+              "contribucion": 0.849,
+              "sentido": "a favor"
+            }
+          ]
+        },
+        {
+          "id": "marte_seco-2",
+          "familia": "marte_seco",
+          "rango": 2,
+          "nombre": "A 1170 km de Gjoa Haven (Nunavut, CA)",
+          "pais_iso": "CA",
+          "referencia": {
+            "poblacion": "Gjoa Haven",
+            "region": "Nunavut",
+            "dist_km": 1172
+          },
+          "lat": 79.0,
+          "lon": -88.75,
+          "puntuacion": 0.986,
+          "percentil": 100.0,
+          "n_celdas": 8,
+          "area_km2": 6000,
+          "nuevo": false,
+          "analogo_cercano": {
+            "id": "axel_heiberg",
+            "nombre": "Isla Axel Heiberg (Gypsum Hill / M.A.R.S.)",
+            "dist_km": 61
+          },
+          "variables": {
+            "T_media": -17.178,
+            "T_frio": -32.698,
+            "T_calido": 5.027,
+            "amplitud_termica": 37.725,
+            "P_anual": 222.419,
+            "elevacion": 550.441,
+            "rugosidad": 124.996,
+            "ndvi_max": 0.042,
+            "frac_desnudo": 0.9
+          },
+          "explicacion": [
+            {
+              "variable": "ndvi_max",
+              "valor": 0.042,
+              "contribucion": 3.065,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "T_calido",
+              "valor": 5.027,
+              "contribucion": 2.679,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "P_anual",
+              "valor": 222.419,
+              "contribucion": 0.879,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "T_media",
+              "valor": -17.178,
+              "contribucion": 0.851,
+              "sentido": "a favor"
+            }
+          ]
+        },
+        {
+          "id": "marte_seco-3",
+          "familia": "marte_seco",
+          "rango": 3,
+          "nombre": "Cerca de Calama (Antofagasta, CL)",
+          "pais_iso": "CL",
+          "referencia": {
+            "poblacion": "Calama",
+            "region": "Antofagasta",
+            "dist_km": 19
+          },
+          "lat": -22.5,
+          "lon": -68.75,
+          "puntuacion": 0.985,
+          "percentil": 99.99,
+          "n_celdas": 81,
+          "area_km2": 285100,
+          "nuevo": false,
+          "analogo_cercano": {
+            "id": "cordillera_sal",
+            "nombre": "Cuevas de sal de la Cordillera de la Sal (Atacama)",
+            "dist_km": 68
+          },
+          "variables": {
+            "T_media": 14.071,
+            "T_frio": 10.292,
+            "T_calido": 16.912,
+            "amplitud_termica": 6.62,
+            "P_anual": 15.685,
+            "elevacion": 2684.273,
+            "rugosidad": 840.531,
+            "ndvi_max": 0.079,
+            "frac_desnudo": 0.977
+          },
+          "explicacion": [
+            {
+              "variable": "ndvi_max",
+              "valor": 0.079,
+              "contribucion": 3.076,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "T_calido",
+              "valor": 16.912,
+              "contribucion": 2.214,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "P_anual",
+              "valor": 15.685,
+              "contribucion": 1.522,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "frac_desnudo",
+              "valor": 0.977,
+              "contribucion": 0.867,
+              "sentido": "a favor"
+            }
+          ]
+        }
+      ]
+    },
+    "volcanico_basaltico": {
+      "id": "volcanico_basaltico",
+      "nombre": "Basalto desnudo (Luna y Marte volcánicos)",
+      "descripcion": "Coladas, campos volcánicos y tubos de lava de basalto poco cubierto por vegetación. Análogos de los mares lunares, los tubos de lava y las provincias volcánicas de Marte.",
+      "variables": [
+        "emis_p_max",
+        "frac_emis_p90",
+        "frac_volcanica",
+        "ndvi_max",
+        "frac_desnudo"
+      ],
+      "monotonia": {
+        "emis_p_max": 1,
+        "frac_emis_p90": 1,
+        "frac_volcanica": 1,
+        "ndvi_max": -1,
+        "frac_desnudo": 1
+      },
+      "positivos": [
+        {
+          "id": "mauna_kea",
+          "nombre": "Mauna Kea, laderas bajas (PISCES)",
+          "lat": 19.82,
+          "lon": -155.47,
+          "id_celda": "c220_039",
+          "dist_celda_km": 25.8,
+          "fuente": "https://ascelibrary.com/doi/10.1061/41096%28366%29108"
+        },
+        {
+          "id": "kilauea",
+          "nombre": "Kīlauea",
+          "lat": 19.41,
+          "lon": -155.28,
+          "id_celda": "c219_040",
+          "dist_celda_km": 31.0,
+          "fuente": "https://doi.org/10.1029/2009JE003347"
+        },
+        {
+          "id": "kilauea_pozos",
+          "nombre": "Cráteres de colapso del Kīlauea",
+          "lat": 19.385,
+          "lon": -155.216,
+          "id_celda": "c219_040",
+          "dist_celda_km": 26.0,
+          "fuente": "https://doi.org/10.1029/2022JE007303"
+        },
+        {
+          "id": "mauna_loa_tubos",
+          "nombre": "Tubos de lava del Mauna Loa (HI-SEAS)",
+          "lat": 19.6,
+          "lon": -155.48,
+          "id_celda": "c219_039",
+          "dist_celda_km": 18.8,
+          "fuente": "https://www.hawaiinewsnow.com/2021/04/14/prepare-life-mars-scientists-are-descending-into-mauna-loas-lava-tubes/"
+        },
+        {
+          "id": "craters_moon",
+          "nombre": "Craters of the Moon",
+          "lat": 43.42,
+          "lon": -113.52,
+          "id_celda": "c267_106",
+          "dist_celda_km": 20.6,
+          "fuente": "https://dsears.hosted.uark.edu/publications/pub%20by%20year/2017%20papers/Heldmann%20et%20al%202017%20-%20Analog%20research%20wrt%20the%20Moon%20(LEAG%20abs%205024).pdf"
+        },
+        {
+          "id": "pinacate",
+          "nombre": "Sierra del Pinacate",
+          "lat": 31.77,
+          "lon": -113.5,
+          "id_celda": "c244_106",
+          "dist_celda_km": 34.8,
+          "fuente": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf"
+        },
+        {
+          "id": "lava_beds",
+          "nombre": "Valentine Cave, Lava Beds",
+          "lat": 41.72,
+          "lon": -121.51,
+          "id_celda": "c263_094",
+          "dist_celda_km": 32.6,
+          "fuente": "https://www.nasa.gov/feature/ames/braille"
+        },
+        {
+          "id": "askja",
+          "nombre": "Askja",
+          "lat": 65.03,
+          "lon": -16.75,
+          "id_celda": "c311_261",
+          "dist_celda_km": 52.6,
+          "fuente": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf"
+        },
+        {
+          "id": "krafla_fisuras",
+          "nombre": "Fisuras y pozos tectónicos de Krafla",
+          "lat": 65.72,
+          "lon": -16.78,
+          "id_celda": "c311_261",
+          "dist_celda_km": 24.8,
+          "fuente": "https://geovires.unimib.it/volcano-tectonics/sinkholes-northern-volcanic-zone-of-iceland/"
+        },
+        {
+          "id": "lofthellir",
+          "nombre": "Lofthellir (tubo de lava con hielo, Mývatn)",
+          "lat": 65.53,
+          "lon": -16.8,
+          "id_celda": "c311_261",
+          "dist_celda_km": 4.8,
+          "fuente": "https://www.astrobotic.com/drone-maps-icy-lava-tube-in-iceland-in-preparation-for-cave-exploration-on-the-moon-and-mars/"
+        },
+        {
+          "id": "surtshellir",
+          "nombre": "Surtshellir–Stefánshellir (Hallmundarhraun)",
+          "lat": 64.78,
+          "lon": -20.72,
+          "id_celda": "c310_255",
+          "dist_celda_km": 24.9,
+          "fuente": "https://indico.stfc.ac.uk/event/1058/contributions/6721/"
+        },
+        {
+          "id": "golan_jubas",
+          "nombre": "Jubas del norte del Golán",
+          "lat": 33.2,
+          "lon": 35.75,
+          "id_celda": "c246_345",
+          "dist_celda_km": 25.1,
+          "fuente": "https://doi.org/10.1127/zfg/2019/0614"
+        }
+      ],
+      "sin_celda": [
+        {
+          "id": "lanzarote",
+          "nombre": "Lanzarote (ESA PANGAEA)",
+          "motivo": "la celda más cercana está a 165 km"
+        },
+        {
+          "id": "la_corona",
+          "nombre": "Tubo de lava de La Corona (Lanzarote)",
+          "motivo": "la celda más cercana está a 158 km"
+        }
+      ],
+      "validacion": {
+        "metodo": "dejar fuera cada grupo de análogos (≤ 300 km), 30 bolsas",
+        "celdas": [
+          {
+            "analogos": [
+              "mauna_loa_tubos"
+            ],
+            "percentil_m1": 97.7,
+            "percentil_indice": 84.4
+          },
+          {
+            "analogos": [
+              "kilauea",
+              "kilauea_pozos"
+            ],
+            "percentil_m1": 75.0,
+            "percentil_indice": 81.0
+          },
+          {
+            "analogos": [
+              "mauna_kea"
+            ],
+            "percentil_m1": 96.1,
+            "percentil_indice": 82.7
+          },
+          {
+            "analogos": [
+              "pinacate"
+            ],
+            "percentil_m1": 99.3,
+            "percentil_indice": 95.9
+          },
+          {
+            "analogos": [
+              "golan_jubas"
+            ],
+            "percentil_m1": 96.1,
+            "percentil_indice": 96.4
+          },
+          {
+            "analogos": [
+              "lava_beds"
+            ],
+            "percentil_m1": 56.0,
+            "percentil_indice": 38.8
+          },
+          {
+            "analogos": [
+              "craters_moon"
+            ],
+            "percentil_m1": 73.9,
+            "percentil_indice": 38.8
+          },
+          {
+            "analogos": [
+              "surtshellir"
+            ],
+            "percentil_m1": 98.6,
+            "percentil_indice": 98.9
+          },
+          {
+            "analogos": [
+              "askja",
+              "krafla_fisuras",
+              "lofthellir"
+            ],
+            "percentil_m1": 99.9,
+            "percentil_indice": 99.5
+          }
+        ],
+        "mediana_m1": 96.1,
+        "minimo_m1": 56.0,
+        "top5_m1": 0.67,
+        "top10_m1": 0.67,
+        "mediana_indice": 84.4,
+        "top10_indice": 0.44,
+        "controles": [
+          {
+            "nombre": "Amazonía central",
+            "lat": -3.0,
+            "lon": -60.0,
+            "percentil_m1": 53.1
+          },
+          {
+            "nombre": "Cuenca del Congo",
+            "lat": 0.0,
+            "lon": 20.0,
+            "percentil_m1": 21.0
+          },
+          {
+            "nombre": "Delta del Ganges (Bangladés)",
+            "lat": 24.0,
+            "lon": 90.0,
+            "percentil_m1": 57.6
+          },
+          {
+            "nombre": "París",
+            "lat": 48.85,
+            "lon": 2.35,
+            "percentil_m1": 48.5
+          },
+          {
+            "nombre": "Borneo",
+            "lat": 1.0,
+            "lon": 114.0,
+            "percentil_m1": 21.0
+          },
+          {
+            "nombre": "Pampa húmeda",
+            "lat": -34.0,
+            "lon": -61.0,
+            "percentil_m1": 21.0
+          },
+          {
+            "nombre": "Taiga de Siberia",
+            "lat": 60.0,
+            "lon": 100.0,
+            "percentil_m1": 21.0
+          },
+          {
+            "nombre": "Gran Erg Occidental (arena, Sáhara)",
+            "lat": 30.0,
+            "lon": 1.0,
+            "percentil_m1": 80.4
+          }
+        ],
+        "prueba_ciega": [
+          {
+            "nombre": "Al Haruj, Libia",
+            "lat": 27.25,
+            "lon": 17.5,
+            "percentil_m1": 99.8
+          },
+          {
+            "nombre": "Harrat Khaybar, Arabia Saudí",
+            "lat": 25.75,
+            "lon": 39.9,
+            "percentil_m1": 99.9
+          },
+          {
+            "nombre": "Harrat Rahat, Arabia Saudí",
+            "lat": 23.0,
+            "lon": 39.8,
+            "percentil_m1": 96.0
+          },
+          {
+            "nombre": "Hoggar – Atakor, Argelia",
+            "lat": 23.3,
+            "lon": 5.65,
+            "percentil_m1": 99.0
+          },
+          {
+            "nombre": "Payún Matrú, Argentina",
+            "lat": -36.42,
+            "lon": -69.24,
+            "percentil_m1": 99.9
+          },
+          {
+            "nombre": "Holuhraun, Islandia",
+            "lat": 64.85,
+            "lon": -16.83,
+            "percentil_m1": 99.7
+          },
+          {
+            "nombre": "Tubos de lava de Undara (candidato)",
+            "lat": -18.25,
+            "lon": 144.6,
+            "percentil_m1": 51.5
+          }
+        ]
+      },
+      "importancia": [
+        {
+          "variable": "ndvi_max",
+          "media_abs_shap": 1.408
+        },
+        {
+          "variable": "frac_desnudo",
+          "media_abs_shap": 0.566
+        },
+        {
+          "variable": "frac_volcanica",
+          "media_abs_shap": 0.528
+        },
+        {
+          "variable": "emis_p_max",
+          "media_abs_shap": 0.056
+        },
+        {
+          "variable": "frac_emis_p90",
+          "media_abs_shap": 0.004
+        }
+      ],
+      "mapa": "m1_v0/mapa_volcanico_basaltico.png",
+      "candidatos": [
+        {
+          "id": "volcanico_basaltico-1",
+          "familia": "volcanico_basaltico",
+          "rango": 1,
+          "nombre": "Cerca de Djibouti (Djibouti, DJ)",
+          "pais_iso": "DJ",
+          "referencia": {
+            "poblacion": "Djibouti",
+            "region": "Djibouti",
+            "dist_km": 10
+          },
+          "lat": 11.5,
+          "lon": 43.125,
+          "puntuacion": 0.971,
+          "percentil": 100.0,
+          "n_celdas": 41,
+          "area_km2": 154800,
+          "nuevo": true,
+          "analogo_cercano": {
+            "id": "golan_jubas",
+            "nombre": "Jubas del norte del Golán",
+            "dist_km": 2527
+          },
+          "variables": {
+            "emis_p_max": 99.99,
+            "frac_emis_p90": 0.432,
+            "frac_volcanica": 0.336,
+            "ndvi_max": 0.159,
+            "frac_desnudo": 0.348
+          },
+          "explicacion": [
+            {
+              "variable": "frac_volcanica",
+              "valor": 0.336,
+              "contribucion": 3.117,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "ndvi_max",
+              "valor": 0.159,
+              "contribucion": 1.411,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "frac_desnudo",
+              "valor": 0.348,
+              "contribucion": 1.017,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "emis_p_max",
+              "valor": 99.99,
+              "contribucion": 0.35,
+              "sentido": "a favor"
+            }
+          ]
+        },
+        {
+          "id": "volcanico_basaltico-2",
+          "familia": "volcanico_basaltico",
+          "rango": 2,
+          "nombre": "A 140 km de Lodwar (Turkana, KE)",
+          "pais_iso": "KE",
+          "referencia": {
+            "poblacion": "Lodwar",
+            "region": "Turkana",
+            "dist_km": 142
+          },
+          "lat": 3.0,
+          "lon": 36.875,
+          "puntuacion": 0.971,
+          "percentil": 100.0,
+          "n_celdas": 13,
+          "area_km2": 50300,
+          "nuevo": true,
+          "analogo_cercano": {
+            "id": "golan_jubas",
+            "nombre": "Jubas del norte del Golán",
+            "dist_km": 3360
+          },
+          "variables": {
+            "emis_p_max": 99.95,
+            "frac_emis_p90": 0.528,
+            "frac_volcanica": 0.376,
+            "ndvi_max": 0.283,
+            "frac_desnudo": 0.188
+          },
+          "explicacion": [
+            {
+              "variable": "frac_volcanica",
+              "valor": 0.376,
+              "contribucion": 3.116,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "ndvi_max",
+              "valor": 0.283,
+              "contribucion": 1.411,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "frac_desnudo",
+              "valor": 0.188,
+              "contribucion": 1.016,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "emis_p_max",
+              "valor": 99.95,
+              "contribucion": 0.35,
+              "sentido": "a favor"
+            }
+          ]
+        },
+        {
+          "id": "volcanico_basaltico-3",
+          "familia": "volcanico_basaltico",
+          "rango": 3,
+          "nombre": "A 60 km de Malah (As-Suwayda, SY)",
+          "pais_iso": "SY",
+          "referencia": {
+            "poblacion": "Malah",
+            "region": "As-Suwayda",
+            "dist_km": 60
+          },
+          "lat": 32.5,
+          "lon": 37.5,
+          "puntuacion": 0.971,
+          "percentil": 99.99,
+          "n_celdas": 15,
+          "area_km2": 48900,
+          "nuevo": false,
+          "analogo_cercano": {
+            "id": "golan_jubas",
+            "nombre": "Jubas del norte del Golán",
+            "dist_km": 181
+          },
+          "variables": {
+            "emis_p_max": 99.71,
+            "frac_emis_p90": 0.888,
+            "frac_volcanica": 0.888,
+            "ndvi_max": 0.134,
+            "frac_desnudo": 0.762
+          },
+          "explicacion": [
+            {
+              "variable": "frac_volcanica",
+              "valor": 0.888,
+              "contribucion": 3.117,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "ndvi_max",
+              "valor": 0.134,
+              "contribucion": 1.411,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "frac_desnudo",
+              "valor": 0.762,
+              "contribucion": 1.017,
+              "sentido": "a favor"
+            },
+            {
+              "variable": "emis_p_max",
+              "valor": 99.71,
+              "contribucion": 0.339,
+              "sentido": "a favor"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "excluidos": [
+    {
+      "id": "lop_nur",
+      "nombre": "Lop Nur (cuenca del Tarim)",
+      "verificacion": "pendiente",
+      "motivo": "sin fuente que lo llame análogo (pendiente)"
+    },
+    {
+      "id": "rio_tinto",
+      "nombre": "Río Tinto (MARTE)",
+      "verificacion": "verificada",
+      "motivo": "la analogía es química (aguas ácidas y hierro); la rejilla no mide química"
+    },
+    {
+      "id": "meteor_crater",
+      "nombre": "Meteor Crater (cráter Barringer)",
+      "verificacion": "verificada",
+      "motivo": "cráter de impacto; la rejilla no tiene una variable de impacto"
+    },
+    {
+      "id": "lofoten_flakstadoy",
+      "nombre": "Lofoten (macizo de Flakstadøy)",
+      "verificacion": "verificada",
+      "motivo": "anortosita; la rejilla no distingue anortosita (lo cubre la capa anortosita_v0)"
+    },
+    {
+      "id": "mistastin",
+      "nombre": "Cráter Mistastin",
+      "verificacion": "verificada",
+      "motivo": "anortosita e impacto; no medible en la rejilla"
+    },
+    {
+      "id": "stillwater",
+      "nombre": "Complejo de Stillwater (Picket Pin)",
+      "verificacion": "verificada",
+      "motivo": "anortosita; no medible en la rejilla"
+    },
+    {
+      "id": "shawmere",
+      "nombre": "Anortosita de Shawmere (Foleyet)",
+      "verificacion": "verificada",
+      "motivo": "anortosita; no medible en la rejilla"
+    },
+    {
+      "id": "white_mountain",
+      "nombre": "White Mountain (Qaqortorsuaq)",
+      "verificacion": "verificada",
+      "motivo": "anortosita; no medible en la rejilla"
+    },
+    {
+      "id": "undara",
+      "nombre": "Tubos de lava de Undara",
+      "verificacion": "candidato",
+      "motivo": "candidato: se usa como prueba ciega de la familia volcánica"
+    },
+    {
+      "id": "egersund",
+      "nombre": "Anortosita de Egersund (Rogaland)",
+      "verificacion": "candidato",
+      "motivo": "candidato y anortosita"
+    },
+    {
+      "id": "erebus_cuevas",
+      "nombre": "Cuevas de hielo del Erebus",
+      "verificacion": "candidato",
+      "motivo": "candidato (análogo de Europa)"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": "v1.3",
+  "generado": "2026-10-24T19:55:49",
+  "proyecto": "NASA Space Apps 2026 - análogos terrestres de Marte",
+  "crs": {
+    "geojson": "EPSG:4326 (lon, lat)",
+    "png": "EPSG:3857 Web Mercator"
+  },
+  "png_limites": {
+    "oeste": -180,
+    "sur": -85.0511287798,
+    "este": 180,
+    "norte": 85.0511287798
+  },
+  "perfiles": {
+    "marte_polar": {
+      "nombre": "Marte polar",
+      "name_en": "Polar Mars",
+      "descripcion": "Desiertos polares fríos y secos con veranos que no deshielan (|lat| ≥ 60°).",
+      "description_en": "Cold, dry polar deserts with summers that stay frozen (|lat| ≥ 60°).",
+      "pesos": {
+        "frio": 0.45,
+        "verano_frio": 0.2,
+        "seco": 0.35
+      },
+      "capa": "indice_marte_polar.png"
+    },
+    "marte_altura": {
+      "nombre": "Marte de altura",
+      "name_en": "High-altitude Mars",
+      "descripcion": "Mesetas frías y secas por encima de 2500 m, con menos presión y más radiación UV.",
+      "description_en": "Cold, dry plateaus above 2,500 m, with lower pressure and more UV.",
+      "pesos": {
+        "frio": 0.25,
+        "seco": 0.35,
+        "presion": 0.25,
+        "desnudo": 0.15
+      },
+      "capa": "indice_marte_altura.png"
+    },
+    "marte_arido": {
+      "nombre": "Marte árido",
+      "name_en": "Arid Mars",
+      "descripcion": "Desiertos hiperáridos con suelo desnudo y fuertes contrastes térmicos.",
+      "description_en": "Hyper-arid deserts with bare ground and strong temperature swings.",
+      "pesos": {
+        "seco": 0.65,
+        "amplitud": 0.15,
+        "desnudo": 0.2
+      },
+      "capa": "indice_marte_arido.png"
+    }
+  },
+  "capa_combinada": "indice_todos.png",
+  "regiones": {
+    "archivo": "regiones.geojson",
+    "umbral_percentil": 95,
+    "por_perfil": 10,
+    "nota": "analogo_conocido = Sí/Pendiente si un análogo del catálogo está a <= 100 km de la región"
+  },
+  "analogos": {
+    "archivo": "analogos.geojson",
+    "nota": "campos sat_* = celda de ~50 km (NDVI ~5 km), no el sitio exacto; sat_calidad avisa si no es representativo"
+  },
+  "celdas": {
+    "archivo": "celdas.parquet",
+    "resolucion": "0.5° lat x 0.625° lon",
+    "nota": "solo celdas de tierra sin hielo; percentil dentro de su perfil"
+  },
+  "leyenda": "leyenda.json",
+  "validacion": {
+    "version": "v1.3",
+    "mediana_analogos": 92.8,
+    "mediana_controles": 35.0,
+    "max_control": 58.0,
+    "separacion_medianas": 57.9,
+    "peor_analogo_menos_mejor_control": 24.3
+  },
+  "fuentes_datos": {
+    "clima": "MERRA-2 2014-2023 (M2TMNXSLV, M2TMNXFLX, M2C0NXASM)",
+    "vegetacion": "VIIRS VNP13C2 v002 2023, umbral suelo desnudo NDVI < 0.15",
+    "control_calidad": "GPM IMERG v07 mensual"
+  },
+  "archivos": {
+    "analogos.geojson": {
+      "bytes": 12438
+    },
+    "celdas.parquet": {
+      "bytes": 1919901
+    },
+    "indice_marte_altura.png": {
+      "bytes": 10344
+    },
+    "indice_marte_arido.png": {
+      "bytes": 66152
+    },
+    "indice_marte_polar.png": {
+      "bytes": 13342
+    },
+    "indice_todos.png": {
+      "bytes": 77221
+    },
+    "leyenda.json": {
+      "bytes": 492
+    },
+    "regiones.geojson": {
+      "bytes": 39824
+    }
+  }
+}
