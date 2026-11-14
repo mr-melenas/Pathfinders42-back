@@ -61,7 +61,7 @@ def test_chat_completion_uses_default_model(monkeypatch):
     monkeypatch.setenv("LLM_DISABLE_THINKING", "0")
 
     assert llm.chat_completion([]) == "Hola."
-    assert sent["body"]["model"] == "gemma3:4b"
+    assert sent["body"]["model"] == "gemma4:31b"
 
 
 def test_chat_completion_requires_base_url(monkeypatch):

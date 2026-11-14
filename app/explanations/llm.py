@@ -14,7 +14,7 @@ import httpx
 
 from .writer import build_messages
 
-DEFAULT_MODEL = "gemma3:4b"
+DEFAULT_MODEL = "gemma4:31b"
 
 
 def llm_configured() -> bool:
