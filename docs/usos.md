@@ -45,6 +45,8 @@ Umbrales: topografía 0,2 · geología 0,4 · clima 0,2 · hielo 0,25 · forma d
 ## Límites
 - **Clima solo en su top 5**: «pruebas térmicas» solo ve esas parejas. En la Luna el clima discrimina poco
   (clima_v1); las brechas en °C dicen cuánto falla.
+- Brechas (`brechas_C`) = sitio − Tierra: negativo = el sitio es más frío. `cuevas_v2` las guarda al revés
+  (Tierra − sitio); `construir_usos.py` les cambia el signo para que todas usen el mismo criterio.
 - Sin química: no hay uso de astrobiología (sales, aguas ácidas) hasta tener una capa que lo mida.
 - Los pesos son una decisión del equipo, no un resultado: están en un archivo para poder discutirlos.
 
