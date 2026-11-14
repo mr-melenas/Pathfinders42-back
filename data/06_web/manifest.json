@@ -192,6 +192,11 @@
       "version": "hielo_v1.1",
       "carpeta": "hielo_v1.1",
       "archivo": "hielo_v1.1/hielo_lro.json"
+    },
+    "usos": {
+      "version": "usos_v0",
+      "carpeta": "usos_v0",
+      "archivo": "usos_v0/usos.json"
     }
   }
 }

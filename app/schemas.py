@@ -314,3 +314,61 @@ class ResumenHielo(BaseModel):
     umbrales: dict[str, dict[str, float]] = Field(description="Umbrales de cada versión")
     avisos: list[str] = Field(description="Limitaciones que el front debe mostrar junto a los datos")
     fuentes: list[FuenteHielo]
+
+
+# --- Usos de misión (enfoque D): capa usos_v0 ---
+
+CapaUsoId = Literal["topografia", "geologia", "clima", "hielo", "forma_cueva"]
+
+
+class Uso(BaseModel):
+    id: str = Field(examples=["aterrizaje"])
+    nombre: str = Field(examples=["Aterrizaje y navegación"])
+    descripcion: str
+    pesos: dict[CapaUsoId, float] = Field(description="Peso de cada capa en la puntuación del uso")
+    requiere: list[CapaUsoId] = Field(description="Capas que la pareja tiene que tener medidas")
+    solo_sitios: Literal["con_hielo", "cuevas"] | None = Field(
+        description="Limita el uso a sitios con hielo (≥ 20 %) o a sitios-cueva"
+    )
+    orden: Literal["puntuacion", "capas_ok"]
+    min_capas_ok: int = Field(description="Capas que tienen que pasar su umbral para que la pareja sea apta")
+    n_sitios: int = Field(description="Sitios con al menos una pareja evaluada en este uso")
+
+
+class Usos(BaseModel):
+    version: str | None
+    umbrales: dict[CapaUsoId, float] = Field(description="Distancia máxima para que una capa «funcione»")
+    usos: list[Uso]
+    nota: str | None = None
+
+
+class ParejaUso(BaseModel):
+    """Lugar de la Tierra comparado con un sitio, con lo que funciona y lo que falla en cada capa."""
+
+    tierra_id: str = Field(examples=["lofoten_flakstadoy"])
+    tierra_nombre: str = Field(examples=["Lofoten (macizo de Flakstadøy), Noruega"])
+    tierra_lat: float | None
+    tierra_lon: float | None
+    puntuacion: float = Field(description="0–1: media ponderada de similitudes del uso (0,5 = en el umbral)")
+    cobertura: float = Field(description="Fracción del peso del uso con dato en esta pareja")
+    apta: bool = Field(description="Pasa el umbral en las capas obligatorias del uso")
+    n_capas_ok: int = Field(description="Capas del uso que pasan su umbral")
+    distancias: dict[CapaUsoId, float] = Field(description="Distancia de cada capa medida (0 = igual)")
+    funciona: list[CapaUsoId] = Field(description="Capas que pasan su umbral")
+    falla: list[CapaUsoId] = Field(description="Capas medidas que no pasan su umbral")
+    sin_dato: list[CapaUsoId] = Field(description="Capas del uso sin medir para esta pareja")
+    brechas_C: dict[str, float] = Field(
+        description="Tierra − sitio en °C (ts_media, ts_min, ts_max, amplitud_anual, osc_diaria, t_interior)"
+    )
+    fuentes: list[str] = Field(description="Capas que propusieron esta pareja")
+
+
+class RankingSitio(BaseModel):
+    sitio_id: str
+    nombre: str
+    cuerpo: str
+    tipo: str
+    lat: float | None
+    lon: float | None
+    n_aptas: int = Field(description="Parejas aptas para el uso")
+    mejor: ParejaUso | None

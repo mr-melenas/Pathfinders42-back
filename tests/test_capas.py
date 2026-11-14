@@ -13,6 +13,7 @@ def test_listar_capas(cliente):
         "pendiente",
         "trampa",
         "m1",
+        "usos",
     ]
 
 
