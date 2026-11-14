@@ -39,6 +39,11 @@
       "carpeta": "hielo_v0",
       "archivo": "hielo_v0/hielo.json"
     },
+    "hielo_lro": {
+      "version": "hielo_v1.1",
+      "carpeta": "hielo_v1.1",
+      "archivo": "hielo_v1.1/hielo_lro.json"
+    },
     "cuevas_v2": {
       "version": "cuevas_v2",
       "carpeta": "cuevas_v2",
@@ -69,6 +74,11 @@
         "marte_seco": "m1_v0/mapa_marte_seco.png",
         "volcanico_basaltico": "m1_v0/mapa_volcanico_basaltico.png"
       }
+    },
+    "usos": {
+      "version": "usos_v0",
+      "carpeta": "usos_v0",
+      "archivo": "usos_v0/usos.json"
     }
   },
   "png_limites": {

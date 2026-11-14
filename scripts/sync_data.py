@@ -5,12 +5,17 @@ Uso:
 
 En Colab el origen es /content/drive/MyDrive/Hackathon Nasa/06_web; en local, la carpeta
 de Google Drive para escritorio o una copia descargada.
+
+Al terminar vuelve a construir las capas que se generan en el repo y no vienen de Drive (ahora, `usos`
+con scripts/construir_usos.py): la copia las borra y, además, dependen de los datos recién copiados.
+Para saltarlo: --sin-usos.
 """
 
 import argparse
 import hashlib
 import json
 import shutil
+import subprocess
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -56,13 +61,23 @@ def sincronizar(origen: Path, destino: Path) -> dict:
     return version
 
 
+def reconstruir_usos(destino: Path) -> None:
+    """Capa usos_v0: se calcula en el repo a partir de las capas copiadas (ver scripts/construir_usos.py)."""
+    script = RAIZ / "scripts" / "construir_usos.py"
+    subprocess.run([sys.executable, str(script), "--web", str(destino)], check=True)
+
+
 def main() -> None:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--origen", required=True, type=Path, help="Carpeta 06_web de Drive")
     p.add_argument("--destino", type=Path, default=RAIZ / "data" / "06_web", help="Por defecto, data/06_web")
+    p.add_argument("--sin-usos", action="store_true", help="No volver a construir la capa usos")
     args = p.parse_args()
-    version = sincronizar(args.origen.expanduser().resolve(), args.destino.resolve())
+    destino = args.destino.resolve()
+    version = sincronizar(args.origen.expanduser().resolve(), destino)
     print(f"✅ {version['archivos']} archivos, {version['bytes'] / 1024**2:.1f} MB, hash {version['hash']}")
+    if not args.sin_usos:
+        reconstruir_usos(destino)
 
 
 if __name__ == "__main__":

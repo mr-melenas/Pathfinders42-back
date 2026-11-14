@@ -1,0 +1,112 @@
+{
+ "version": "hielo_v1.1",
+ "generado": "2026-11-14T14:23:42+00:00",
+ "descripcion": "Hielo en los sitios del polo sur lunar con dos pruebas independientes de LRO: Diviner (frío suficiente para que el hielo sea estable) y LEND (más hidrógeno que el resto del polo). Mini-RF se da como rugosidad de radar (bloques a escala de decímetros), no como prueba de hielo.",
+ "unidades": {
+  "diviner_f_hielo": "fracción del sitio con hielo estable cerca de la superficie (0–1)",
+  "lend_supresion": "supresión de neutrones epitérmicos CSETN frente a 55–60° S (0–1; sin restar el fondo de la nave)",
+  "lend_exceso": "supresión del sitio menos la mediana de 2000 discos al azar del casquete ≤ −80°",
+  "lend_z_polo": "lend_exceso / error estadístico (ruido de conteo)",
+  "lend_percentil": "percentil de la supresión frente a los discos al azar (recoge sistemáticos y variación natural)",
+  "lend_radios_con_senal": "radios de la prueba de sensibilidad [15.0, 20.0, 30.0] km con señal de LEND",
+  "nivel_hielo": "frío + hidrógeno · solo frío · solo hidrógeno · sin señal",
+  "minirf_frac_cpr_gt1": "fracción del sitio con CPR > 1 (banda S)",
+  "rugosidad_radar": "baja / media / alta según el percentil frente al polo (cortes [25, 75])"
+ },
+ "umbrales": {
+  "diviner_f_hielo": 0.25,
+  "lend_z_polo": 2.0,
+  "lend_percentil": 75
+ },
+ "parametros": {
+  "radio_punto_km": 10.0,
+  "radio_lend_km": 20.0,
+  "radios_sensibilidad_km": [
+   15.0,
+   20.0,
+   30.0
+  ],
+  "lat_casquete": -80.0,
+  "n_discos_azar": 2000
+ },
+ "fuentes": [
+  {
+   "instrumento": "Diviner PRP",
+   "producto": "LRO-L-DLRE (vía hielo_v0)",
+   "url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm"
+  },
+  {
+   "instrumento": "Mini-RF",
+   "producto": "LRO-L-MRFLRO-5-GLOBAL-MOSAIC-V1.0, CPR 32 ppd",
+   "url": "https://pds-geosciences.wustl.edu/lro/lro-l-mrflro-5-global-mosaic-v1/lromrf_1001/data/32ppd/global_cpr_32ppd_simp_0c.img"
+  },
+  {
+   "instrumento": "LEND",
+   "producto": "LRO-L-LEND-4/5-RDR-V1.0, ALD polo sur",
+   "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lend-2-edr-v1/lrolen_0xxx/data"
+  }
+ ],
+ "nota": "Unir con 06_web/sitios_v0/sitios.geojson por id. La supresión de LEND solo sirve para comparar lugares entre sí.",
+ "sitios": {
+  "artemis-malapert-massif": {
+   "nombre": "Malapert Massif",
+   "tipo": "region_aterrizaje_artemis",
+   "lat": -85.99,
+   "lon": -0.236,
+   "area_km2": 442.0871,
+   "diviner_f_hielo": 0.21,
+   "diviner_prof_hielo": 0.212,
+   "senal_diviner": false,
+   "lend_supresion": 0.0156,
+   "lend_err": 0.0027,
+   "lend_n_celdas": 70,
+   "lend_mediana_polo": 0.0102,
+   "lend_exceso": 0.0054,
+   "lend_z_polo": 2.0138,
+   "lend_percentil": 81.6,
+   "senal_lend": true,
+   "lend_radios_con_senal": 2,
+   "lend_robusta": false,
+   "nivel_hielo": "solo hidrógeno",
+   "minirf_cpr_mediana": 0.5727,
+   "minirf_cpr_p90": 0.9452,
+   "minirf_frac_cpr_gt1": 0.0758,
+   "minirf_frac_cpr_gt1_anillo": 0.0545,
+   "minirf_n_px": 488,
+   "rugosidad_radar_percentil": 79.35,
+   "rugosidad_radar": "alta",
+   "pareja_hielo_tierra": "Provincia de Alto Badajshán, Tayikistán",
+   "analogo_hielo_terreno_v0": "No"
+  },
+  "aterrizaje-im-1-odysseus": {
+   "nombre": "IM-1 Odysseus",
+   "tipo": "aterrizaje_robotico",
+   "lat": -84.9,
+   "lon": 12.9,
+   "area_km2": 314.0331,
+   "diviner_f_hielo": 0.968,
+   "diviner_prof_hielo": 0.055,
+   "senal_diviner": true,
+   "lend_supresion": 0.0095,
+   "lend_err": 0.0035,
+   "lend_n_celdas": 58,
+   "lend_mediana_polo": 0.0102,
+   "lend_exceso": -0.0007,
+   "lend_z_polo": -0.1902,
+   "lend_percentil": 45.75,
+   "senal_lend": false,
+   "lend_radios_con_senal": 0,
+   "lend_robusta": false,
+   "nivel_hielo": "solo frío",
+   "minirf_cpr_mediana": 0.523,
+   "minirf_cpr_p90": 0.8473,
+   "minirf_frac_cpr_gt1": 0.0603,
+   "minirf_frac_cpr_gt1_anillo": 0.0833,
+   "minirf_n_px": 348,
+   "rugosidad_radar_percentil": 70.95,
+   "rugosidad_radar": "media",
+   "pareja_hielo_tierra": "Isla Axel Heiberg (Gypsum Hill / M.A.R.S.)",
+   "analogo_hielo_terreno_v0": "Sí"
+  }
+ }
+}

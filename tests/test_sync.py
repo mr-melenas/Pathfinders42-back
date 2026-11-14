@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from scripts.sync_data import sincronizar
+from scripts.sync_data import main, sincronizar
 
 FIXTURES = Path(__file__).parent / "fixtures" / "06_web"
 
@@ -41,3 +41,31 @@ def test_resincronizar_reemplaza(tmp_path):
     (origen / "clima_v1" / "clima.json").unlink()
     sincronizar(origen, destino)
     assert not (destino / "clima_v1" / "clima.json").exists()
+
+
+def _origen_sin_usos(tmp_path: Path) -> Path:
+    """Copia de las fixtures como vendrían de Drive: sin la capa usos (se genera en el repo)."""
+    origen = tmp_path / "origen"
+    shutil.copytree(FIXTURES, origen)
+    shutil.rmtree(origen / "usos_v0")
+    manifest = json.loads((origen / "manifest.json").read_text(encoding="utf-8"))
+    del manifest["capas"]["usos"]
+    (origen / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+    return origen
+
+
+def test_main_reconstruye_usos(tmp_path, monkeypatch):
+    origen, destino = _origen_sin_usos(tmp_path), tmp_path / "data" / "06_web"
+    monkeypatch.setattr("sys.argv", ["sync_data.py", "--origen", str(origen), "--destino", str(destino)])
+    main()
+    assert (destino / "usos_v0" / "usos.json").is_file()
+    manifest = json.loads((destino / "manifest.json").read_text(encoding="utf-8"))
+    assert manifest["capas"]["usos"]["archivo"] == "usos_v0/usos.json"
+
+
+def test_main_sin_usos(tmp_path, monkeypatch):
+    origen, destino = _origen_sin_usos(tmp_path), tmp_path / "data" / "06_web"
+    argv = ["sync_data.py", "--origen", str(origen), "--destino", str(destino), "--sin-usos"]
+    monkeypatch.setattr("sys.argv", argv)
+    main()
+    assert not (destino / "usos_v0").exists()
