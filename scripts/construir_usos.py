@@ -116,7 +116,8 @@ def unir_parejas(c: dict) -> dict[tuple[str, str], dict]:
             pon(r, "topografia", p.get("d_topo"))
             pon(r, "forma_cueva", p.get("d_forma"))
             if _num(p.get("brecha_t_interior_C")) is not None:
-                r.setdefault("brechas", {})["t_interior"] = p["brecha_t_interior_C"]
+                # cuevas_v2 da Tierra − sitio; aquí todas las brechas son sitio − Tierra (como clima_v1)
+                r.setdefault("brechas", {})["t_interior"] = round(-p["brecha_t_interior_C"], 1)
     for sid, s in c["anortosita"].get("sitios", {}).items():
         for p in s.get("top3") or []:
             r = par(sid, p["id_t"], p.get("lugar"))
@@ -229,7 +230,7 @@ def construir(web: Path, config: dict, glim: dict) -> dict:
             "puntuacion": "media ponderada de similitudes (1 igual, 0,5 en el umbral, 0 al doble)",
             "cobertura": "fracción del peso del uso con dato en esta pareja",
             "apta": "pasa el umbral en todas las capas obligatorias del uso",
-            "brechas_C": "Tierra − sitio, en °C (clima y temperatura interior de cuevas)",
+            "brechas_C": "sitio − Tierra, en °C (negativo = el sitio es más frío); clima y temperatura interior de cuevas",
         },
         "nota": (
             "Unión de los top de cada capa. Geología e hielo se recalculan para todas las parejas; "

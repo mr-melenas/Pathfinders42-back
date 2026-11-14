@@ -14,8 +14,7 @@ import httpx
 
 from .writer import build_messages
 
-# ES: Modelo de ejemplo: CAMBIAR por el elegido. EN: Example model: CHANGE it for the chosen one.
-DEFAULT_MODEL = "Qwen/Qwen3-8B"
+DEFAULT_MODEL = "gemma4:31b"
 
 
 def llm_configured() -> bool:
@@ -35,8 +34,12 @@ def chat_completion(messages: list[dict], max_tokens: int = 400) -> str:
     """
     ES: Una llamada a /chat/completions, determinista (temperature 0). EN: One deterministic /chat/completions call.
     """
+    base_url = os.getenv("LLM_BASE_URL")
+    if not base_url:
+        raise RuntimeError("LLM_BASE_URL no está configurada.")
+
     body = {
-        "model": os.getenv("MODEL_LLM", DEFAULT_MODEL),
+        "model": os.getenv("MODEL_LLM") or DEFAULT_MODEL,
         "messages": messages,
         "max_tokens": max_tokens,
         "temperature": 0,
@@ -46,9 +49,7 @@ def chat_completion(messages: list[dict], max_tokens: int = 400) -> str:
     headers = {"Content-Type": "application/json"}
     if os.getenv("LLM_API_KEY"):
         headers["Authorization"] = f"Bearer {os.environ['LLM_API_KEY']}"
-    response = httpx.post(
-        f"{os.environ['LLM_BASE_URL'].rstrip('/')}/chat/completions", headers=headers, json=body, timeout=90
-    )
+    response = httpx.post(f"{base_url.rstrip('/')}/chat/completions", headers=headers, json=body, timeout=90)
     response.raise_for_status()
     return strip_thinking(response.json()["choices"][0]["message"]["content"] or "")
 

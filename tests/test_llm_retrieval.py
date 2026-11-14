@@ -48,6 +48,28 @@ def test_chat_completion_payload_and_thinking_flag(monkeypatch):
     assert "chat_template_kwargs" not in sent["body"]
 
 
+def test_chat_completion_uses_default_model(monkeypatch):
+    sent = {}
+
+    def fake_post(url, headers, json, timeout):
+        sent.update(url=url, body=json)
+        return Resp("Hola.")
+
+    monkeypatch.setattr(llm.httpx, "post", fake_post)
+    monkeypatch.setenv("LLM_BASE_URL", "https://host/v1")
+    monkeypatch.delenv("MODEL_LLM", raising=False)
+    monkeypatch.setenv("LLM_DISABLE_THINKING", "0")
+
+    assert llm.chat_completion([]) == "Hola."
+    assert sent["body"]["model"] == "gemma4:31b"
+
+
+def test_chat_completion_requires_base_url(monkeypatch):
+    monkeypatch.delenv("LLM_BASE_URL", raising=False)
+    with pytest.raises(RuntimeError, match="LLM_BASE_URL"):
+        llm.chat_completion([])
+
+
 def test_llm_configured(monkeypatch):
     monkeypatch.delenv("LLM_BASE_URL", raising=False)
     assert llm.llm_configured() is False

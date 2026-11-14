@@ -80,3 +80,20 @@ def test_usos_reales():
     assert mejor["tierra_id"] == "lofoten_flakstadoy" and mejor["apta"]
     jezero = datos.usos.parejas("ez-jezero-isidis-syrtis", "general")
     assert jezero and jezero[0]["apta"]
+
+
+def test_rag_completo():
+    """Corpus y explicaciones generados: una explicación por sitio y fuentes de límites con URL."""
+    raiz = DATA.parent / "rag"
+    if not (raiz / "explanations.json").is_file():
+        pytest.skip("sin data/rag")
+    datos = Datos(DATA)
+    explicaciones = json.loads((raiz / "explanations.json").read_text(encoding="utf-8"))
+    assert set(explicaciones) == set(datos.sitios.sitios)
+    fragmentos = [
+        json.loads(linea) for linea in (raiz / "corpus.jsonl").read_text(encoding="utf-8").splitlines()
+    ]
+    tipos = {f["tipo"] for f in fragmentos}
+    assert {"limites", "metodo", "ficha"} <= tipos
+    assert all(f["url"] for f in fragmentos if f["tipo"] == "limites")
+    assert all(e["limites"] for e in explicaciones.values())
