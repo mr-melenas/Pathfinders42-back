@@ -56,6 +56,19 @@ cubre cada fuente. «—» significa que es otra fuente abierta.
 | Roca volcánica | GLiM (a través del índice lunar `luna_v0.3`) | — | CC BY (cita requerida) |
 | Nombres de lugar | GeoNames (a través de `reverse_geocoder`) | — | CC BY 4.0 |
 
+## Explicaciones (corpus del RAG)
+
+El corpus (`data/rag/`) reúne las notas de método de cada capa, la ficha de análogos (cada lugar con su
+referencia) y unas notas de límites de la Tierra como análogo, con estas fuentes:
+
+| Datos | Fuente | Recurso del reto | Licencia / condiciones |
+|---|---|---|---|
+| Gravedad, presión y composición de la atmósfera de la Luna y Marte | NASA NSSDC, *Moon Fact Sheet* y *Mars Fact Sheet* | — | Dominio público (NASA) |
+| Radiación en la superficie de Marte | Hassler et al. (2014), *Mars' Surface Radiation Environment Measured with the Mars Science Laboratory's Curiosity Rover*, Science 343 (RAD) | — | Cita requerida |
+| Radiación en la superficie de la Luna | Zhang et al. (2020), *First measurements of the radiation dose on the lunar surface*, Science Advances 6(39), doi:10.1126/sciadv.aaz1334 (Chang'e 4, LND) | — | CC BY (cita requerida) |
+| Hielo en el polo sur lunar (Cabeus) | Mitrofanov et al. (2010), Science 330 (LRO LEND) | LRO | Cita requerida |
+| Ficha de análogos | Google Sheet «ficha_analogos» del equipo; cada lugar cita su fuente (`referencia_principal`, `url_1`) | — | Según cada fuente |
+
 ## Recursos del reto que todavía no usamos
 
 - **NASA Worldview / GIBS**: imagen de satélite de cada análogo de la Tierra en el mapa del front.
