@@ -26,7 +26,8 @@ RULES = """Reglas estrictas:
 
 EXPLAIN_PROMPT = (
     "Eres el redactor de Pathfinders42 (NASA Space Apps 2026). Redactas en español, en 4-6 frases, "
-    "una explicación de por qué un lugar de la Tierra es (o no) análogo de un sitio de la Luna o Marte.\n" + RULES
+    "una explicación de por qué un lugar de la Tierra es (o no) análogo de un sitio de la Luna o Marte.\n"
+    + RULES
 )
 CHAT_PROMPT = (
     "Eres el asistente de Pathfinders42 (NASA Space Apps 2026). Hablas con el usuario en español, de forma "
@@ -48,7 +49,9 @@ def build_messages(data: dict, fragments: list[dict], reminder: str = "") -> lis
         or "(sin fragmentos: no afirmes nada que no esté en los datos)"
     )
     task = "Responde a la pregunta del usuario." if "pregunta" in data else "Redacta la explicación."
-    user = f"DATOS:\n{json.dumps(data, ensure_ascii=False)}\n\nFRAGMENTOS:\n{fragments_text}\n\n{reminder}{task}"
+    user = (
+        f"DATOS:\n{json.dumps(data, ensure_ascii=False)}\n\nFRAGMENTOS:\n{fragments_text}\n\n{reminder}{task}"
+    )
     system = CHAT_PROMPT if "pregunta" in data else EXPLAIN_PROMPT
     return [{"role": "system", "content": system}, {"role": "user", "content": user}]
 
@@ -144,6 +147,11 @@ def chat_input(question: str, explanation: dict | None = None) -> tuple[dict, st
     question = " ".join(question.split())[:MAX_QUESTION_CHARS]
     if explanation:
         data, query, template = site_input(explanation)
-        return {"pregunta": question, **data}, f"{question} {query}", template, f"{web_query_for(explanation)}"
+        return (
+            {"pregunta": question, **data},
+            f"{question} {query}",
+            template,
+            f"{web_query_for(explanation)}",
+        )
     template = "No he podido redactar una respuesta verificada; consulta las fuentes con /buscar."
     return {"pregunta": question}, question, template, question[:200]

@@ -59,3 +59,41 @@ def test_m1_completo():
     for familia in datos.m1.familias:
         assert datos.m1.ruta_mapa(familia) is not None, f"falta el mapa de {familia}"
     assert all(c["explicacion"] for c in datos.m1.candidatos.values())
+
+
+def test_hielo_completo():
+    datos = Datos(DATA)
+    parejas = datos.hielo.parejas()
+    por_cuerpo = {c: sum(p["cuerpo"] == c for p in parejas) for c in ("luna", "marte")}
+    assert por_cuerpo == {"luna": 3, "marte": 13}
+    lunares = {p["sitio_id"]: p["veredicto"] for p in parejas if p["cuerpo"] == "luna"}
+    assert lunares["aterrizaje-im-1-odysseus"] == "debilitada"
+    assert all(p["veredicto"] == "sin comprobar" for p in parejas if p["cuerpo"] == "marte")
+
+
+def test_usos_reales():
+    """Con los datos reales, el uso de aterrizaje reproduce las parejas de anortosita_v0 en Artemis."""
+    datos = Datos(DATA)
+    if not datos.usos.disponible:
+        pytest.skip("sin capa usos")
+    mejor = datos.usos.parejas("artemis-malapert-massif", "aterrizaje")[0]
+    assert mejor["tierra_id"] == "lofoten_flakstadoy" and mejor["apta"]
+    jezero = datos.usos.parejas("ez-jezero-isidis-syrtis", "general")
+    assert jezero and jezero[0]["apta"]
+
+
+def test_rag_completo():
+    """Corpus y explicaciones generados: una explicación por sitio y fuentes de límites con URL."""
+    raiz = DATA.parent / "rag"
+    if not (raiz / "explanations.json").is_file():
+        pytest.skip("sin data/rag")
+    datos = Datos(DATA)
+    explicaciones = json.loads((raiz / "explanations.json").read_text(encoding="utf-8"))
+    assert set(explicaciones) == set(datos.sitios.sitios)
+    fragmentos = [
+        json.loads(linea) for linea in (raiz / "corpus.jsonl").read_text(encoding="utf-8").splitlines()
+    ]
+    tipos = {f["tipo"] for f in fragmentos}
+    assert {"limites", "metodo", "ficha"} <= tipos
+    assert all(f["url"] for f in fragmentos if f["tipo"] == "limites")
+    assert all(e["limites"] for e in explicaciones.values())

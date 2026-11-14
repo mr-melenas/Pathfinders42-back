@@ -72,7 +72,9 @@ def main(argv: list[str] | None = None, retriever=None, generator=None) -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--web", action="store_true", help="añade resultados de internet / adds web results")
     parser.add_argument("--candidates", help="JSON {id: objeto} de M1 / M1 candidates JSON")
-    parser.add_argument("--resume", action="store_true", help="salta lo ya redactado / skip what is already written")
+    parser.add_argument(
+        "--resume", action="store_true", help="salta lo ya redactado / skip what is already written"
+    )
     parser.add_argument("--retriever", choices=["bm25", "hybrid"], default=os.getenv("RETRIEVER", "hybrid"))
     parser.add_argument("--backend", choices=["api", "local"], default="api")
     args = parser.parse_args(argv)
@@ -83,7 +85,12 @@ def main(argv: list[str] | None = None, retriever=None, generator=None) -> None:
         source = json.loads(Path(args.candidates).read_text(encoding="utf-8"))
         output_path = Path("data/rag/explained_candidates.json")
         items = {
-            key: (obj, f"{obj.get('nombre', key)} candidato análogo límites", candidate_template(key, obj), None)
+            key: (
+                obj,
+                f"{obj.get('nombre', key)} candidato análogo límites",
+                candidate_template(key, obj),
+                None,
+            )
             for key, obj in source.items()
         }
     else:

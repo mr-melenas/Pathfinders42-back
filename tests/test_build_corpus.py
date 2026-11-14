@@ -58,4 +58,6 @@ def test_long_paragraph_without_blank_lines_is_split():
     chunks = build_corpus.split_text(text)
     assert len(chunks) > 3 and all(len(c) <= build_corpus.CHUNK_SIZE + build_corpus.OVERLAP for c in chunks)
     giant_word = build_corpus.split_text("a" * 5000)
-    assert len(giant_word) > 1 and all(len(c) <= build_corpus.CHUNK_SIZE + build_corpus.OVERLAP for c in giant_word)
+    assert len(giant_word) > 1 and all(
+        len(c) <= build_corpus.CHUNK_SIZE + build_corpus.OVERLAP for c in giant_word
+    )

@@ -142,7 +142,13 @@ def test_html_is_stripped_empty_results_not_cached_and_key_has_n():
 
     def html_provider(query, count, domains):
         CALLS.append(query)
-        return [{"title": "<b>NASA</b> &amp; co", "url": "https://www.nasa.gov/a", "text": "un <strong>dato</strong> &amp; más"}]
+        return [
+            {
+                "title": "<b>NASA</b> &amp; co",
+                "url": "https://www.nasa.gov/a",
+                "text": "un <strong>dato</strong> &amp; más",
+            }
+        ]
 
     r = search_web("tema html", provider=html_provider, cache_path=cache_path, cache_only=False)
     assert r[0]["texto"] == "un dato & más" and r[0]["fuente"] == "NASA & co"

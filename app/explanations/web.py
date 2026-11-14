@@ -36,7 +36,9 @@ ALLOWED_DOMAINS = tuple(
 CACHE_PATH = Path(os.getenv("WEB_CACHE", "data/rag/web_cache.json"))
 TTL_SECONDS = int(os.getenv("WEB_TTL_HOURS", "168")) * 3600
 MAX_CHARS = 600
-MAX_QUERY_CHARS = 200  # ES: Brave/Tavily limitan la query (~400) y Brave añade los site: / EN: providers cap the query
+MAX_QUERY_CHARS = (
+    200  # ES: Brave/Tavily limitan la query (~400) y Brave añade los site: / EN: providers cap the query
+)
 _cache_lock = threading.Lock()
 
 
