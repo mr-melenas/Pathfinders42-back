@@ -145,7 +145,7 @@ def test_messages_use_chat_prompt_only_with_question():
     chat = writer.build_messages({"pregunta": "x"}, [])
     explain = writer.build_messages({"nombre": "x"}, [])
     assert chat[0]["content"] == writer.CHAT_PROMPT and explain[0]["content"] == writer.EXPLAIN_PROMPT
-    assert "Responde a la pregunta" in chat[1]["content"]
+    assert "Responde a la pregunta" in chat[1]["content"] and "Responde a la pregunta" not in explain[1]["content"]
 
 
 def test_script_saves_after_each_site_and_resumes(tmp_path, monkeypatch):
