@@ -3,8 +3,8 @@ ES: Pruebas de la lógica de redacción con un recuperador y un generador FALSOS
 EN: Tests for the writing logic with a FAKE retriever and generator (no GPU, no models).
 """
 
-from app.explanations.generator import explain_record
 from app.explanations import writer
+from app.explanations.generator import explain_record
 from scripts import write_with_llm as script
 from tests.sample_data import SAMPLE_RECORD
 

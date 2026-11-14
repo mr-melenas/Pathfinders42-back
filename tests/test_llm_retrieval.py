@@ -64,8 +64,9 @@ def test_bm25_retriever_filters_by_site():
 
 def test_hybrid_retriever_filters_site_before_ranking():
     pytest.importorskip("numpy")
-    from app.explanations.retrieval import HybridRetriever
     import numpy as np
+
+    from app.explanations.retrieval import HybridRetriever
 
     class Embedder:
         def encode(self, texts, normalize_embeddings=True):
