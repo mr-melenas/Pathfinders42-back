@@ -45,6 +45,10 @@ y el resto de endpoints devuelve 503.
 | `GET /api/v1/candidatos/modelo` | Cómo se entrenó M1: familias, positivos, validación, importancia de variables, leyenda |
 | `GET /api/v1/candidatos/{id}` | Un candidato de M1 |
 | `GET /api/v1/mapas/{familia}.png` | Mapa de puntuación de M1 (Web Mercator, como los índices) |
+| `GET /api/v1/hielo` | Resumen de hielo: análogos por cuerpo, veredictos, niveles de LRO, umbrales, avisos y fuentes |
+| `GET /api/v1/hielo/sitios?cuerpo=&solo_analogos=` | Hielo de cada sitio de la Luna y Marte y su mejor región de la Tierra |
+| `GET /api/v1/hielo/sitios/{id}` | Ficha de hielo: 5 regiones de la Tierra y, en el polo sur lunar, la comprobación de LRO (Diviner, LEND, Mini-RF) |
+| `GET /api/v1/hielo/parejas?cuerpo=&veredicto=` | Análogos de hielo con su veredicto (se mantiene, debilitada, no se sostiene, sin comprobar) y una frase que lo explica |
 
 Los siguientes (análogos, usos, ranking y asistente) están en el plan de desarrollo y en el GitHub Project.
 
