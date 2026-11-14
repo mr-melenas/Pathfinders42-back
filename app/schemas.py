@@ -358,7 +358,7 @@ class ParejaUso(BaseModel):
     falla: list[CapaUsoId] = Field(description="Capas medidas que no pasan su umbral")
     sin_dato: list[CapaUsoId] = Field(description="Capas del uso sin medir para esta pareja")
     brechas_C: dict[str, float] = Field(
-        description="Tierra − sitio en °C (ts_media, ts_min, ts_max, amplitud_anual, osc_diaria, t_interior)"
+        description="Sitio − Tierra en °C; negativo = el sitio es más frío (ts_media, ts_min, ts_max, amplitud_anual, osc_diaria, t_interior)"
     )
     fuentes: list[str] = Field(description="Capas que propusieron esta pareja")
 

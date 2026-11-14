@@ -1,9 +1,9 @@
 # Explicaciones internas · Internal explanations (RAG)
  
 **ES:** Módulo interno para explicar por qué un lugar de la Tierra es (o no) análogo de un sitio de la
-Luna o Marte. Reparto: el Random Forest (M1) + SHAP decide y puntúa; el LLM solo redacta; la API solo sirve
+Luna o Marte. Reparto: las capas de datos (y M1, LightGBM con aprendizaje PU + SHAP) deciden y puntúan; el LLM solo redacta; la API solo sirve
 resultados precalculados. **EN:** Internal module that explains why an Earth location is (or is not) an
-analog of a Moon/Mars site. Split: the Random Forest (M1) + SHAP decides and scores; the LLM only writes;
+analog of a Moon/Mars site. Split: the data layers (and M1, LightGBM with PU learning + SHAP) decide and score; the LLM only writes;
 the API only serves precomputed results.
  
 ## Convenciones · Conventions
@@ -12,9 +12,12 @@ the API only serves precomputed results.
 - **EN:** Python identifiers (variables, functions, classes, modules) in English. API routes, query
   parameters and JSON keys in Spanish (team contract). Bilingual comments and docstrings.
 ## Flujo offline · Offline flow (after the data freeze, Thursday 12 Nov)
-1. **ES:** Exportar a `.md` en `data/rag/sources/` la bibliografía, la ficha de análogos y las notas de límites
-   (`tipo = limites`) y rellenar `data/rag/sources.csv`. **EN:** Export the bibliography, analog sheet and
-   limits notes (`tipo = limites`) to `.md` in `data/rag/sources/` and fill `data/rag/sources.csv`.
+1. **ES:** `python scripts/preparar_fuentes_rag.py` escribe `data/rag/sources/` y `data/rag/sources.csv` a partir de
+   `scripts/entrada/rag/*.md` (notas de límites y del método de cada capa, con cabecera `fuente`/`url`/`tipo`),
+   `scripts/entrada/ficha_analogos.csv` (copia de la Google Sheet «ficha_analogos») y `docs/usos.md`,
+   `docs/m1_buscador_analogos.md` y `SOURCES.md`. Tipos: `limites`, `metodo`, `ficha`, `fuentes`.
+   **EN:** `python scripts/preparar_fuentes_rag.py` writes `data/rag/sources/` and `data/rag/sources.csv` from the
+   hand-written notes, the analog sheet copy and the repo docs.
 2. `python scripts/build_corpus.py` → `data/rag/corpus.jsonl`
 3. **ES:** Con la API local levantada: `python scripts/generate_explanations.py` → `data/rag/explanations.json`.
    **EN:** With the local API running: `python scripts/generate_explanations.py` → `data/rag/explanations.json`.
