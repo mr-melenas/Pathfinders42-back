@@ -62,5 +62,5 @@ Un sitio fuera del alcance del uso (p. ej. Apollo 11 en «agua, hielo») devuelv
 python scripts/construir_usos.py                            # datos reales
 python scripts/construir_usos.py --web tests/fixtures/06_web  # fixtures de los tests
 ```
-⚠ `scripts/sync_data.py` borra `data/06_web` y lo copia de Drive: después de sincronizar hay que volver a
-ejecutar `construir_usos.py` (o subir `usos_v0/` y la entrada `usos` del manifest a `06_web` de Drive).
+`scripts/sync_data.py` borra `data/06_web` y lo copia de Drive (donde no está `usos_v0`); por eso, al terminar,
+vuelve a ejecutar `construir_usos.py` con los datos recién copiados. Para saltarlo: `--sin-usos`.
