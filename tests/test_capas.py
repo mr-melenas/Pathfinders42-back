@@ -7,6 +7,7 @@ def test_listar_capas(cliente):
         "topografia_sitios",
         "geologia",
         "hielo",
+        "hielo_lro",
         "cuevas_v2",
         "anortosita",
         "pendiente",

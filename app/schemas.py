@@ -210,3 +210,107 @@ class ModeloM1(BaseModel):
     png_limites: dict[str, float] | None = Field(description="Límites Web Mercator de los PNG")
     familias: list[FamiliaM1]
     excluidos: list[ExcluidoM1] = Field(description="Análogos de la ficha que M1 no usa, y por qué")
+
+
+# --- Hielo: pareja con la Tierra (hielo_v0) + comprobación de LRO en el polo sur lunar (hielo_v1.1) ---
+
+NivelHielo = Literal["frío + hidrógeno", "solo frío", "solo hidrógeno", "sin señal"]
+Rugosidad = Literal["baja", "media", "alta"]
+Veredicto = Literal["se mantiene", "debilitada", "no se sostiene", "sin comprobar"]
+
+
+class ComprobacionLRO(BaseModel):
+    """Dos pruebas independientes de LRO (Diviner y LEND) y la rugosidad de radar (Mini-RF)."""
+
+    nivel: NivelHielo = Field(description="Combinación de las señales de Diviner (frío) y LEND (hidrógeno)")
+    diviner_f_hielo: float | None = Field(
+        description="Fracción del sitio con hielo estable cerca de la superficie (0–1)"
+    )
+    senal_diviner: bool = Field(description="diviner_f_hielo ≥ 0,25")
+    lend_supresion: float | None = Field(
+        description="Supresión de neutrones epitérmicos frente a 55–60° S (sin restar el fondo de la nave)"
+    )
+    lend_err: float | None = Field(description="Error estadístico de la supresión (ruido de conteo)")
+    lend_exceso: float | None = Field(description="Supresión del sitio menos la mediana del polo")
+    lend_z_polo: float | None = Field(description="lend_exceso / lend_err")
+    lend_percentil: float | None = Field(description="Percentil frente a 2000 discos al azar del polo")
+    senal_lend: bool = Field(description="lend_z_polo ≥ 2 y lend_percentil ≥ 75, con un radio de 20 km")
+    lend_radios_con_senal: int = Field(description="Radios (15, 20 y 30 km) con señal de LEND, 0–3")
+    lend_robusta: bool = Field(description="Hay señal con los tres radios")
+    minirf_frac_cpr_gt1: float | None = Field(description="Fracción del sitio con CPR > 1 (banda S)")
+    rugosidad_radar_percentil: float | None
+    rugosidad_radar: Rugosidad | None = Field(
+        description="Bloques a escala de decímetros frente al resto del polo; no es una prueba de hielo"
+    )
+
+
+class RegionHielo(BaseModel):
+    """Región de la Tierra comparada con un sitio por hielo y topografía."""
+
+    region_id: str = Field(examples=["analogo-luna-askja-islandia"])
+    region: str = Field(examples=["Askja, Islandia"])
+    perfil: str | None = Field(description="Perfil del índice de la región (luna o marte)")
+    f_permafrost: float | None = Field(description="Probabilidad media de permafrost en la región (0–1)")
+    d_hielo: float | None = Field(description="|f_hielo del sitio − f_permafrost de la región|")
+    d_topo: float | None = Field(description="Distancia topográfica (KS, 0–1)")
+    d_hielo_topo: float | None = Field(description="Media de d_hielo y d_topo (0 = igual)")
+    base_cercana: str | None = Field(default=None, description="Estación antártica abierta más cercana")
+    base_km: float | None = Field(default=None)
+
+
+class SitioHielo(BaseModel):
+    id: str = Field(examples=["aterrizaje-im-2-athena"])
+    nombre: str = Field(examples=["IM-2 Athena"])
+    cuerpo: str = Field(examples=["luna"])
+    tipo: str
+    lat: float | None
+    lon: float | None
+    f_hielo: float | None = Field(description="Fracción del sitio con hielo cerca de la superficie (0–1)")
+    fuente_hielo: str | None = Field(examples=["Diviner PRP (hielo estable)"])
+    tiene_analogo: bool | None = Field(
+        description="hielo_v0 encuentra una región parecida en hielo y topografía (None: sin comparación)"
+    )
+    mejor_region: str | None = Field(examples=["Askja, Islandia"])
+    d_hielo_topo: float | None
+    nivel_lro: NivelHielo | None = Field(description="Solo los 12 sitios lunares por debajo de −80°")
+
+
+class SitioHieloDetalle(SitioHielo):
+    h2o_grs_pct: float | None = Field(
+        description="Agua equivalente de Mars Odyssey GRS (% en peso). Solo Marte"
+    )
+    regiones: list[RegionHielo] = Field(description="Las 5 regiones de la Tierra más parecidas")
+    lro: ComprobacionLRO | None = Field(description="Comprobación de LRO (None fuera del polo sur lunar)")
+
+
+class ParejaHielo(BaseModel):
+    """Análogo de hielo: un sitio de la Luna o Marte y su región de la Tierra, con su veredicto."""
+
+    sitio_id: str = Field(examples=["aterrizaje-im-1-odysseus"])
+    sitio: str = Field(examples=["IM-1 Odysseus"])
+    cuerpo: str = Field(examples=["luna"])
+    f_hielo_sitio: float | None
+    fuente_hielo: str | None
+    region: RegionHielo
+    veredicto: Veredicto = Field(
+        description="Según la comprobación de LRO; «sin comprobar» si el sitio solo tiene una fuente"
+    )
+    motivo: str = Field(description="Frase que explica el veredicto, lista para mostrar")
+    nivel_lro: NivelHielo | None
+
+
+class FuenteHielo(BaseModel):
+    instrumento: str = Field(examples=["LEND"])
+    producto: str
+    url: str
+
+
+class ResumenHielo(BaseModel):
+    versiones: dict[str, str | None] = Field(examples=[{"hielo": "hielo_v0", "hielo_lro": "hielo_v1.1"}])
+    n_sitios: dict[str, int] = Field(description="Sitios con dato de hielo, por cuerpo")
+    n_parejas: dict[str, int] = Field(description="Análogos de hielo, por cuerpo")
+    veredictos: dict[str, int] = Field(description="Número de parejas con cada veredicto")
+    niveles_lro: dict[str, int] = Field(description="Sitios del polo sur lunar en cada nivel")
+    umbrales: dict[str, dict[str, float]] = Field(description="Umbrales de cada versión")
+    avisos: list[str] = Field(description="Limitaciones que el front debe mostrar junto a los datos")
+    fuentes: list[FuenteHielo]

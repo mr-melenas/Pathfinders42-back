@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app import __version__
 from app.config import ajustes
 from app.explanations.router import router as explanations_router
-from app.routers import candidatos, capas, salud, sitios
+from app.routers import candidatos, capas, hielo, salud, sitios
 
 PREFIJO = "/api/v1"
 
@@ -28,4 +28,5 @@ app.include_router(salud.router, prefix=PREFIJO)
 app.include_router(capas.router, prefix=PREFIJO)
 app.include_router(sitios.router, prefix=PREFIJO)
 app.include_router(candidatos.router, prefix=PREFIJO)
+app.include_router(hielo.router, prefix=PREFIJO)
 app.include_router(explanations_router, prefix=PREFIJO)

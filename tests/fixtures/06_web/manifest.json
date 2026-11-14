@@ -39,6 +39,11 @@
       "carpeta": "hielo_v0",
       "archivo": "hielo_v0/hielo.json"
     },
+    "hielo_lro": {
+      "version": "hielo_v1.1",
+      "carpeta": "hielo_v1.1",
+      "archivo": "hielo_v1.1/hielo_lro.json"
+    },
     "cuevas_v2": {
       "version": "cuevas_v2",
       "carpeta": "cuevas_v2",

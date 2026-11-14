@@ -59,3 +59,13 @@ def test_m1_completo():
     for familia in datos.m1.familias:
         assert datos.m1.ruta_mapa(familia) is not None, f"falta el mapa de {familia}"
     assert all(c["explicacion"] for c in datos.m1.candidatos.values())
+
+
+def test_hielo_completo():
+    datos = Datos(DATA)
+    parejas = datos.hielo.parejas()
+    por_cuerpo = {c: sum(p["cuerpo"] == c for p in parejas) for c in ("luna", "marte")}
+    assert por_cuerpo == {"luna": 3, "marte": 13}
+    lunares = {p["sitio_id"]: p["veredicto"] for p in parejas if p["cuerpo"] == "luna"}
+    assert lunares["aterrizaje-im-1-odysseus"] == "debilitada"
+    assert all(p["veredicto"] == "sin comprobar" for p in parejas if p["cuerpo"] == "marte")
