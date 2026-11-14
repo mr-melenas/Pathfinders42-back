@@ -69,3 +69,14 @@ def test_hielo_completo():
     lunares = {p["sitio_id"]: p["veredicto"] for p in parejas if p["cuerpo"] == "luna"}
     assert lunares["aterrizaje-im-1-odysseus"] == "debilitada"
     assert all(p["veredicto"] == "sin comprobar" for p in parejas if p["cuerpo"] == "marte")
+
+
+def test_usos_reales():
+    """Con los datos reales, el uso de aterrizaje reproduce las parejas de anortosita_v0 en Artemis."""
+    datos = Datos(DATA)
+    if not datos.usos.disponible:
+        pytest.skip("sin capa usos")
+    mejor = datos.usos.parejas("artemis-malapert-massif", "aterrizaje")[0]
+    assert mejor["tierra_id"] == "lofoten_flakstadoy" and mejor["apta"]
+    jezero = datos.usos.parejas("ez-jezero-isidis-syrtis", "general")
+    assert jezero and jezero[0]["apta"]

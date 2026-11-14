@@ -1,0 +1,113 @@
+{
+  "nota": "Pesos por uso de misión (enfoque D). Editable: tras cambiarlo, ejecutar scripts/construir_usos.py. Cada peso multiplica la similitud de la capa (1 = igual, 0,5 = en el umbral, 0 = el doble del umbral o más). 'requiere': capas que la pareja tiene que tener medidas para entrar en el uso; 'apta' = pasa el umbral en todas ellas. 'solo_sitios': limita el uso a sitios con hielo o a sitios-cueva. 'orden': 'puntuacion' (por defecto) o 'capas_ok' (primero las que pasan más capas). 'min_capas_ok': capas que tienen que pasar su umbral para que la pareja sea apta.",
+  "usos": [
+    {
+      "id": "general",
+      "nombre": "General",
+      "descripcion": "Todas las capas con el mismo peso. Ordena por número de capas que pasan su umbral.",
+      "pesos": {
+        "topografia": 1,
+        "geologia": 1,
+        "clima": 1,
+        "hielo": 1,
+        "forma_cueva": 1
+      },
+      "requiere": [],
+      "solo_sitios": null,
+      "orden": "capas_ok",
+      "min_capas_ok": 2
+    },
+    {
+      "id": "aterrizaje",
+      "nombre": "Aterrizaje y navegación",
+      "descripcion": "Probar el descenso, la navegación por el terreno y la elección del punto de toma: manda el relieve (pendiente y desnivel a ~240 m).",
+      "pesos": {
+        "topografia": 3,
+        "geologia": 1
+      },
+      "requiere": [
+        "topografia"
+      ],
+      "solo_sitios": null,
+      "orden": "puntuacion",
+      "min_capas_ok": 0
+    },
+    {
+      "id": "movilidad",
+      "nombre": "Movilidad de rovers y robótica",
+      "descripcion": "Probar ruedas, tracción y conducción: cuentan por igual el relieve y el tipo de roca o suelo.",
+      "pesos": {
+        "topografia": 2,
+        "geologia": 2
+      },
+      "requiere": [
+        "topografia",
+        "geologia"
+      ],
+      "solo_sitios": null,
+      "orden": "puntuacion",
+      "min_capas_ok": 0
+    },
+    {
+      "id": "construccion_isru",
+      "nombre": "Construcción y recursos in situ (ISRU)",
+      "descripcion": "Ensayar excavación, sinterizado de regolito y extracción de recursos: manda el tipo de roca.",
+      "pesos": {
+        "geologia": 3,
+        "topografia": 1
+      },
+      "requiere": [
+        "geologia"
+      ],
+      "solo_sitios": null,
+      "orden": "puntuacion",
+      "min_capas_ok": 0
+    },
+    {
+      "id": "pruebas_termicas",
+      "nombre": "Pruebas térmicas de equipos",
+      "descripcion": "Someter equipos a un régimen de temperatura parecido en posición relativa (percentiles); las brechas en °C dicen cuánto falta.",
+      "pesos": {
+        "clima": 3,
+        "topografia": 1
+      },
+      "requiere": [
+        "clima"
+      ],
+      "solo_sitios": null,
+      "orden": "puntuacion",
+      "min_capas_ok": 0
+    },
+    {
+      "id": "agua_hielo",
+      "nombre": "Agua, hielo y permafrost",
+      "descripcion": "Prospección y extracción de hielo: compara la fracción de hielo del sitio con la probabilidad de permafrost de la Tierra.",
+      "pesos": {
+        "hielo": 3,
+        "topografia": 1,
+        "clima": 1
+      },
+      "requiere": [
+        "hielo"
+      ],
+      "solo_sitios": "con_hielo",
+      "orden": "puntuacion",
+      "min_capas_ok": 0
+    },
+    {
+      "id": "cuevas_habitat",
+      "nombre": "Cuevas y hábitat bajo tierra",
+      "descripcion": "Refugio frente a radiación y temperatura: cuevas del mismo tipo con forma (profundidad/diámetro) y terreno parecidos.",
+      "pesos": {
+        "forma_cueva": 2,
+        "topografia": 2
+      },
+      "requiere": [
+        "topografia"
+      ],
+      "solo_sitios": "cuevas",
+      "orden": "puntuacion",
+      "min_capas_ok": 0
+    }
+  ]
+}

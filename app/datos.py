@@ -13,6 +13,7 @@ if TYPE_CHECKING:
     from app.hielo import DatosHielo
     from app.m1 import ResultadosM1
     from app.sitios import IndiceSitios
+    from app.usos import DatosUsos
 
 
 class DatosNoDisponibles(RuntimeError):
@@ -65,6 +66,12 @@ class Datos:
         from app.hielo import DatosHielo
 
         return DatosHielo(self)
+
+    @cached_property
+    def usos(self) -> "DatosUsos":
+        from app.usos import DatosUsos
+
+        return DatosUsos(self)
 
     @cached_property
     def m1(self) -> "ResultadosM1 | None":
