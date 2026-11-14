@@ -49,9 +49,7 @@ def chat_completion(messages: list[dict], max_tokens: int = 400) -> str:
     headers = {"Content-Type": "application/json"}
     if os.getenv("LLM_API_KEY"):
         headers["Authorization"] = f"Bearer {os.environ['LLM_API_KEY']}"
-    response = httpx.post(
-        f"{base_url.rstrip('/')}/chat/completions", headers=headers, json=body, timeout=90
-    )
+    response = httpx.post(f"{base_url.rstrip('/')}/chat/completions", headers=headers, json=body, timeout=90)
     response.raise_for_status()
     return strip_thinking(response.json()["choices"][0]["message"]["content"] or "")
 
