@@ -9,17 +9,48 @@ gravity, vacuum, atmosphere and radiation).
 
 import csv
 import json
+import re
 from pathlib import Path
 
 ROOT = Path("data/rag")
 CHUNK_SIZE, OVERLAP = 1200, 150  # characters (~300 tokens) / caracteres
+LIMIT = (
+    CHUNK_SIZE - OVERLAP - 2
+)  # ES: el solape y el \n\n se suman a cada pieza / EN: overlap and \n\n are added
+
+
+def _split_long(paragraph: str) -> list[str]:
+    """
+    ES: Parte un párrafo más largo que LIMIT por frases (y por palabras si una frase es enorme).
+    EN: Splits a paragraph longer than LIMIT by sentences (and by words if a sentence is huge).
+    """
+    pieces, current = [], ""
+    for sentence in re.split(r"(?<=[.!?])\s+", paragraph):
+        while len(sentence) > LIMIT:  # hard cut at a word boundary / corte duro en límite de palabra
+            cut = sentence.rfind(" ", 0, LIMIT) or LIMIT
+            cut = cut if cut > 0 else LIMIT
+            pieces.append(sentence[:cut])
+            sentence = sentence[cut:].lstrip()
+        if current and len(current) + len(sentence) + 1 > LIMIT:
+            pieces.append(current)
+            current = sentence
+        else:
+            current = f"{current} {sentence}".strip()
+    if current:
+        pieces.append(current)
+    return pieces
 
 
 def split_text(text: str) -> list[str]:
     """
     ES: Trocea por párrafos hasta ~CHUNK_SIZE caracteres, con solape. EN: Splits by paragraph up to ~CHUNK_SIZE characters, with overlap.
     """
-    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
+    paragraphs = [
+        piece
+        for p in text.split("\n\n")
+        if p.strip()
+        for piece in (_split_long(p.strip()) if len(p.strip()) > LIMIT else [p.strip()])
+    ]
     chunks, current = [], ""
     for paragraph in paragraphs:
         if len(current) + len(paragraph) > CHUNK_SIZE and current:

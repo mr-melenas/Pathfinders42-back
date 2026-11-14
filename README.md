@@ -4,14 +4,6 @@ Backend del proyecto del **NASA Space Apps Challenge 2026**: análogos terrestre
 de aterrizaje de la Luna y Marte. La API sirve resultados **precalculados** en Colab (topografía, clima,
 geología, hielo, cuevas y anortosita); no entrena ni ejecuta modelos pesados.
 
-## Origen del código
-
-Este repositorio arranca el 14/11/2026, primer día del hackathon. La base inicial (esqueleto de la API,
-endpoints de capas, sitios y candidatos de M1, módulo de explicaciones y datos de `data/06_web`) se trajo
-del repo de preparación [Pathfinders42](https://github.com/mr-melenas/Pathfinders42) (rama `dev`, commit
-`86d60a4`), donde está su historial completo. Los notebooks de Colab y los datos de Drive no se tocan.
-Todo lo que se hace desde aquí entra por ramas `feat/…` o `fix/…` con PR a `dev`.
-
 ## Arrancar en local
 
 ```bash
@@ -19,7 +11,7 @@ python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\act
 pip install -e ".[dev]"
 cp .env.example .env
 python scripts/sync_data.py --origen "/ruta/a/Hackathon Nasa/06_web"   # copia los datos a data/06_web
-uvicorn app.main:app --reload
+python -m uvicorn --env-file .env app.main:app --reload
 ```
 
 Documentación interactiva en <http://localhost:8000/docs>. El contrato para el front es

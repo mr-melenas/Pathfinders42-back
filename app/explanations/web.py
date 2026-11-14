@@ -12,8 +12,11 @@ EN: Web search restricted to trusted domains, with an on-disk cache.
  - Provider: WEB_PROVIDER = tavily | brave, with TAVILY_API_KEY or BRAVE_API_KEY.
 """
 
+import html
 import json
 import os
+import re
+import threading
 import time
 from datetime import date
 from pathlib import Path
@@ -33,6 +36,24 @@ ALLOWED_DOMAINS = tuple(
 CACHE_PATH = Path(os.getenv("WEB_CACHE", "data/rag/web_cache.json"))
 TTL_SECONDS = int(os.getenv("WEB_TTL_HOURS", "168")) * 3600
 MAX_CHARS = 600
+MAX_QUERY_CHARS = (
+    200  # ES: Brave/Tavily limitan la query (~400) y Brave añade los site: / EN: providers cap the query
+)
+_cache_lock = threading.Lock()
+
+
+def cache_only_enabled() -> bool:
+    """
+    ES: ¿WEB_CACHE_ONLY=1? (nunca sale a la red). EN: Is WEB_CACHE_ONLY=1 set? (never goes online).
+    """
+    return os.getenv("WEB_CACHE_ONLY") == "1"
+
+
+def _clean(text: str) -> str:
+    """
+    ES: Quita etiquetas HTML (Brave devuelve <strong>) y entidades. EN: Strips HTML tags (Brave returns <strong>) and entities.
+    """
+    return " ".join(html.unescape(re.sub(r"<[^>]+>", "", text or "")).split())
 
 
 def _domain_allowed(url: str, domains) -> bool:
@@ -50,7 +71,7 @@ def _tavily(query: str, count: int, domains) -> list[dict]:
     response = httpx.post(
         "https://api.tavily.com/search",
         headers={"Authorization": f"Bearer {os.environ['TAVILY_API_KEY']}"},
-        json={"query": query, "max_results": count, "include_domains": list(domains)},
+        json={"query": query[:MAX_QUERY_CHARS], "max_results": count, "include_domains": list(domains)},
         timeout=20,
     )
     response.raise_for_status()
@@ -64,7 +85,7 @@ def _brave(query: str, count: int, domains) -> list[dict]:
     """
     ES: Adaptador de Brave (filtra por dominio con site:). EN: Brave adapter (filters by domain with site:).
     """
-    scoped_query = f"{query} ({' OR '.join(f'site:{d}' for d in domains)})"
+    scoped_query = f"{query[:MAX_QUERY_CHARS]} ({' OR '.join(f'site:{d}' for d in domains)})"
     response = httpx.get(
         "https://api.search.brave.com/res/v1/web/search",
         params={"q": scoped_query, "count": count},
@@ -101,6 +122,25 @@ def _read_cache(path: Path) -> dict:
         return {}
 
 
+def _write_cache(path: Path, cache: dict) -> None:
+    """
+    ES: Escritura atómica (archivo temporal + replace) y con cerrojo: la API atiende peticiones a la vez.
+    EN: Atomic write (temp file + replace) under a lock: the API handles concurrent requests.
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(f".{os.getpid()}.{threading.get_ident()}.tmp")
+    tmp.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    os.replace(tmp, path)
+
+
+def _cache_key(query: str, n: int, provider_name: str, domains) -> str:
+    """
+    ES: La clave incluye proveedor, dominios y n: otro proveedor u otro n no deben compartir entrada.
+    EN: The key includes provider, domains and n: another provider or n must not share an entry.
+    """
+    return f"{provider_name}|{','.join(sorted(domains))}|{n}|{' '.join(tokenize(query))}"
+
+
 def search_web(
     query: str,
     n: int = 3,
@@ -112,34 +152,40 @@ def search_web(
     """
     ES: Busca en internet (dominios permitidos) usando antes la caché. `provider` permite inyectar un
     proveedor falso en las pruebas. Devuelve dicts con las claves del contrato (fuente, url, texto...).
+    Las respuestas vacías no se cachean.
     EN: Searches the web (allowed domains), checking the cache first. `provider` lets tests inject a
-    fake provider. Returns dicts with the contract keys (fuente, url, texto...).
+    fake provider. Returns dicts with the contract keys (fuente, url, texto...). Empty answers are not cached.
     """
     cache_path = cache_path or CACHE_PATH
     if cache_only is None:
-        cache_only = os.getenv("WEB_CACHE_ONLY") == "1"
-    key = " ".join(tokenize(query))
-    cache = _read_cache(cache_path)
-    entry = cache.get(key)
+        cache_only = cache_only_enabled()
+    provider_name = getattr(provider, "__name__", None) or os.getenv("WEB_PROVIDER", "")
+    key = _cache_key(query, n, provider_name, domains)
+    entry = _read_cache(cache_path).get(key)
     if entry and (cache_only or time.time() - entry["ts"] < TTL_SECONDS):
         return entry["resultados"][:n]
     if cache_only:
         return []
     raw_results = (provider or _pick_provider())(query, n * 2, domains)
     today = date.today().isoformat()
-    results = [
-        {
-            "fuente": r["title"] or r["url"],
-            "url": r["url"],
-            "texto": r["text"][:MAX_CHARS],
-            "tipo": "web",
-            "origen": "web",
-            "fecha_consulta": today,
-        }
-        for r in raw_results
-        if r.get("text") and _domain_allowed(r["url"], domains)
-    ][:n]
-    cache[key] = {"ts": time.time(), "resultados": results}
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
-    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    results = []
+    for r in raw_results:
+        text = _clean(r.get("text", ""))
+        if text and _domain_allowed(r["url"], domains):
+            results.append(
+                {
+                    "fuente": _clean(r.get("title", "")) or r["url"],
+                    "url": r["url"],
+                    "texto": text[:MAX_CHARS],
+                    "tipo": "web",
+                    "origen": "web",
+                    "fecha_consulta": today,
+                }
+            )
+    results = results[:n]
+    if results:
+        with _cache_lock:
+            cache = _read_cache(cache_path)
+            cache[key] = {"ts": time.time(), "resultados": results}
+            _write_cache(cache_path, cache)
     return results
