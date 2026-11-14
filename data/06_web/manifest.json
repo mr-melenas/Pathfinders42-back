@@ -187,6 +187,16 @@
         "marte_seco": "m1_v0/mapa_marte_seco.png",
         "volcanico_basaltico": "m1_v0/mapa_volcanico_basaltico.png"
       }
+    },
+    "hielo_lro": {
+      "version": "hielo_v1.1",
+      "carpeta": "hielo_v1.1",
+      "archivo": "hielo_v1.1/hielo_lro.json"
+    },
+    "usos": {
+      "version": "usos_v0",
+      "carpeta": "usos_v0",
+      "archivo": "usos_v0/usos.json"
     }
   }
 }

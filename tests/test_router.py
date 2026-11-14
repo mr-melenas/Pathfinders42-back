@@ -127,3 +127,113 @@ def test_sources_are_unique_and_sorted(client):
     sources = client.get("/api/v1/fuentes").json()
     assert [s["fuente"] for s in sources] == ["Fuente de prueba", "Otra fuente"]
     assert sources[1]["url"] == "https://example.org/b"
+
+
+# ---------------------------------------------------------------------------
+# ES: Endpoint de chat online y límites. EN: Online chat endpoint and limits.
+# ---------------------------------------------------------------------------
+from app.explanations.retrieval import Bm25Retriever  # noqa: E402
+
+
+class FakeLLM:
+    def __init__(self, outputs):
+        self.outputs, self.calls = list(outputs), []
+
+    def __call__(self, data, fragments, reminder=""):
+        self.calls.append((data, fragments, reminder))
+        return self.outputs.pop(0)
+
+
+@pytest.fixture
+def chat(client, monkeypatch):
+    monkeypatch.setenv("LLM_BASE_URL", "http://llm/v1")
+    monkeypatch.setattr(router_module, "get_retriever", lambda: Bm25Retriever(TextIndex(TEST_CORPUS)))
+    monkeypatch.setattr(router_module, "CHAT_RATE_LIMIT_PER_MIN", 100)
+    router_module._chat_requests.clear()
+    return client
+
+
+def _use_llm(monkeypatch, outputs):
+    llm = FakeLLM(outputs)
+    monkeypatch.setattr(router_module, "get_generator", lambda: llm)
+    return llm
+
+
+def test_ask_answers_with_validated_llm_text(chat, monkeypatch):
+    llm = _use_llm(monkeypatch, ["En Malapert la capa clima falla con una brecha de 121.7 °C [1]."])
+    body = {"pregunta": "¿Por qué falla el clima en gravedad?", "sitio_id": "artemis-malapert-massif"}
+    response = chat.post("/api/v1/preguntar", json=body)
+    assert response.status_code == 200
+    answer = response.json()
+    assert answer["texto_origen"] == "llm" and "121.7" in answer["respuesta"]
+    assert answer["fragmentos_usados"][0]["origen"] == "documentacion"
+    assert llm.calls[0][0]["pregunta"].startswith("¿Por qué falla")
+
+
+def test_ask_falls_back_to_template_when_llm_invents_figures(chat, monkeypatch):
+    _use_llm(monkeypatch, ["Falla por 999 °C.", "Falla por 888 °C."])
+    body = {"pregunta": "¿Por qué falla el clima?", "sitio_id": "artemis-malapert-massif"}
+    answer = chat.post("/api/v1/preguntar", json=body).json()
+    assert answer["texto_origen"] == "plantilla" and answer["respuesta"].startswith("Malapert Massif (luna)")
+    assert answer["fragmentos_usados"] == []
+
+
+def test_ask_without_site_and_unknown_site(chat, monkeypatch):
+    _use_llm(monkeypatch, ["Solo hablo de análogos."])
+    assert chat.post("/api/v1/preguntar", json={"pregunta": "hola qué tal"}).status_code == 200
+    unknown = chat.post("/api/v1/preguntar", json={"pregunta": "hola", "sitio_id": "no-existe"})
+    assert unknown.status_code == 404
+
+
+def test_ask_requires_llm_and_valid_body(chat, monkeypatch):
+    assert chat.post("/api/v1/preguntar", json={"pregunta": "a"}).status_code == 422
+    assert chat.post("/api/v1/preguntar", json={"pregunta": "x" * 501}).status_code == 422
+    monkeypatch.delenv("LLM_BASE_URL")
+    assert chat.post("/api/v1/preguntar", json={"pregunta": "hola"}).status_code == 503
+
+
+def test_ask_llm_error_is_502_and_web_failure_only_warns(chat, monkeypatch):
+    def broken(data, fragments, reminder=""):
+        raise httpx.ConnectError("llm caído")
+
+    monkeypatch.setattr(router_module, "get_generator", lambda: broken)
+    assert chat.post("/api/v1/preguntar", json={"pregunta": "hola"}).status_code == 502
+
+    _use_llm(monkeypatch, ["Respuesta sin cifras."])
+    from app.explanations import writer as writer_module
+
+    def down(query, n=3):
+        raise RuntimeError("Búsqueda web no configurada")
+
+    monkeypatch.setattr(writer_module, "search_web", down)
+    answer = chat.post("/api/v1/preguntar", json={"pregunta": "hola", "fuente": "web"}).json()
+    assert answer["texto_origen"] == "llm" and "aviso" in answer
+
+
+def test_ask_rate_limit_is_429(chat, monkeypatch):
+    _use_llm(monkeypatch, ["a"] * 5)
+    monkeypatch.setattr(router_module, "CHAT_RATE_LIMIT_PER_MIN", 2)
+    codes = [chat.post("/api/v1/preguntar", json={"pregunta": "hola"}).status_code for _ in range(3)]
+    assert codes == [200, 200, 429]
+
+
+def test_cache_only_web_search_is_not_rate_limited(client, monkeypatch):
+    monkeypatch.setattr(router_module, "WEB_RATE_LIMIT_PER_MIN", 1)
+    monkeypatch.setattr(router_module, "search_web", lambda query, n=3: [])
+    monkeypatch.setenv("WEB_CACHE_ONLY", "1")
+    codes = [
+        client.get("/api/v1/buscar", params={"q": "cuevas", "fuente": "web"}).status_code for _ in range(4)
+    ]
+    assert codes == [200] * 4
+
+
+def test_client_ip_uses_forwarded_header_only_when_trusted(monkeypatch):
+    class Req:
+        headers = {"x-forwarded-for": "1.2.3.4, 10.0.0.1"}
+
+        class client:
+            host = "10.0.0.1"
+
+    assert router_module._client_ip(Req) == "10.0.0.1"
+    monkeypatch.setattr(router_module, "TRUST_PROXY", True)
+    assert router_module._client_ip(Req) == "1.2.3.4"
