@@ -44,7 +44,9 @@ class HybridRetriever:
         # ES: filtra por sitio ANTES de rankear (los fragmentos generales se mantienen).
         # EN: filter by site BEFORE ranking (general fragments are kept).
         allowed = [
-            p for p, f in enumerate(self.index.fragments) if not site_id or f.get("sitio_id") in (None, site_id)
+            p
+            for p, f in enumerate(self.index.fragments)
+            if not site_id or f.get("sitio_id") in (None, site_id)
         ]
         if not allowed:
             return []

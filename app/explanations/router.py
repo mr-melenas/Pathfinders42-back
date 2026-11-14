@@ -27,7 +27,9 @@ router = APIRouter(tags=["explicaciones"])
 EXPLANATIONS_PATH = Path(os.getenv("RAG_EXPLANATIONS", "data/rag/explanations.json"))
 WEB_RATE_LIMIT_PER_MIN = int(os.getenv("WEB_RATE_LIMIT_PER_MIN", "10"))
 CHAT_RATE_LIMIT_PER_MIN = int(os.getenv("CHAT_RATE_LIMIT_PER_MIN", "10"))
-TRUST_PROXY = os.getenv("TRUST_PROXY") == "1"  # ES: detrás de Render/Railway/Cloudflare... / EN: behind a proxy
+TRUST_PROXY = (
+    os.getenv("TRUST_PROXY") == "1"
+)  # ES: detrás de Render/Railway/Cloudflare... / EN: behind a proxy
 
 _explanations: dict | None = None
 _web_requests: dict[str, deque] = defaultdict(deque)

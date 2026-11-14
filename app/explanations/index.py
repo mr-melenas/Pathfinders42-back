@@ -95,7 +95,7 @@ class TextIndex:
         """
         ES: Devuelve (posición, puntuación) de los k mejores fragmentos. `kind` filtra por "tipo";
         `site_id` excluye fragmentos de OTRO sitio concreto (los generales se mantienen).
-       
+
         """
         query_terms = tokenize(query)
         scored: list[tuple[int, float]] = []
@@ -120,7 +120,7 @@ class TextIndex:
     ) -> list[dict]:
         """
         ES: Igual que search_positions pero devuelve los fragmentos con su "puntuacion".
-       
+
         """
         return [
             {**self.fragments[pos], "puntuacion": round(score, 3)}
@@ -133,7 +133,7 @@ _index: TextIndex | None = None
 
 def get_index() -> TextIndex:
     """
-    ES: Índice compartido, cargado una sola vez. 
+    ES: Índice compartido, cargado una sola vez.
     """
     global _index
     if _index is None:

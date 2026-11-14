@@ -221,7 +221,9 @@ def test_cache_only_web_search_is_not_rate_limited(client, monkeypatch):
     monkeypatch.setattr(router_module, "WEB_RATE_LIMIT_PER_MIN", 1)
     monkeypatch.setattr(router_module, "search_web", lambda query, n=3: [])
     monkeypatch.setenv("WEB_CACHE_ONLY", "1")
-    codes = [client.get("/api/v1/buscar", params={"q": "cuevas", "fuente": "web"}).status_code for _ in range(4)]
+    codes = [
+        client.get("/api/v1/buscar", params={"q": "cuevas", "fuente": "web"}).status_code for _ in range(4)
+    ]
     assert codes == [200] * 4
 
 

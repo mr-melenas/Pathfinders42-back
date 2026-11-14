@@ -14,7 +14,9 @@ from pathlib import Path
 
 ROOT = Path("data/rag")
 CHUNK_SIZE, OVERLAP = 1200, 150  # characters (~300 tokens) / caracteres
-LIMIT = CHUNK_SIZE - OVERLAP - 2  # ES: el solape y el \n\n se suman a cada pieza / EN: overlap and \n\n are added
+LIMIT = (
+    CHUNK_SIZE - OVERLAP - 2
+)  # ES: el solape y el \n\n se suman a cada pieza / EN: overlap and \n\n are added
 
 
 def _split_long(paragraph: str) -> list[str]:
