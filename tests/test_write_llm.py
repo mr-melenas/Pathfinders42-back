@@ -3,6 +3,10 @@ ES: Pruebas de la lógica de redacción con un recuperador y un generador FALSOS
 EN: Tests for the writing logic with a FAKE retriever and generator (no GPU, no models).
 """
 
+import json
+
+import pytest
+
 from app.explanations import writer
 from app.explanations.generator import explain_record
 from scripts import write_with_llm as script
@@ -25,8 +29,11 @@ DATA = {"nombre": "Malapert Massif", "distancia": 0.229}
 
 
 class FakeRetriever:
+    def __init__(self):
+        self.site_ids = []
+
     def search(self, query, k=4, pool=20, site_id=None):
-        self.site_ids = getattr(self, 'site_ids', []) + [site_id]
+        self.site_ids.append(site_id)
         return [DOC_FRAGMENT]
 
 
@@ -85,7 +92,8 @@ def test_web_is_not_queried_without_flag(monkeypatch):
 def test_site_input_builds_data_query_and_template():
     explanation = explain_record(SAMPLE_RECORD)
     data, query, template = writer.site_input(explanation)
-    assert script.site_input is writer.site_input and set(data) == {"nombre", "cuerpo", "resumen", "donde_funciona", "donde_falla", "capas"}
+    assert script.site_input is writer.site_input
+    assert set(data) == {"nombre", "cuerpo", "resumen", "donde_funciona", "donde_falla", "capas"}
     assert "Askja, Islandia" in query and "Malapert Massif" in query
     assert template.startswith(explanation["resumen"]) and "brecha ts media: -121.7 °C" in template
 
@@ -107,11 +115,8 @@ def test_web_failure_is_strict_offline_and_degrades_online(monkeypatch):
         raise RuntimeError("no configurada")
 
     monkeypatch.setattr(writer, "search_web", down)
-    try:
+    with pytest.raises(RuntimeError):
         writer.write_explanation(DATA, "q", FakeRetriever(), FakeGenerator(["0.229"]), "P", use_web=True)
-        raise AssertionError("must raise")
-    except RuntimeError:
-        pass
     result = writer.write_explanation(
         DATA, "q", FakeRetriever(), FakeGenerator(["0.229"]), "P", use_web=True, strict_web=False
     )
@@ -129,7 +134,7 @@ def test_web_query_is_short_english_and_candidate_template_is_not_json():
 
 def test_chat_input_with_and_without_site():
     explanation = explain_record(SAMPLE_RECORD)
-    data, query, template, web_query = writer.chat_input("  ¿Por   qué falla el clima? ", explanation)
+    data, query, template, _web_query = writer.chat_input("  ¿Por   qué falla el clima? ", explanation)
     assert data["pregunta"] == "¿Por qué falla el clima?" and data["nombre"] == "Malapert Massif"
     assert "Malapert Massif" in query and template.startswith(explanation["resumen"])
     data, _, template, _ = writer.chat_input("hola")
@@ -144,12 +149,11 @@ def test_messages_use_chat_prompt_only_with_question():
 
 
 def test_script_saves_after_each_site_and_resumes(tmp_path, monkeypatch):
-    import json
-
     monkeypatch.chdir(tmp_path)
     (tmp_path / "data" / "rag").mkdir(parents=True)
     path = tmp_path / "data" / "rag" / "explanations.json"
-    path.write_text(json.dumps({"a": explain_record(SAMPLE_RECORD), "b": explain_record(SAMPLE_RECORD)}), "utf-8")
+    record = explain_record(SAMPLE_RECORD)
+    path.write_text(json.dumps({"a": record, "b": record}), encoding="utf-8")
 
     class Boom:
         calls = 0
@@ -160,11 +164,9 @@ def test_script_saves_after_each_site_and_resumes(tmp_path, monkeypatch):
                 raise KeyboardInterrupt  # simulates the process dying at site "b"
             return "Distancia 0.229."
 
-    try:
+    with pytest.raises(KeyboardInterrupt):
         script.main([], retriever=FakeRetriever(), generator=Boom())
-    except KeyboardInterrupt:
-        pass
-    saved = json.loads(path.read_text("utf-8"))
+    saved = json.loads(path.read_text(encoding="utf-8"))
     assert saved["a"]["texto_origen"] in ("llm", "plantilla") and "texto_origen" not in saved["b"]
     script.main(["--resume"], retriever=FakeRetriever(), generator=FakeGenerator(["Distancia 0.229."]))
-    assert "texto_origen" in json.loads(path.read_text("utf-8"))["b"]
+    assert "texto_origen" in json.loads(path.read_text(encoding="utf-8"))["b"]
