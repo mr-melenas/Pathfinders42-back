@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
+    from app.analogos import DatosAnalogos
     from app.hielo import DatosHielo
     from app.m1 import ResultadosM1
     from app.sitios import IndiceSitios
@@ -66,6 +67,12 @@ class Datos:
         from app.hielo import DatosHielo
 
         return DatosHielo(self)
+
+    @cached_property
+    def analogos(self) -> "DatosAnalogos":
+        from app.analogos import DatosAnalogos
+
+        return DatosAnalogos(self)
 
     @cached_property
     def usos(self) -> "DatosUsos":

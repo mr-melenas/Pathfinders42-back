@@ -197,6 +197,11 @@
       "version": "usos_v0",
       "carpeta": "usos_v0",
       "archivo": "usos_v0/usos.json"
+    },
+    "analogos": {
+      "version": "analogos_v0",
+      "carpeta": "analogos_v0",
+      "archivo": "analogos_v0/analogos.json"
     }
   }
 }

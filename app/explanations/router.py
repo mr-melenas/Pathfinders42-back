@@ -20,7 +20,7 @@ from .index import get_index
 from .llm import ApiGenerator, llm_configured
 from .retrieval import get_retriever
 from .web import cache_only_enabled, search_web
-from .writer import MAX_QUESTION_CHARS, chat_input, write_explanation
+from .writer import MAX_QUESTION_CHARS, analog_input, chat_input, write_explanation
 
 router = APIRouter(tags=["explicaciones"])
 
@@ -123,6 +123,10 @@ def search(
 class Question(BaseModel):
     pregunta: str = Field(..., min_length=2, max_length=MAX_QUESTION_CHARS)
     sitio_id: str | None = None
+    tierra_id: str | None = Field(
+        default=None,
+        description="Con sitio_id: lugar de la Tierra del análogo (GET /analogos/{sitio_id}) del que se pregunta",
+    )
     fuente: Literal["documentacion", "web", "ambas"] = "documentacion"
 
 
@@ -131,6 +135,27 @@ def get_generator():
     ES: Generador del LLM (se sustituye en las pruebas). EN: LLM generator (replaced in tests).
     """
     return ApiGenerator()
+
+
+def _analog(site_id: str | None, earth_id: str) -> dict:
+    """
+    ES: Ficha del análogo (capa analogos) con los límites de la Tierra de su cuerpo.
+    EN: Analog record (analogos layer) with the Earth limits of its body.
+    """
+    from app.dependencias import obtener_datos
+
+    if not site_id:
+        raise HTTPException(422, "tierra_id necesita sitio_id.")
+    analogs = obtener_datos().analogos
+    site, record = analogs.sitio(site_id), analogs.ficha(site_id, earth_id)
+    if site is None or record is None:
+        raise HTTPException(404, f"{earth_id} no es pareja de {site_id}.")
+    return {
+        **record,
+        "sitio_nombre": site["nombre"],
+        "cuerpo": site["cuerpo"],
+        "limites_tierra": analogs.limites(site["cuerpo"]),
+    }
 
 
 @router.post("/preguntar")
@@ -148,12 +173,15 @@ def ask(body: Question, request: Request) -> dict:
     use_web = body.fuente in ("web", "ambas")
     if use_web and not cache_only_enabled():
         _limit_web_rate(ip)
-    explanation = None
-    if body.sitio_id:
-        explanation = _load_explanations().get(body.sitio_id)
-        if explanation is None:
-            raise HTTPException(404, f"Sin explicación para el sitio '{body.sitio_id}'.")
-    data, query, template, web_query = chat_input(body.pregunta, explanation)
+    if body.tierra_id:
+        data, query, template, web_query = analog_input(body.pregunta, _analog(body.sitio_id, body.tierra_id))
+    else:
+        explanation = None
+        if body.sitio_id:
+            explanation = _load_explanations().get(body.sitio_id)
+            if explanation is None:
+                raise HTTPException(404, f"Sin explicación para el sitio '{body.sitio_id}'.")
+        data, query, template, web_query = chat_input(body.pregunta, explanation)
     try:
         result = write_explanation(
             data,
