@@ -1,0 +1,40 @@
+{
+  "fecha_ejecucion": "2026-10-19T14:20:55",
+  "version": "v1.1",
+  "datos": "clima_merra2_2014_2023.nc (MERRA-2 2014-2023)",
+  "zonas": {
+    "marte_polar": "|lat| >= 60 y T_calido < 10 °C (Köppen polar)",
+    "marte_altura": "|lat| < 60 y elevación >= 2500 m",
+    "marte_arido": "|lat| < 60 y elevación < 2500 m"
+  },
+  "perfiles": {
+    "marte_polar": {
+      "frio": 0.45,
+      "verano_frio": 0.2,
+      "seco": 0.35
+    },
+    "marte_altura": {
+      "frio": 0.3,
+      "seco": 0.4,
+      "presion": 0.3
+    },
+    "marte_arido": {
+      "seco": 0.8,
+      "amplitud": 0.2
+    }
+  },
+  "componentes": {
+    "frio": "T_media invertida",
+    "verano_frio": "T_calido invertida",
+    "seco": "log1p(P_anual) invertida",
+    "presion": "presion_aprox invertida",
+    "amplitud": "T_calido - T_frio"
+  },
+  "normalizacion": "componentes p1-p99 sobre tierra sin hielo; percentil calculado dentro de cada zona",
+  "seleccion": "regiones = píxeles >= p95 contiguos (8 vecinos), mínimo 2 píxeles; top 10 por percentil máximo y área",
+  "analogo_conocido": "análogo del catálogo a <= 100 km de algún píxel de la región",
+  "geocodificacion": "OSM Nominatim (timeout 10 s) solo del mejor píxel de cada región; nombres no latinos -> país",
+  "descartado": "límite por país: excluía análogos válidos (Axel Heiberg) y no diversificaba el Sahara",
+  "limitaciones": "no une regiones que cruzan el meridiano 180°",
+  "pendiente": "perfil Luna (requiere capa geológica)"
+}

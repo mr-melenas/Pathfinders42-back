@@ -92,3 +92,5 @@ docker build -t pathfinders42-api . && docker run -p 8000:8000 pathfinders42-api
 ## Datos y licencias
 
 Ver [`SOURCES.md`](SOURCES.md) y [`data/README.md`](data/README.md). Código bajo licencia MIT.
+
+De dónde sale cada dato (notebooks de Colab, resultados y registros de cada ejecución): [`pipeline/README.md`](pipeline/README.md).

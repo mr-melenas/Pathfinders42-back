@@ -1,0 +1,10 @@
+umbral_pct,perfil,n_regiones,area_total_km2,analogos_capturados
+90.0,marte_polar,12,185800,Isla Axel Heiberg
+90.0,marte_altura,2,453500,—
+90.0,marte_arido,15,11974800,"Desierto de Atacama, núcleo hiperárido, Lop Nur"
+95.0,marte_polar,8,85800,—
+95.0,marte_altura,2,223100,—
+95.0,marte_arido,8,6123400,"Desierto de Atacama, núcleo hiperárido, Lop Nur"
+97.5,marte_polar,2,41300,—
+97.5,marte_altura,2,116200,—
+97.5,marte_arido,12,3108600,"Desierto de Atacama, núcleo hiperárido"

@@ -1,0 +1,39 @@
+{
+  "version": "hielo_v0",
+  "fecha": "2026-10-29T15:38+00:00",
+  "fuentes": {
+    "permafrost_nh": "https://store.pangaea.de/Publications/ObuJ-etal_2018/UiO_PEX_PERPROB_5.0_20181128_2000_2016_NH.zip",
+    "permafrost_ant": "https://store.pangaea.de/Publications/ObuJ-etal_2019/UiO_PEX_PERPROB_5.0_20181205_2000_2017_ANT.zip",
+    "swim": "https://swim.psi.edu/SWIM4MIMProducts.php",
+    "swim_capas": [
+      "0_1",
+      "1_5"
+    ],
+    "comnap": "https://raw.githubusercontent.com/PolarGeospatialCenter/comnap-antarctic-facilities/master/dist/csv/COMNAP_Antarctic_Facilities_Master.csv",
+    "luna": "Diviner PRP (clima_v1)"
+  },
+  "parametros": {
+    "umbral_ci_swim": 0.2,
+    "ts_sin_permafrost": 3.0,
+    "radio_marte_km": 25,
+    "radio_analogo_km": 10,
+    "lat_hielo_marte": 60,
+    "umbral_hielo": 0.25,
+    "umbral_topo": 0.2
+  },
+  "metricas": {
+    "luna_sitios_con_hielo": 11,
+    "marte_sitios_con_hielo": 24,
+    "luna_analogo_hielo_terreno": 3,
+    "marte_analogo_hielo_terreno": 13,
+    "regiones_tierra_con_permafrost": 17,
+    "regiones_tierra_sin_dato": 0
+  },
+  "limitaciones": [
+    "en la Luna el hielo es de un modelo térmico (PRP), no una detección directa",
+    "en Marte, por encima de 60° se supone hielo sin medirlo con SWIM",
+    "el permafrost de la Tierra es de suelo helado, no de hielo puro; la Antártida solo cubre zonas sin hielo",
+    "los Andes y otras montañas del hemisferio sur no están en los mapas de permafrost",
+    "COMNAP solo cubre la Antártida: no hay bases para el Ártico"
+  ]
+}

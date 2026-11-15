@@ -1,0 +1,37 @@
+{
+  "version": "cuevas_v1",
+  "fecha": "2026-10-29T20:43+00:00",
+  "fuentes": {
+    "luna_pozos": "https://pds.lroc.im-ldi.com/data/LRO-L-LROC-5-RDR-V1.0/LROLRC_2001/EXTRAS/SHAPEFILE/LUNAR_PIT_LOCATIONS/LUNAR_PIT_LOCATIONS.CSV",
+    "marte_cuevas": "https://astrogeology.usgs.gov/ckan/dataset/c2960f77-ee20-4cc6-ac85-abbecc0fc7f6/resource/ccd54fb2-9a50-46bf-8971-80c241bb2f40/download/mars_cave_catalog.zip",
+    "marte_archivo": "Mars_Cave_Catalog_shapefile.csv",
+    "tierra": "OpenStreetMap natural=cave_entrance (Overpass) + GLiM + cuevas documentadas"
+  },
+  "parametros": {
+    "radio_cueva_km": {
+      "luna": 50,
+      "marte": 50
+    },
+    "margen_tierra_km": 25,
+    "radio_analogo_km": 10,
+    "umbral_topo": 0.2,
+    "columna_tipo_marte": "TypeCode:string"
+  },
+  "metricas": {
+    "pozos_luna": 278,
+    "candidatos_marte": 1062,
+    "luna_sitios_con_cueva": 2,
+    "marte_sitios_con_cueva": 0,
+    "luna_analogo_cueva_terreno": 2,
+    "marte_analogo_cueva_terreno": 0,
+    "regiones_tierra_con_tubo_lava": 17,
+    "regiones_tierra_con_cueva": 6,
+    "regiones_tierra_sin_dato": 0
+  },
+  "limitaciones": [
+    "un pozo o candidato no confirma una cueva: muchos pueden ser huecos poco profundos",
+    "la clase tubo_lava/cueva se deduce del terreno (Luna) o del tipo del catálogo (Marte)",
+    "OpenStreetMap cubre de forma desigual: una región sin cuevas puede estar sin mapear",
+    "la distancia de cuevas es categórica (0 / 0,5 / 1); no compara tamaño ni profundidad"
+  ]
+}

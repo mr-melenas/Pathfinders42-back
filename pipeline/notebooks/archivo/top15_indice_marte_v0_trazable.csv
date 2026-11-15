@@ -1,0 +1,16 @@
+lat,lon,indice,T_media,P_anual,elevacion,region_geocodificada,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2
+37.0,86.25,0.65,-6.199999809265137,30.7,4736.0,"Sinkiang, China",Lop Nur (cuenca del Tarim),548,No,,
+-22.0,-68.12,0.65,4.800000190734863,16.3,4302.0,"Región de Antofagasta, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",303,No,,
+39.0,93.12,0.61,2.5,27.7,2966.0,"Qinghai, China",Cuenca de Qaidam occidental (Lenghu),37,Sí,https://doi.org/10.1002/2017JE005293,
+82.0,-69.38,0.6,-16.200000762939453,105.6,590.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),476,No,,
+80.0,-82.5,0.59,-15.699999809265137,106.5,221.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),177,Sí,https://doi.org/10.3389/fmicb.2017.02527,https://astrobiology.com/2009/03/27/a-skype-chat-and-tour-with-astrobiologist-dale-andersen-on-axel-heiberg-island/
+81.5,-56.88,0.59,-16.799999237060547,119.5,582.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),655,No,,
+80.0,-88.75,0.58,-15.199999809265137,117.9,328.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),77,Sí,https://doi.org/10.3389/fmicb.2017.02527,https://astrobiology.com/2009/03/27/a-skype-chat-and-tour-with-astrobiologist-dale-andersen-on-axel-heiberg-island/
+81.5,-73.75,0.57,-17.799999237060547,146.0,840.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),388,No,,
+35.5,81.25,0.57,-10.0,89.9,5437.0,"Sinkiang, China","Tso Kar, Ladakh (ISRO HOPE)",386,No,,
+80.5,-61.25,0.57,-16.399999618530273,137.6,486.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),578,No,,
+81.5,-52.5,0.57,-16.100000381469727,139.8,618.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),727,No,,
+-26.0,-70.0,0.57,17.899999618530273,13.3,1306.0,"Región de Atacama, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",211,Sí,https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/,
+24.0,26.25,0.55,19.700000762939453,10.3,796.0,"Nuevo Valle, Egipto",Río Tinto (MARTE),3458,No,,
+41.5,90.0,0.55,10.399999618530273,30.0,1271.0,"Sinkiang, China",Lop Nur (cuenca del Tarim),136,Pendiente,https://doi.org/10.1029/2018JE005719,https://science.nasa.gov/earth/earth-observatory/lop-nur-xinjiang-china-51039/
+37.5,74.38,0.55,-4.599999904632568,79.6,4473.0,"Provincia de Alto Badajshán, Tayikistán","Tso Kar, Ladakh (ISRO HOPE)",571,No,,

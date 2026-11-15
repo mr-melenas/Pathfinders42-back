@@ -1,0 +1,42 @@
+{
+  "version": "clima_v0",
+  "fecha": "2026-10-26T23:36:02",
+  "datos": {
+    "tierra": "NASA MERRA-2 2014–2023: clima de EDA_analogos_v1.3 (M2TMNXSLV, M2TMNXFLX) y M2SMNXSLV (T2MMAX, T2MMIN)",
+    "marte": "MACDA v2.0 (reanálisis MGS/TES y MRO/MCS; Valeanu, Rajendran, Montabone, Read et al.) en ARCO-Mars, Hugging Face: hf://datasets/ananyo01/ARCO-MACDA/macda_combined.zarr"
+  },
+  "parametros": {
+    "anios": [
+      2014,
+      2023
+    ],
+    "gradiente_k_km": 6.5,
+    "anios_marte": [
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "medidas_comparacion": [
+      "t_media",
+      "t_min",
+      "amplitud_anual",
+      "osc_diaria"
+    ],
+    "umbral_parecido": 0.2
+  },
+  "progreso": {
+    "merra2_meses_faltan": 0,
+    "macda_trozos_faltan": 0
+  },
+  "limitaciones": [
+    "MERRA-2 a ~50 km: un análogo pequeño (un valle, un cráter) recibe el clima de toda la celda, corregido solo por altitud",
+    "la comparación es relativa (percentiles): Marte es mucho más frío que cualquier lugar de la Tierra",
+    "Marte: temperatura de la superficie (MACDA no da la del aire a 2 m) frente a la del aire a 2 m en la Tierra; por eso se comparan percentiles",
+    "Marte en celdas de 5° (unos 300 km): un cráter o un valle recibe el clima de toda la celda",
+    "muestreo cada 2 horas: la máxima y la mínima diarias pueden quedarse algo cortas",
+    "la Mars Climate Database no respondió desde Colab el 26-10-2026; se sustituyó por MACDA",
+    "la Luna no tiene clima: no se compara"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "geologia_v0",
+  "fecha": "2026-10-29T15:43Z",
+  "fuentes": {
+    "luna_mapa": "https://asc-astropedia.s3.us-west-2.amazonaws.com/Moon/Geology/Unified_Geologic_Map_of_the_Moon_GIS_v2.zip",
+    "marte_mapa": "marte_sim3292.gpkg",
+    "marte_trek": "https://trek.nasa.gov/mars/arcgis/rest/services/SIM3292_Global_Geology/MapServer",
+    "marte_pygeoapi": "https://astrogeology.usgs.gov/pygeoapi/collections/mars/sim3292_global_geologic_map/units/items",
+    "luna_quimica": "https://pds-geosciences.wustl.edu/lunar/lp-l-grs-5-elem-abundance-v1/lp_9001/data/lpgrs_high1_elem_abundance_2deg.tab",
+    "marte_quimica": "https://pds-geosciences.wustl.edu/ody/ody-m-grs-5-elements-v1/odgm_xxxx/data/smoothed/",
+    "cloruros": "https://data.caltech.edu/records/kasms-vp209/files/Leask_and_Ehlmann_2021_2010_osterloo_chl_pts_w_tanaka_2014_age.csv?download=1",
+    "tierra": "/content/drive/MyDrive/Hackathon Nasa/03_datos/procesados/glim_005.nc"
+  },
+  "parametros": {
+    "radio_luna_km": 10,
+    "radio_marte_km": 25,
+    "radio_analogo_km": 10,
+    "puntos_por_radio": 15,
+    "umbral_topo": 0.2,
+    "umbral_geo": 0.4,
+    "feo_tierras_altas": 6.0,
+    "feo_mare": 14.0
+  },
+  "metricas": {
+    "sitios": 97,
+    "luna_completos": "14/38",
+    "marte_completos": "15/59",
+    "luna_solo_topografia": "25/38",
+    "marte_solo_topografia": "59/59",
+    "analogos_conocidos_con_sitio_completo": "6/15",
+    "unidades_sin_clase": {
+      "luna": [],
+      "marte": []
+    }
+  },
+  "limitaciones": [
+    "mapas a escala 1:5 M (Luna) y 1:20 M (Marte): unidades de decenas de km",
+    "la traducción unidad → clase común → GLiM es una decisión del equipo (tablas editables)",
+    "en la Luna la química es de píxeles de ~60 km",
+    "GLiM no distingue la anortosita como clase propia (va en plutónicas básicas)"
+  ]
+}
