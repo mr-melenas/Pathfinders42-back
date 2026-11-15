@@ -21,6 +21,10 @@ class Ajustes:
             os.getenv("CORS_ORIGINS", "http://localhost:5173,http://localhost:3000")
         )
     )
+    # Expresión regular para orígenes que cambian en cada despliegue (las URL de Preview de Vercel)
+    cors_origin_regex: str | None = field(
+        default_factory=lambda: os.getenv("CORS_ORIGIN_REGEX", "").strip() or None
+    )
 
 
 def ajustes() -> Ajustes:
