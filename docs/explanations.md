@@ -1,10 +1,10 @@
 # Explicaciones internas · Internal explanations (RAG)
  
 **ES:** Módulo interno para explicar por qué un lugar de la Tierra es (o no) análogo de un sitio de la
-Luna o Marte. Reparto: las capas de datos (y M1, LightGBM con aprendizaje PU + SHAP) deciden y puntúan; el LLM solo redacta; la API solo sirve
-resultados precalculados. **EN:** Internal module that explains why an Earth location is (or is not) an
+Luna o Marte. Reparto: las capas de datos (y M1, LightGBM con aprendizaje PU + SHAP) deciden y puntúan; el LLM solo redacta; la
+recuperación busca únicamente en la documentación local. **EN:** Internal module that explains why an Earth location is (or is not) an
 analog of a Moon/Mars site. Split: the data layers (and M1, LightGBM with PU learning + SHAP) decide and score; the LLM only writes;
-the API only serves precomputed results.
+retrieval searches only the local documentation.
  
 ## Convenciones · Conventions
 - **ES:** Identificadores de Python (variables, funciones, clases, módulos) en inglés. Rutas de la API,
@@ -21,9 +21,9 @@ the API only serves precomputed results.
 2. `python scripts/build_corpus.py` → `data/rag/corpus.jsonl`
 3. **ES:** Con la API local levantada: `python scripts/generate_explanations.py` → `data/rag/explanations.json`.
    **EN:** With the local API running: `python scripts/generate_explanations.py` → `data/rag/explanations.json`.
-4. **ES:** En Colab: `pip install -r requirements-offline.txt` y `python scripts/write_with_llm.py [--web]`
+4. **ES:** En Colab: `pip install -r requirements-offline.txt` y `python scripts/write_with_llm.py`
    (añade `texto_llm`, `texto_origen` y `fragmentos_usados`). Para candidatos de M1: `--candidates m1.json`.
-   **EN:** In Colab: `pip install -r requirements-offline.txt` and `python scripts/write_with_llm.py [--web]`
+   **EN:** In Colab: `pip install -r requirements-offline.txt` and `python scripts/write_with_llm.py`
    (adds `texto_llm`, `texto_origen` and `fragmentos_usados`). For M1 candidates: `--candidates m1.json`.
 5. **ES:** Versionar `data/rag/` en el repo back. **EN:** Commit `data/rag/` to the back repo.
 ## Integración · Integration (`feat/explicaciones` from `dev`)
@@ -32,7 +32,9 @@ from app.explanations.router import router as explanations_router
 
 app.include_router(explanations_router, prefix="/api/v1")
 ```
-Endpoints: `GET /explicaciones/{sitio_id}`, `GET /buscar?q=&fuente=documentacion|web|ambas`, `GET /fuentes`.
+Endpoints: `GET /explicaciones/{sitio_id}`, `GET /buscar?q=&fuente=documentacion`, `POST /preguntar` y `GET /fuentes`.
+`/buscar` y `/preguntar` solo recuperan fragmentos de `data/rag/corpus.jsonl`; no hay proveedores, caché ni consultas a Internet.
+**EN:** `/buscar` and `/preguntar` retrieve only fragments from `data/rag/corpus.jsonl`; there are no providers, cache, or Internet queries.
 Tests: `pytest tests/`.
  
 ## Recuperación y validación · Retrieval and validation
@@ -48,14 +50,4 @@ las capas que funcionan y fallan con ESE lugar) y `texto_usos`. El LLM recibe `p
 regla del prompt le impide decir que un lugar falla en una capa si `por_uso` dice que funciona (en `capas`
 cada capa muestra su propia mejor pareja, que puede ser otro lugar). Los fragmentos de una misma fuente se
 unen en uno antes de llamar al LLM (`merge_by_source`): no se repiten fuentes y las citas [n] cuadran.
-Otra regla: no atribuir a la Luna ni a Marte procesos de la Tierra (glaciares, ríos, vegetación…).
-
-## Internet · Web search
-- **ES:** `WEB_PROVIDER` (`tavily` | `brave`) y su clave (`TAVILY_API_KEY` / `BRAVE_API_KEY`); `WEB_DOMAINS`
-  (por defecto nasa.gov, esa.int, usgs.gov, jaxa.jp, lpi.usra.edu, arxiv.org, doi.org); `WEB_RATE_LIMIT_PER_MIN`.
-  Caché en `data/rag/web_cache.json`: versionadla y desplegad con `WEB_CACHE_ONLY=1` para que la demo no dependa
-  de internet. Los adaptadores NO se han probado con red real.
-- **EN:** `WEB_PROVIDER` (`tavily` | `brave`) and its key (`TAVILY_API_KEY` / `BRAVE_API_KEY`); `WEB_DOMAINS`
-  (default nasa.gov, esa.int, usgs.gov, jaxa.jp, lpi.usra.edu, arxiv.org, doi.org); `WEB_RATE_LIMIT_PER_MIN`.
-  Cache in `data/rag/web_cache.json`: commit it and deploy with `WEB_CACHE_ONLY=1` so the demo does not depend
-  on the internet. The adapters have NOT been tested against the real network.
+Además, no atribuir a la Luna ni a Marte procesos de la Tierra (glaciares, ríos, vegetación…).

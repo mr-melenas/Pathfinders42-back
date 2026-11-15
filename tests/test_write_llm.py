@@ -18,13 +18,6 @@ DOC_FRAGMENT = {
     "texto": "Lofoten es análogo verificado.",
     "tipo": "ficha",
 }
-WEB_FRAGMENT = {
-    "fuente": "NASA (prueba)",
-    "url": "https://www.nasa.gov/x",
-    "texto": "El estudio midió 42 grados.",
-    "tipo": "web",
-    "origen": "web",
-}
 DATA = {"nombre": "Malapert Massif", "distancia": 0.229}
 
 
@@ -87,24 +80,6 @@ def test_two_invalid_attempts_fall_back_to_template():
     assert generator.outputs == []  # exactly two attempts / exactamente dos intentos
 
 
-def test_web_fragments_are_added_and_count_as_valid_input(monkeypatch):
-    monkeypatch.setattr(writer, "search_web", lambda query, n=3: [WEB_FRAGMENT])
-    generator = FakeGenerator(["El estudio midió 42 grados [2]."])  # 42 only exists in the web fragment
-    result = writer.write_explanation(DATA, "q", FakeRetriever(), generator, "PLANTILLA", use_web=True)
-    assert result["texto_origen"] == "llm"
-    assert [f["origen"] for f in result["fragmentos_usados"]] == ["documentacion", "web"]
-    assert generator.fragments[0][-1] is WEB_FRAGMENT
-
-
-def test_web_is_not_queried_without_flag(monkeypatch):
-    def boom(*args, **kwargs):
-        raise AssertionError("web must not be queried / no se debe consultar la web")
-
-    monkeypatch.setattr(writer, "search_web", boom)
-    generator = FakeGenerator(["Distancia 0.229."])
-    assert writer.write_explanation(DATA, "q", FakeRetriever(), generator, "P")["texto_origen"] == "llm"
-
-
 def test_site_input_builds_data_query_and_template():
     explanation = explain_record(SAMPLE_RECORD)
     data, query, template = writer.site_input(explanation)
@@ -126,23 +101,7 @@ def test_site_id_reaches_retriever():
     assert retriever.site_ids == ["s1"]
 
 
-def test_web_failure_is_strict_offline_and_degrades_online(monkeypatch):
-    def down(query, n=3):
-        raise RuntimeError("no configurada")
-
-    monkeypatch.setattr(writer, "search_web", down)
-    with pytest.raises(RuntimeError):
-        writer.write_explanation(DATA, "q", FakeRetriever(), FakeGenerator(["0.229"]), "P", use_web=True)
-    result = writer.write_explanation(
-        DATA, "q", FakeRetriever(), FakeGenerator(["0.229"]), "P", use_web=True, strict_web=False
-    )
-    assert result["texto_origen"] == "llm" and "aviso" in result
-
-
-def test_web_query_is_short_english_and_candidate_template_is_not_json():
-    explanation = explain_record(SAMPLE_RECORD)
-    query = writer.web_query_for(explanation)
-    assert query.startswith("Malapert Massif Moon analog") and len(query) <= 200
+def test_candidate_template_is_not_json():
     assert writer.candidate_template("k", {"nombre": "X", "shap": [1, 2]}) == (
         "X: candidato a análogo; sin redacción automática disponible."
     )
@@ -150,10 +109,10 @@ def test_web_query_is_short_english_and_candidate_template_is_not_json():
 
 def test_chat_input_with_and_without_site():
     explanation = explain_record(SAMPLE_RECORD)
-    data, query, template, _web_query = writer.chat_input("  ¿Por   qué falla el clima? ", explanation)
+    data, query, template = writer.chat_input("  ¿Por   qué falla el clima? ", explanation)
     assert data["pregunta"] == "¿Por qué falla el clima?" and data["nombre"] == "Malapert Massif"
     assert "Malapert Massif" in query and template.startswith(explanation["resumen"])
-    data, _, template, _ = writer.chat_input("hola")
+    data, _, template = writer.chat_input("hola")
     assert data == {"pregunta": "hola"} and "/buscar" in template
 
 

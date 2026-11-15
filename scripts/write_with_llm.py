@@ -4,10 +4,9 @@ propia); el servidor solo sirve el resultado. Recuperación -> LLM -> validador 
 falla dos veces se usa la plantilla determinista. Guarda tras cada sitio y puede reanudarse.
 Uso:
   export LLM_BASE_URL=https://.../v1 LLM_API_KEY=... MODEL_LLM=Qwen/Qwen3-8B
-  python scripts/write_with_llm.py [--web] [--resume] [--retriever bm25|hybrid]
+  python scripts/write_with_llm.py [--resume] [--retriever bm25|hybrid]
   python scripts/write_with_llm.py --candidates m1.json     # candidatos de M1 (dict id -> objeto con SHAP)
   python scripts/write_with_llm.py --backend local          # modelo local con transformers (necesita GPU)
-Web: con --web usa la caché (data/rag/web_cache.json); versionadla y desplegad con WEB_CACHE_ONLY=1.
 
 
 """
@@ -27,7 +26,6 @@ from app.explanations.writer import (  # noqa: E402,F401  (re-exported for tests
     build_messages,
     candidate_template,
     site_input,
-    web_query_for,
     write_explanation,
 )
 
@@ -70,7 +68,6 @@ class LocalGenerator:
 
 def main(argv: list[str] | None = None, retriever=None, generator=None) -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--web", action="store_true", help="añade resultados de internet / adds web results")
     parser.add_argument("--candidates", help="JSON {id: objeto} de M1 / M1 candidates JSON")
     parser.add_argument(
         "--resume", action="store_true", help="salta lo ya redactado / skip what is already written"
@@ -85,31 +82,24 @@ def main(argv: list[str] | None = None, retriever=None, generator=None) -> None:
         source = json.loads(Path(args.candidates).read_text(encoding="utf-8"))
         output_path = Path("data/rag/explained_candidates.json")
         items = {
-            key: (
-                obj,
-                f"{obj.get('nombre', key)} candidato análogo límites",
-                candidate_template(key, obj),
-                None,
-            )
+            key: (obj, f"{obj.get('nombre', key)} candidato análogo límites", candidate_template(key, obj))
             for key, obj in source.items()
         }
     else:
         output_path = Path("data/rag/explanations.json")
         source = json.loads(output_path.read_text(encoding="utf-8"))
-        items = {key: (*site_input(obj), web_query_for(obj)) for key, obj in source.items()}
+        items = {key: site_input(obj) for key, obj in source.items()}
     if args.resume and output_path.exists():  # ES: continuar donde se quedó / EN: continue where it stopped
         previous = json.loads(output_path.read_text(encoding="utf-8"))
         for key in source:
             if "texto_origen" in previous.get(key, {}):
                 source[key] = previous[key]
 
-    for number, (key, (data, query, template, web_query)) in enumerate(items.items(), 1):
+    for number, (key, (data, query, template)) in enumerate(items.items(), 1):
         if args.resume and "texto_origen" in source[key]:
             print(f"[{number}/{len(items)}] {key}: ya redactado / already written")
             continue
-        source[key].update(
-            write_explanation(data, query, retriever, generator, template, args.web, web_query=web_query)
-        )
+        source[key].update(write_explanation(data, query, retriever, generator, template))
         # ES: guardado atómico tras CADA sitio / EN: atomic save after EVERY site
         tmp = output_path.with_suffix(".tmp")
         tmp.write_text(json.dumps(source, ensure_ascii=False, indent=1), encoding="utf-8")
