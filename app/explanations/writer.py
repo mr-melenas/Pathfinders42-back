@@ -87,9 +87,10 @@ def write_explanation(
     reminder = ""
     for _ in range(2):  # one retry / un reintento
         text = generator(data, fragments, reminder)
+        empty = not (text or "").strip()  # p. ej., un modelo que razona y agota max_tokens antes de responder
         bad_figures = invalid_figures(text, data, [f["texto"] for f in fragments])
         bad_citations = invalid_citations(text, len(fragments))
-        if not bad_figures and not bad_citations:
+        if not empty and not bad_figures and not bad_citations:
             result = {
                 "texto_llm": text,
                 "texto_origen": "llm",
@@ -100,6 +101,8 @@ def write_explanation(
             }
             return {**result, "aviso": warning} if warning else result
         problems = []
+        if empty:
+            problems.append("respondió vacío; responde directamente, sin razonar en voz alta")
         if bad_figures:
             problems.append(f"usó cifras que no están en los datos ({bad_figures}); usa solo las de DATOS")
         if bad_citations:
