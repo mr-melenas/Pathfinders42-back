@@ -61,7 +61,7 @@ def test_chat_completion_uses_default_model(monkeypatch):
     monkeypatch.setenv("LLM_DISABLE_THINKING", "0")
 
     assert llm.chat_completion([]) == "Hola."
-    assert sent["body"]["model"] == "gemma4:e2b"
+    assert sent["body"]["model"] == "gemma4:31b"
 
 
 def test_chat_completion_max_tokens_and_reasoning(monkeypatch):
