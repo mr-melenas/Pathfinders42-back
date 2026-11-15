@@ -64,6 +64,13 @@ def test_invented_figure_triggers_one_retry_then_accepts_valid_text():
     assert generator.reminders[0] == "" and "0.5" in generator.reminders[1]
 
 
+def test_empty_answer_is_retried_then_falls_back_to_template():
+    generator = FakeGenerator(["", "   "])
+    result = writer.write_explanation(DATA, "q", FakeRetriever(), generator, "PLANTILLA")
+    assert result["texto_origen"] == "plantilla" and result["texto_llm"] == "PLANTILLA"
+    assert "vacío" in generator.reminders[1]
+
+
 def test_two_invalid_attempts_fall_back_to_template():
     generator = FakeGenerator(["Vale 0.5.", "Vale 0.7."])
     result = writer.write_explanation(DATA, "q", FakeRetriever(), generator, "PLANTILLA")

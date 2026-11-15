@@ -64,6 +64,25 @@ def test_chat_completion_uses_default_model(monkeypatch):
     assert sent["body"]["model"] == "gemma4:31b"
 
 
+def test_chat_completion_max_tokens_and_reasoning(monkeypatch):
+    sent = {}
+
+    def fake_post(url, headers, json, timeout):
+        sent.update(body=json)
+        return Resp("Hola.")
+
+    monkeypatch.setattr(llm.httpx, "post", fake_post)
+    monkeypatch.setenv("LLM_BASE_URL", "https://host/v1")
+    monkeypatch.delenv("LLM_MAX_TOKENS", raising=False)
+    monkeypatch.delenv("LLM_REASONING_EFFORT", raising=False)
+    llm.chat_completion([])
+    assert sent["body"]["max_tokens"] == 400 and "reasoning_effort" not in sent["body"]
+    monkeypatch.setenv("LLM_MAX_TOKENS", "1200")
+    monkeypatch.setenv("LLM_REASONING_EFFORT", "low")
+    llm.chat_completion([])
+    assert sent["body"]["max_tokens"] == 1200 and sent["body"]["reasoning_effort"] == "low"
+
+
 def test_chat_completion_requires_base_url(monkeypatch):
     monkeypatch.delenv("LLM_BASE_URL", raising=False)
     with pytest.raises(RuntimeError, match="LLM_BASE_URL"):
