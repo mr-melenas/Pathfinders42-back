@@ -163,6 +163,16 @@ class IndiceSitios:
                     propiedades=props,
                     geometria=f.get("geometry"),
                 )
+        # Posición de los lugares de la Tierra: las capas que la publican en su bloque «tierra»
+        # (hielo: lat_c/lon_c de cada región; cuevas y anortosita: lat/lon de cada lugar)
+        self.coords_tierra: dict[str, tuple[float, float]] = {}
+        for capa in ("hielo", "cuevas_v2", "anortosita"):
+            info = datos.capas.get(capa, {})
+            tierra = (datos.leer_json(info.get("archivo")) or {}).get("tierra") or {}
+            for tid, t in tierra.items():
+                lat, lon = t.get("lat", t.get("lat_c")), t.get("lon", t.get("lon_c"))
+                if lat is not None and lon is not None:
+                    self.coords_tierra.setdefault(tid, (lat, lon))
         for nombre, cfg in CAPAS.items():
             archivo = datos.leer_json(datos.capas.get(cfg.capa, {}).get(cfg.archivo))
             if not isinstance(archivo, dict):
@@ -179,10 +189,13 @@ class IndiceSitios:
         salida = []
         for p in registro.get(cfg.lista) or []:
             detalles = {k: v for k, v in p.items() if k not in {cfg.id_, cfg.nombre}}
+            lat, lon = self.coords_tierra.get(p.get(cfg.id_), (None, None))
             salida.append(
                 {
                     "id": p.get(cfg.id_),
                     "nombre": p.get(cfg.nombre) or p.get(cfg.id_) or "",
+                    "lat": lat,
+                    "lon": lon,
                     "distancia": p.get(cfg.distancia),
                     "parecido": cfg.parecido_pareja(p, archivo),
                     "detalles": detalles,

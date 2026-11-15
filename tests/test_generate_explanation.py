@@ -14,8 +14,8 @@ from tests.sample_data import SAMPLE_RECORD, TEST_CORPUS
 
 
 class FakeResponse:
-    def __init__(self, payload, error=False):
-        self.payload, self.error = payload, error
+    def __init__(self, payload, error=False, status_code=200):
+        self.payload, self.error, self.status_code = payload, error, status_code
 
     def raise_for_status(self):
         if self.error:
@@ -26,9 +26,22 @@ class FakeResponse:
 
 
 def test_generates_one_explanation_per_site(tmp_path, monkeypatch):
-    def fake_get(url, timeout=30):
+    lofoten = {
+        "tierra_nombre": "Lofoten",
+        "puntuacion": 0.65,
+        "apta": True,
+        "funciona": ["topografia", "geologia"],
+        "falla": [],
+        "sin_dato": ["clima"],
+    }
+
+    def fake_get(url, timeout=30, params=None):
         if url.endswith("/sitios"):
             return FakeResponse([{"id": "artemis-malapert-massif"}])
+        if url.endswith("/usos"):
+            return FakeResponse({"usos": [{"id": "aterrizaje", "nombre": "Aterrizaje y navegación"}]})
+        if url.endswith("/usos/aterrizaje/sitios/artemis-malapert-massif"):
+            return FakeResponse([lofoten])
         if url.endswith("/sitios/artemis-malapert-massif"):
             return FakeResponse(SAMPLE_RECORD)
         raise AssertionError(f"unexpected URL {url}")
@@ -40,6 +53,9 @@ def test_generates_one_explanation_per_site(tmp_path, monkeypatch):
     assert saved == result and list(saved) == ["artemis-malapert-massif"]
     assert saved["artemis-malapert-massif"]["donde_falla"] == ["clima"]
     assert len(saved["artemis-malapert-massif"]["limites"]) == 1
+    usos = saved["artemis-malapert-massif"]["por_uso"]
+    assert usos[0]["uso"] == "Aterrizaje y navegación" and usos[0]["funciona"] == ["topografia", "geologia"]
+    assert "Aterrizaje y navegación: Lofoten (apta" in saved["artemis-malapert-massif"]["texto_usos"]
 
 
 def test_api_error_fails_loudly(tmp_path, monkeypatch):

@@ -42,6 +42,14 @@ Tests: `pytest tests/`.
   texts with figures missing from the data or fragments (one retry, then the template). Integers ≤ 10 allowed.
 - **ES:** `MODEL_LLM` apunta a un modelo de ejemplo: cambiadlo por el elegido. **EN:** `MODEL_LLM` points to an
   example model: change it to the chosen one.
+### Usos de misión en las explicaciones · Mission uses in explanations
+`generate_explanations.py` añade a cada sitio `por_uso` (mejor pareja de cada uso de la capa `usos_v0`, con
+las capas que funcionan y fallan con ESE lugar) y `texto_usos`. El LLM recibe `por_uso` junto a `capas`; la
+regla del prompt le impide decir que un lugar falla en una capa si `por_uso` dice que funciona (en `capas`
+cada capa muestra su propia mejor pareja, que puede ser otro lugar). Los fragmentos de una misma fuente se
+unen en uno antes de llamar al LLM (`merge_by_source`): no se repiten fuentes y las citas [n] cuadran.
+Otra regla: no atribuir a la Luna ni a Marte procesos de la Tierra (glaciares, ríos, vegetación…).
+
 ## Internet · Web search
 - **ES:** `WEB_PROVIDER` (`tavily` | `brave`) y su clave (`TAVILY_API_KEY` / `BRAVE_API_KEY`); `WEB_DOMAINS`
   (por defecto nasa.gov, esa.int, usgs.gov, jaxa.jp, lpi.usra.edu, arxiv.org, doi.org); `WEB_RATE_LIMIT_PER_MIN`.
