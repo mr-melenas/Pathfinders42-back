@@ -30,7 +30,7 @@ def strip_thinking(text: str) -> str:
     return text.strip()
 
 
-def chat_completion(messages: list[dict], max_tokens: int = 400) -> str:
+def chat_completion(messages: list[dict], max_tokens: int | None = None) -> str:
     """
     ES: Una llamada a /chat/completions, determinista (temperature 0). EN: One deterministic /chat/completions call.
     """
@@ -41,9 +41,12 @@ def chat_completion(messages: list[dict], max_tokens: int = 400) -> str:
     body = {
         "model": os.getenv("MODEL_LLM") or DEFAULT_MODEL,
         "messages": messages,
-        "max_tokens": max_tokens,
+        "max_tokens": max_tokens or int(os.getenv("LLM_MAX_TOKENS") or 400),
         "temperature": 0,
     }
+    # Modelos que razonan (gpt-oss en Groq…): "low" deja más tokens para la respuesta
+    if os.getenv("LLM_REASONING_EFFORT"):
+        body["reasoning_effort"] = os.environ["LLM_REASONING_EFFORT"]
     if os.getenv("LLM_DISABLE_THINKING", "1") == "1":
         body["chat_template_kwargs"] = {"enable_thinking": False}  # vLLM/SGLang; others ignore it
     headers = {"Content-Type": "application/json"}
