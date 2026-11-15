@@ -19,20 +19,17 @@ from pydantic import BaseModel, Field
 from .index import get_index
 from .llm import ApiGenerator, llm_configured
 from .retrieval import get_retriever
-from .web import cache_only_enabled, search_web
 from .writer import MAX_QUESTION_CHARS, chat_input, write_explanation
 
 router = APIRouter(tags=["explicaciones"])
 
 EXPLANATIONS_PATH = Path(os.getenv("RAG_EXPLANATIONS", "data/rag/explanations.json"))
-WEB_RATE_LIMIT_PER_MIN = int(os.getenv("WEB_RATE_LIMIT_PER_MIN", "10"))
 CHAT_RATE_LIMIT_PER_MIN = int(os.getenv("CHAT_RATE_LIMIT_PER_MIN", "10"))
 TRUST_PROXY = (
     os.getenv("TRUST_PROXY") == "1"
 )  # ES: detrás de Render/Railway/Cloudflare... / EN: behind a proxy
 
 _explanations: dict | None = None
-_web_requests: dict[str, deque] = defaultdict(deque)
 _chat_requests: dict[str, deque] = defaultdict(deque)
 
 
@@ -69,13 +66,6 @@ def _limit(bucket: dict[str, deque], ip: str, limit: int, message: str) -> None:
     recent.append(now)
 
 
-def _limit_web_rate(ip: str) -> None:
-    """
-    ES: Límite de búsquedas web por IP y minuto (cada una puede costar dinero). EN: Per-IP web search limit per minute (each may cost money).
-    """
-    _limit(_web_requests, ip, WEB_RATE_LIMIT_PER_MIN, "Demasiadas búsquedas web; espera un minuto.")
-
-
 @router.get("/explicaciones/{sitio_id}")
 def get_explanation(sitio_id: str) -> dict:
     """
@@ -89,41 +79,23 @@ def get_explanation(sitio_id: str) -> dict:
 
 @router.get("/buscar")
 def search(
-    request: Request,
     q: str = Query(..., min_length=2),
     sitio_id: str | None = None,
     tipo: str | None = None,
     n: int = Query(4, ge=1, le=10),
-    fuente: Literal["documentacion", "web", "ambas"] = "documentacion",
+    fuente: Literal["documentacion"] = "documentacion",
 ) -> list[dict]:
     """
-    ES: Busca en la documentación (corpus) y/o en internet (dominios permitidos, con caché). Cada
-    resultado lleva `origen`; los de la web, además `fecha_consulta`, y no están verificados.
-    Con WEB_CACHE_ONLY=1 solo responde lo que esté en caché y no cuenta para el límite.
-    EN: Searches the documentation (corpus) and/or the web (allowed domains, cached). Each result
-    carries `origen`; web ones also carry `fecha_consulta` and are not verified.
+    ES: Busca solo en la documentación local. Cada resultado indica su origen.
+    EN: Searches only the local documentation. Each result identifies its origin.
     """
-    results: list[dict] = []
-    if fuente in ("documentacion", "ambas"):
-        results += [
-            {**f, "origen": "documentacion"} for f in get_index().search(q, k=n, site_id=sitio_id, kind=tipo)
-        ]
-    if fuente in ("web", "ambas"):
-        if not cache_only_enabled():  # ES: servir caché no cuesta nada / EN: cache hits cost nothing
-            _limit_web_rate(_client_ip(request))
-        try:
-            results += search_web(q, n=n)
-        except RuntimeError as error:
-            raise HTTPException(503, str(error)) from error
-        except httpx.HTTPError as error:
-            raise HTTPException(502, f"Error del proveedor de búsqueda web: {error}") from error
-    return results
+    return [{**f, "origen": fuente} for f in get_index().search(q, k=n, site_id=sitio_id, kind=tipo)]
 
 
 class Question(BaseModel):
     pregunta: str = Field(..., min_length=2, max_length=MAX_QUESTION_CHARS)
     sitio_id: str | None = None
-    fuente: Literal["documentacion", "web", "ambas"] = "documentacion"
+    fuente: Literal["documentacion"] = "documentacion"
 
 
 def get_generator():
@@ -136,24 +108,21 @@ def get_generator():
 @router.post("/preguntar")
 def ask(body: Question, request: Request) -> dict:
     """
-    ES: Chat online. Recupera fragmentos (y web si `fuente` lo pide), el LLM responde en español y se
-    validan cifras y citas; si falla dos veces, responde con la plantilla determinista.
-    EN: Online chat. Retrieves fragments (and web if `fuente` asks), the LLM answers in Spanish, figures
-    and citations are validated; after two failures it answers with the deterministic template.
+    ES: Responde usando fragmentos de la documentación local; valida cifras y citas y, si falla dos
+    veces, devuelve la plantilla determinista.
+    EN: Answers using local documentation fragments, validates figures and citations, and returns the
+    deterministic template after two failed attempts.
     """
     if not llm_configured():
         raise HTTPException(503, "LLM no configurado (LLM_BASE_URL, LLM_API_KEY, MODEL_LLM).")
     ip = _client_ip(request)
     _limit(_chat_requests, ip, CHAT_RATE_LIMIT_PER_MIN, "Demasiadas preguntas; espera un minuto.")
-    use_web = body.fuente in ("web", "ambas")
-    if use_web and not cache_only_enabled():
-        _limit_web_rate(ip)
     explanation = None
     if body.sitio_id:
         explanation = _load_explanations().get(body.sitio_id)
         if explanation is None:
             raise HTTPException(404, f"Sin explicación para el sitio '{body.sitio_id}'.")
-    data, query, template, web_query = chat_input(body.pregunta, explanation)
+    data, query, template = chat_input(body.pregunta, explanation)
     try:
         result = write_explanation(
             data,
@@ -161,10 +130,7 @@ def ask(body: Question, request: Request) -> dict:
             get_retriever(),
             get_generator(),
             template,
-            use_web=use_web,
-            web_query=web_query,
             site_id=body.sitio_id,
-            strict_web=False,
         )
     except httpx.HTTPError as error:
         raise HTTPException(502, f"Error del LLM: {error}") from error
