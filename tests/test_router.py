@@ -185,6 +185,31 @@ def test_ask_without_site_and_unknown_site(chat, monkeypatch):
     assert unknown.status_code == 404
 
 
+def test_ask_about_one_analog_uses_its_pros_and_cons(chat, monkeypatch):
+    llm = _use_llm(monkeypatch, ["Lofoten se parece a Malapert en relieve y roca."])
+    body = {
+        "pregunta": "¿Dónde funciona y dónde falla?",
+        "sitio_id": "artemis-malapert-massif",
+        "tierra_id": "lofoten_flakstadoy",
+    }
+    answer = chat.post("/api/v1/preguntar", json=body).json()
+    assert answer["texto_origen"] == "llm"
+    data = llm.calls[0][0]
+    assert data["lugar_tierra"].startswith("Lofoten") and data["pros"] and data["limites_tierra"]
+    no_pair = chat.post("/api/v1/preguntar", json={**body, "tierra_id": "no-es-pareja"})
+    assert no_pair.status_code == 404
+    no_site = chat.post("/api/v1/preguntar", json={"pregunta": "hola", "tierra_id": "lofoten_flakstadoy"})
+    assert no_site.status_code == 422
+
+
+def test_ask_about_analog_falls_back_to_its_template(chat, monkeypatch):
+    _use_llm(monkeypatch, ["Falla por 999 °C.", "Falla por 888 °C."])
+    body = {"pregunta": "¿Y bien?", "sitio_id": "artemis-malapert-massif", "tierra_id": "lofoten_flakstadoy"}
+    answer = chat.post("/api/v1/preguntar", json=body).json()
+    assert answer["texto_origen"] == "plantilla"
+    assert "A favor:" in answer["respuesta"] and "Límites de la Tierra:" in answer["respuesta"]
+
+
 def test_ask_requires_llm_and_valid_body(chat, monkeypatch):
     assert chat.post("/api/v1/preguntar", json={"pregunta": "a"}).status_code == 422
     assert chat.post("/api/v1/preguntar", json={"pregunta": "x" * 501}).status_code == 422

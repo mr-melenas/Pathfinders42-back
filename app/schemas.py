@@ -376,3 +376,76 @@ class RankingSitio(BaseModel):
     lon: float | None
     n_aptas: int = Field(description="Parejas aptas para el uso")
     mejor: ParejaUso | None
+
+
+# --- Fichas de análogos: pros y contras de cada pareja (capa analogos_v0) ---
+
+
+class Textos(BaseModel):
+    es: str
+    en: str
+
+
+class PuntoAnalogo(BaseModel):
+    """Un pro o un contra de un análogo."""
+
+    tipo: Literal["capa", "temperatura", "verificacion", "usos"] = Field(
+        description="capa: una capa pasa o no su umbral; temperatura: diferencia en grados; "
+        "verificacion: qué dice la literatura del lugar; usos: usos de misión para los que es apto"
+    )
+    texto: Textos
+    capa: CapaUsoId | None = None
+    distancia: float | None = Field(default=None, description="0 = igual (solo tipo «capa»)")
+    umbral: float | None = Field(
+        default=None, description="Parecido si distancia ≤ umbral (solo tipo «capa»)"
+    )
+    fuente: str | None = Field(
+        default=None, description="Datos de la capa: sitio · Tierra (solo tipo «capa»)"
+    )
+    brechas_C: dict[str, float] | None = Field(
+        default=None, description="Sitio − Tierra en °C; negativo = el sitio es más frío (solo «temperatura»)"
+    )
+    usos: list[str] | None = Field(default=None, description="Ids de los usos aptos (solo tipo «usos»)")
+    url: str | None = Field(default=None, description="Fuente de la verificación (solo «verificacion»)")
+
+
+class LimiteTierra(BaseModel):
+    """Límite de la Tierra como análogo (gravedad, atmósfera, radiación): un contra de todos los análogos."""
+
+    id: str = Field(examples=["gravedad"])
+    texto: Textos
+    fuente: str
+    url: str
+
+
+class AnalogoResumen(BaseModel):
+    tierra_id: str = Field(examples=["lofoten_flakstadoy"])
+    tierra_nombre: str
+    tierra_lat: float | None
+    tierra_lon: float | None
+    verificacion: Literal["verificada", "pendiente", "candidato", "hipótesis"] = Field(
+        description="De la ficha de análogos; «hipótesis» = región propuesta por los datos de satélite"
+    )
+    apta: bool = Field(description="Pasa al menos 2 capas (uso «general»)")
+    n_capas_ok: int
+    puntuacion: float | None = Field(description="Puntuación del uso «general», 0–1")
+    resumen: Textos = Field(description="Una frase: dónde funciona y dónde falla")
+    n_pros: int
+    n_contras: int
+    usos_aptos: list[str]
+
+
+class AnalogoFicha(AnalogoResumen):
+    """Ficha completa de un análogo: pros, contras, capas sin medir y límites de la Tierra."""
+
+    sitio_id: str
+    sitio_nombre: str
+    cuerpo: str
+    ficha_id: str | None = Field(description="Id en la ficha de análogos, si el lugar está en ella")
+    rasgo: str | None = Field(description="Qué lo hace análogo, según la ficha (solo en español)")
+    referencia: str | None
+    url: str | None
+    pros: list[PuntoAnalogo]
+    contras: list[PuntoAnalogo]
+    sin_dato: list[CapaUsoId] = Field(description="Capas sin medir para esta pareja")
+    limites_tierra: list[LimiteTierra] = Field(description="Contras generales: la Tierra no reproduce esto")

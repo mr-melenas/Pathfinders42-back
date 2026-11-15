@@ -14,6 +14,7 @@ def test_listar_capas(cliente):
         "trampa",
         "m1",
         "usos",
+        "analogos",
     ]
 
 

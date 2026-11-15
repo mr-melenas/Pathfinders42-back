@@ -48,8 +48,10 @@ def _origen_sin_usos(tmp_path: Path) -> Path:
     origen = tmp_path / "origen"
     shutil.copytree(FIXTURES, origen)
     shutil.rmtree(origen / "usos_v0")
+    shutil.rmtree(origen / "analogos_v0")
     manifest = json.loads((origen / "manifest.json").read_text(encoding="utf-8"))
     del manifest["capas"]["usos"]
+    del manifest["capas"]["analogos"]
     (origen / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
     return origen
 
@@ -61,6 +63,8 @@ def test_main_reconstruye_usos(tmp_path, monkeypatch):
     assert (destino / "usos_v0" / "usos.json").is_file()
     manifest = json.loads((destino / "manifest.json").read_text(encoding="utf-8"))
     assert manifest["capas"]["usos"]["archivo"] == "usos_v0/usos.json"
+    assert (destino / "analogos_v0" / "analogos.json").is_file()
+    assert manifest["capas"]["analogos"]["archivo"] == "analogos_v0/analogos.json"
 
 
 def test_main_sin_usos(tmp_path, monkeypatch):
