@@ -1,0 +1,25 @@
+nombre,tipo,NDVI_max,NDVI_mediana,nieve,MI,QI,CI
+"Craters of the Moon, Idaho",analogo_luna,0.311,0.271,0.01,0.999,1.0,1.002
+"Kīlauea, Hawái",analogo_luna,0.536,0.48,0.0,0.983,1.01,1.001
+"Pinacate, Sonora",analogo_luna,0.256,0.18,0.0,0.994,0.995,1.002
+"Askja, Islandia",analogo_luna,0.02,-0.034,0.09,0.998,1.005,1.007
+Lanzarote – Timanfaya,analogo_luna,0.153,0.118,0.0,1.018,1.0,0.998
+"Mauna Kea, Hawái",analogo_luna,0.066,0.061,0.0,0.946,1.01,0.991
+"Meteor Crater, Arizona",impacto,0.184,0.164,0.0,0.965,1.012,1.001
+"Al Haruj, Libia",volcanico_prueba,0.103,0.097,0.0,0.988,1.008,0.996
+"Harrat Khaybar, Arabia Saudí",volcanico_prueba,0.126,0.077,0.0,1.007,1.002,1.0
+"Harrat Rahat, Arabia Saudí",volcanico_prueba,0.255,0.133,0.0,0.989,0.996,0.998
+"Hoggar – Atakor, Argelia",volcanico_prueba,0.119,0.096,0.0,0.99,0.986,0.994
+"Payún Matrú, Argentina",volcanico_prueba,0.074,0.028,0.01,0.972,0.986,0.988
+"Holuhraun, Islandia",volcanico_prueba,0.038,-0.024,0.06,1.012,1.004,1.006
+Gran Erg Oriental (arena),control_arena,0.124,0.12,0.0,0.758,1.085,0.987
+Rub' al-Jali (arena),control_arena,0.101,0.098,0.0,0.756,1.094,0.99
+Taklamakán (arena),control_arena,0.075,0.06,0.0,0.912,1.014,0.985
+Mar de arena del Namib,control_arena,0.162,0.159,0.0,0.798,1.058,0.985
+Algodones (arena),control_arena,0.094,0.092,0.0,0.84,1.033,0.99
+Madrid,control_ciudad,0.33,0.278,0.0,0.987,1.003,1.003
+París,control_ciudad,0.342,0.299,0.0,0.992,1.003,1.004
+Moscú,control_ciudad,0.443,0.348,0.0,0.99,1.003,1.001
+Manaos,control_ciudad,0.446,0.419,0.0,0.994,1.0,1.003
+Bombay,control_ciudad,0.423,0.244,0.0,1.004,0.998,1.004
+Sídney,control_ciudad,0.388,0.348,0.0,0.996,1.003,1.004

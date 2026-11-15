@@ -1,0 +1,9 @@
+region,sitio_mas_parecido_clima,distancia_clima,sitios_parecidos_clima,t_media,t_min,osc_diaria,precip_mm
+Lanzarote (ESA PANGAEA),Mars Pathfinder,0.029,8,19.3,15.3,2.5,142.32277361159038
+"Desierto de Atacama, núcleo hiperárido (ARADS)",Perseverance (Mars 2020),0.056,12,18.2,9.7,15.2,11.328728788842591
+Isla Devon (Haughton-Mars Project),Newton Crater,0.058,14,-15.5,-36.0,5.1,322.14771710038184
+Río Tinto (MARTE),InSight,0.062,20,17.3,3.1,14.0,426.088853097693
+Cuenca de Qaidam occidental (Lenghu),S. Nectaris Fossae,0.066,21,4.2,-16.7,13.9,28.23966197562231
+Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),E. Hellas 2,0.07,17,-15.7,-32.0,4.3,285.2559019468725
+"Tso Kar, Ladakh (ISRO HOPE)",Apollinaris Sulci,0.072,14,-5.2,-26.1,13.8,409.1270914198764
+Valles Secos de McMurdo,Deuteronilus Mensae 2,0.17,1,-26.0,-36.5,6.2,87.0999298337847

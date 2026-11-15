@@ -1,0 +1,84 @@
+{
+  "fecha_ejecucion": "2026-10-24T09:19:45",
+  "version": "luna_v0.2",
+  "datos": {
+    "emisividad": "CAMEL CAM5K30EMCLIM v003, climatología 2003-2021; julio (norte) y enero (sur)",
+    "vegetacion": "VIIRS VNP13C2 v002 2023, NDVI mediano anual y del mes de la emisividad (jul. norte / ene. sur)"
+  },
+  "indices": {
+    "MI": "e9.1/e10.6",
+    "QI": "e8.6^2/(e8.3*e9.1)",
+    "CI": "e10.6/e11.3",
+    "referencia": "adaptados de Ninomiya (índices ASTER TIR); Corrie, Ninomiya y Aitchison (2010)"
+  },
+  "dominio": {
+    "nieve_max": 0.1,
+    "ndvi_mediano_max": 0.15,
+    "ndvi_verano_max": 0.15,
+    "CI_max": 1.008
+  },
+  "contraste": "máx − mín emisividad 7,6–12,1 µm; informativo, no filtra en v0.2",
+  "puntuacion": "percentil del MI dentro del dominio",
+  "regiones": {
+    "umbral_percentil": 95,
+    "min_celdas": 10,
+    "orden": "área",
+    "radio_analogo_km": 50
+  },
+  "validacion": {
+    "resumen": [
+      {
+        "tipo": "analogo_luna",
+        "n": 6,
+        "con_dato": 6,
+        "mediana": 97.4,
+        "minimo": 48.2,
+        "maximo": 100.0
+      },
+      {
+        "tipo": "control_arena",
+        "n": 5,
+        "con_dato": 5,
+        "mediana": 13.2,
+        "minimo": 3.6,
+        "maximo": 48.3
+      },
+      {
+        "tipo": "control_ciudad",
+        "n": 6,
+        "con_dato": 0,
+        "mediana": NaN,
+        "minimo": NaN,
+        "maximo": NaN
+      },
+      {
+        "tipo": "impacto",
+        "n": 1,
+        "con_dato": 1,
+        "mediana": 64.8,
+        "minimo": 64.8,
+        "maximo": 64.8
+      },
+      {
+        "tipo": "volcanico_prueba",
+        "n": 6,
+        "con_dato": 6,
+        "mediana": 92.6,
+        "minimo": 81.0,
+        "maximo": 99.9
+      }
+    ],
+    "separacion_medianas": 84.39999999999999,
+    "peor_analogo_menos_mejor_control": -0.09999999999999432,
+    "auc": {
+      "analogos_vs_controles": 0.96,
+      "volcanicos_prueba_vs_controles": 1.0
+    }
+  },
+  "limitaciones": [
+    "MI alto no es exclusivo del basalto",
+    "celdas de ~5 km mezclan coladas con otros terrenos",
+    "coordenadas de los puntos de referencia aproximadas",
+    "Kīlauea puntúa bajo: posibles recubrimientos de sílice opalina en las coladas del desierto de Ka'u (Seelos et al. 2010, doi:10.1029/2009JE003347), que en el infrarrojo térmico enmascaran el basalto (Kraft et al. 2003, doi:10.1029/2003GL018848)"
+  ]
+}

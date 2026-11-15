@@ -1,0 +1,98 @@
+id,nombre,cuerpo,tipo,dem,n_px,mediana,p90,pct_lt5,pct_lt10,pct_lt15,mejor_region_id,mejor_region,mejor_distancia,hay_analogo
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,luna,region_aterrizaje_artemis,LDEM_75S_240M,6972,19.0,25.5,1.5,8.1,25.2,luna-14,Irán,0.587,No
+artemis-haworth,Haworth,luna,region_aterrizaje_artemis,LDEM_75S_240M,15376,9.8,17.5,17.0,53.2,80.8,luna-14,Irán,0.199,Sí
+artemis-malapert-massif,Malapert Massif,luna,region_aterrizaje_artemis,LDEM_75S_240M,7690,17.5,25.8,5.0,18.1,37.7,luna-14,Irán,0.467,No
+artemis-mons-mouton-plateau,Mons Mouton Plateau,luna,region_aterrizaje_artemis,LDEM_75S_240M,77361,10.5,22.0,18.6,48.0,70.0,luna-14,Irán,0.183,Sí
+artemis-mons-mouton,Mons Mouton,luna,region_aterrizaje_artemis,LDEM_75S_240M,4489,10.8,22.0,12.5,45.8,68.1,luna-14,Irán,0.25,No
+artemis-nobile-rim-1,Nobile Rim 1,luna,region_aterrizaje_artemis,LDEM_75S_240M,6972,17.8,26.0,8.5,21.3,38.7,luna-14,Irán,0.441,No
+artemis-nobile-rim-2,Nobile Rim 2,luna,region_aterrizaje_artemis,LDEM_75S_240M,7056,10.8,21.5,17.8,46.6,71.3,luna-14,Irán,0.193,Sí
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,luna,region_aterrizaje_artemis,LDEM_75S_240M,6978,12.2,19.8,10.8,34.5,68.6,luna-14,Irán,0.299,No
+artemis-slater-plain,Slater Plain,luna,region_aterrizaje_artemis,LDEM_75S_240M,6889,8.0,16.5,26.8,65.4,87.1,luna-14,Irán,0.121,Sí
+aterrizaje-im-1-odysseus,IM-1 Odysseus,luna,aterrizaje_robotico,LDEM_75S_240M,5452,11.5,23.0,27.9,43.7,61.2,luna-14,Irán,0.211,No
+aterrizaje-im-2-athena,IM-2 Athena,luna,aterrizaje_robotico,LDEM_75S_240M,5450,5.0,9.2,52.1,92.8,98.8,luna-18,"Tibesti, Chad",0.22,No
+aterrizaje-chang-e-7,Chang'e 7,luna,aterrizaje_planificado,LDEM_75S_240M,5436,10.2,16.0,12.0,48.1,84.9,luna-14,Irán,0.251,No
+apollo-11,Apollo 11,luna,aterrizaje_tripulado,LDEM_128,5621,1.0,2.2,96.7,99.0,99.9,luna-6,"Provincia de La Meca, Arabia Saudita",0.079,Sí
+apollo-12,Apollo 12,luna,aterrizaje_tripulado,LDEM_128,5621,0.5,1.0,99.4,99.8,99.9,luna-4,"Afar, Etiopía",0.364,No
+apollo-14,Apollo 14,luna,aterrizaje_tripulado,LDEM_128,5623,2.8,6.0,83.6,98.4,99.8,luna-12,"Kunene, Namibia",0.104,Sí
+apollo-15,Apollo 15,luna,aterrizaje_tripulado,LDEM_128,6237,1.5,21.2,66.1,73.8,79.9,luna-7,Islandia,0.154,Sí
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,LDEM_128,5667,3.5,11.0,62.9,87.8,97.5,luna-9,"Provincia de Tabuk, Arabia Saudita",0.072,Sí
+apollo-17,Apollo 17,luna,aterrizaje_tripulado,LDEM_128,5963,6.2,24.2,47.4,58.8,69.9,luna-10,"Tibesti, Chad",0.151,Sí
+aterrizaje-luna-9,Luna 9,luna,aterrizaje_robotico,LDEM_128,5639,4.2,13.0,55.1,82.3,94.5,luna-20,"Provincia de Tabuk, Arabia Saudita",0.128,Sí
+aterrizaje-luna-13,Luna 13,luna,aterrizaje_robotico,LDEM_128,5927,0.2,0.8,99.9,100.0,100.0,luna-4,"Afar, Etiopía",0.577,No
+aterrizaje-surveyor-1,Surveyor 1,luna,aterrizaje_robotico,LDEM_128,5621,0.5,1.2,99.4,99.9,100.0,luna-4,"Afar, Etiopía",0.339,No
+aterrizaje-surveyor-3,Surveyor 3,luna,aterrizaje_robotico,LDEM_128,5621,0.5,1.0,99.4,99.8,99.9,luna-4,"Afar, Etiopía",0.363,No
+aterrizaje-surveyor-5,Surveyor 5,luna,aterrizaje_robotico,LDEM_128,5621,0.8,1.5,99.1,99.9,100.0,luna-6,"Provincia de La Meca, Arabia Saudita",0.18,Sí
+aterrizaje-surveyor-6,Surveyor 6,luna,aterrizaje_robotico,LDEM_128,5621,0.8,2.2,99.0,100.0,100.0,luna-6,"Provincia de La Meca, Arabia Saudita",0.107,Sí
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,LDEM_128,7419,5.2,10.8,48.9,87.2,98.3,luna-18,"Tibesti, Chad",0.16,Sí
+aterrizaje-luna-16,Luna 16,luna,aterrizaje_robotico,LDEM_128,5621,1.0,1.5,99.7,100.0,100.0,luna-6,"Provincia de La Meca, Arabia Saudita",0.123,Sí
+aterrizaje-luna-17,Luna 17,luna,aterrizaje_robotico,LDEM_128,7131,0.5,1.0,99.6,100.0,100.0,luna-4,"Afar, Etiopía",0.428,No
+aterrizaje-luna-20,Luna 20,luna,aterrizaje_robotico,LDEM_128,5621,8.0,15.2,29.0,61.8,89.8,luna-14,Irán,0.101,Sí
+aterrizaje-luna-21,Luna 21,luna,aterrizaje_robotico,LDEM_128,6217,1.0,10.0,79.7,90.2,95.8,luna-4,"Afar, Etiopía",0.123,Sí
+aterrizaje-luna-23,Luna 23,luna,aterrizaje_robotico,LDEM_128,5749,0.8,3.5,96.1,99.7,100.0,luna-4,"Afar, Etiopía",0.082,Sí
+aterrizaje-luna-24,Luna 24,luna,aterrizaje_robotico,LDEM_128,5749,0.8,3.5,96.1,99.7,100.0,luna-4,"Afar, Etiopía",0.082,Sí
+aterrizaje-chang-e-3,Chang'e 3,luna,aterrizaje_robotico,LDEM_128,7803,0.5,1.2,98.7,99.6,99.9,luna-4,"Afar, Etiopía",0.308,No
+aterrizaje-chang-e-4,Chang'e 4,luna,aterrizaje_robotico,LDEM_128,7995,0.8,2.0,98.8,99.9,100.0,luna-4,"Afar, Etiopía",0.175,Sí
+aterrizaje-chang-e-5,Chang'e 5,luna,aterrizaje_robotico,LDEM_128,7667,0.5,1.0,99.8,100.0,100.0,luna-4,"Afar, Etiopía",0.385,No
+aterrizaje-chang-e-6,Chang'e 6,luna,aterrizaje_robotico,LDEM_128,7497,0.5,1.0,100.0,100.0,100.0,luna-4,"Afar, Etiopía",0.373,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,luna,aterrizaje_robotico,LDEM_128,15897,3.0,8.5,73.4,93.9,98.5,luna-9,"Provincia de Tabuk, Arabia Saudita",0.039,Sí
+aterrizaje-slim,SLIM,luna,aterrizaje_robotico,LDEM_128,5757,8.2,13.5,21.5,68.5,95.5,luna-14,Irán,0.163,Sí
+aterrizaje-blue-ghost-m1,Blue Ghost M1,luna,aterrizaje_robotico,LDEM_128,5917,0.8,3.0,95.7,99.3,100.0,luna-4,"Afar, Etiopía",0.155,Sí
+aterrizaje-mars-3,Mars 3,marte,aterrizaje_robotico,HRSC-MOLA 200 m,69393,2.2,8.8,81.9,91.8,96.3,marte_arido-3,"Región de Antofagasta, Chile",0.079,Sí
+aterrizaje-viking-1,Viking 1,marte,aterrizaje_robotico,HRSC-MOLA 200 m,53029,0.5,0.8,100.0,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.382,No
+aterrizaje-viking-2,Viking 2,marte,aterrizaje_robotico,HRSC-MOLA 200 m,72837,2.0,4.2,95.9,99.9,100.0,marte_arido-3,"Región de Antofagasta, Chile",0.173,Sí
+aterrizaje-mars-pathfinder,Mars Pathfinder,marte,aterrizaje_robotico,HRSC-MOLA 200 m,51939,1.0,2.8,98.4,99.6,99.9,marte_arido-1,Argelia,0.042,Sí
+aterrizaje-spirit-mer-a,Spirit (MER-A),marte,aterrizaje_robotico,HRSC-MOLA 200 m,50713,1.8,6.8,83.4,96.8,99.4,marte_arido-3,"Región de Antofagasta, Chile",0.163,Sí
+aterrizaje-opportunity-mer-b,Opportunity (MER-B),marte,aterrizaje_robotico,HRSC-MOLA 200 m,49109,1.5,4.2,93.9,99.2,99.8,marte_arido-4,"Sinkiang, China",0.075,Sí
+aterrizaje-phoenix,Phoenix,marte,aterrizaje_robotico,HRSC-MOLA 200 m,132285,0.8,2.2,97.2,98.8,99.5,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.056,Sí
+aterrizaje-curiosity-msl,Curiosity (MSL),marte,aterrizaje_robotico,HRSC-MOLA 200 m,49247,4.8,15.8,51.8,74.2,88.7,marte_polar-7,"Nunavut, Canadá",0.063,Sí
+aterrizaje-insight,InSight,marte,aterrizaje_robotico,HRSC-MOLA 200 m,49239,0.5,0.5,100.0,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.482,No
+aterrizaje-perseverance-mars-2020,Perseverance (Mars 2020),marte,aterrizaje_robotico,HRSC-MOLA 200 m,51727,2.5,8.2,79.2,93.2,97.4,marte_arido-3,"Región de Antofagasta, Chile",0.051,Sí
+aterrizaje-tianwen-1,Tianwen-1,marte,aterrizaje_robotico,HRSC-MOLA 200 m,54189,0.5,1.0,99.8,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.249,No
+aterrizaje-rosalind-franklin-exomars,Rosalind Franklin (ExoMars),marte,aterrizaje_planificado,HRSC-MOLA 200 m,51667,0.8,2.0,98.7,99.8,100.0,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.064,Sí
+ez-e-melas-chasma,E. Melas Chasma,marte,exploration_zone,HRSC-MOLA 200 m,50115,2.5,7.2,79.5,96.4,99.4,marte_arido-3,"Región de Antofagasta, Chile",0.053,Sí
+ez-coprates-chasma,Coprates Chasma,marte,exploration_zone,HRSC-MOLA 200 m,50115,3.2,16.5,65.2,79.0,87.9,marte_altura-1,"Sinkiang, China",0.071,Sí
+ez-viking,Viking,marte,exploration_zone,HRSC-MOLA 200 m,53053,0.2,0.8,100.0,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.452,No
+ez-acidalia-planitia,Acidalia Planitia,marte,exploration_zone,HRSC-MOLA 200 m,52229,1.2,3.0,97.0,99.1,99.3,marte_arido-4,"Sinkiang, China",0.083,Sí
+ez-ne-marineris,NE Marineris,marte,exploration_zone,HRSC-MOLA 200 m,49209,3.2,14.8,65.9,82.9,90.4,marte_altura-1,"Sinkiang, China",0.072,Sí
+ez-se-marineris,SE Marineris,marte,exploration_zone,HRSC-MOLA 200 m,51827,1.0,3.2,95.9,98.6,99.8,marte_arido-9,"Mongolia Interior, China",0.045,Sí
+ez-gale-crater,Gale Crater,marte,exploration_zone,HRSC-MOLA 200 m,49247,4.5,15.8,53.1,75.2,88.7,marte_altura-1,"Sinkiang, China",0.058,Sí
+ez-gale-crater-2,Gale Crater 2,marte,exploration_zone,HRSC-MOLA 200 m,49247,4.2,15.8,56.1,78.7,89.1,marte_altura-1,"Sinkiang, China",0.044,Sí
+ez-gale-crater-3,Gale Crater 3,marte,exploration_zone,HRSC-MOLA 200 m,49253,4.2,16.2,54.8,77.6,88.4,marte_altura-1,"Sinkiang, China",0.041,Sí
+ez-sinus-meridiani,Sinus Meridiani,marte,exploration_zone,HRSC-MOLA 200 m,49113,0.8,3.2,96.2,99.4,99.9,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.123,Sí
+ez-s-meridiani-planum,S. Meridiani Planum,marte,exploration_zone,HRSC-MOLA 200 m,49151,1.0,3.2,94.9,97.6,98.9,marte_arido-1,Argelia,0.023,Sí
+ez-s-meridiani-planum-2,S. Meridiani Planum 2,marte,exploration_zone,HRSC-MOLA 200 m,49133,2.0,5.8,88.4,95.5,97.5,marte_arido-3,"Región de Antofagasta, Chile",0.135,Sí
+ez-gusev-crater,Gusev Crater,marte,exploration_zone,HRSC-MOLA 200 m,50703,2.0,7.0,81.8,96.3,99.4,marte_arido-3,"Región de Antofagasta, Chile",0.131,Sí
+ez-gusev-apollinaris-sulci,Gusev-Apollinaris Sulci,marte,exploration_zone,HRSC-MOLA 200 m,50375,2.8,5.8,85.2,99.9,100.0,marte_polar-6,Groenlandia,0.086,Sí
+ez-apollinaris-sulci,Apollinaris Sulci,marte,exploration_zone,HRSC-MOLA 200 m,50299,3.2,8.5,73.3,94.2,98.6,marte_polar-6,Groenlandia,0.089,Sí
+ez-zephyria-planum,Zephyria Planum,marte,exploration_zone,HRSC-MOLA 200 m,49101,0.5,3.2,93.6,98.4,99.6,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.227,No
+ez-hebrus-valles,Hebrus Valles,marte,exploration_zone,HRSC-MOLA 200 m,52265,1.2,4.5,92.1,98.4,99.4,marte_arido-5,"Gobernación de Shabwah, Yemen",0.094,Sí
+ez-hypanis-delta,Hypanis Delta,marte,exploration_zone,HRSC-MOLA 200 m,50115,1.8,4.5,92.7,98.4,99.6,marte_arido-4,"Sinkiang, China",0.126,Sí
+ez-jezero-isidis-syrtis,Jezero-Isidis-Syrtis,marte,exploration_zone,HRSC-MOLA 200 m,51521,3.5,9.2,67.4,92.1,98.0,marte_altura-1,"Sinkiang, China",0.134,Sí
+ez-nili-fossae,Nili Fossae,marte,exploration_zone,HRSC-MOLA 200 m,52961,5.0,14.2,51.5,80.7,91.3,marte_polar-7,"Nunavut, Canadá",0.092,Sí
+ez-aram-chaos,Aram Chaos,marte,exploration_zone,HRSC-MOLA 200 m,49115,4.0,9.8,62.4,91.0,98.3,marte_altura-1,"Sinkiang, China",0.122,Sí
+ez-cerberus,Cerberus,marte,exploration_zone,HRSC-MOLA 200 m,49819,0.8,2.0,97.0,97.6,98.3,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.129,Sí
+ez-s-nectaris-fossae,S. Nectaris Fossae,marte,exploration_zone,HRSC-MOLA 200 m,56055,1.8,4.5,93.7,99.4,99.9,marte_arido-3,"Región de Antofagasta, Chile",0.156,Sí
+ez-hadriacus-palus,Hadriacus Palus,marte,exploration_zone,HRSC-MOLA 200 m,54981,2.5,6.8,82.8,96.0,98.6,marte_polar-6,Groenlandia,0.073,Sí
+ez-mawrth-vallis,Mawrth Vallis,marte,exploration_zone,HRSC-MOLA 200 m,53851,2.5,7.0,83.7,95.0,98.6,marte_polar-6,Groenlandia,0.074,Sí
+ez-mclaughlin-crater,McLaughlin Crater,marte,exploration_zone,HRSC-MOLA 200 m,52889,2.5,5.8,85.7,98.7,99.9,marte_arido-3,"Región de Antofagasta, Chile",0.071,Sí
+ez-arabia-terra,Arabia Terra,marte,exploration_zone,HRSC-MOLA 200 m,49079,1.2,2.8,98.9,99.8,99.9,marte_arido-4,"Sinkiang, China",0.059,Sí
+ez-columbus-crater,Columbus Crater,marte,exploration_zone,HRSC-MOLA 200 m,56109,1.8,4.2,93.6,98.3,99.7,marte_arido-4,"Sinkiang, China",0.105,Sí
+ez-huygens-crater,Huygens Crater,marte,exploration_zone,HRSC-MOLA 200 m,50481,0.5,1.5,99.8,99.9,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.072,Sí
+ez-noctis-landing,Noctis Landing,marte,exploration_zone,HRSC-MOLA 200 m,49395,3.8,11.0,66.5,88.9,93.9,marte_altura-1,"Sinkiang, China",0.122,Sí
+ez-deuteronilus-mensae,Deuteronilus Mensae,marte,exploration_zone,HRSC-MOLA 200 m,63243,2.8,8.5,77.0,93.4,97.8,marte_arido-3,"Región de Antofagasta, Chile",0.041,Sí
+ez-e-hellas,E. Hellas,marte,exploration_zone,HRSC-MOLA 200 m,64067,1.8,7.0,85.6,95.2,99.3,marte_arido-3,"Región de Antofagasta, Chile",0.146,Sí
+ez-e-hellas-2,E. Hellas 2,marte,exploration_zone,HRSC-MOLA 200 m,63243,3.2,12.2,64.4,84.6,94.7,marte_altura-1,"Sinkiang, China",0.069,Sí
+ez-deuteronilus-mensae-2,Deuteronilus Mensae 2,marte,exploration_zone,HRSC-MOLA 200 m,65023,1.5,5.8,87.9,95.4,96.8,marte_arido-4,"Sinkiang, China",0.127,Sí
+ez-ismenius-cavus,Ismenius Cavus,marte,exploration_zone,HRSC-MOLA 200 m,59053,3.5,10.2,68.7,90.0,95.2,marte_altura-1,"Sinkiang, China",0.125,Sí
+ez-e-hellas-3,E. Hellas 3,marte,exploration_zone,HRSC-MOLA 200 m,60221,1.0,2.0,99.2,100.0,100.0,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.037,Sí
+ez-hale-crater,Hale Crater,marte,exploration_zone,HRSC-MOLA 200 m,60511,2.8,9.2,76.2,91.8,96.9,marte_arido-3,"Región de Antofagasta, Chile",0.05,Sí
+ez-noachis-terra-chloride,Noachis Terra Chloride,marte,exploration_zone,HRSC-MOLA 200 m,61609,0.5,1.8,99.6,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.084,Sí
+ez-arcadia-planitia,Arcadia Planitia,marte,exploration_zone,HRSC-MOLA 200 m,63151,0.2,0.8,98.9,99.9,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.573,No
+ez-erebus-montes,Erebus Montes,marte,exploration_zone,HRSC-MOLA 200 m,63151,0.2,0.5,100.0,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.491,No
+ez-acheron-fossae,Acheron Fossae,marte,exploration_zone,HRSC-MOLA 200 m,63875,1.0,4.5,91.9,98.1,99.9,marte_arido-5,"Gobernación de Shabwah, Yemen",0.069,Sí
+ez-newton-crater,Newton Crater,marte,exploration_zone,HRSC-MOLA 200 m,64633,2.5,5.5,88.1,97.5,98.6,marte_polar-6,Groenlandia,0.073,Sí
+ez-protonilus-mensae,Protonilus mensae,marte,exploration_zone,HRSC-MOLA 200 m,66257,5.0,16.8,51.0,74.9,87.2,marte_polar-7,"Nunavut, Canadá",0.058,Sí
+ez-arcadia-planitia-43,Arcadia Planitia,marte,exploration_zone,HRSC-MOLA 200 m,70903,0.5,0.8,100.0,100.0,100.0,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.408,No
+ez-copernicus-crater,Copernicus Crater,marte,exploration_zone,HRSC-MOLA 200 m,75123,1.2,3.0,97.8,99.7,100.0,marte_arido-8,"Al Wahat, Libia",0.082,Sí
+ez-ausonia-cavus,Ausonia Cavus,marte,exploration_zone,HRSC-MOLA 200 m,57867,1.8,9.5,80.4,91.0,96.1,marte_arido-3,"Región de Antofagasta, Chile",0.157,Sí
+ez-kasei-valles,Kasei Valles,marte,exploration_zone,HRSC-MOLA 200 m,54067,6.8,21.2,39.7,65.4,79.9,marte_altura-2,"Región de Antofagasta, Chile",0.038,Sí

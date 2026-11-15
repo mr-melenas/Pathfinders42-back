@@ -1,0 +1,16 @@
+region_id,analogo,cuerpo,sitio_mas_parecido,distancia,sitios_parecidos
+analogo-luna-kilauea-hawai,"Kīlauea, Hawái",luna,Apollo 14,0.081,2
+analogo-luna-mauna-kea-hawai,"Mauna Kea, Hawái",luna,de Gerlache Rim 2,0.096,4
+analogo-luna-pinacate-sonora,"Pinacate, Sonora",luna,IM-2 Athena,0.123,3
+analogo-luna-craters-of-the-moon-idaho,"Craters of the Moon, Idaho",luna,Apollo 11,0.157,2
+analogo-luna-meteor-crater-arizona,"Meteor Crater, Arizona",luna,Apollo 11,0.157,2
+analogo-luna-askja-islandia,"Askja, Islandia",luna,Apollo 17,0.158,3
+analogo-luna-lanzarote-timanfaya,Lanzarote – Timanfaya,luna,Chandrayaan-3,0.159,3
+analogo-marte-cuenca-de-qaidam-occidental-lenghu,Cuenca de Qaidam occidental (Lenghu),marte,Copernicus Crater,0.062,13
+analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,"Desierto de Atacama, núcleo hiperárido (ARADS)",marte,Jezero-Isidis-Syrtis,0.068,12
+analogo-marte-rio-tinto-marte,Río Tinto (MARTE),marte,Nili Fossae,0.143,3
+analogo-marte-lanzarote-esa-pangaea,Lanzarote (ESA PANGAEA),marte,Deuteronilus Mensae,0.144,17
+analogo-marte-isla-devon-haughton-mars-project,Isla Devon (Haughton-Mars Project),marte,Newton Crater,0.146,9
+analogo-marte-tso-kar-ladakh-isro-hope,"Tso Kar, Ladakh (ISRO HOPE)",marte,Curiosity (MSL),0.178,4
+analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),marte,Kasei Valles,0.211,0
+analogo-marte-valles-secos-de-mcmurdo,Valles Secos de McMurdo,marte,Kasei Valles,0.275,0

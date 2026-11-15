@@ -1,0 +1,57 @@
+region_id,cuerpo,tipo,region,n_teselas
+luna-1,luna,region_candidata,"Afar, Etiopía",19
+luna-2,luna,region_candidata,"Gobernacion de Rif Dimashq, Siria",10
+luna-3,luna,region_candidata,"Provincia de Medina, Arabia Saudita",5
+luna-4,luna,region_candidata,"Afar, Etiopía",5
+luna-5,luna,region_candidata,"Condado de Marsabit, Kenia",4
+luna-6,luna,region_candidata,"Provincia de La Meca, Arabia Saudita",4
+luna-7,luna,region_candidata,Islandia,6
+luna-8,luna,region_candidata,"Afar, Etiopía",3
+luna-9,luna,region_candidata,"Provincia de Tabuk, Arabia Saudita",3
+luna-10,luna,region_candidata,"Tibesti, Chad",4
+luna-11,luna,region_candidata,Islandia,5
+luna-12,luna,region_candidata,"Kunene, Namibia",2
+luna-13,luna,region_candidata,"Provincia de Medina, Arabia Saudita",4
+luna-14,luna,region_candidata,Irán,4
+luna-15,luna,region_candidata,"Provincia de La Meca, Arabia Saudita",1
+luna-16,luna,region_candidata,"Condado de Turkana, Kenia",2
+luna-17,luna,region_candidata,"Gobernación de Lahij, Yemen",4
+luna-18,luna,region_candidata,"Tibesti, Chad",2
+luna-19,luna,region_candidata,"Provincia de Medina, Arabia Saudita",2
+luna-20,luna,region_candidata,"Provincia de Tabuk, Arabia Saudita",4
+analogo-luna-craters-of-the-moon-idaho,luna,analogo_conocido,"Craters of the Moon, Idaho",1
+analogo-luna-kilauea-hawai,luna,analogo_conocido,"Kīlauea, Hawái",1
+analogo-luna-pinacate-sonora,luna,analogo_conocido,"Pinacate, Sonora",1
+analogo-luna-askja-islandia,luna,analogo_conocido,"Askja, Islandia",2
+analogo-luna-lanzarote-timanfaya,luna,analogo_conocido,Lanzarote – Timanfaya,2
+analogo-luna-mauna-kea-hawai,luna,analogo_conocido,"Mauna Kea, Hawái",1
+analogo-luna-meteor-crater-arizona,luna,analogo_conocido,"Meteor Crater, Arizona",4
+marte_polar-1,marte,region_candidata,Groenlandia,71
+marte_polar-2,marte,region_candidata,"Nunavut, Canadá",8
+marte_polar-3,marte,region_candidata,"Nunavut, Canadá",22
+marte_polar-4,marte,region_candidata,"Nunavut, Canadá",6
+marte_polar-5,marte,region_candidata,Groenlandia,4
+marte_polar-6,marte,region_candidata,Groenlandia,2
+marte_polar-7,marte,region_candidata,"Nunavut, Canadá",2
+marte_polar-8,marte,region_candidata,"Nunavut, Canadá",6
+marte_altura-1,marte,region_candidata,"Sinkiang, China",40
+marte_altura-2,marte,region_candidata,"Región de Antofagasta, Chile",5
+marte_altura-3,marte,region_candidata,"Provincia de Alto Badajshán, Tayikistán",4
+marte_arido-1,marte,region_candidata,Argelia,557
+marte_arido-2,marte,region_candidata,"Provincia de Riad, Arabia Saudita",75
+marte_arido-3,marte,region_candidata,"Región de Antofagasta, Chile",16
+marte_arido-4,marte,region_candidata,"Sinkiang, China",75
+marte_arido-5,marte,region_candidata,"Gobernación de Shabwah, Yemen",8
+marte_arido-6,marte,region_candidata,"Provincia Oriental, Arabia Saudita",11
+marte_arido-7,marte,region_candidata,"Gobernación de Mutana, Irak",5
+marte_arido-8,marte,region_candidata,"Al Wahat, Libia",2
+marte_arido-9,marte,region_candidata,"Mongolia Interior, China",11
+marte_arido-10,marte,region_candidata,"Dajla-Río de Oro, Marruecos",5
+analogo-marte-cuenca-de-qaidam-occidental-lenghu,marte,analogo_conocido,Cuenca de Qaidam occidental (Lenghu),1
+analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,marte,analogo_conocido,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),2
+analogo-marte-isla-devon-haughton-mars-project,marte,analogo_conocido,Isla Devon (Haughton-Mars Project),2
+analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,marte,analogo_conocido,"Desierto de Atacama, núcleo hiperárido (ARADS)",2
+analogo-marte-valles-secos-de-mcmurdo,marte,analogo_conocido,Valles Secos de McMurdo,1
+analogo-marte-lanzarote-esa-pangaea,marte,analogo_conocido,Lanzarote (ESA PANGAEA),2
+analogo-marte-rio-tinto-marte,marte,analogo_conocido,Río Tinto (MARTE),1
+analogo-marte-tso-kar-ladakh-isro-hope,marte,analogo_conocido,"Tso Kar, Ladakh (ISRO HOPE)",2

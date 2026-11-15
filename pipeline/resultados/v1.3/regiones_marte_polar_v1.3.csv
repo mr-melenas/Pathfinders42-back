@@ -1,0 +1,9 @@
+rango,region_id,lat,lon,percentil_max,percentil_medio,n_celdas,area_km2,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2,T_media,P_anual,elevacion,frac_desnudo,pais_iso,region
+1,9,81.5,-58.125,100.0,98.0,106,60300,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),388,No,,,-16.34,120.17,507.97,,GL,Groenlandia
+2,7,80.0,-82.5,99.06,97.5,4,2700,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),165,No,,,-15.67,106.45,221.23,0.04,CA,"Nunavut, Canadá"
+3,2,80.0,-88.75,98.72,95.9,22,14800,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),42,Sí,https://doi.org/10.3389/fmicb.2017.02527,https://astrobiology.com/2009/03/27/a-skype-chat-and-tour-with-astrobiologist-dale-andersen-on-axel-heiberg-island/,-15.2,117.87,328.22,0.0,CA,"Nunavut, Canadá"
+4,8,80.0,-71.25,97.88,97.5,2,1300,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),379,No,,,-14.76,180.69,389.71,0.96,CA,"Nunavut, Canadá"
+5,6,79.0,-66.875,96.77,96.5,2,1500,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),483,No,,,-14.08,182.63,435.0,0.55,GL,Groenlandia
+6,4,78.5,-70.0,96.67,96.4,2,1500,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),438,No,,,-15.4,199.13,585.05,0.25,GL,Groenlandia
+7,3,78.5,-81.875,96.53,96.1,2,1500,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),202,No,,,-16.46,194.03,548.68,0.22,CA,"Nunavut, Canadá"
+8,5,79.0,-93.125,96.36,95.9,3,2200,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),58,Sí,https://doi.org/10.3389/fmicb.2017.02527,https://astrobiology.com/2009/03/27/a-skype-chat-and-tour-with-astrobiologist-dale-andersen-on-axel-heiberg-island/,-15.01,203.21,171.17,0.12,CA,"Nunavut, Canadá"

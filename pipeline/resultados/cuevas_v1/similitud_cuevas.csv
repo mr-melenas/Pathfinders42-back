@@ -1,0 +1,123 @@
+id,nombre,cuerpo,tipo,clase_cueva,km_cueva_mas_cercana,n_cuevas_radio,region_id,region,perfil,tipo_tierra,clase_cueva_tierra,entradas_osm,posibles_tubos_lava,cuevas_documentadas,d_cuevas,d_topo,d_cuevas_topo
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-1,"Afar, Etiopía",luna,region_candidata,sin_cuevas,0,0,,1.0,0.286,0.643
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-2,"Gobernacion de Rif Dimashq, Siria",luna,region_candidata,tubo_lava,8,1,,0.5,0.546,0.523
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-3,"Provincia de Medina, Arabia Saudita",luna,region_candidata,tubo_lava,12,12,,0.5,0.551,0.526
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-4,"Afar, Etiopía",luna,region_candidata,sin_cuevas,0,0,,1.0,0.476,0.738
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-5,"Condado de Marsabit, Kenia",luna,region_candidata,sin_cuevas,0,0,,1.0,0.506,0.753
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-6,"Provincia de La Meca, Arabia Saudita",luna,region_candidata,tubo_lava,1,1,,0.5,0.606,0.553
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-7,Islandia,luna,region_candidata,tubo_lava,12,12,,0.5,0.3,0.4
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-8,"Afar, Etiopía",luna,region_candidata,sin_cuevas,0,0,,1.0,0.322,0.661
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-9,"Provincia de Tabuk, Arabia Saudita",luna,region_candidata,tubo_lava,2,1,,0.5,0.105,0.302
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-10,"Tibesti, Chad",luna,region_candidata,sin_cuevas,0,0,,1.0,0.219,0.61
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-11,Islandia,luna,region_candidata,tubo_lava,4,4,,0.5,0.263,0.382
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-12,"Kunene, Namibia",luna,region_candidata,sin_cuevas,0,0,,1.0,0.269,0.635
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-13,"Provincia de Medina, Arabia Saudita",luna,region_candidata,cueva,1,0,,0.0,0.524,0.262
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-14,Irán,luna,region_candidata,sin_cuevas,0,0,,1.0,0.292,0.646
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-15,"Provincia de La Meca, Arabia Saudita",luna,region_candidata,sin_cuevas,0,0,,1.0,0.258,0.629
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-16,"Condado de Turkana, Kenia",luna,region_candidata,sin_cuevas,0,0,,1.0,0.318,0.659
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-17,"Gobernación de Lahij, Yemen",luna,region_candidata,sin_cuevas,0,0,,1.0,0.198,0.599
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-18,"Tibesti, Chad",luna,region_candidata,sin_cuevas,0,0,,1.0,0.24,0.62
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-19,"Provincia de Medina, Arabia Saudita",luna,region_candidata,sin_cuevas,0,0,,1.0,0.505,0.752
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,luna-20,"Provincia de Tabuk, Arabia Saudita",luna,region_candidata,sin_cuevas,0,0,,1.0,0.097,0.548
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-craters-of-the-moon-idaho,"Craters of the Moon, Idaho",luna,analogo_conocido,tubo_lava,24,24,,0.5,0.529,0.514
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-kilauea-hawai,"Kīlauea, Hawái",luna,analogo_conocido,tubo_lava,8,9,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",0.5,0.3,0.4
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-pinacate-sonora,"Pinacate, Sonora",luna,analogo_conocido,sin_cuevas,0,0,,1.0,0.154,0.577
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-askja-islandia,"Askja, Islandia",luna,analogo_conocido,sin_cuevas,0,0,,1.0,0.076,0.538
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-lanzarote-timanfaya,Lanzarote – Timanfaya,luna,analogo_conocido,tubo_lava,88,80,,0.5,0.104,0.302
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-mauna-kea-hawai,"Mauna Kea, Hawái",luna,analogo_conocido,tubo_lava,4,5,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",0.5,0.674,0.587
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-meteor-crater-arizona,"Meteor Crater, Arizona",luna,analogo_conocido,sin_cuevas,0,0,,1.0,0.75,0.875
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-1,Groenlandia,marte,region_candidata,sin_cuevas,0,0,,1.0,0.167,0.584
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-2,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.299,0.65
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-3,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.161,0.58
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-4,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.663,0.832
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-5,Groenlandia,marte,region_candidata,sin_cuevas,0,0,,1.0,0.236,0.618
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-6,Groenlandia,marte,region_candidata,sin_cuevas,0,0,,1.0,0.358,0.679
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-7,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.111,0.556
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_polar-8,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.264,0.632
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_altura-1,"Sinkiang, China",marte,region_candidata,sin_cuevas,0,0,,1.0,0.233,0.616
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_altura-2,"Región de Antofagasta, Chile",marte,region_candidata,sin_cuevas,0,0,,1.0,0.226,0.613
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",marte,region_candidata,sin_cuevas,0,0,,1.0,0.611,0.806
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-1,Argelia,marte,region_candidata,tubo_lava,41,1,,0.5,0.65,0.575
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-2,"Provincia de Riad, Arabia Saudita",marte,region_candidata,cueva,94,0,,0.0,0.643,0.322
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-3,"Región de Antofagasta, Chile",marte,region_candidata,cueva,4,0,,0.0,0.13,0.065
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-4,"Sinkiang, China",marte,region_candidata,cueva,11,0,,0.0,0.488,0.244
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-5,"Gobernación de Shabwah, Yemen",marte,region_candidata,sin_cuevas,0,0,,1.0,0.645,0.822
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-6,"Provincia Oriental, Arabia Saudita",marte,region_candidata,cueva,7,0,,0.0,0.757,0.378
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-7,"Gobernación de Mutana, Irak",marte,region_candidata,sin_cuevas,0,0,,1.0,0.892,0.946
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-8,"Al Wahat, Libia",marte,region_candidata,sin_cuevas,0,0,,1.0,0.798,0.899
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-9,"Mongolia Interior, China",marte,region_candidata,sin_cuevas,0,0,,1.0,0.689,0.844
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,marte_arido-10,"Dajla-Río de Oro, Marruecos",marte,region_candidata,sin_cuevas,0,0,,1.0,0.933,0.966
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-cuenca-de-qaidam-occidental-lenghu,Cuenca de Qaidam occidental (Lenghu),marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.52,0.76
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.454,0.727
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-isla-devon-haughton-mars-project,Isla Devon (Haughton-Mars Project),marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.305,0.652
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,"Desierto de Atacama, núcleo hiperárido (ARADS)",marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.112,0.556
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-valles-secos-de-mcmurdo,Valles Secos de McMurdo,marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.515,0.758
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-lanzarote-esa-pangaea,Lanzarote (ESA PANGAEA),marte,analogo_conocido,tubo_lava,88,80,,0.5,0.104,0.302
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-rio-tinto-marte,Río Tinto (MARTE),marte,analogo_conocido,cueva,3,0,,0.0,0.242,0.121
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-tso-kar-ladakh-isro-hope,"Tso Kar, Ladakh (ISRO HOPE)",marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.339,0.67
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-la-corona-cueva-de-los-verdes-tunel-de-l,"La Corona (Cueva de los Verdes / Túnel de la Atlántida), Lanzarote",luna,cueva_documentada,tubo_lava,78,68,"La Corona (Cueva de los Verdes / Túnel de la Atlántida), Lanzarote",0.5,,
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-valentine-cave-lava-beds-national-monume,"Valentine Cave, Lava Beds National Monument, California",marte,cueva_documentada,tubo_lava,66,67,"Valentine Cave, Lava Beds National Monument, California",0.5,,
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-tubos-de-lava-del-mauna-loa-hi-seas-hawa,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",luna,cueva_documentada,tubo_lava,3,4,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",0.5,,
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-luna-surtshellirstefanshellir-hallmundarhraun,"Surtshellir–Stefánshellir (Hallmundarhraun), Islandia",luna,cueva_documentada,tubo_lava,10,11,"Surtshellir–Stefánshellir (Hallmundarhraun), Islandia",0.5,,
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,cueva,39.9,4,analogo-marte-cuevas-de-hielo-fumarolicas-del-erebus-w,Cuevas de hielo fumarólicas del Erebus (Warren Cave),marte,cueva_documentada,tubo_lava,1,1,Cuevas de hielo fumarólicas del Erebus (Warren Cave),0.5,,
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-1,"Afar, Etiopía",luna,region_candidata,sin_cuevas,0,0,,1.0,0.513,0.756
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-2,"Gobernacion de Rif Dimashq, Siria",luna,region_candidata,tubo_lava,8,1,,0.5,0.755,0.628
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-3,"Provincia de Medina, Arabia Saudita",luna,region_candidata,tubo_lava,12,12,,0.5,0.778,0.639
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-4,"Afar, Etiopía",luna,region_candidata,sin_cuevas,0,0,,1.0,0.679,0.84
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-5,"Condado de Marsabit, Kenia",luna,region_candidata,sin_cuevas,0,0,,1.0,0.733,0.866
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-6,"Provincia de La Meca, Arabia Saudita",luna,region_candidata,tubo_lava,1,1,,0.5,0.823,0.662
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-7,Islandia,luna,region_candidata,tubo_lava,12,12,,0.5,0.539,0.52
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-8,"Afar, Etiopía",luna,region_candidata,sin_cuevas,0,0,,1.0,0.565,0.782
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-9,"Provincia de Tabuk, Arabia Saudita",luna,region_candidata,tubo_lava,2,1,,0.5,0.324,0.412
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-10,"Tibesti, Chad",luna,region_candidata,sin_cuevas,0,0,,1.0,0.174,0.587
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-11,Islandia,luna,region_candidata,tubo_lava,4,4,,0.5,0.512,0.506
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-12,"Kunene, Namibia",luna,region_candidata,sin_cuevas,0,0,,1.0,0.513,0.756
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-13,"Provincia de Medina, Arabia Saudita",luna,region_candidata,cueva,1,0,,0.0,0.763,0.382
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-14,Irán,luna,region_candidata,sin_cuevas,0,0,,1.0,0.239,0.619
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-15,"Provincia de La Meca, Arabia Saudita",luna,region_candidata,sin_cuevas,0,0,,1.0,0.411,0.706
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-16,"Condado de Turkana, Kenia",luna,region_candidata,sin_cuevas,0,0,,1.0,0.519,0.76
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-17,"Gobernación de Lahij, Yemen",luna,region_candidata,sin_cuevas,0,0,,1.0,0.43,0.715
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-18,"Tibesti, Chad",luna,region_candidata,sin_cuevas,0,0,,1.0,0.146,0.573
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-19,"Provincia de Medina, Arabia Saudita",luna,region_candidata,sin_cuevas,0,0,,1.0,0.744,0.872
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,luna-20,"Provincia de Tabuk, Arabia Saudita",luna,region_candidata,sin_cuevas,0,0,,1.0,0.288,0.644
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-craters-of-the-moon-idaho,"Craters of the Moon, Idaho",luna,analogo_conocido,tubo_lava,24,24,,0.5,0.723,0.611
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-kilauea-hawai,"Kīlauea, Hawái",luna,analogo_conocido,tubo_lava,8,9,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",0.5,0.512,0.506
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-pinacate-sonora,"Pinacate, Sonora",luna,analogo_conocido,sin_cuevas,0,0,,1.0,0.219,0.61
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-askja-islandia,"Askja, Islandia",luna,analogo_conocido,sin_cuevas,0,0,,1.0,0.213,0.606
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-lanzarote-timanfaya,Lanzarote – Timanfaya,luna,analogo_conocido,tubo_lava,88,80,,0.5,0.333,0.416
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-mauna-kea-hawai,"Mauna Kea, Hawái",luna,analogo_conocido,tubo_lava,4,5,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",0.5,0.623,0.562
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-meteor-crater-arizona,"Meteor Crater, Arizona",luna,analogo_conocido,sin_cuevas,0,0,,1.0,0.925,0.962
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-1,Groenlandia,marte,region_candidata,sin_cuevas,0,0,,1.0,0.149,0.574
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-2,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.248,0.624
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-3,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.136,0.568
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-4,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.647,0.824
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-5,Groenlandia,marte,region_candidata,sin_cuevas,0,0,,1.0,0.457,0.728
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-6,Groenlandia,marte,region_candidata,sin_cuevas,0,0,,1.0,0.611,0.806
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-7,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.173,0.586
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_polar-8,"Nunavut, Canadá",marte,region_candidata,sin_cuevas,0,0,,1.0,0.199,0.6
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_altura-1,"Sinkiang, China",marte,region_candidata,sin_cuevas,0,0,,1.0,0.234,0.617
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_altura-2,"Región de Antofagasta, Chile",marte,region_candidata,sin_cuevas,0,0,,1.0,0.198,0.599
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",marte,region_candidata,sin_cuevas,0,0,,1.0,0.603,0.802
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-1,Argelia,marte,region_candidata,tubo_lava,41,1,,0.5,0.803,0.652
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-2,"Provincia de Riad, Arabia Saudita",marte,region_candidata,cueva,94,0,,0.0,0.817,0.408
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-3,"Región de Antofagasta, Chile",marte,region_candidata,cueva,4,0,,0.0,0.371,0.186
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-4,"Sinkiang, China",marte,region_candidata,cueva,11,0,,0.0,0.724,0.362
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-5,"Gobernación de Shabwah, Yemen",marte,region_candidata,sin_cuevas,0,0,,1.0,0.757,0.879
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-6,"Provincia Oriental, Arabia Saudita",marte,region_candidata,cueva,7,0,,0.0,0.911,0.456
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-7,"Gobernación de Mutana, Irak",marte,region_candidata,sin_cuevas,0,0,,1.0,0.964,0.982
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-8,"Al Wahat, Libia",marte,region_candidata,sin_cuevas,0,0,,1.0,0.922,0.961
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-9,"Mongolia Interior, China",marte,region_candidata,sin_cuevas,0,0,,1.0,0.824,0.912
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,marte_arido-10,"Dajla-Río de Oro, Marruecos",marte,region_candidata,sin_cuevas,0,0,,1.0,0.974,0.987
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-cuenca-de-qaidam-occidental-lenghu,Cuenca de Qaidam occidental (Lenghu),marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.769,0.885
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.425,0.712
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-isla-devon-haughton-mars-project,Isla Devon (Haughton-Mars Project),marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.517,0.758
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,"Desierto de Atacama, núcleo hiperárido (ARADS)",marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.182,0.591
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-valles-secos-de-mcmurdo,Valles Secos de McMurdo,marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.502,0.751
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-lanzarote-esa-pangaea,Lanzarote (ESA PANGAEA),marte,analogo_conocido,tubo_lava,88,80,,0.5,0.333,0.416
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-rio-tinto-marte,Río Tinto (MARTE),marte,analogo_conocido,cueva,3,0,,0.0,0.093,0.046
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-tso-kar-ladakh-isro-hope,"Tso Kar, Ladakh (ISRO HOPE)",marte,analogo_conocido,sin_cuevas,0,0,,1.0,0.331,0.666
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-la-corona-cueva-de-los-verdes-tunel-de-l,"La Corona (Cueva de los Verdes / Túnel de la Atlántida), Lanzarote",luna,cueva_documentada,tubo_lava,78,68,"La Corona (Cueva de los Verdes / Túnel de la Atlántida), Lanzarote",0.5,,
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-valentine-cave-lava-beds-national-monume,"Valentine Cave, Lava Beds National Monument, California",marte,cueva_documentada,tubo_lava,66,67,"Valentine Cave, Lava Beds National Monument, California",0.5,,
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-tubos-de-lava-del-mauna-loa-hi-seas-hawa,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",luna,cueva_documentada,tubo_lava,3,4,"Tubos de lava del Mauna Loa (HI-SEAS), Hawái",0.5,,
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-luna-surtshellirstefanshellir-hallmundarhraun,"Surtshellir–Stefánshellir (Hallmundarhraun), Islandia",luna,cueva_documentada,tubo_lava,10,11,"Surtshellir–Stefánshellir (Hallmundarhraun), Islandia",0.5,,
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,cueva,49.6,5,analogo-marte-cuevas-de-hielo-fumarolicas-del-erebus-w,Cuevas de hielo fumarólicas del Erebus (Warren Cave),marte,cueva_documentada,tubo_lava,1,1,Cuevas de hielo fumarólicas del Erebus (Warren Cave),0.5,,
