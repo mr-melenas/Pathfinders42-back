@@ -1,0 +1,98 @@
+id,nombre,cuerpo,tipo,cobertura_mapa,fraccion_clasificada,unidades,clase_dominante,f_basalto,f_piroclastos,f_anortosita,f_corteza_mixta,f_sedimentos_agua,f_sedimentos_viento,f_derrubios,f_hielo,f_evaporitas,FeO_pct,TiO2_pct,Th_ppm,Fe_pct,Si_pct,Cl_pct,H2O_pct,K_pct,Th_pct,cloruros_25km,cloruros_100km
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,luna,region_aterrizaje_artemis,1.0,1.0,pNc 76%; pNb 24%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.1,0.07,0.9,,,,,,,,
+artemis-haworth,Haworth,luna,region_aterrizaje_artemis,1.0,1.0,pNb 73%; pNc 27%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.3,0.23,0.9,,,,,,,,
+artemis-malapert-massif,Malapert Massif,luna,region_aterrizaje_artemis,1.0,1.0,pNbm 81%; pNb 19%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.8,0.0,0.9,,,,,,,,
+artemis-mons-mouton-plateau,Mons Mouton Plateau,luna,region_aterrizaje_artemis,1.0,1.0,pNb 66%; pNbm 20%; pNc 15%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.7,0.07,0.6,,,,,,,,
+artemis-mons-mouton,Mons Mouton,luna,region_aterrizaje_artemis,1.0,1.0,pNb 85%; pNc 15%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.0,0.25,0.7,,,,,,,,
+artemis-nobile-rim-1,Nobile Rim 1,luna,region_aterrizaje_artemis,1.0,1.0,pNc 93%; pNb 7%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.1,0.09,0.7,,,,,,,,
+artemis-nobile-rim-2,Nobile Rim 2,luna,region_aterrizaje_artemis,1.0,1.0,pNc 98%; Nc 2%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.8,0.22,0.7,,,,,,,,
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,luna,region_aterrizaje_artemis,1.0,1.0,pNb 68%; Nc 32%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.3,0.21,0.7,,,,,,,,
+artemis-slater-plain,Slater Plain,luna,region_aterrizaje_artemis,1.0,1.0,Ntp 55%; pNb 45%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.2,0.12,0.8,,,,,,,,
+apollo-11,Apollo 11,luna,aterrizaje_tripulado,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,12.2,3.44,1.5,,,,,,,,
+apollo-12,Apollo 12,luna,aterrizaje_tripulado,1.0,1.0,Em 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,18.7,3.41,8.3,,,,,,,,
+apollo-14,Apollo 14,luna,aterrizaje_tripulado,1.0,1.0,Iif 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,15.5,1.21,10.7,,,,,,,,
+apollo-15,Apollo 15,luna,aterrizaje_tripulado,1.0,1.0,Em 77%; Nbm 23%,basalto,0.965,0.0,0.035,0.0,0.0,0.0,0.0,0.0,0,12.8,1.82,6.4,,,,,,,,
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,1.0,1.0,Ib 53%; Ip 47%,anortosita,0.025,0.0,0.975,0.0,0.0,0.0,0.0,0.0,0,6.2,0.2,2.2,,,,,,,,
+apollo-17,Apollo 17,luna,aterrizaje_tripulado,1.0,1.0,Im2 53%; Nbm 47%,basalto,0.988,0.0,0.012,0.0,0.0,0.0,0.0,0.0,0,13.8,4.1,1.8,,,,,,,,
+aterrizaje-luna-9,Luna 9,luna,aterrizaje_robotico,1.0,1.0,Im2 52%; pNc 48%; Ioho 0%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,14.4,1.01,2.7,,,,,,,,
+aterrizaje-luna-13,Luna 13,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,23.4,4.85,3.7,,,,,,,,
+aterrizaje-surveyor-1,Surveyor 1,luna,aterrizaje_robotico,1.0,1.0,Em 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,21.7,5.3,4.7,,,,,,,,
+aterrizaje-surveyor-3,Surveyor 3,luna,aterrizaje_robotico,1.0,1.0,Em 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,18.7,3.41,8.3,,,,,,,,
+aterrizaje-surveyor-5,Surveyor 5,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,15.0,4.42,2.3,,,,,,,,
+aterrizaje-surveyor-6,Surveyor 6,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,11.7,3.44,6.2,,,,,,,,
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,1.0,1.0,Cc 100%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.3,0.84,0.5,,,,,,,,
+aterrizaje-luna-16,Luna 16,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,20.4,4.78,1.5,,,,,,,,
+aterrizaje-luna-17,Luna 17,luna,aterrizaje_robotico,1.0,1.0,Em 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,17.4,2.83,5.2,,,,,,,,
+aterrizaje-luna-20,Luna 20,luna,aterrizaje_robotico,1.0,1.0,Nb 100%,basalto,0.65,0.0,0.35,0.0,0.0,0.0,0.0,0.0,0,11.2,1.29,1.2,,,,,,,,
+aterrizaje-luna-21,Luna 21,luna,aterrizaje_robotico,1.0,1.0,Em 68%; Nc 18%; It 9%,basalto,0.984,0.0,0.016,0.0,0.0,0.0,0.0,0.0,0,13.6,2.05,2.4,,,,,,,,
+aterrizaje-luna-23,Luna 23,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,13.0,1.76,0.7,,,,,,,,
+aterrizaje-luna-24,Luna 24,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,13.0,1.76,0.7,,,,,,,,
+aterrizaje-chang-e-3,Chang'e 3,luna,aterrizaje_robotico,1.0,1.0,Em 75%; Im2 25%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,19.5,5.18,3.8,,,,,,,,
+aterrizaje-chang-e-4,Chang'e 4,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,8.7,0.7,2.1,,,,,,,,
+aterrizaje-chang-e-5,Chang'e 5,luna,aterrizaje_robotico,1.0,1.0,Em 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,18.0,3.57,6.6,,,,,,,,
+aterrizaje-chang-e-6,Chang'e 6,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,8.4,0.39,1.1,,,,,,,,
+aterrizaje-chandrayaan-3,Chandrayaan-3,luna,aterrizaje_robotico,1.0,1.0,Ntp 79%; pNt 21%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.9,0.0,0.5,,,,,,,,
+aterrizaje-slim,SLIM,luna,aterrizaje_robotico,1.0,1.0,Cc 100%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.9,0.99,1.0,,,,,,,,
+aterrizaje-im-1-odysseus,IM-1 Odysseus,luna,aterrizaje_robotico,1.0,1.0,pNbm 54%; Ip 34%; pNb 12%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.7,0.11,0.7,,,,,,,,
+aterrizaje-blue-ghost-m1,Blue Ghost M1,luna,aterrizaje_robotico,1.0,1.0,Im2 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,15.7,2.67,0.9,,,,,,,,
+aterrizaje-im-2-athena,IM-2 Athena,luna,aterrizaje_robotico,1.0,1.0,pNb 100%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,4.8,0.09,0.6,,,,,,,,
+aterrizaje-mars-3,Mars 3,marte,aterrizaje_robotico,1.0,1.0,lNh 91%; eNh 9%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,13.8,19.88,0.51,3.48,0.374,0.753,0.0,0.0
+aterrizaje-viking-1,Viking 1,marte,aterrizaje_robotico,1.0,1.0,Hto 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,15.49,20.96,0.37,2.62,0.32,0.615,0.0,0.0
+aterrizaje-viking-2,Viking 2,marte,aterrizaje_robotico,1.0,1.0,lHl 90%; AHi 10%,sedimentos_agua,0.0,0.0,0.0,0.098,0.902,0.0,0.0,0.0,0,,,,14.34,20.86,0.52,4.58,0.458,0.735,0.0,0.0
+aterrizaje-mars-pathfinder,Mars Pathfinder,marte,aterrizaje_robotico,1.0,1.0,Hto 97%; Nhu 3%,sedimentos_agua,0.0,0.0,0.0,0.029,0.971,0.0,0.0,0.0,0,,,,16.83,20.51,0.39,3.0,0.398,0.76,0.0,0.0
+aterrizaje-spirit-mer-a,Spirit (MER-A),marte,aterrizaje_robotico,1.0,1.0,eHv 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,15.79,19.7,0.69,7.34,0.329,0.606,0.0,0.0
+aterrizaje-opportunity-mer-b,Opportunity (MER-B),marte,aterrizaje_robotico,1.0,1.0,HNhu 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,15.17,19.86,0.57,5.34,0.31,0.608,0.0,0.0
+aterrizaje-phoenix,Phoenix,marte,aterrizaje_robotico,1.0,1.0,lHl 63%; mAl 37%,sedimentos_agua,0.0,0.0,0.0,0.0,0.635,0.256,0.0,0.11,0,,,,,,,,0.266,0.4,0.0,0.0
+aterrizaje-curiosity-msl,Curiosity (MSL),marte,aterrizaje_robotico,1.0,1.0,AHi 55%; Htu 45%,corteza_mixta,0.0,0.0,0.0,0.555,0.223,0.0,0.223,0.0,0,,,,15.09,20.43,0.58,5.42,0.305,0.584,0.0,0.0
+aterrizaje-insight,InSight,marte,aterrizaje_robotico,1.0,1.0,eHt 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,16.26,20.28,0.62,5.16,0.279,0.564,0.0,0.0
+aterrizaje-perseverance-mars-2020,Perseverance (Mars 2020),marte,aterrizaje_robotico,1.0,1.0,HNt 75%; mNhm 25%,sedimentos_agua,0.0,0.0,0.0,0.245,0.755,0.0,0.0,0.0,0,,,,16.62,20.61,0.39,3.53,0.316,0.599,0.0,0.0
+aterrizaje-tianwen-1,Tianwen-1,marte,aterrizaje_robotico,1.0,1.0,lHl 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,13.83,20.06,0.47,3.34,0.465,0.738,0.0,0.0
+aterrizaje-rosalind-franklin-exomars,Rosalind Franklin (ExoMars),marte,aterrizaje_planificado,1.0,1.0,lNh 97%; mNh 3%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,17.02,20.82,0.46,4.22,0.338,0.642,0.0,0.0
+aterrizaje-chang-e-7,Chang'e 7,luna,aterrizaje_planificado,1.0,1.0,pNb 100%,anortosita,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0,5.2,0.15,0.8,,,,,,,,
+ez-e-melas-chasma,E. Melas Chasma,marte,exploration_zone,1.0,1.0,lHt 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,15.0,21.04,0.51,3.56,0.302,0.425,0.0,0.0
+ez-coprates-chasma,Coprates Chasma,marte,exploration_zone,1.0,1.0,lHt 94%; Nhu 6%,sedimentos_agua,0.0,0.0,0.0,0.061,0.939,0.0,0.0,0.0,0,,,,15.01,20.63,0.47,3.4,0.316,0.469,0.0,0.0
+ez-viking,Viking,marte,exploration_zone,1.0,1.0,Hto 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,15.49,20.96,0.37,2.62,0.32,0.615,0.0,0.0
+ez-acidalia-planitia,Acidalia Planitia,marte,exploration_zone,1.0,1.0,Hto 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,15.88,20.89,0.4,2.9,0.361,0.718,0.0,0.0
+ez-ne-marineris,NE Marineris,marte,exploration_zone,1.0,1.0,Hto 72%; mNh 28%,sedimentos_agua,0.0,0.0,0.0,0.281,0.719,0.0,0.0,0.0,0,,,,12.84,20.21,0.43,3.62,0.381,0.6,0.0,0.0
+ez-se-marineris,SE Marineris,marte,exploration_zone,1.0,1.0,mNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,16.23,21.25,0.44,3.6,0.323,0.58,1.0,7.0
+ez-gale-crater,Gale Crater,marte,exploration_zone,1.0,1.0,AHi 57%; Htu 43%,corteza_mixta,0.0,0.0,0.0,0.573,0.213,0.0,0.213,0.0,0,,,,15.09,20.43,0.58,5.42,0.305,0.584,0.0,0.0
+ez-gale-crater-2,Gale Crater 2,marte,exploration_zone,1.0,1.0,AHi 91%; Htu 9%,corteza_mixta,0.0,0.0,0.0,0.912,0.044,0.0,0.044,0.0,0,,,,15.09,20.43,0.58,5.42,0.305,0.584,0.0,0.0
+ez-gale-crater-3,Gale Crater 3,marte,exploration_zone,1.0,1.0,AHi 76%; Htu 24%,corteza_mixta,0.0,0.0,0.0,0.762,0.119,0.0,0.119,0.0,0,,,,15.09,20.43,0.58,5.42,0.305,0.584,0.0,0.0
+ez-sinus-meridiani,Sinus Meridiani,marte,exploration_zone,1.0,1.0,HNhu 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,15.17,19.86,0.57,5.34,0.31,0.608,0.0,0.0
+ez-s-meridiani-planum,S. Meridiani Planum,marte,exploration_zone,1.0,1.0,mNh 54%; HNhu 46%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,15.96,20.0,0.59,5.68,0.327,0.571,0.0,0.0
+ez-s-meridiani-planum-2,S. Meridiani Planum 2,marte,exploration_zone,1.0,1.0,HNhu 63%; mNh 37%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,15.17,19.86,0.57,5.34,0.31,0.608,0.0,0.0
+ez-gusev-crater,Gusev Crater,marte,exploration_zone,1.0,1.0,eHv 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,15.79,19.7,0.69,7.34,0.329,0.606,0.0,0.0
+ez-gusev-apollinaris-sulci,Gusev-Apollinaris Sulci,marte,exploration_zone,1.0,1.0,eNh 87%; HNt 11%; eHv 2%,corteza_mixta,0.017,0.0,0.0,0.874,0.108,0.0,0.0,0.0,0,,,,16.55,19.91,0.67,7.21,0.3,0.656,0.0,0.0
+ez-apollinaris-sulci,Apollinaris Sulci,marte,exploration_zone,1.0,1.0,mNh 41%; eNh 33%; AHtu 25%,corteza_mixta,0.0,0.102,0.0,0.746,0.0,0.152,0.0,0.0,0,,,,15.79,19.7,0.69,7.34,0.329,0.606,0.0,0.0
+ez-zephyria-planum,Zephyria Planum,marte,exploration_zone,1.0,1.0,lHt 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,17.11,20.15,0.62,4.93,0.285,0.495,0.0,0.0
+ez-hebrus-valles,Hebrus Valles,marte,exploration_zone,1.0,1.0,lHl 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,15.73,19.46,0.52,3.73,0.386,0.613,0.0,0.0
+ez-hypanis-delta,Hypanis Delta,marte,exploration_zone,1.0,1.0,mNh 86%; lNh 14%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,14.88,20.63,0.45,3.71,0.334,0.647,0.0,0.0
+ez-jezero-isidis-syrtis,Jezero-Isidis-Syrtis,marte,exploration_zone,1.0,1.0,mNhm 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,16.62,20.61,0.39,3.53,0.316,0.599,0.0,0.0
+ez-nili-fossae,Nili Fossae,marte,exploration_zone,1.0,1.0,mNh 61%; mNhm 39%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,16.74,20.76,0.37,3.36,0.317,0.589,0.0,0.0
+ez-aram-chaos,Aram Chaos,marte,exploration_zone,1.0,1.0,Htu 69%; Ht 31%,sedimentos_agua,0.0,0.0,0.0,0.0,0.653,0.0,0.347,0.0,0,,,,13.67,19.79,0.4,3.56,0.34,0.645,0.0,0.0
+ez-cerberus,Cerberus,marte,exploration_zone,1.0,1.0,lAv 95%; HNt 5%,basalto,0.949,0.0,0.0,0.0,0.051,0.0,0.0,0.0,0,,,,18.06,20.31,0.51,5.15,0.244,0.397,0.0,0.0
+ez-s-nectaris-fossae,S. Nectaris Fossae,marte,exploration_zone,1.0,1.0,Nhu 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,15.1,21.38,0.41,2.11,0.268,0.565,0.0,0.0
+ez-hadriacus-palus,Hadriacus Palus,marte,exploration_zone,1.0,1.0,lNh 83%; eNhm 16%; mNh 1%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,13.14,20.26,0.41,2.91,0.253,0.438,0.0,0.0
+ez-mawrth-vallis,Mawrth Vallis,marte,exploration_zone,1.0,1.0,eNh 79%; mNh 21%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,16.81,21.03,0.51,5.46,0.334,0.712,0.0,0.0
+ez-mclaughlin-crater,McLaughlin Crater,marte,exploration_zone,1.0,1.0,eNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,17.03,21.39,0.47,4.72,0.363,0.734,0.0,0.0
+ez-arabia-terra,Arabia Terra,marte,exploration_zone,1.0,1.0,mNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,15.25,19.82,0.59,5.46,0.316,0.658,0.0,0.0
+ez-columbus-crater,Columbus Crater,marte,exploration_zone,1.0,1.0,eNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,13.28,20.01,0.53,3.96,0.369,0.885,0.0,6.0
+ez-huygens-crater,Huygens Crater,marte,exploration_zone,1.0,1.0,lNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,12.47,20.89,0.47,4.08,0.349,0.637,0.0,0.0
+ez-noctis-landing,Noctis Landing,marte,exploration_zone,1.0,1.0,lHt 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,14.69,20.38,0.57,4.0,0.282,0.469,0.0,0.0
+ez-deuteronilus-mensae,Deuteronilus Mensae,marte,exploration_zone,1.0,1.0,ANa 100%,derrubios,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0,,,,14.52,20.16,0.45,4.59,0.344,0.732,0.0,0.0
+ez-e-hellas,E. Hellas,marte,exploration_zone,1.0,1.0,HNhu 81%; eNhm 19%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,14.08,20.39,0.34,3.56,0.304,0.463,0.0,0.0
+ez-e-hellas-2,E. Hellas 2,marte,exploration_zone,1.0,1.0,eNhm 77%; HNhu 23%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,13.87,20.4,0.34,3.33,0.303,0.472,0.0,0.0
+ez-deuteronilus-mensae-2,Deuteronilus Mensae 2,marte,exploration_zone,1.0,1.0,eHt 95%; ANa 5%,sedimentos_agua,0.0,0.0,0.0,0.0,0.95,0.0,0.05,0.0,0,,,,14.01,20.27,0.42,4.59,0.353,0.736,0.0,0.0
+ez-ismenius-cavus,Ismenius Cavus,marte,exploration_zone,1.0,1.0,mNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,14.78,20.48,0.52,5.09,0.372,0.712,0.0,0.0
+ez-e-hellas-3,E. Hellas 3,marte,exploration_zone,1.0,1.0,eHv 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,14.15,20.2,0.33,3.21,0.257,0.467,0.0,0.0
+ez-hale-crater,Hale Crater,marte,exploration_zone,1.0,1.0,mNhm 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,14.07,20.98,0.43,2.01,0.26,0.547,0.0,0.0
+ez-noachis-terra-chloride,Noachis Terra Chloride,marte,exploration_zone,1.0,1.0,mNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,12.55,19.93,0.41,3.59,0.33,0.688,2.0,8.0
+ez-arcadia-planitia,Arcadia Planitia,marte,exploration_zone,1.0,1.0,eHt 100%,sedimentos_agua,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0,,,,15.41,19.71,0.42,4.72,0.367,0.579,0.0,0.0
+ez-erebus-montes,Erebus Montes,marte,exploration_zone,1.0,1.0,Av 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,14.12,20.07,0.44,4.64,0.262,0.457,0.0,0.0
+ez-acheron-fossae,Acheron Fossae,marte,exploration_zone,1.0,1.0,AHv 46%; lNh 40%; lHl 14%,basalto,0.455,0.0,0.0,0.404,0.141,0.0,0.0,0.0,0,,,,13.67,18.59,0.52,5.23,0.292,0.567,0.0,0.0
+ez-newton-crater,Newton Crater,marte,exploration_zone,1.0,1.0,lNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,13.91,19.91,0.52,3.13,0.404,0.824,0.0,0.0
+ez-protonilus-mensae,Protonilus mensae,marte,exploration_zone,1.0,1.0,HNt 99%; ANa 1%,sedimentos_agua,0.0,0.0,0.0,0.0,0.993,0.0,0.007,0.0,0,,,,15.27,21.44,0.4,3.49,0.324,0.759,0.0,0.0
+ez-arcadia-planitia-43,Arcadia Planitia,marte,exploration_zone,1.0,1.0,Av 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,,,,,0.23,0.319,0.0,0.0
+ez-copernicus-crater,Copernicus Crater,marte,exploration_zone,1.0,1.0,lNh 100%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,14.01,20.02,0.53,3.06,0.403,0.777,0.0,0.0
+ez-ausonia-cavus,Ausonia Cavus,marte,exploration_zone,1.0,1.0,eHv 100%,basalto,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,,,,14.01,20.25,0.36,3.11,0.26,0.5,0.0,0.0
+ez-kasei-valles,Kasei Valles,marte,exploration_zone,1.0,1.0,eHh 56%; Nhu 44%,corteza_mixta,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0,,,,14.95,20.21,0.46,2.25,0.245,0.47,0.0,0.0

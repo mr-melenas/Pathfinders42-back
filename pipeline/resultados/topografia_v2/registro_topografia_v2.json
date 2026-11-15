@@ -1,0 +1,18 @@
+{
+  "version": "topografia_v2",
+  "fecha": "2026-10-28T23:46:42",
+  "datos": "Copernicus DEM GLO-30 (ESA, 2021), doi:10.5270/ESA-c5d3d65; teselas COG del bucket público de AWS copernicus-dem-30m",
+  "parametros": {
+    "radio_analogo_km": 10,
+    "lado_relieve_m": 1200,
+    "paso_relieve_m": 1,
+    "pixel_240_m": 240,
+    "max_minutos": 40
+  },
+  "progreso": "1053/1053 teselas",
+  "limitaciones": [
+    "Copernicus es un modelo de superficie: incluye edificios y vegetación (irrelevante en las regiones desnudas, no en Kīlauea o Mauna Kea)",
+    "el mar de las teselas de costa (altura 0 exacta) se descarta",
+    "algunas teselas de Copernicus no son públicas (lista de la ESA); cuentan como sin dato"
+  ]
+}

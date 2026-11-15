@@ -1,0 +1,21 @@
+rango,region_id,n_celdas,area_km2,percentil_medio,contraste_medio,lat,lon,glim_basalto,glim_volcanica,glim_evaporitas,glim_carbonatos,glim_sedimentos,glim_cristalinas,glim_agua_hielo,litologia_glim,referencia_mas_cercana,distancia_km,analogo_conocido,fuente,region
+1,1010,1721,51950.0,98.4,0.0232,12.974997,41.574997,0.67,0.67,0.07,0.07,0.15,0.04,0.0,volcánica (basalto),"Harrat Rahat, Arabia Saudí",876,No,,"Afar, Etiopía"
+2,2294,811,21050.0,97.6,0.0113,33.075,37.125,0.72,0.72,0.0,0.08,0.21,0.0,0.0,volcánica (basalto),"Harrat Khaybar, Arabia Saudí",731,No,,"Gobernacion de Rif Dimashq, Siria"
+3,1562,441,12320.0,98.9,0.0143,25.575003,39.72499,0.98,0.98,0.0,0.0,0.0,0.02,0.0,volcánica (basalto),"Harrat Khaybar, Arabia Saudí",4,Campo volcánico (sin fuente lunar),,"Provincia de Medina, Arabia Saudita"
+4,1014,259,7860.0,98.3,0.0174,11.724997,41.024994,0.55,0.55,0.12,0.0,0.33,0.0,0.0,volcánica (basalto),"Harrat Rahat, Arabia Saudí",1174,No,,"Afar, Etiopía"
+5,815,210,6500.0,98.8,0.0136,3.1750016,36.625,0.62,0.69,0.09,0.0,0.02,0.03,0.18,volcánica (basalto),"Harrat Rahat, Arabia Saudí",2152,No,,"Condado de Marsabit, Kenia"
+6,1369,181,5230.0,97.3,0.0175,21.224997,42.074997,0.97,0.97,0.0,0.0,0.0,0.03,0.0,volcánica (basalto),"Harrat Rahat, Arabia Saudí",269,No,,"Provincia de La Meca, Arabia Saudita"
+7,4153,355,4630.0,99.1,0.022,65.075005,-16.675003,1.0,1.0,0.0,0.0,0.0,0.0,0.0,volcánica (basalto),"Holuhraun, Islandia",3,Campo volcánico (sin fuente lunar),,Islandia
+8,999,136,4140.0,98.4,0.016,11.025,41.47499,0.66,0.66,0.17,0.0,0.08,0.0,0.08,volcánica (basalto),"Harrat Rahat, Arabia Saudí",1286,No,,"Afar, Etiopía"
+9,1687,149,4110.0,99.0,0.0224,27.225,37.324997,0.91,0.91,0.0,0.0,0.09,0.0,0.0,volcánica (basalto),"Harrat Khaybar, Arabia Saudí",233,No,,"Provincia de Tabuk, Arabia Saudita"
+10,1363,139,4030.0,96.6,0.0286,20.825003,17.97499,0.97,0.97,0.0,0.0,0.0,0.03,0.0,volcánica (basalto),"Al Haruj, Libia",648,No,,"Tibesti, Chad"
+11,4117,287,3820.0,99.1,0.02,64.575005,-18.425003,1.0,1.0,0.0,0.0,0.0,0.0,0.0,volcánica (basalto),"Holuhraun, Islandia",44,Campo volcánico (sin fuente lunar),,Islandia
+12,404,88,2560.0,96.2,0.0126,-19.924997,13.675003,0.99,0.99,0.0,0.0,0.0,0.01,0.0,volcánica (basalto),"Hoggar – Atakor, Argelia",4849,No,,"Kunene, Namibia"
+13,1503,89,2520.0,97.8,0.012,24.124998,39.824997,0.98,0.98,0.0,0.0,0.01,0.01,0.0,volcánica (basalto),"Harrat Rahat, Arabia Saudí",86,No,,"Provincia de Medina, Arabia Saudita"
+14,1760,63,1730.0,96.4,0.0215,27.874998,59.524994,0.51,0.62,0.0,0.08,0.25,0.05,0.0,volcánica (basalto),"Harrat Khaybar, Arabia Saudí",1926,No,,Irán
+15,1394,60,1730.0,98.4,0.0169,21.624998,41.425003,0.98,0.98,0.0,0.0,0.02,0.0,0.0,volcánica (basalto),"Harrat Rahat, Arabia Saudí",204,No,,"Provincia de La Meca, Arabia Saudita"
+16,801,53,1640.0,98.8,0.0174,1.9250015,36.425003,0.36,0.59,0.0,0.0,0.41,0.0,0.0,volcánica,"Harrat Rahat, Arabia Saudí",2331,No,,"Condado de Turkana, Kenia"
+17,1063,51,1540.0,97.3,0.0248,12.874998,43.925003,0.31,0.63,0.0,0.0,0.35,0.02,0.0,volcánica,"Harrat Rahat, Arabia Saudí",1158,No,,"Gobernación de Lahij, Yemen"
+18,1380,51,1470.0,96.7,0.0238,21.275,17.524994,0.98,0.98,0.0,0.0,0.02,0.0,0.0,volcánica (basalto),"Al Haruj, Libia",631,No,,"Tibesti, Chad"
+19,1469,48,1370.0,98.7,0.0125,23.275,40.074997,0.99,0.99,0.0,0.0,0.0,0.01,0.0,volcánica (basalto),"Harrat Rahat, Arabia Saudí",8,Campo volcánico (sin fuente lunar),,"Provincia de Medina, Arabia Saudita"
+20,1550,40,1120.0,97.5,0.0135,25.075003,37.824997,0.62,0.62,0.0,0.0,0.01,0.37,0.0,volcánica (basalto),"Harrat Khaybar, Arabia Saudí",205,No,,"Provincia de Tabuk, Arabia Saudita"

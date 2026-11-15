@@ -38,6 +38,8 @@ addopts = "-q"
 [tool.ruff]
 line-length = 110
 target-version = "py311"
+# pipeline/ es una copia de los notebooks y scripts de Colab: no pasa el lint del backend
+extend-exclude = ["pipeline"]
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]

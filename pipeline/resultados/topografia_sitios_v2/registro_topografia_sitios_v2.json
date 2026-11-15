@@ -1,0 +1,36 @@
+{
+  "version": "topografia_sitios_v2",
+  "fecha": "2026-10-29T22:58:10",
+  "datos": {
+    "luna_polar": "NASA LRO LOLA LDEM_75S_240M (PDS): https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/polar/img/ldem_75s_240m.img",
+    "luna": "NASA LRO LOLA LDEM_128 (PDS): https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_128.img",
+    "marte": "USGS HRSC–MOLA Blended DEM Global 200 m v2 (Fergason, Hare y Laura, 2018): https://planetarymaps.usgs.gov/mosaic/Mars/HRSC_MOLA_Blend/Mars_HRSC_MOLA_BlendDEM_Global_200mp_v2.tif",
+    "tierra": "histogramas a ~240 m de topografia_v2 (Copernicus DEM GLO-30), regiones completas y análogos conocidos"
+  },
+  "orientacion_polar": {
+    "elegida": [
+      1,
+      1,
+      false
+    ],
+    "correlacion": 1.0
+  },
+  "parametros": {
+    "radio_luna_km": 10,
+    "radio_marte_km": 25,
+    "umbral_parecido": 0.2,
+    "lado_relieve_m": 1200,
+    "paso_relieve_m": 1,
+    "distancia": "media(KS pendiente, KS relieve)"
+  },
+  "conteo": {
+    "sitios": 160,
+    "regiones_tierra": 56
+  },
+  "limitaciones": [
+    "solo forma del terreno (pendiente y relieve): no incluye clima, materiales ni iluminación",
+    "la ventana del relieve es de 5 píxeles (~1,2 km) en Luna y Tierra y de 7 píxeles (~1,4 km) en Marte",
+    "Marte a 200 m y Tierra/Luna a ~240 m: escalas parecidas pero no idénticas",
+    "las Exploration Zones se miden en un radio de 25 km alrededor de su centro, no en sus 100 km"
+  ]
+}

@@ -1,0 +1,6 @@
+rango,region_id,lat,lon,percentil_max,percentil_medio,n_pixeles,area_km2,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2,T_media,P_anual,elevacion,pais_iso,region_geocodificada
+1,2,26.0,1.25,100.0,97.6,1565,5548500,Lanzarote (ESA PANGAEA),701,No,,,27.6,9.5,165.6,DZ,Argelia
+2,5,27.5,48.125,98.2,96.4,23,78500,"Tso Kar, Ladakh (ISRO HOPE)",2850,No,,,27.1,17.9,149.3,SA,"Provincia Oriental, Arabia Saudita"
+3,8,39.0,86.875,98.07,96.5,134,392400,Lop Nur (cuenca del Tarim),16,Pendiente,https://doi.org/10.1029/2018JE005719,https://science.nasa.gov/earth/earth-observatory/lop-nur-xinjiang-china-51039/,13.2,26.3,985.6,CN,"Sinkiang, China"
+4,1,-24.5,-70.0,97.8,97.6,24,85600,"Desierto de Atacama, núcleo hiperárido (ARADS)",11,Sí,https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/,,15.9,10.3,1893.8,CL,"Región de Antofagasta, Chile"
+5,9,41.5,101.25,95.75,95.4,9,26100,Cuenca de Qaidam occidental (Lenghu),675,No,,,10.8,54.1,960.5,CN,"Mongolia Interior, China"

@@ -1,0 +1,12 @@
+{
+  "version_activa": "v1.3",
+  "carpeta": "04_resultados/v1.3",
+  "archivo_indices": "04_resultados/v1.3/indices_perfiles_v1.3.nc",
+  "regiones": [
+    "04_resultados/v1.3/regiones_marte_polar_v1.3.csv",
+    "04_resultados/v1.3/regiones_marte_altura_v1.3.csv",
+    "04_resultados/v1.3/regiones_marte_arido_v1.3.csv"
+  ],
+  "ficha": "05_analogos/ficha_analogos_completa.csv",
+  "fecha": "2026-10-19"
+}

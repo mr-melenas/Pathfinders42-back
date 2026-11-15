@@ -1,0 +1,2000 @@
+sitio_id,region_id,region,distancia_ks
+apollo-11,luna-6,"Provincia de La Meca, Arabia Saudita",0.079
+apollo-11,luna-2,"Gobernacion de Rif Dimashq, Siria",0.155
+apollo-11,luna-4,"Afar, Etiopía",0.16
+apollo-11,luna-5,"Condado de Marsabit, Kenia",0.171
+apollo-11,luna-3,"Provincia de Medina, Arabia Saudita",0.19
+apollo-11,luna-13,"Provincia de Medina, Arabia Saudita",0.236
+apollo-11,luna-19,"Provincia de Medina, Arabia Saudita",0.275
+apollo-11,luna-8,"Afar, Etiopía",0.291
+apollo-11,luna-16,"Condado de Turkana, Kenia",0.32
+apollo-11,luna-1,"Afar, Etiopía",0.347
+apollo-11,luna-7,Islandia,0.407
+apollo-11,luna-15,"Provincia de La Meca, Arabia Saudita",0.415
+apollo-11,luna-17,"Gobernación de Lahij, Yemen",0.429
+apollo-11,luna-12,"Kunene, Namibia",0.53
+apollo-11,luna-11,Islandia,0.545
+apollo-11,luna-20,"Provincia de Tabuk, Arabia Saudita",0.559
+apollo-11,luna-9,"Provincia de Tabuk, Arabia Saudita",0.582
+apollo-11,luna-10,"Tibesti, Chad",0.723
+apollo-11,luna-18,"Tibesti, Chad",0.734
+apollo-11,luna-14,Irán,0.745
+apollo-12,luna-4,"Afar, Etiopía",0.364
+apollo-12,luna-6,"Provincia de La Meca, Arabia Saudita",0.411
+apollo-12,luna-5,"Condado de Marsabit, Kenia",0.417
+apollo-12,luna-8,"Afar, Etiopía",0.474
+apollo-12,luna-2,"Gobernacion de Rif Dimashq, Siria",0.481
+apollo-12,luna-16,"Condado de Turkana, Kenia",0.497
+apollo-12,luna-3,"Provincia de Medina, Arabia Saudita",0.538
+apollo-12,luna-1,"Afar, Etiopía",0.567
+apollo-12,luna-13,"Provincia de Medina, Arabia Saudita",0.568
+apollo-12,luna-19,"Provincia de Medina, Arabia Saudita",0.601
+apollo-12,luna-7,Islandia,0.621
+apollo-12,luna-15,"Provincia de La Meca, Arabia Saudita",0.646
+apollo-12,luna-17,"Gobernación de Lahij, Yemen",0.678
+apollo-12,luna-11,Islandia,0.726
+apollo-12,luna-20,"Provincia de Tabuk, Arabia Saudita",0.75
+apollo-12,luna-12,"Kunene, Namibia",0.753
+apollo-12,luna-9,"Provincia de Tabuk, Arabia Saudita",0.767
+apollo-12,luna-14,Irán,0.851
+apollo-12,luna-10,"Tibesti, Chad",0.852
+apollo-12,luna-18,"Tibesti, Chad",0.861
+apollo-14,luna-12,"Kunene, Namibia",0.104
+apollo-14,luna-9,"Provincia de Tabuk, Arabia Saudita",0.144
+apollo-14,luna-11,Islandia,0.151
+apollo-14,luna-17,"Gobernación de Lahij, Yemen",0.181
+apollo-14,luna-15,"Provincia de La Meca, Arabia Saudita",0.195
+apollo-14,luna-7,Islandia,0.203
+apollo-14,luna-20,"Provincia de Tabuk, Arabia Saudita",0.224
+apollo-14,luna-1,"Afar, Etiopía",0.263
+apollo-14,luna-16,"Condado de Turkana, Kenia",0.304
+apollo-14,luna-8,"Afar, Etiopía",0.323
+apollo-14,luna-10,"Tibesti, Chad",0.411
+apollo-14,luna-19,"Provincia de Medina, Arabia Saudita",0.424
+apollo-14,luna-18,"Tibesti, Chad",0.427
+apollo-14,luna-13,"Provincia de Medina, Arabia Saudita",0.443
+apollo-14,luna-5,"Condado de Marsabit, Kenia",0.46
+apollo-14,luna-2,"Gobernacion de Rif Dimashq, Siria",0.461
+apollo-14,luna-3,"Provincia de Medina, Arabia Saudita",0.466
+apollo-14,luna-4,"Afar, Etiopía",0.469
+apollo-14,luna-14,Irán,0.48
+apollo-14,luna-6,"Provincia de La Meca, Arabia Saudita",0.565
+apollo-15,luna-7,Islandia,0.154
+apollo-15,luna-17,"Gobernación de Lahij, Yemen",0.173
+apollo-15,luna-1,"Afar, Etiopía",0.175
+apollo-15,luna-15,"Provincia de La Meca, Arabia Saudita",0.184
+apollo-15,luna-16,"Condado de Turkana, Kenia",0.202
+apollo-15,luna-8,"Afar, Etiopía",0.226
+apollo-15,luna-11,Islandia,0.243
+apollo-15,luna-4,"Afar, Etiopía",0.258
+apollo-15,luna-20,"Provincia de Tabuk, Arabia Saudita",0.266
+apollo-15,luna-12,"Kunene, Namibia",0.269
+apollo-15,luna-2,"Gobernacion de Rif Dimashq, Siria",0.281
+apollo-15,luna-5,"Condado de Marsabit, Kenia",0.283
+apollo-15,luna-9,"Provincia de Tabuk, Arabia Saudita",0.283
+apollo-15,luna-19,"Provincia de Medina, Arabia Saudita",0.286
+apollo-15,luna-3,"Provincia de Medina, Arabia Saudita",0.299
+apollo-15,luna-13,"Provincia de Medina, Arabia Saudita",0.302
+apollo-15,luna-6,"Provincia de La Meca, Arabia Saudita",0.341
+apollo-15,luna-10,"Tibesti, Chad",0.399
+apollo-15,luna-14,Irán,0.407
+apollo-15,luna-18,"Tibesti, Chad",0.408
+apollo-16,luna-9,"Provincia de Tabuk, Arabia Saudita",0.072
+apollo-16,luna-11,Islandia,0.078
+apollo-16,luna-20,"Provincia de Tabuk, Arabia Saudita",0.095
+apollo-16,luna-17,"Gobernación de Lahij, Yemen",0.183
+apollo-16,luna-15,"Provincia de La Meca, Arabia Saudita",0.194
+apollo-16,luna-10,"Tibesti, Chad",0.198
+apollo-16,luna-12,"Kunene, Namibia",0.2
+apollo-16,luna-7,Islandia,0.205
+apollo-16,luna-18,"Tibesti, Chad",0.217
+apollo-16,luna-1,"Afar, Etiopía",0.263
+apollo-16,luna-14,Irán,0.266
+apollo-16,luna-16,"Condado de Turkana, Kenia",0.293
+apollo-16,luna-8,"Afar, Etiopía",0.318
+apollo-16,luna-19,"Provincia de Medina, Arabia Saudita",0.455
+apollo-16,luna-4,"Afar, Etiopía",0.461
+apollo-16,luna-5,"Condado de Marsabit, Kenia",0.463
+apollo-16,luna-2,"Gobernacion de Rif Dimashq, Siria",0.471
+apollo-16,luna-13,"Provincia de Medina, Arabia Saudita",0.472
+apollo-16,luna-3,"Provincia de Medina, Arabia Saudita",0.485
+apollo-16,luna-6,"Provincia de La Meca, Arabia Saudita",0.571
+apollo-17,luna-10,"Tibesti, Chad",0.151
+apollo-17,luna-14,Irán,0.177
+apollo-17,luna-18,"Tibesti, Chad",0.195
+apollo-17,luna-20,"Provincia de Tabuk, Arabia Saudita",0.208
+apollo-17,luna-11,Islandia,0.288
+apollo-17,luna-7,Islandia,0.307
+apollo-17,luna-17,"Gobernación de Lahij, Yemen",0.308
+apollo-17,luna-9,"Provincia de Tabuk, Arabia Saudita",0.317
+apollo-17,luna-15,"Provincia de La Meca, Arabia Saudita",0.318
+apollo-17,luna-1,"Afar, Etiopía",0.33
+apollo-17,luna-16,"Condado de Turkana, Kenia",0.354
+apollo-17,luna-12,"Kunene, Namibia",0.383
+apollo-17,luna-8,"Afar, Etiopía",0.395
+apollo-17,luna-5,"Condado de Marsabit, Kenia",0.479
+apollo-17,luna-2,"Gobernacion de Rif Dimashq, Siria",0.485
+apollo-17,luna-19,"Provincia de Medina, Arabia Saudita",0.491
+apollo-17,luna-4,"Afar, Etiopía",0.501
+apollo-17,luna-3,"Provincia de Medina, Arabia Saudita",0.505
+apollo-17,luna-13,"Provincia de Medina, Arabia Saudita",0.507
+apollo-17,luna-6,"Provincia de La Meca, Arabia Saudita",0.557
+artemis-de-gerlache-rim-2,luna-14,Irán,0.299
+artemis-de-gerlache-rim-2,luna-10,"Tibesti, Chad",0.363
+artemis-de-gerlache-rim-2,luna-18,"Tibesti, Chad",0.378
+artemis-de-gerlache-rim-2,luna-20,"Provincia de Tabuk, Arabia Saudita",0.539
+artemis-de-gerlache-rim-2,luna-11,Islandia,0.606
+artemis-de-gerlache-rim-2,luna-9,"Provincia de Tabuk, Arabia Saudita",0.621
+artemis-de-gerlache-rim-2,luna-15,"Provincia de La Meca, Arabia Saudita",0.627
+artemis-de-gerlache-rim-2,luna-17,"Gobernación de Lahij, Yemen",0.642
+artemis-de-gerlache-rim-2,luna-7,Islandia,0.654
+artemis-de-gerlache-rim-2,luna-1,"Afar, Etiopía",0.683
+artemis-de-gerlache-rim-2,luna-16,"Condado de Turkana, Kenia",0.695
+artemis-de-gerlache-rim-2,luna-12,"Kunene, Namibia",0.726
+artemis-de-gerlache-rim-2,luna-8,"Afar, Etiopía",0.752
+artemis-de-gerlache-rim-2,luna-4,"Afar, Etiopía",0.805
+artemis-de-gerlache-rim-2,luna-5,"Condado de Marsabit, Kenia",0.838
+artemis-de-gerlache-rim-2,luna-2,"Gobernacion de Rif Dimashq, Siria",0.84
+artemis-de-gerlache-rim-2,luna-19,"Provincia de Medina, Arabia Saudita",0.844
+artemis-de-gerlache-rim-2,luna-3,"Provincia de Medina, Arabia Saudita",0.858
+artemis-de-gerlache-rim-2,luna-13,"Provincia de Medina, Arabia Saudita",0.86
+artemis-de-gerlache-rim-2,luna-6,"Provincia de La Meca, Arabia Saudita",0.895
+artemis-haworth,luna-14,Irán,0.199
+artemis-haworth,luna-18,"Tibesti, Chad",0.251
+artemis-haworth,luna-10,"Tibesti, Chad",0.267
+artemis-haworth,luna-20,"Provincia de Tabuk, Arabia Saudita",0.477
+artemis-haworth,luna-11,Islandia,0.53
+artemis-haworth,luna-9,"Provincia de Tabuk, Arabia Saudita",0.535
+artemis-haworth,luna-15,"Provincia de La Meca, Arabia Saudita",0.557
+artemis-haworth,luna-17,"Gobernación de Lahij, Yemen",0.58
+artemis-haworth,luna-7,Islandia,0.598
+artemis-haworth,luna-1,"Afar, Etiopía",0.633
+artemis-haworth,luna-16,"Condado de Turkana, Kenia",0.64
+artemis-haworth,luna-12,"Kunene, Namibia",0.654
+artemis-haworth,luna-8,"Afar, Etiopía",0.7
+artemis-haworth,luna-4,"Afar, Etiopía",0.768
+artemis-haworth,luna-5,"Condado de Marsabit, Kenia",0.806
+artemis-haworth,luna-2,"Gobernacion de Rif Dimashq, Siria",0.813
+artemis-haworth,luna-19,"Provincia de Medina, Arabia Saudita",0.819
+artemis-haworth,luna-3,"Provincia de Medina, Arabia Saudita",0.833
+artemis-haworth,luna-13,"Provincia de Medina, Arabia Saudita",0.835
+artemis-haworth,luna-6,"Provincia de La Meca, Arabia Saudita",0.877
+artemis-malapert-massif,luna-14,Irán,0.467
+artemis-malapert-massif,luna-10,"Tibesti, Chad",0.514
+artemis-malapert-massif,luna-18,"Tibesti, Chad",0.553
+artemis-malapert-massif,luna-20,"Provincia de Tabuk, Arabia Saudita",0.627
+artemis-malapert-massif,luna-11,Islandia,0.708
+artemis-malapert-massif,luna-17,"Gobernación de Lahij, Yemen",0.73
+artemis-malapert-massif,luna-9,"Provincia de Tabuk, Arabia Saudita",0.732
+artemis-malapert-massif,luna-15,"Provincia de La Meca, Arabia Saudita",0.733
+artemis-malapert-massif,luna-7,Islandia,0.734
+artemis-malapert-massif,luna-1,"Afar, Etiopía",0.758
+artemis-malapert-massif,luna-16,"Condado de Turkana, Kenia",0.778
+artemis-malapert-massif,luna-12,"Kunene, Namibia",0.812
+artemis-malapert-massif,luna-8,"Afar, Etiopía",0.825
+artemis-malapert-massif,luna-4,"Afar, Etiopía",0.865
+artemis-malapert-massif,luna-2,"Gobernacion de Rif Dimashq, Siria",0.891
+artemis-malapert-massif,luna-5,"Condado de Marsabit, Kenia",0.892
+artemis-malapert-massif,luna-19,"Provincia de Medina, Arabia Saudita",0.894
+artemis-malapert-massif,luna-3,"Provincia de Medina, Arabia Saudita",0.906
+artemis-malapert-massif,luna-13,"Provincia de Medina, Arabia Saudita",0.909
+artemis-malapert-massif,luna-6,"Provincia de La Meca, Arabia Saudita",0.937
+artemis-mons-mouton,luna-14,Irán,0.25
+artemis-mons-mouton,luna-18,"Tibesti, Chad",0.309
+artemis-mons-mouton,luna-10,"Tibesti, Chad",0.318
+artemis-mons-mouton,luna-20,"Provincia de Tabuk, Arabia Saudita",0.518
+artemis-mons-mouton,luna-11,Islandia,0.58
+artemis-mons-mouton,luna-9,"Provincia de Tabuk, Arabia Saudita",0.586
+artemis-mons-mouton,luna-15,"Provincia de La Meca, Arabia Saudita",0.602
+artemis-mons-mouton,luna-17,"Gobernación de Lahij, Yemen",0.621
+artemis-mons-mouton,luna-7,Islandia,0.638
+artemis-mons-mouton,luna-1,"Afar, Etiopía",0.67
+artemis-mons-mouton,luna-16,"Condado de Turkana, Kenia",0.679
+artemis-mons-mouton,luna-12,"Kunene, Namibia",0.702
+artemis-mons-mouton,luna-8,"Afar, Etiopía",0.739
+artemis-mons-mouton,luna-4,"Afar, Etiopía",0.8
+artemis-mons-mouton,luna-5,"Condado de Marsabit, Kenia",0.837
+artemis-mons-mouton,luna-2,"Gobernacion de Rif Dimashq, Siria",0.843
+artemis-mons-mouton,luna-19,"Provincia de Medina, Arabia Saudita",0.848
+artemis-mons-mouton,luna-3,"Provincia de Medina, Arabia Saudita",0.861
+artemis-mons-mouton,luna-13,"Provincia de Medina, Arabia Saudita",0.864
+artemis-mons-mouton,luna-6,"Provincia de La Meca, Arabia Saudita",0.9
+artemis-mons-mouton-plateau,luna-14,Irán,0.183
+artemis-mons-mouton-plateau,luna-18,"Tibesti, Chad",0.247
+artemis-mons-mouton-plateau,luna-10,"Tibesti, Chad",0.252
+artemis-mons-mouton-plateau,luna-20,"Provincia de Tabuk, Arabia Saudita",0.459
+artemis-mons-mouton-plateau,luna-11,Islandia,0.515
+artemis-mons-mouton-plateau,luna-9,"Provincia de Tabuk, Arabia Saudita",0.519
+artemis-mons-mouton-plateau,luna-15,"Provincia de La Meca, Arabia Saudita",0.54
+artemis-mons-mouton-plateau,luna-17,"Gobernación de Lahij, Yemen",0.563
+artemis-mons-mouton-plateau,luna-7,Islandia,0.581
+artemis-mons-mouton-plateau,luna-1,"Afar, Etiopía",0.617
+artemis-mons-mouton-plateau,luna-16,"Condado de Turkana, Kenia",0.623
+artemis-mons-mouton-plateau,luna-12,"Kunene, Namibia",0.637
+artemis-mons-mouton-plateau,luna-8,"Afar, Etiopía",0.684
+artemis-mons-mouton-plateau,luna-4,"Afar, Etiopía",0.754
+artemis-mons-mouton-plateau,luna-5,"Condado de Marsabit, Kenia",0.791
+artemis-mons-mouton-plateau,luna-2,"Gobernacion de Rif Dimashq, Siria",0.8
+artemis-mons-mouton-plateau,luna-19,"Provincia de Medina, Arabia Saudita",0.807
+artemis-mons-mouton-plateau,luna-3,"Provincia de Medina, Arabia Saudita",0.821
+artemis-mons-mouton-plateau,luna-13,"Provincia de Medina, Arabia Saudita",0.822
+artemis-mons-mouton-plateau,luna-6,"Provincia de La Meca, Arabia Saudita",0.867
+artemis-nobile-rim-1,luna-14,Irán,0.441
+artemis-nobile-rim-1,luna-10,"Tibesti, Chad",0.487
+artemis-nobile-rim-1,luna-18,"Tibesti, Chad",0.527
+artemis-nobile-rim-1,luna-20,"Provincia de Tabuk, Arabia Saudita",0.584
+artemis-nobile-rim-1,luna-11,Islandia,0.667
+artemis-nobile-rim-1,luna-17,"Gobernación de Lahij, Yemen",0.687
+artemis-nobile-rim-1,luna-7,Islandia,0.689
+artemis-nobile-rim-1,luna-9,"Provincia de Tabuk, Arabia Saudita",0.693
+artemis-nobile-rim-1,luna-15,"Provincia de La Meca, Arabia Saudita",0.694
+artemis-nobile-rim-1,luna-1,"Afar, Etiopía",0.713
+artemis-nobile-rim-1,luna-16,"Condado de Turkana, Kenia",0.733
+artemis-nobile-rim-1,luna-12,"Kunene, Namibia",0.766
+artemis-nobile-rim-1,luna-8,"Afar, Etiopía",0.781
+artemis-nobile-rim-1,luna-4,"Afar, Etiopía",0.826
+artemis-nobile-rim-1,luna-5,"Condado de Marsabit, Kenia",0.859
+artemis-nobile-rim-1,luna-2,"Gobernacion de Rif Dimashq, Siria",0.863
+artemis-nobile-rim-1,luna-19,"Provincia de Medina, Arabia Saudita",0.868
+artemis-nobile-rim-1,luna-3,"Provincia de Medina, Arabia Saudita",0.881
+artemis-nobile-rim-1,luna-13,"Provincia de Medina, Arabia Saudita",0.884
+artemis-nobile-rim-1,luna-6,"Provincia de La Meca, Arabia Saudita",0.914
+artemis-nobile-rim-2,luna-14,Irán,0.193
+artemis-nobile-rim-2,luna-10,"Tibesti, Chad",0.263
+artemis-nobile-rim-2,luna-18,"Tibesti, Chad",0.264
+artemis-nobile-rim-2,luna-20,"Provincia de Tabuk, Arabia Saudita",0.464
+artemis-nobile-rim-2,luna-11,Islandia,0.524
+artemis-nobile-rim-2,luna-9,"Provincia de Tabuk, Arabia Saudita",0.531
+artemis-nobile-rim-2,luna-15,"Provincia de La Meca, Arabia Saudita",0.545
+artemis-nobile-rim-2,luna-17,"Gobernación de Lahij, Yemen",0.568
+artemis-nobile-rim-2,luna-7,Islandia,0.585
+artemis-nobile-rim-2,luna-1,"Afar, Etiopía",0.62
+artemis-nobile-rim-2,luna-16,"Condado de Turkana, Kenia",0.627
+artemis-nobile-rim-2,luna-12,"Kunene, Namibia",0.645
+artemis-nobile-rim-2,luna-8,"Afar, Etiopía",0.687
+artemis-nobile-rim-2,luna-4,"Afar, Etiopía",0.755
+artemis-nobile-rim-2,luna-5,"Condado de Marsabit, Kenia",0.793
+artemis-nobile-rim-2,luna-2,"Gobernacion de Rif Dimashq, Siria",0.8
+artemis-nobile-rim-2,luna-19,"Provincia de Medina, Arabia Saudita",0.806
+artemis-nobile-rim-2,luna-3,"Provincia de Medina, Arabia Saudita",0.82
+artemis-nobile-rim-2,luna-13,"Provincia de Medina, Arabia Saudita",0.822
+artemis-nobile-rim-2,luna-6,"Provincia de La Meca, Arabia Saudita",0.867
+artemis-peak-near-cabeus-b,luna-14,Irán,0.587
+artemis-peak-near-cabeus-b,luna-10,"Tibesti, Chad",0.631
+artemis-peak-near-cabeus-b,luna-18,"Tibesti, Chad",0.673
+artemis-peak-near-cabeus-b,luna-20,"Provincia de Tabuk, Arabia Saudita",0.715
+artemis-peak-near-cabeus-b,luna-11,Islandia,0.795
+artemis-peak-near-cabeus-b,luna-7,Islandia,0.808
+artemis-peak-near-cabeus-b,luna-17,"Gobernación de Lahij, Yemen",0.811
+artemis-peak-near-cabeus-b,luna-9,"Provincia de Tabuk, Arabia Saudita",0.825
+artemis-peak-near-cabeus-b,luna-15,"Provincia de La Meca, Arabia Saudita",0.827
+artemis-peak-near-cabeus-b,luna-1,"Afar, Etiopía",0.83
+artemis-peak-near-cabeus-b,luna-16,"Condado de Turkana, Kenia",0.855
+artemis-peak-near-cabeus-b,luna-12,"Kunene, Namibia",0.881
+artemis-peak-near-cabeus-b,luna-8,"Afar, Etiopía",0.887
+artemis-peak-near-cabeus-b,luna-4,"Afar, Etiopía",0.917
+artemis-peak-near-cabeus-b,luna-2,"Gobernacion de Rif Dimashq, Siria",0.931
+artemis-peak-near-cabeus-b,luna-19,"Provincia de Medina, Arabia Saudita",0.933
+artemis-peak-near-cabeus-b,luna-5,"Condado de Marsabit, Kenia",0.935
+artemis-peak-near-cabeus-b,luna-3,"Provincia de Medina, Arabia Saudita",0.942
+artemis-peak-near-cabeus-b,luna-13,"Provincia de Medina, Arabia Saudita",0.945
+artemis-peak-near-cabeus-b,luna-6,"Provincia de La Meca, Arabia Saudita",0.968
+artemis-slater-plain,luna-14,Irán,0.121
+artemis-slater-plain,luna-18,"Tibesti, Chad",0.157
+artemis-slater-plain,luna-10,"Tibesti, Chad",0.176
+artemis-slater-plain,luna-20,"Provincia de Tabuk, Arabia Saudita",0.407
+artemis-slater-plain,luna-9,"Provincia de Tabuk, Arabia Saudita",0.438
+artemis-slater-plain,luna-11,Islandia,0.445
+artemis-slater-plain,luna-15,"Provincia de La Meca, Arabia Saudita",0.489
+artemis-slater-plain,luna-17,"Gobernación de Lahij, Yemen",0.51
+artemis-slater-plain,luna-7,Islandia,0.53
+artemis-slater-plain,luna-1,"Afar, Etiopía",0.569
+artemis-slater-plain,luna-12,"Kunene, Namibia",0.569
+artemis-slater-plain,luna-16,"Condado de Turkana, Kenia",0.574
+artemis-slater-plain,luna-8,"Afar, Etiopía",0.636
+artemis-slater-plain,luna-4,"Afar, Etiopía",0.714
+artemis-slater-plain,luna-5,"Condado de Marsabit, Kenia",0.752
+artemis-slater-plain,luna-2,"Gobernacion de Rif Dimashq, Siria",0.763
+artemis-slater-plain,luna-19,"Provincia de Medina, Arabia Saudita",0.769
+artemis-slater-plain,luna-3,"Provincia de Medina, Arabia Saudita",0.784
+artemis-slater-plain,luna-13,"Provincia de Medina, Arabia Saudita",0.785
+artemis-slater-plain,luna-6,"Provincia de La Meca, Arabia Saudita",0.836
+aterrizaje-blue-ghost-m1,luna-4,"Afar, Etiopía",0.155
+aterrizaje-blue-ghost-m1,luna-5,"Condado de Marsabit, Kenia",0.208
+aterrizaje-blue-ghost-m1,luna-6,"Provincia de La Meca, Arabia Saudita",0.227
+aterrizaje-blue-ghost-m1,luna-2,"Gobernacion de Rif Dimashq, Siria",0.272
+aterrizaje-blue-ghost-m1,luna-8,"Afar, Etiopía",0.274
+aterrizaje-blue-ghost-m1,luna-16,"Condado de Turkana, Kenia",0.294
+aterrizaje-blue-ghost-m1,luna-3,"Provincia de Medina, Arabia Saudita",0.329
+aterrizaje-blue-ghost-m1,luna-1,"Afar, Etiopía",0.358
+aterrizaje-blue-ghost-m1,luna-13,"Provincia de Medina, Arabia Saudita",0.359
+aterrizaje-blue-ghost-m1,luna-19,"Provincia de Medina, Arabia Saudita",0.392
+aterrizaje-blue-ghost-m1,luna-7,Islandia,0.412
+aterrizaje-blue-ghost-m1,luna-15,"Provincia de La Meca, Arabia Saudita",0.437
+aterrizaje-blue-ghost-m1,luna-17,"Gobernación de Lahij, Yemen",0.469
+aterrizaje-blue-ghost-m1,luna-11,Islandia,0.527
+aterrizaje-blue-ghost-m1,luna-20,"Provincia de Tabuk, Arabia Saudita",0.551
+aterrizaje-blue-ghost-m1,luna-12,"Kunene, Namibia",0.553
+aterrizaje-blue-ghost-m1,luna-9,"Provincia de Tabuk, Arabia Saudita",0.568
+aterrizaje-blue-ghost-m1,luna-10,"Tibesti, Chad",0.685
+aterrizaje-blue-ghost-m1,luna-18,"Tibesti, Chad",0.696
+aterrizaje-blue-ghost-m1,luna-14,Irán,0.697
+aterrizaje-chandrayaan-3,luna-9,"Provincia de Tabuk, Arabia Saudita",0.039
+aterrizaje-chandrayaan-3,luna-11,Islandia,0.065
+aterrizaje-chandrayaan-3,luna-12,"Kunene, Namibia",0.117
+aterrizaje-chandrayaan-3,luna-20,"Provincia de Tabuk, Arabia Saudita",0.146
+aterrizaje-chandrayaan-3,luna-17,"Gobernación de Lahij, Yemen",0.16
+aterrizaje-chandrayaan-3,luna-15,"Provincia de La Meca, Arabia Saudita",0.174
+aterrizaje-chandrayaan-3,luna-7,Islandia,0.183
+aterrizaje-chandrayaan-3,luna-1,"Afar, Etiopía",0.242
+aterrizaje-chandrayaan-3,luna-16,"Condado de Turkana, Kenia",0.284
+aterrizaje-chandrayaan-3,luna-8,"Afar, Etiopía",0.304
+aterrizaje-chandrayaan-3,luna-10,"Tibesti, Chad",0.304
+aterrizaje-chandrayaan-3,luna-18,"Tibesti, Chad",0.321
+aterrizaje-chandrayaan-3,luna-14,Irán,0.373
+aterrizaje-chandrayaan-3,luna-19,"Provincia de Medina, Arabia Saudita",0.414
+aterrizaje-chandrayaan-3,luna-13,"Provincia de Medina, Arabia Saudita",0.431
+aterrizaje-chandrayaan-3,luna-5,"Condado de Marsabit, Kenia",0.439
+aterrizaje-chandrayaan-3,luna-2,"Gobernacion de Rif Dimashq, Siria",0.445
+aterrizaje-chandrayaan-3,luna-4,"Afar, Etiopía",0.45
+aterrizaje-chandrayaan-3,luna-3,"Provincia de Medina, Arabia Saudita",0.453
+aterrizaje-chandrayaan-3,luna-6,"Provincia de La Meca, Arabia Saudita",0.545
+aterrizaje-chang-e-3,luna-4,"Afar, Etiopía",0.308
+aterrizaje-chang-e-3,luna-6,"Provincia de La Meca, Arabia Saudita",0.355
+aterrizaje-chang-e-3,luna-5,"Condado de Marsabit, Kenia",0.361
+aterrizaje-chang-e-3,luna-2,"Gobernacion de Rif Dimashq, Siria",0.425
+aterrizaje-chang-e-3,luna-8,"Afar, Etiopía",0.445
+aterrizaje-chang-e-3,luna-16,"Condado de Turkana, Kenia",0.463
+aterrizaje-chang-e-3,luna-3,"Provincia de Medina, Arabia Saudita",0.482
+aterrizaje-chang-e-3,luna-13,"Provincia de Medina, Arabia Saudita",0.511
+aterrizaje-chang-e-3,luna-1,"Afar, Etiopía",0.524
+aterrizaje-chang-e-3,luna-19,"Provincia de Medina, Arabia Saudita",0.545
+aterrizaje-chang-e-3,luna-7,Islandia,0.582
+aterrizaje-chang-e-3,luna-15,"Provincia de La Meca, Arabia Saudita",0.597
+aterrizaje-chang-e-3,luna-17,"Gobernación de Lahij, Yemen",0.624
+aterrizaje-chang-e-3,luna-11,Islandia,0.697
+aterrizaje-chang-e-3,luna-20,"Provincia de Tabuk, Arabia Saudita",0.721
+aterrizaje-chang-e-3,luna-12,"Kunene, Namibia",0.724
+aterrizaje-chang-e-3,luna-9,"Provincia de Tabuk, Arabia Saudita",0.739
+aterrizaje-chang-e-3,luna-14,Irán,0.825
+aterrizaje-chang-e-3,luna-10,"Tibesti, Chad",0.826
+aterrizaje-chang-e-3,luna-18,"Tibesti, Chad",0.835
+aterrizaje-chang-e-4,luna-4,"Afar, Etiopía",0.175
+aterrizaje-chang-e-4,luna-6,"Provincia de La Meca, Arabia Saudita",0.191
+aterrizaje-chang-e-4,luna-5,"Condado de Marsabit, Kenia",0.213
+aterrizaje-chang-e-4,luna-2,"Gobernacion de Rif Dimashq, Siria",0.26
+aterrizaje-chang-e-4,luna-3,"Provincia de Medina, Arabia Saudita",0.317
+aterrizaje-chang-e-4,luna-8,"Afar, Etiopía",0.32
+aterrizaje-chang-e-4,luna-16,"Condado de Turkana, Kenia",0.345
+aterrizaje-chang-e-4,luna-13,"Provincia de Medina, Arabia Saudita",0.347
+aterrizaje-chang-e-4,luna-19,"Provincia de Medina, Arabia Saudita",0.38
+aterrizaje-chang-e-4,luna-1,"Afar, Etiopía",0.385
+aterrizaje-chang-e-4,luna-7,Islandia,0.444
+aterrizaje-chang-e-4,luna-15,"Provincia de La Meca, Arabia Saudita",0.458
+aterrizaje-chang-e-4,luna-17,"Gobernación de Lahij, Yemen",0.484
+aterrizaje-chang-e-4,luna-11,Islandia,0.574
+aterrizaje-chang-e-4,luna-12,"Kunene, Namibia",0.585
+aterrizaje-chang-e-4,luna-20,"Provincia de Tabuk, Arabia Saudita",0.597
+aterrizaje-chang-e-4,luna-9,"Provincia de Tabuk, Arabia Saudita",0.614
+aterrizaje-chang-e-4,luna-10,"Tibesti, Chad",0.746
+aterrizaje-chang-e-4,luna-18,"Tibesti, Chad",0.757
+aterrizaje-chang-e-4,luna-14,Irán,0.762
+aterrizaje-chang-e-5,luna-4,"Afar, Etiopía",0.385
+aterrizaje-chang-e-5,luna-5,"Condado de Marsabit, Kenia",0.438
+aterrizaje-chang-e-5,luna-6,"Provincia de La Meca, Arabia Saudita",0.448
+aterrizaje-chang-e-5,luna-8,"Afar, Etiopía",0.495
+aterrizaje-chang-e-5,luna-2,"Gobernacion de Rif Dimashq, Siria",0.502
+aterrizaje-chang-e-5,luna-16,"Condado de Turkana, Kenia",0.518
+aterrizaje-chang-e-5,luna-3,"Provincia de Medina, Arabia Saudita",0.559
+aterrizaje-chang-e-5,luna-1,"Afar, Etiopía",0.588
+aterrizaje-chang-e-5,luna-13,"Provincia de Medina, Arabia Saudita",0.588
+aterrizaje-chang-e-5,luna-19,"Provincia de Medina, Arabia Saudita",0.621
+aterrizaje-chang-e-5,luna-7,Islandia,0.642
+aterrizaje-chang-e-5,luna-15,"Provincia de La Meca, Arabia Saudita",0.667
+aterrizaje-chang-e-5,luna-17,"Gobernación de Lahij, Yemen",0.699
+aterrizaje-chang-e-5,luna-11,Islandia,0.747
+aterrizaje-chang-e-5,luna-20,"Provincia de Tabuk, Arabia Saudita",0.772
+aterrizaje-chang-e-5,luna-12,"Kunene, Namibia",0.774
+aterrizaje-chang-e-5,luna-9,"Provincia de Tabuk, Arabia Saudita",0.789
+aterrizaje-chang-e-5,luna-14,Irán,0.866
+aterrizaje-chang-e-5,luna-10,"Tibesti, Chad",0.867
+aterrizaje-chang-e-5,luna-18,"Tibesti, Chad",0.876
+aterrizaje-chang-e-6,luna-4,"Afar, Etiopía",0.373
+aterrizaje-chang-e-6,luna-5,"Condado de Marsabit, Kenia",0.419
+aterrizaje-chang-e-6,luna-6,"Provincia de La Meca, Arabia Saudita",0.454
+aterrizaje-chang-e-6,luna-8,"Afar, Etiopía",0.472
+aterrizaje-chang-e-6,luna-2,"Gobernacion de Rif Dimashq, Siria",0.493
+aterrizaje-chang-e-6,luna-16,"Condado de Turkana, Kenia",0.5
+aterrizaje-chang-e-6,luna-3,"Provincia de Medina, Arabia Saudita",0.542
+aterrizaje-chang-e-6,luna-1,"Afar, Etiopía",0.57
+aterrizaje-chang-e-6,luna-13,"Provincia de Medina, Arabia Saudita",0.57
+aterrizaje-chang-e-6,luna-19,"Provincia de Medina, Arabia Saudita",0.603
+aterrizaje-chang-e-6,luna-7,Islandia,0.624
+aterrizaje-chang-e-6,luna-15,"Provincia de La Meca, Arabia Saudita",0.649
+aterrizaje-chang-e-6,luna-17,"Gobernación de Lahij, Yemen",0.681
+aterrizaje-chang-e-6,luna-11,Islandia,0.721
+aterrizaje-chang-e-6,luna-20,"Provincia de Tabuk, Arabia Saudita",0.745
+aterrizaje-chang-e-6,luna-12,"Kunene, Namibia",0.748
+aterrizaje-chang-e-6,luna-9,"Provincia de Tabuk, Arabia Saudita",0.762
+aterrizaje-chang-e-6,luna-14,Irán,0.841
+aterrizaje-chang-e-6,luna-10,"Tibesti, Chad",0.842
+aterrizaje-chang-e-6,luna-18,"Tibesti, Chad",0.85
+aterrizaje-chang-e-7,luna-14,Irán,0.251
+aterrizaje-chang-e-7,luna-18,"Tibesti, Chad",0.308
+aterrizaje-chang-e-7,luna-10,"Tibesti, Chad",0.32
+aterrizaje-chang-e-7,luna-20,"Provincia de Tabuk, Arabia Saudita",0.522
+aterrizaje-chang-e-7,luna-11,Islandia,0.583
+aterrizaje-chang-e-7,luna-9,"Provincia de Tabuk, Arabia Saudita",0.588
+aterrizaje-chang-e-7,luna-15,"Provincia de La Meca, Arabia Saudita",0.606
+aterrizaje-chang-e-7,luna-17,"Gobernación de Lahij, Yemen",0.625
+aterrizaje-chang-e-7,luna-7,Islandia,0.64
+aterrizaje-chang-e-7,luna-1,"Afar, Etiopía",0.671
+aterrizaje-chang-e-7,luna-16,"Condado de Turkana, Kenia",0.681
+aterrizaje-chang-e-7,luna-12,"Kunene, Namibia",0.705
+aterrizaje-chang-e-7,luna-8,"Afar, Etiopía",0.74
+aterrizaje-chang-e-7,luna-4,"Afar, Etiopía",0.801
+aterrizaje-chang-e-7,luna-5,"Condado de Marsabit, Kenia",0.838
+aterrizaje-chang-e-7,luna-2,"Gobernacion de Rif Dimashq, Siria",0.843
+aterrizaje-chang-e-7,luna-19,"Provincia de Medina, Arabia Saudita",0.848
+aterrizaje-chang-e-7,luna-3,"Provincia de Medina, Arabia Saudita",0.862
+aterrizaje-chang-e-7,luna-13,"Provincia de Medina, Arabia Saudita",0.864
+aterrizaje-chang-e-7,luna-6,"Provincia de La Meca, Arabia Saudita",0.9
+aterrizaje-curiosity-msl,marte_polar-7,"Nunavut, Canadá",0.063
+aterrizaje-curiosity-msl,marte_altura-1,"Sinkiang, China",0.071
+aterrizaje-curiosity-msl,marte_altura-2,"Región de Antofagasta, Chile",0.111
+aterrizaje-curiosity-msl,marte_polar-2,"Nunavut, Canadá",0.258
+aterrizaje-curiosity-msl,marte_polar-5,Groenlandia,0.278
+aterrizaje-curiosity-msl,marte_arido-3,"Región de Antofagasta, Chile",0.281
+aterrizaje-curiosity-msl,marte_polar-8,"Nunavut, Canadá",0.287
+aterrizaje-curiosity-msl,marte_polar-3,"Nunavut, Canadá",0.291
+aterrizaje-curiosity-msl,marte_polar-1,Groenlandia,0.292
+aterrizaje-curiosity-msl,marte_polar-6,Groenlandia,0.294
+aterrizaje-curiosity-msl,marte_polar-4,"Nunavut, Canadá",0.345
+aterrizaje-curiosity-msl,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.434
+aterrizaje-curiosity-msl,marte_arido-5,"Gobernación de Shabwah, Yemen",0.51
+aterrizaje-curiosity-msl,marte_arido-4,"Sinkiang, China",0.515
+aterrizaje-curiosity-msl,marte_arido-9,"Mongolia Interior, China",0.569
+aterrizaje-curiosity-msl,marte_arido-1,Argelia,0.57
+aterrizaje-curiosity-msl,marte_arido-8,"Al Wahat, Libia",0.597
+aterrizaje-curiosity-msl,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.636
+aterrizaje-curiosity-msl,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.683
+aterrizaje-curiosity-msl,marte_arido-7,"Gobernación de Mutana, Irak",0.697
+aterrizaje-curiosity-msl,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.761
+aterrizaje-im-1-odysseus,luna-14,Irán,0.211
+aterrizaje-im-1-odysseus,luna-10,"Tibesti, Chad",0.259
+aterrizaje-im-1-odysseus,luna-18,"Tibesti, Chad",0.295
+aterrizaje-im-1-odysseus,luna-20,"Provincia de Tabuk, Arabia Saudita",0.389
+aterrizaje-im-1-odysseus,luna-11,Islandia,0.469
+aterrizaje-im-1-odysseus,luna-9,"Provincia de Tabuk, Arabia Saudita",0.491
+aterrizaje-im-1-odysseus,luna-15,"Provincia de La Meca, Arabia Saudita",0.493
+aterrizaje-im-1-odysseus,luna-17,"Gobernación de Lahij, Yemen",0.493
+aterrizaje-im-1-odysseus,luna-7,Islandia,0.498
+aterrizaje-im-1-odysseus,luna-1,"Afar, Etiopía",0.523
+aterrizaje-im-1-odysseus,luna-16,"Condado de Turkana, Kenia",0.542
+aterrizaje-im-1-odysseus,luna-12,"Kunene, Namibia",0.576
+aterrizaje-im-1-odysseus,luna-8,"Afar, Etiopía",0.59
+aterrizaje-im-1-odysseus,luna-4,"Afar, Etiopía",0.632
+aterrizaje-im-1-odysseus,luna-5,"Condado de Marsabit, Kenia",0.667
+aterrizaje-im-1-odysseus,luna-2,"Gobernacion de Rif Dimashq, Siria",0.674
+aterrizaje-im-1-odysseus,luna-19,"Provincia de Medina, Arabia Saudita",0.68
+aterrizaje-im-1-odysseus,luna-3,"Provincia de Medina, Arabia Saudita",0.694
+aterrizaje-im-1-odysseus,luna-13,"Provincia de Medina, Arabia Saudita",0.696
+aterrizaje-im-1-odysseus,luna-6,"Provincia de La Meca, Arabia Saudita",0.742
+aterrizaje-im-2-athena,luna-18,"Tibesti, Chad",0.22
+aterrizaje-im-2-athena,luna-10,"Tibesti, Chad",0.24
+aterrizaje-im-2-athena,luna-9,"Provincia de Tabuk, Arabia Saudita",0.272
+aterrizaje-im-2-athena,luna-20,"Provincia de Tabuk, Arabia Saudita",0.276
+aterrizaje-im-2-athena,luna-11,Islandia,0.291
+aterrizaje-im-2-athena,luna-14,Irán,0.298
+aterrizaje-im-2-athena,luna-15,"Provincia de La Meca, Arabia Saudita",0.387
+aterrizaje-im-2-athena,luna-17,"Gobernación de Lahij, Yemen",0.392
+aterrizaje-im-2-athena,luna-12,"Kunene, Namibia",0.401
+aterrizaje-im-2-athena,luna-7,Islandia,0.412
+aterrizaje-im-2-athena,luna-1,"Afar, Etiopía",0.464
+aterrizaje-im-2-athena,luna-16,"Condado de Turkana, Kenia",0.471
+aterrizaje-im-2-athena,luna-8,"Afar, Etiopía",0.522
+aterrizaje-im-2-athena,luna-4,"Afar, Etiopía",0.629
+aterrizaje-im-2-athena,luna-5,"Condado de Marsabit, Kenia",0.66
+aterrizaje-im-2-athena,luna-19,"Provincia de Medina, Arabia Saudita",0.67
+aterrizaje-im-2-athena,luna-2,"Gobernacion de Rif Dimashq, Siria",0.671
+aterrizaje-im-2-athena,luna-13,"Provincia de Medina, Arabia Saudita",0.686
+aterrizaje-im-2-athena,luna-3,"Provincia de Medina, Arabia Saudita",0.692
+aterrizaje-im-2-athena,luna-6,"Provincia de La Meca, Arabia Saudita",0.76
+aterrizaje-insight,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.482
+aterrizaje-insight,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.533
+aterrizaje-insight,marte_arido-7,"Gobernación de Mutana, Irak",0.629
+aterrizaje-insight,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.635
+aterrizaje-insight,marte_polar-3,"Nunavut, Canadá",0.656
+aterrizaje-insight,marte_arido-5,"Gobernación de Shabwah, Yemen",0.663
+aterrizaje-insight,marte_polar-1,Groenlandia,0.669
+aterrizaje-insight,marte_arido-1,Argelia,0.671
+aterrizaje-insight,marte_polar-8,"Nunavut, Canadá",0.674
+aterrizaje-insight,marte_arido-9,"Mongolia Interior, China",0.679
+aterrizaje-insight,marte_polar-5,Groenlandia,0.686
+aterrizaje-insight,marte_polar-2,"Nunavut, Canadá",0.705
+aterrizaje-insight,marte_arido-8,"Al Wahat, Libia",0.735
+aterrizaje-insight,marte_arido-4,"Sinkiang, China",0.812
+aterrizaje-insight,marte_polar-4,"Nunavut, Canadá",0.815
+aterrizaje-insight,marte_arido-3,"Región de Antofagasta, Chile",0.839
+aterrizaje-insight,marte_polar-6,Groenlandia,0.851
+aterrizaje-insight,marte_polar-7,"Nunavut, Canadá",0.877
+aterrizaje-insight,marte_altura-1,"Sinkiang, China",0.893
+aterrizaje-insight,marte_altura-2,"Región de Antofagasta, Chile",0.935
+aterrizaje-insight,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.942
+aterrizaje-luna-13,luna-4,"Afar, Etiopía",0.577
+aterrizaje-luna-13,luna-5,"Condado de Marsabit, Kenia",0.601
+aterrizaje-luna-13,luna-8,"Afar, Etiopía",0.621
+aterrizaje-luna-13,luna-6,"Provincia de La Meca, Arabia Saudita",0.658
+aterrizaje-luna-13,luna-16,"Condado de Turkana, Kenia",0.665
+aterrizaje-luna-13,luna-2,"Gobernacion de Rif Dimashq, Siria",0.697
+aterrizaje-luna-13,luna-1,"Afar, Etiopía",0.725
+aterrizaje-luna-13,luna-3,"Provincia de Medina, Arabia Saudita",0.745
+aterrizaje-luna-13,luna-13,"Provincia de Medina, Arabia Saudita",0.762
+aterrizaje-luna-13,luna-7,Islandia,0.77
+aterrizaje-luna-13,luna-19,"Provincia de Medina, Arabia Saudita",0.778
+aterrizaje-luna-13,luna-15,"Provincia de La Meca, Arabia Saudita",0.802
+aterrizaje-luna-13,luna-11,Islandia,0.83
+aterrizaje-luna-13,luna-17,"Gobernación de Lahij, Yemen",0.831
+aterrizaje-luna-13,luna-20,"Provincia de Tabuk, Arabia Saudita",0.855
+aterrizaje-luna-13,luna-9,"Provincia de Tabuk, Arabia Saudita",0.866
+aterrizaje-luna-13,luna-12,"Kunene, Namibia",0.866
+aterrizaje-luna-13,luna-14,Irán,0.906
+aterrizaje-luna-13,luna-10,"Tibesti, Chad",0.915
+aterrizaje-luna-13,luna-18,"Tibesti, Chad",0.92
+aterrizaje-luna-16,luna-6,"Provincia de La Meca, Arabia Saudita",0.123
+aterrizaje-luna-16,luna-4,"Afar, Etiopía",0.218
+aterrizaje-luna-16,luna-5,"Condado de Marsabit, Kenia",0.219
+aterrizaje-luna-16,luna-2,"Gobernacion de Rif Dimashq, Siria",0.226
+aterrizaje-luna-16,luna-3,"Provincia de Medina, Arabia Saudita",0.252
+aterrizaje-luna-16,luna-13,"Provincia de Medina, Arabia Saudita",0.302
+aterrizaje-luna-16,luna-19,"Provincia de Medina, Arabia Saudita",0.342
+aterrizaje-luna-16,luna-8,"Afar, Etiopía",0.359
+aterrizaje-luna-16,luna-16,"Condado de Turkana, Kenia",0.389
+aterrizaje-luna-16,luna-1,"Afar, Etiopía",0.416
+aterrizaje-luna-16,luna-7,Islandia,0.475
+aterrizaje-luna-16,luna-15,"Provincia de La Meca, Arabia Saudita",0.484
+aterrizaje-luna-16,luna-17,"Gobernación de Lahij, Yemen",0.498
+aterrizaje-luna-16,luna-12,"Kunene, Namibia",0.601
+aterrizaje-luna-16,luna-11,Islandia,0.614
+aterrizaje-luna-16,luna-20,"Provincia de Tabuk, Arabia Saudita",0.628
+aterrizaje-luna-16,luna-9,"Provincia de Tabuk, Arabia Saudita",0.65
+aterrizaje-luna-16,luna-10,"Tibesti, Chad",0.79
+aterrizaje-luna-16,luna-18,"Tibesti, Chad",0.801
+aterrizaje-luna-16,luna-14,Irán,0.802
+aterrizaje-luna-17,luna-4,"Afar, Etiopía",0.428
+aterrizaje-luna-17,luna-5,"Condado de Marsabit, Kenia",0.453
+aterrizaje-luna-17,luna-8,"Afar, Etiopía",0.506
+aterrizaje-luna-17,luna-6,"Provincia de La Meca, Arabia Saudita",0.509
+aterrizaje-luna-17,luna-16,"Condado de Turkana, Kenia",0.534
+aterrizaje-luna-17,luna-2,"Gobernacion de Rif Dimashq, Siria",0.547
+aterrizaje-luna-17,luna-3,"Provincia de Medina, Arabia Saudita",0.596
+aterrizaje-luna-17,luna-1,"Afar, Etiopía",0.604
+aterrizaje-luna-17,luna-13,"Provincia de Medina, Arabia Saudita",0.612
+aterrizaje-luna-17,luna-19,"Provincia de Medina, Arabia Saudita",0.637
+aterrizaje-luna-17,luna-7,Islandia,0.658
+aterrizaje-luna-17,luna-15,"Provincia de La Meca, Arabia Saudita",0.683
+aterrizaje-luna-17,luna-17,"Gobernación de Lahij, Yemen",0.715
+aterrizaje-luna-17,luna-11,Islandia,0.746
+aterrizaje-luna-17,luna-20,"Provincia de Tabuk, Arabia Saudita",0.771
+aterrizaje-luna-17,luna-9,"Provincia de Tabuk, Arabia Saudita",0.782
+aterrizaje-luna-17,luna-12,"Kunene, Namibia",0.782
+aterrizaje-luna-17,luna-14,Irán,0.859
+aterrizaje-luna-17,luna-10,"Tibesti, Chad",0.86
+aterrizaje-luna-17,luna-18,"Tibesti, Chad",0.869
+aterrizaje-luna-20,luna-14,Irán,0.101
+aterrizaje-luna-20,luna-18,"Tibesti, Chad",0.134
+aterrizaje-luna-20,luna-10,"Tibesti, Chad",0.152
+aterrizaje-luna-20,luna-20,"Provincia de Tabuk, Arabia Saudita",0.387
+aterrizaje-luna-20,luna-9,"Provincia de Tabuk, Arabia Saudita",0.416
+aterrizaje-luna-20,luna-11,Islandia,0.421
+aterrizaje-luna-20,luna-15,"Provincia de La Meca, Arabia Saudita",0.47
+aterrizaje-luna-20,luna-17,"Gobernación de Lahij, Yemen",0.491
+aterrizaje-luna-20,luna-7,Islandia,0.511
+aterrizaje-luna-20,luna-12,"Kunene, Namibia",0.547
+aterrizaje-luna-20,luna-1,"Afar, Etiopía",0.553
+aterrizaje-luna-20,luna-16,"Condado de Turkana, Kenia",0.557
+aterrizaje-luna-20,luna-8,"Afar, Etiopía",0.618
+aterrizaje-luna-20,luna-4,"Afar, Etiopía",0.7
+aterrizaje-luna-20,luna-5,"Condado de Marsabit, Kenia",0.736
+aterrizaje-luna-20,luna-2,"Gobernacion de Rif Dimashq, Siria",0.748
+aterrizaje-luna-20,luna-19,"Provincia de Medina, Arabia Saudita",0.753
+aterrizaje-luna-20,luna-13,"Provincia de Medina, Arabia Saudita",0.769
+aterrizaje-luna-20,luna-3,"Provincia de Medina, Arabia Saudita",0.771
+aterrizaje-luna-20,luna-6,"Provincia de La Meca, Arabia Saudita",0.825
+aterrizaje-luna-21,luna-4,"Afar, Etiopía",0.123
+aterrizaje-luna-21,luna-8,"Afar, Etiopía",0.123
+aterrizaje-luna-21,luna-16,"Condado de Turkana, Kenia",0.141
+aterrizaje-luna-21,luna-5,"Condado de Marsabit, Kenia",0.16
+aterrizaje-luna-21,luna-2,"Gobernacion de Rif Dimashq, Siria",0.168
+aterrizaje-luna-21,luna-3,"Provincia de Medina, Arabia Saudita",0.19
+aterrizaje-luna-21,luna-1,"Afar, Etiopía",0.208
+aterrizaje-luna-21,luna-13,"Provincia de Medina, Arabia Saudita",0.208
+aterrizaje-luna-21,luna-19,"Provincia de Medina, Arabia Saudita",0.241
+aterrizaje-luna-21,luna-6,"Provincia de La Meca, Arabia Saudita",0.245
+aterrizaje-luna-21,luna-7,Islandia,0.262
+aterrizaje-luna-21,luna-15,"Provincia de La Meca, Arabia Saudita",0.287
+aterrizaje-luna-21,luna-17,"Gobernación de Lahij, Yemen",0.319
+aterrizaje-luna-21,luna-11,Islandia,0.375
+aterrizaje-luna-21,luna-20,"Provincia de Tabuk, Arabia Saudita",0.399
+aterrizaje-luna-21,luna-12,"Kunene, Namibia",0.402
+aterrizaje-luna-21,luna-9,"Provincia de Tabuk, Arabia Saudita",0.417
+aterrizaje-luna-21,luna-10,"Tibesti, Chad",0.499
+aterrizaje-luna-21,luna-14,Irán,0.502
+aterrizaje-luna-21,luna-18,"Tibesti, Chad",0.507
+aterrizaje-luna-23,luna-4,"Afar, Etiopía",0.082
+aterrizaje-luna-23,luna-6,"Provincia de La Meca, Arabia Saudita",0.125
+aterrizaje-luna-23,luna-5,"Condado de Marsabit, Kenia",0.131
+aterrizaje-luna-23,luna-2,"Gobernacion de Rif Dimashq, Siria",0.195
+aterrizaje-luna-23,luna-8,"Afar, Etiopía",0.219
+aterrizaje-luna-23,luna-16,"Condado de Turkana, Kenia",0.237
+aterrizaje-luna-23,luna-3,"Provincia de Medina, Arabia Saudita",0.252
+aterrizaje-luna-23,luna-13,"Provincia de Medina, Arabia Saudita",0.282
+aterrizaje-luna-23,luna-1,"Afar, Etiopía",0.298
+aterrizaje-luna-23,luna-19,"Provincia de Medina, Arabia Saudita",0.315
+aterrizaje-luna-23,luna-7,Islandia,0.357
+aterrizaje-luna-23,luna-15,"Provincia de La Meca, Arabia Saudita",0.371
+aterrizaje-luna-23,luna-17,"Gobernación de Lahij, Yemen",0.398
+aterrizaje-luna-23,luna-11,Islandia,0.471
+aterrizaje-luna-23,luna-20,"Provincia de Tabuk, Arabia Saudita",0.496
+aterrizaje-luna-23,luna-12,"Kunene, Namibia",0.498
+aterrizaje-luna-23,luna-9,"Provincia de Tabuk, Arabia Saudita",0.513
+aterrizaje-luna-23,luna-10,"Tibesti, Chad",0.617
+aterrizaje-luna-23,luna-18,"Tibesti, Chad",0.631
+aterrizaje-luna-23,luna-14,Irán,0.653
+aterrizaje-luna-24,luna-4,"Afar, Etiopía",0.082
+aterrizaje-luna-24,luna-6,"Provincia de La Meca, Arabia Saudita",0.125
+aterrizaje-luna-24,luna-5,"Condado de Marsabit, Kenia",0.131
+aterrizaje-luna-24,luna-2,"Gobernacion de Rif Dimashq, Siria",0.195
+aterrizaje-luna-24,luna-8,"Afar, Etiopía",0.219
+aterrizaje-luna-24,luna-16,"Condado de Turkana, Kenia",0.237
+aterrizaje-luna-24,luna-3,"Provincia de Medina, Arabia Saudita",0.252
+aterrizaje-luna-24,luna-13,"Provincia de Medina, Arabia Saudita",0.282
+aterrizaje-luna-24,luna-1,"Afar, Etiopía",0.298
+aterrizaje-luna-24,luna-19,"Provincia de Medina, Arabia Saudita",0.315
+aterrizaje-luna-24,luna-7,Islandia,0.357
+aterrizaje-luna-24,luna-15,"Provincia de La Meca, Arabia Saudita",0.371
+aterrizaje-luna-24,luna-17,"Gobernación de Lahij, Yemen",0.398
+aterrizaje-luna-24,luna-11,Islandia,0.471
+aterrizaje-luna-24,luna-20,"Provincia de Tabuk, Arabia Saudita",0.496
+aterrizaje-luna-24,luna-12,"Kunene, Namibia",0.498
+aterrizaje-luna-24,luna-9,"Provincia de Tabuk, Arabia Saudita",0.513
+aterrizaje-luna-24,luna-10,"Tibesti, Chad",0.617
+aterrizaje-luna-24,luna-18,"Tibesti, Chad",0.631
+aterrizaje-luna-24,luna-14,Irán,0.653
+aterrizaje-luna-9,luna-20,"Provincia de Tabuk, Arabia Saudita",0.128
+aterrizaje-luna-9,luna-11,Islandia,0.149
+aterrizaje-luna-9,luna-9,"Provincia de Tabuk, Arabia Saudita",0.15
+aterrizaje-luna-9,luna-15,"Provincia de La Meca, Arabia Saudita",0.177
+aterrizaje-luna-9,luna-17,"Gobernación de Lahij, Yemen",0.199
+aterrizaje-luna-9,luna-7,Islandia,0.219
+aterrizaje-luna-9,luna-10,"Tibesti, Chad",0.24
+aterrizaje-luna-9,luna-14,Irán,0.244
+aterrizaje-luna-9,luna-18,"Tibesti, Chad",0.249
+aterrizaje-luna-9,luna-1,"Afar, Etiopía",0.255
+aterrizaje-luna-9,luna-16,"Condado de Turkana, Kenia",0.262
+aterrizaje-luna-9,luna-12,"Kunene, Namibia",0.272
+aterrizaje-luna-9,luna-8,"Afar, Etiopía",0.322
+aterrizaje-luna-9,luna-4,"Afar, Etiopía",0.394
+aterrizaje-luna-9,luna-5,"Condado de Marsabit, Kenia",0.432
+aterrizaje-luna-9,luna-2,"Gobernacion de Rif Dimashq, Siria",0.441
+aterrizaje-luna-9,luna-19,"Provincia de Medina, Arabia Saudita",0.448
+aterrizaje-luna-9,luna-3,"Provincia de Medina, Arabia Saudita",0.463
+aterrizaje-luna-9,luna-13,"Provincia de Medina, Arabia Saudita",0.463
+aterrizaje-luna-9,luna-6,"Provincia de La Meca, Arabia Saudita",0.509
+aterrizaje-mars-3,marte_arido-3,"Región de Antofagasta, Chile",0.079
+aterrizaje-mars-3,marte_polar-6,Groenlandia,0.119
+aterrizaje-mars-3,marte_arido-4,"Sinkiang, China",0.238
+aterrizaje-mars-3,marte_polar-5,Groenlandia,0.247
+aterrizaje-mars-3,marte_altura-1,"Sinkiang, China",0.261
+aterrizaje-mars-3,marte_polar-3,"Nunavut, Canadá",0.28
+aterrizaje-mars-3,marte_polar-1,Groenlandia,0.282
+aterrizaje-mars-3,marte_polar-8,"Nunavut, Canadá",0.286
+aterrizaje-mars-3,marte_polar-2,"Nunavut, Canadá",0.316
+aterrizaje-mars-3,marte_polar-7,"Nunavut, Canadá",0.335
+aterrizaje-mars-3,marte_arido-5,"Gobernación de Shabwah, Yemen",0.351
+aterrizaje-mars-3,marte_arido-8,"Al Wahat, Libia",0.368
+aterrizaje-mars-3,marte_arido-1,Argelia,0.383
+aterrizaje-mars-3,marte_arido-9,"Mongolia Interior, China",0.385
+aterrizaje-mars-3,marte_altura-2,"Región de Antofagasta, Chile",0.432
+aterrizaje-mars-3,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.5
+aterrizaje-mars-3,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.512
+aterrizaje-mars-3,marte_arido-7,"Gobernación de Mutana, Irak",0.519
+aterrizaje-mars-3,marte_polar-4,"Nunavut, Canadá",0.564
+aterrizaje-mars-3,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.636
+aterrizaje-mars-3,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.643
+aterrizaje-mars-pathfinder,marte_arido-1,Argelia,0.042
+aterrizaje-mars-pathfinder,marte_arido-9,"Mongolia Interior, China",0.042
+aterrizaje-mars-pathfinder,marte_arido-8,"Al Wahat, Libia",0.072
+aterrizaje-mars-pathfinder,marte_arido-5,"Gobernación de Shabwah, Yemen",0.097
+aterrizaje-mars-pathfinder,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.155
+aterrizaje-mars-pathfinder,marte_arido-7,"Gobernación de Mutana, Irak",0.174
+aterrizaje-mars-pathfinder,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.185
+aterrizaje-mars-pathfinder,marte_arido-4,"Sinkiang, China",0.185
+aterrizaje-mars-pathfinder,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.309
+aterrizaje-mars-pathfinder,marte_polar-5,Groenlandia,0.36
+aterrizaje-mars-pathfinder,marte_arido-3,"Región de Antofagasta, Chile",0.393
+aterrizaje-mars-pathfinder,marte_polar-3,"Nunavut, Canadá",0.404
+aterrizaje-mars-pathfinder,marte_polar-6,Groenlandia,0.439
+aterrizaje-mars-pathfinder,marte_polar-1,Groenlandia,0.498
+aterrizaje-mars-pathfinder,marte_polar-8,"Nunavut, Canadá",0.5
+aterrizaje-mars-pathfinder,marte_altura-1,"Sinkiang, China",0.511
+aterrizaje-mars-pathfinder,marte_polar-2,"Nunavut, Canadá",0.53
+aterrizaje-mars-pathfinder,marte_polar-7,"Nunavut, Canadá",0.588
+aterrizaje-mars-pathfinder,marte_altura-2,"Región de Antofagasta, Chile",0.677
+aterrizaje-mars-pathfinder,marte_polar-4,"Nunavut, Canadá",0.733
+aterrizaje-mars-pathfinder,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.816
+aterrizaje-opportunity-mer-b,marte_arido-4,"Sinkiang, China",0.075
+aterrizaje-opportunity-mer-b,marte_arido-5,"Gobernación de Shabwah, Yemen",0.166
+aterrizaje-opportunity-mer-b,marte_arido-8,"Al Wahat, Libia",0.185
+aterrizaje-opportunity-mer-b,marte_arido-1,Argelia,0.189
+aterrizaje-opportunity-mer-b,marte_arido-9,"Mongolia Interior, China",0.191
+aterrizaje-opportunity-mer-b,marte_polar-5,Groenlandia,0.224
+aterrizaje-opportunity-mer-b,marte_arido-3,"Región de Antofagasta, Chile",0.237
+aterrizaje-opportunity-mer-b,marte_polar-6,Groenlandia,0.284
+aterrizaje-opportunity-mer-b,marte_polar-3,"Nunavut, Canadá",0.296
+aterrizaje-opportunity-mer-b,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.31
+aterrizaje-opportunity-mer-b,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.328
+aterrizaje-opportunity-mer-b,marte_arido-7,"Gobernación de Mutana, Irak",0.328
+aterrizaje-opportunity-mer-b,marte_altura-1,"Sinkiang, China",0.389
+aterrizaje-opportunity-mer-b,marte_polar-1,Groenlandia,0.404
+aterrizaje-opportunity-mer-b,marte_polar-8,"Nunavut, Canadá",0.407
+aterrizaje-opportunity-mer-b,marte_polar-2,"Nunavut, Canadá",0.437
+aterrizaje-opportunity-mer-b,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.451
+aterrizaje-opportunity-mer-b,marte_polar-7,"Nunavut, Canadá",0.464
+aterrizaje-opportunity-mer-b,marte_altura-2,"Región de Antofagasta, Chile",0.56
+aterrizaje-opportunity-mer-b,marte_polar-4,"Nunavut, Canadá",0.678
+aterrizaje-opportunity-mer-b,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.757
+aterrizaje-perseverance-mars-2020,marte_arido-3,"Región de Antofagasta, Chile",0.051
+aterrizaje-perseverance-mars-2020,marte_polar-6,Groenlandia,0.07
+aterrizaje-perseverance-mars-2020,marte_altura-1,"Sinkiang, China",0.204
+aterrizaje-perseverance-mars-2020,marte_polar-5,Groenlandia,0.253
+aterrizaje-perseverance-mars-2020,marte_polar-7,"Nunavut, Canadá",0.268
+aterrizaje-perseverance-mars-2020,marte_polar-2,"Nunavut, Canadá",0.28
+aterrizaje-perseverance-mars-2020,marte_polar-8,"Nunavut, Canadá",0.283
+aterrizaje-perseverance-mars-2020,marte_polar-3,"Nunavut, Canadá",0.287
+aterrizaje-perseverance-mars-2020,marte_polar-1,Groenlandia,0.288
+aterrizaje-perseverance-mars-2020,marte_arido-4,"Sinkiang, China",0.325
+aterrizaje-perseverance-mars-2020,marte_altura-2,"Región de Antofagasta, Chile",0.37
+aterrizaje-perseverance-mars-2020,marte_arido-5,"Gobernación de Shabwah, Yemen",0.4
+aterrizaje-perseverance-mars-2020,marte_arido-8,"Al Wahat, Libia",0.444
+aterrizaje-perseverance-mars-2020,marte_arido-1,Argelia,0.445
+aterrizaje-perseverance-mars-2020,marte_arido-9,"Mongolia Interior, China",0.447
+aterrizaje-perseverance-mars-2020,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.548
+aterrizaje-perseverance-mars-2020,marte_polar-4,"Nunavut, Canadá",0.561
+aterrizaje-perseverance-mars-2020,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.567
+aterrizaje-perseverance-mars-2020,marte_arido-7,"Gobernación de Mutana, Irak",0.585
+aterrizaje-perseverance-mars-2020,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.641
+aterrizaje-perseverance-mars-2020,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.679
+aterrizaje-phoenix,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.056
+aterrizaje-phoenix,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.127
+aterrizaje-phoenix,marte_arido-7,"Gobernación de Mutana, Irak",0.152
+aterrizaje-phoenix,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.158
+aterrizaje-phoenix,marte_arido-5,"Gobernación de Shabwah, Yemen",0.186
+aterrizaje-phoenix,marte_arido-1,Argelia,0.194
+aterrizaje-phoenix,marte_arido-9,"Mongolia Interior, China",0.202
+aterrizaje-phoenix,marte_arido-8,"Al Wahat, Libia",0.258
+aterrizaje-phoenix,marte_arido-4,"Sinkiang, China",0.37
+aterrizaje-phoenix,marte_polar-5,Groenlandia,0.445
+aterrizaje-phoenix,marte_polar-3,"Nunavut, Canadá",0.45
+aterrizaje-phoenix,marte_polar-1,Groenlandia,0.519
+aterrizaje-phoenix,marte_polar-8,"Nunavut, Canadá",0.519
+aterrizaje-phoenix,marte_arido-3,"Región de Antofagasta, Chile",0.525
+aterrizaje-phoenix,marte_polar-2,"Nunavut, Canadá",0.55
+aterrizaje-phoenix,marte_polar-6,Groenlandia,0.565
+aterrizaje-phoenix,marte_altura-1,"Sinkiang, China",0.6
+aterrizaje-phoenix,marte_polar-7,"Nunavut, Canadá",0.655
+aterrizaje-phoenix,marte_polar-4,"Nunavut, Canadá",0.725
+aterrizaje-phoenix,marte_altura-2,"Región de Antofagasta, Chile",0.736
+aterrizaje-phoenix,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.811
+aterrizaje-rosalind-franklin-exomars,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.064
+aterrizaje-rosalind-franklin-exomars,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.096
+aterrizaje-rosalind-franklin-exomars,marte_arido-7,"Gobernación de Mutana, Irak",0.16
+aterrizaje-rosalind-franklin-exomars,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.166
+aterrizaje-rosalind-franklin-exomars,marte_arido-1,Argelia,0.218
+aterrizaje-rosalind-franklin-exomars,marte_arido-5,"Gobernación de Shabwah, Yemen",0.22
+aterrizaje-rosalind-franklin-exomars,marte_arido-9,"Mongolia Interior, China",0.222
+aterrizaje-rosalind-franklin-exomars,marte_arido-8,"Al Wahat, Libia",0.296
+aterrizaje-rosalind-franklin-exomars,marte_arido-4,"Sinkiang, China",0.419
+aterrizaje-rosalind-franklin-exomars,marte_polar-5,Groenlandia,0.46
+aterrizaje-rosalind-franklin-exomars,marte_polar-3,"Nunavut, Canadá",0.464
+aterrizaje-rosalind-franklin-exomars,marte_polar-1,Groenlandia,0.532
+aterrizaje-rosalind-franklin-exomars,marte_polar-8,"Nunavut, Canadá",0.532
+aterrizaje-rosalind-franklin-exomars,marte_arido-3,"Región de Antofagasta, Chile",0.543
+aterrizaje-rosalind-franklin-exomars,marte_polar-2,"Nunavut, Canadá",0.563
+aterrizaje-rosalind-franklin-exomars,marte_polar-6,Groenlandia,0.582
+aterrizaje-rosalind-franklin-exomars,marte_altura-1,"Sinkiang, China",0.617
+aterrizaje-rosalind-franklin-exomars,marte_polar-7,"Nunavut, Canadá",0.668
+aterrizaje-rosalind-franklin-exomars,marte_polar-4,"Nunavut, Canadá",0.741
+aterrizaje-rosalind-franklin-exomars,marte_altura-2,"Región de Antofagasta, Chile",0.749
+aterrizaje-rosalind-franklin-exomars,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.827
+aterrizaje-slim,luna-14,Irán,0.163
+aterrizaje-slim,luna-18,"Tibesti, Chad",0.203
+aterrizaje-slim,luna-10,"Tibesti, Chad",0.222
+aterrizaje-slim,luna-20,"Provincia de Tabuk, Arabia Saudita",0.448
+aterrizaje-slim,luna-9,"Provincia de Tabuk, Arabia Saudita",0.488
+aterrizaje-slim,luna-11,Islandia,0.492
+aterrizaje-slim,luna-15,"Provincia de La Meca, Arabia Saudita",0.53
+aterrizaje-slim,luna-17,"Gobernación de Lahij, Yemen",0.552
+aterrizaje-slim,luna-7,Islandia,0.571
+aterrizaje-slim,luna-1,"Afar, Etiopía",0.611
+aterrizaje-slim,luna-12,"Kunene, Namibia",0.617
+aterrizaje-slim,luna-16,"Condado de Turkana, Kenia",0.617
+aterrizaje-slim,luna-8,"Afar, Etiopía",0.678
+aterrizaje-slim,luna-4,"Afar, Etiopía",0.753
+aterrizaje-slim,luna-5,"Condado de Marsabit, Kenia",0.79
+aterrizaje-slim,luna-2,"Gobernacion de Rif Dimashq, Siria",0.799
+aterrizaje-slim,luna-19,"Provincia de Medina, Arabia Saudita",0.806
+aterrizaje-slim,luna-3,"Provincia de Medina, Arabia Saudita",0.821
+aterrizaje-slim,luna-13,"Provincia de Medina, Arabia Saudita",0.822
+aterrizaje-slim,luna-6,"Provincia de La Meca, Arabia Saudita",0.871
+aterrizaje-spirit-mer-a,marte_arido-3,"Región de Antofagasta, Chile",0.163
+aterrizaje-spirit-mer-a,marte_polar-5,Groenlandia,0.2
+aterrizaje-spirit-mer-a,marte_polar-6,Groenlandia,0.205
+aterrizaje-spirit-mer-a,marte_arido-4,"Sinkiang, China",0.208
+aterrizaje-spirit-mer-a,marte_arido-5,"Gobernación de Shabwah, Yemen",0.211
+aterrizaje-spirit-mer-a,marte_polar-3,"Nunavut, Canadá",0.233
+aterrizaje-spirit-mer-a,marte_altura-1,"Sinkiang, China",0.255
+aterrizaje-spirit-mer-a,marte_arido-9,"Mongolia Interior, China",0.268
+aterrizaje-spirit-mer-a,marte_arido-1,Argelia,0.27
+aterrizaje-spirit-mer-a,marte_polar-1,Groenlandia,0.284
+aterrizaje-spirit-mer-a,marte_polar-8,"Nunavut, Canadá",0.294
+aterrizaje-spirit-mer-a,marte_arido-8,"Al Wahat, Libia",0.298
+aterrizaje-spirit-mer-a,marte_polar-2,"Nunavut, Canadá",0.321
+aterrizaje-spirit-mer-a,marte_polar-7,"Nunavut, Canadá",0.327
+aterrizaje-spirit-mer-a,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.345
+aterrizaje-spirit-mer-a,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.384
+aterrizaje-spirit-mer-a,marte_arido-7,"Gobernación de Mutana, Irak",0.399
+aterrizaje-spirit-mer-a,marte_altura-2,"Región de Antofagasta, Chile",0.424
+aterrizaje-spirit-mer-a,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.476
+aterrizaje-spirit-mer-a,marte_polar-4,"Nunavut, Canadá",0.599
+aterrizaje-spirit-mer-a,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.68
+aterrizaje-surveyor-1,luna-4,"Afar, Etiopía",0.339
+aterrizaje-surveyor-1,luna-5,"Condado de Marsabit, Kenia",0.384
+aterrizaje-surveyor-1,luna-6,"Provincia de La Meca, Arabia Saudita",0.42
+aterrizaje-surveyor-1,luna-8,"Afar, Etiopía",0.445
+aterrizaje-surveyor-1,luna-2,"Gobernacion de Rif Dimashq, Siria",0.458
+aterrizaje-surveyor-1,luna-16,"Condado de Turkana, Kenia",0.464
+aterrizaje-surveyor-1,luna-3,"Provincia de Medina, Arabia Saudita",0.507
+aterrizaje-surveyor-1,luna-1,"Afar, Etiopía",0.534
+aterrizaje-surveyor-1,luna-13,"Provincia de Medina, Arabia Saudita",0.535
+aterrizaje-surveyor-1,luna-19,"Provincia de Medina, Arabia Saudita",0.568
+aterrizaje-surveyor-1,luna-7,Islandia,0.588
+aterrizaje-surveyor-1,luna-15,"Provincia de La Meca, Arabia Saudita",0.614
+aterrizaje-surveyor-1,luna-17,"Gobernación de Lahij, Yemen",0.645
+aterrizaje-surveyor-1,luna-11,Islandia,0.697
+aterrizaje-surveyor-1,luna-20,"Provincia de Tabuk, Arabia Saudita",0.721
+aterrizaje-surveyor-1,luna-12,"Kunene, Namibia",0.724
+aterrizaje-surveyor-1,luna-9,"Provincia de Tabuk, Arabia Saudita",0.739
+aterrizaje-surveyor-1,luna-10,"Tibesti, Chad",0.84
+aterrizaje-surveyor-1,luna-14,Irán,0.844
+aterrizaje-surveyor-1,luna-18,"Tibesti, Chad",0.849
+aterrizaje-surveyor-3,luna-4,"Afar, Etiopía",0.363
+aterrizaje-surveyor-3,luna-6,"Provincia de La Meca, Arabia Saudita",0.41
+aterrizaje-surveyor-3,luna-5,"Condado de Marsabit, Kenia",0.416
+aterrizaje-surveyor-3,luna-8,"Afar, Etiopía",0.474
+aterrizaje-surveyor-3,luna-2,"Gobernacion de Rif Dimashq, Siria",0.48
+aterrizaje-surveyor-3,luna-16,"Condado de Turkana, Kenia",0.497
+aterrizaje-surveyor-3,luna-3,"Provincia de Medina, Arabia Saudita",0.537
+aterrizaje-surveyor-3,luna-1,"Afar, Etiopía",0.566
+aterrizaje-surveyor-3,luna-13,"Provincia de Medina, Arabia Saudita",0.567
+aterrizaje-surveyor-3,luna-19,"Provincia de Medina, Arabia Saudita",0.6
+aterrizaje-surveyor-3,luna-7,Islandia,0.62
+aterrizaje-surveyor-3,luna-15,"Provincia de La Meca, Arabia Saudita",0.646
+aterrizaje-surveyor-3,luna-17,"Gobernación de Lahij, Yemen",0.677
+aterrizaje-surveyor-3,luna-11,Islandia,0.726
+aterrizaje-surveyor-3,luna-20,"Provincia de Tabuk, Arabia Saudita",0.75
+aterrizaje-surveyor-3,luna-12,"Kunene, Namibia",0.753
+aterrizaje-surveyor-3,luna-9,"Provincia de Tabuk, Arabia Saudita",0.767
+aterrizaje-surveyor-3,luna-14,Irán,0.851
+aterrizaje-surveyor-3,luna-10,"Tibesti, Chad",0.852
+aterrizaje-surveyor-3,luna-18,"Tibesti, Chad",0.86
+aterrizaje-surveyor-5,luna-6,"Provincia de La Meca, Arabia Saudita",0.18
+aterrizaje-surveyor-5,luna-4,"Afar, Etiopía",0.22
+aterrizaje-surveyor-5,luna-5,"Condado de Marsabit, Kenia",0.24
+aterrizaje-surveyor-5,luna-2,"Gobernacion de Rif Dimashq, Siria",0.272
+aterrizaje-surveyor-5,luna-3,"Provincia de Medina, Arabia Saudita",0.318
+aterrizaje-surveyor-5,luna-8,"Afar, Etiopía",0.363
+aterrizaje-surveyor-5,luna-13,"Provincia de Medina, Arabia Saudita",0.364
+aterrizaje-surveyor-5,luna-16,"Condado de Turkana, Kenia",0.391
+aterrizaje-surveyor-5,luna-19,"Provincia de Medina, Arabia Saudita",0.403
+aterrizaje-surveyor-5,luna-1,"Afar, Etiopía",0.427
+aterrizaje-surveyor-5,luna-7,Islandia,0.488
+aterrizaje-surveyor-5,luna-15,"Provincia de La Meca, Arabia Saudita",0.497
+aterrizaje-surveyor-5,luna-17,"Gobernación de Lahij, Yemen",0.513
+aterrizaje-surveyor-5,luna-11,Islandia,0.618
+aterrizaje-surveyor-5,luna-12,"Kunene, Namibia",0.627
+aterrizaje-surveyor-5,luna-20,"Provincia de Tabuk, Arabia Saudita",0.641
+aterrizaje-surveyor-5,luna-9,"Provincia de Tabuk, Arabia Saudita",0.658
+aterrizaje-surveyor-5,luna-10,"Tibesti, Chad",0.786
+aterrizaje-surveyor-5,luna-18,"Tibesti, Chad",0.797
+aterrizaje-surveyor-5,luna-14,Irán,0.798
+aterrizaje-surveyor-6,luna-6,"Provincia de La Meca, Arabia Saudita",0.107
+aterrizaje-surveyor-6,luna-5,"Condado de Marsabit, Kenia",0.137
+aterrizaje-surveyor-6,luna-4,"Afar, Etiopía",0.141
+aterrizaje-surveyor-6,luna-2,"Gobernacion de Rif Dimashq, Siria",0.177
+aterrizaje-surveyor-6,luna-3,"Provincia de Medina, Arabia Saudita",0.234
+aterrizaje-surveyor-6,luna-13,"Provincia de Medina, Arabia Saudita",0.264
+aterrizaje-surveyor-6,luna-8,"Afar, Etiopía",0.272
+aterrizaje-surveyor-6,luna-19,"Provincia de Medina, Arabia Saudita",0.301
+aterrizaje-surveyor-6,luna-16,"Condado de Turkana, Kenia",0.307
+aterrizaje-surveyor-6,luna-1,"Afar, Etiopía",0.328
+aterrizaje-surveyor-6,luna-7,Islandia,0.388
+aterrizaje-surveyor-6,luna-15,"Provincia de La Meca, Arabia Saudita",0.396
+aterrizaje-surveyor-6,luna-17,"Gobernación de Lahij, Yemen",0.41
+aterrizaje-surveyor-6,luna-12,"Kunene, Namibia",0.524
+aterrizaje-surveyor-6,luna-11,Islandia,0.526
+aterrizaje-surveyor-6,luna-20,"Provincia de Tabuk, Arabia Saudita",0.54
+aterrizaje-surveyor-6,luna-9,"Provincia de Tabuk, Arabia Saudita",0.563
+aterrizaje-surveyor-6,luna-10,"Tibesti, Chad",0.718
+aterrizaje-surveyor-6,luna-18,"Tibesti, Chad",0.731
+aterrizaje-surveyor-6,luna-14,Irán,0.745
+aterrizaje-surveyor-7,luna-18,"Tibesti, Chad",0.16
+aterrizaje-surveyor-7,luna-10,"Tibesti, Chad",0.181
+aterrizaje-surveyor-7,luna-14,Irán,0.239
+aterrizaje-surveyor-7,luna-9,"Provincia de Tabuk, Arabia Saudita",0.287
+aterrizaje-surveyor-7,luna-20,"Provincia de Tabuk, Arabia Saudita",0.289
+aterrizaje-surveyor-7,luna-11,Islandia,0.305
+aterrizaje-surveyor-7,luna-15,"Provincia de La Meca, Arabia Saudita",0.397
+aterrizaje-surveyor-7,luna-17,"Gobernación de Lahij, Yemen",0.402
+aterrizaje-surveyor-7,luna-12,"Kunene, Namibia",0.416
+aterrizaje-surveyor-7,luna-7,Islandia,0.423
+aterrizaje-surveyor-7,luna-1,"Afar, Etiopía",0.474
+aterrizaje-surveyor-7,luna-16,"Condado de Turkana, Kenia",0.482
+aterrizaje-surveyor-7,luna-8,"Afar, Etiopía",0.532
+aterrizaje-surveyor-7,luna-4,"Afar, Etiopía",0.64
+aterrizaje-surveyor-7,luna-5,"Condado de Marsabit, Kenia",0.67
+aterrizaje-surveyor-7,luna-19,"Provincia de Medina, Arabia Saudita",0.68
+aterrizaje-surveyor-7,luna-2,"Gobernacion de Rif Dimashq, Siria",0.682
+aterrizaje-surveyor-7,luna-13,"Provincia de Medina, Arabia Saudita",0.696
+aterrizaje-surveyor-7,luna-3,"Provincia de Medina, Arabia Saudita",0.703
+aterrizaje-surveyor-7,luna-6,"Provincia de La Meca, Arabia Saudita",0.771
+aterrizaje-tianwen-1,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.249
+aterrizaje-tianwen-1,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.299
+aterrizaje-tianwen-1,marte_arido-7,"Gobernación de Mutana, Irak",0.396
+aterrizaje-tianwen-1,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.402
+aterrizaje-tianwen-1,marte_arido-5,"Gobernación de Shabwah, Yemen",0.432
+aterrizaje-tianwen-1,marte_arido-1,Argelia,0.437
+aterrizaje-tianwen-1,marte_arido-9,"Mongolia Interior, China",0.445
+aterrizaje-tianwen-1,marte_arido-8,"Al Wahat, Libia",0.508
+aterrizaje-tianwen-1,marte_polar-3,"Nunavut, Canadá",0.575
+aterrizaje-tianwen-1,marte_polar-5,Groenlandia,0.593
+aterrizaje-tianwen-1,marte_polar-1,Groenlandia,0.613
+aterrizaje-tianwen-1,marte_polar-8,"Nunavut, Canadá",0.615
+aterrizaje-tianwen-1,marte_arido-4,"Sinkiang, China",0.631
+aterrizaje-tianwen-1,marte_polar-2,"Nunavut, Canadá",0.646
+aterrizaje-tianwen-1,marte_arido-3,"Región de Antofagasta, Chile",0.714
+aterrizaje-tianwen-1,marte_polar-6,Groenlandia,0.742
+aterrizaje-tianwen-1,marte_altura-1,"Sinkiang, China",0.778
+aterrizaje-tianwen-1,marte_polar-4,"Nunavut, Canadá",0.782
+aterrizaje-tianwen-1,marte_polar-7,"Nunavut, Canadá",0.788
+aterrizaje-tianwen-1,marte_altura-2,"Región de Antofagasta, Chile",0.859
+aterrizaje-tianwen-1,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.889
+aterrizaje-viking-1,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.382
+aterrizaje-viking-1,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.433
+aterrizaje-viking-1,marte_arido-7,"Gobernación de Mutana, Irak",0.53
+aterrizaje-viking-1,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.535
+aterrizaje-viking-1,marte_arido-5,"Gobernación de Shabwah, Yemen",0.563
+aterrizaje-viking-1,marte_arido-1,Argelia,0.571
+aterrizaje-viking-1,marte_arido-9,"Mongolia Interior, China",0.579
+aterrizaje-viking-1,marte_polar-3,"Nunavut, Canadá",0.612
+aterrizaje-viking-1,marte_arido-8,"Al Wahat, Libia",0.635
+aterrizaje-viking-1,marte_polar-5,Groenlandia,0.637
+aterrizaje-viking-1,marte_polar-1,Groenlandia,0.643
+aterrizaje-viking-1,marte_polar-8,"Nunavut, Canadá",0.646
+aterrizaje-viking-1,marte_polar-2,"Nunavut, Canadá",0.677
+aterrizaje-viking-1,marte_arido-4,"Sinkiang, China",0.713
+aterrizaje-viking-1,marte_arido-3,"Región de Antofagasta, Chile",0.767
+aterrizaje-viking-1,marte_polar-6,Groenlandia,0.787
+aterrizaje-viking-1,marte_polar-4,"Nunavut, Canadá",0.803
+aterrizaje-viking-1,marte_altura-1,"Sinkiang, China",0.822
+aterrizaje-viking-1,marte_polar-7,"Nunavut, Canadá",0.83
+aterrizaje-viking-1,marte_altura-2,"Región de Antofagasta, Chile",0.894
+aterrizaje-viking-1,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.916
+aterrizaje-viking-2,marte_arido-3,"Región de Antofagasta, Chile",0.173
+aterrizaje-viking-2,marte_polar-6,Groenlandia,0.191
+aterrizaje-viking-2,marte_arido-4,"Sinkiang, China",0.22
+aterrizaje-viking-2,marte_polar-5,Groenlandia,0.255
+aterrizaje-viking-2,marte_polar-3,"Nunavut, Canadá",0.301
+aterrizaje-viking-2,marte_arido-5,"Gobernación de Shabwah, Yemen",0.358
+aterrizaje-viking-2,marte_arido-8,"Al Wahat, Libia",0.363
+aterrizaje-viking-2,marte_altura-1,"Sinkiang, China",0.382
+aterrizaje-viking-2,marte_arido-1,Argelia,0.393
+aterrizaje-viking-2,marte_arido-9,"Mongolia Interior, China",0.395
+aterrizaje-viking-2,marte_polar-1,Groenlandia,0.414
+aterrizaje-viking-2,marte_polar-8,"Nunavut, Canadá",0.42
+aterrizaje-viking-2,marte_polar-7,"Nunavut, Canadá",0.448
+aterrizaje-viking-2,marte_polar-2,"Nunavut, Canadá",0.449
+aterrizaje-viking-2,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.51
+aterrizaje-viking-2,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.516
+aterrizaje-viking-2,marte_arido-7,"Gobernación de Mutana, Irak",0.529
+aterrizaje-viking-2,marte_altura-2,"Región de Antofagasta, Chile",0.549
+aterrizaje-viking-2,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.64
+aterrizaje-viking-2,marte_polar-4,"Nunavut, Canadá",0.7
+aterrizaje-viking-2,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.779
+ez-acheron-fossae,marte_arido-5,"Gobernación de Shabwah, Yemen",0.069
+ez-acheron-fossae,marte_arido-9,"Mongolia Interior, China",0.128
+ez-acheron-fossae,marte_arido-1,Argelia,0.13
+ez-acheron-fossae,marte_arido-8,"Al Wahat, Libia",0.164
+ez-acheron-fossae,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.185
+ez-acheron-fossae,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.242
+ez-acheron-fossae,marte_polar-5,Groenlandia,0.245
+ez-acheron-fossae,marte_arido-7,"Gobernación de Mutana, Irak",0.253
+ez-acheron-fossae,marte_arido-4,"Sinkiang, China",0.259
+ez-acheron-fossae,marte_polar-3,"Nunavut, Canadá",0.284
+ez-acheron-fossae,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.31
+ez-acheron-fossae,marte_arido-3,"Región de Antofagasta, Chile",0.35
+ez-acheron-fossae,marte_polar-6,Groenlandia,0.378
+ez-acheron-fossae,marte_polar-1,Groenlandia,0.39
+ez-acheron-fossae,marte_polar-8,"Nunavut, Canadá",0.393
+ez-acheron-fossae,marte_altura-1,"Sinkiang, China",0.414
+ez-acheron-fossae,marte_polar-2,"Nunavut, Canadá",0.423
+ez-acheron-fossae,marte_polar-7,"Nunavut, Canadá",0.456
+ez-acheron-fossae,marte_altura-2,"Región de Antofagasta, Chile",0.55
+ez-acheron-fossae,marte_polar-4,"Nunavut, Canadá",0.658
+ez-acheron-fossae,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.737
+ez-acidalia-planitia,marte_arido-4,"Sinkiang, China",0.083
+ez-acidalia-planitia,marte_arido-8,"Al Wahat, Libia",0.094
+ez-acidalia-planitia,marte_arido-5,"Gobernación de Shabwah, Yemen",0.123
+ez-acidalia-planitia,marte_arido-9,"Mongolia Interior, China",0.142
+ez-acidalia-planitia,marte_arido-1,Argelia,0.143
+ez-acidalia-planitia,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.251
+ez-acidalia-planitia,marte_arido-7,"Gobernación de Mutana, Irak",0.27
+ez-acidalia-planitia,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.285
+ez-acidalia-planitia,marte_polar-5,Groenlandia,0.323
+ez-acidalia-planitia,marte_arido-3,"Región de Antofagasta, Chile",0.339
+ez-acidalia-planitia,marte_polar-3,"Nunavut, Canadá",0.376
+ez-acidalia-planitia,marte_polar-6,Groenlandia,0.384
+ez-acidalia-planitia,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.409
+ez-acidalia-planitia,marte_polar-1,Groenlandia,0.477
+ez-acidalia-planitia,marte_polar-8,"Nunavut, Canadá",0.479
+ez-acidalia-planitia,marte_altura-1,"Sinkiang, China",0.479
+ez-acidalia-planitia,marte_polar-2,"Nunavut, Canadá",0.509
+ez-acidalia-planitia,marte_polar-7,"Nunavut, Canadá",0.556
+ez-acidalia-planitia,marte_altura-2,"Región de Antofagasta, Chile",0.648
+ez-acidalia-planitia,marte_polar-4,"Nunavut, Canadá",0.717
+ez-acidalia-planitia,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.799
+ez-apollinaris-sulci,marte_polar-6,Groenlandia,0.089
+ez-apollinaris-sulci,marte_arido-3,"Región de Antofagasta, Chile",0.119
+ez-apollinaris-sulci,marte_altura-1,"Sinkiang, China",0.16
+ez-apollinaris-sulci,marte_polar-7,"Nunavut, Canadá",0.205
+ez-apollinaris-sulci,marte_polar-5,Groenlandia,0.254
+ez-apollinaris-sulci,marte_polar-2,"Nunavut, Canadá",0.255
+ez-apollinaris-sulci,marte_polar-8,"Nunavut, Canadá",0.284
+ez-apollinaris-sulci,marte_polar-3,"Nunavut, Canadá",0.287
+ez-apollinaris-sulci,marte_polar-1,Groenlandia,0.289
+ez-apollinaris-sulci,marte_altura-2,"Región de Antofagasta, Chile",0.309
+ez-apollinaris-sulci,marte_arido-4,"Sinkiang, China",0.415
+ez-apollinaris-sulci,marte_arido-5,"Gobernación de Shabwah, Yemen",0.446
+ez-apollinaris-sulci,marte_arido-1,Argelia,0.5
+ez-apollinaris-sulci,marte_arido-9,"Mongolia Interior, China",0.501
+ez-apollinaris-sulci,marte_arido-8,"Al Wahat, Libia",0.523
+ez-apollinaris-sulci,marte_polar-4,"Nunavut, Canadá",0.549
+ez-apollinaris-sulci,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.58
+ez-apollinaris-sulci,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.62
+ez-apollinaris-sulci,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.632
+ez-apollinaris-sulci,marte_arido-7,"Gobernación de Mutana, Irak",0.634
+ez-apollinaris-sulci,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.71
+ez-arabia-terra,marte_arido-4,"Sinkiang, China",0.059
+ez-arabia-terra,marte_arido-8,"Al Wahat, Libia",0.119
+ez-arabia-terra,marte_arido-5,"Gobernación de Shabwah, Yemen",0.164
+ez-arabia-terra,marte_arido-9,"Mongolia Interior, China",0.183
+ez-arabia-terra,marte_arido-1,Argelia,0.184
+ez-arabia-terra,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.283
+ez-arabia-terra,marte_arido-7,"Gobernación de Mutana, Irak",0.3
+ez-arabia-terra,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.326
+ez-arabia-terra,marte_polar-5,Groenlandia,0.338
+ez-arabia-terra,marte_arido-3,"Región de Antofagasta, Chile",0.35
+ez-arabia-terra,marte_polar-3,"Nunavut, Canadá",0.389
+ez-arabia-terra,marte_polar-6,Groenlandia,0.393
+ez-arabia-terra,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.45
+ez-arabia-terra,marte_polar-1,Groenlandia,0.49
+ez-arabia-terra,marte_polar-8,"Nunavut, Canadá",0.492
+ez-arabia-terra,marte_altura-1,"Sinkiang, China",0.494
+ez-arabia-terra,marte_polar-2,"Nunavut, Canadá",0.522
+ez-arabia-terra,marte_polar-7,"Nunavut, Canadá",0.57
+ez-arabia-terra,marte_altura-2,"Región de Antofagasta, Chile",0.662
+ez-arabia-terra,marte_polar-4,"Nunavut, Canadá",0.733
+ez-arabia-terra,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.815
+ez-aram-chaos,marte_altura-1,"Sinkiang, China",0.122
+ez-aram-chaos,marte_polar-7,"Nunavut, Canadá",0.129
+ez-aram-chaos,marte_polar-6,Groenlandia,0.207
+ez-aram-chaos,marte_altura-2,"Región de Antofagasta, Chile",0.234
+ez-aram-chaos,marte_arido-3,"Región de Antofagasta, Chile",0.237
+ez-aram-chaos,marte_polar-2,"Nunavut, Canadá",0.263
+ez-aram-chaos,marte_polar-5,Groenlandia,0.27
+ez-aram-chaos,marte_polar-8,"Nunavut, Canadá",0.292
+ez-aram-chaos,marte_polar-1,Groenlandia,0.297
+ez-aram-chaos,marte_polar-3,"Nunavut, Canadá",0.299
+ez-aram-chaos,marte_polar-4,"Nunavut, Canadá",0.51
+ez-aram-chaos,marte_arido-4,"Sinkiang, China",0.532
+ez-aram-chaos,marte_arido-5,"Gobernación de Shabwah, Yemen",0.56
+ez-aram-chaos,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.596
+ez-aram-chaos,marte_arido-1,Argelia,0.614
+ez-aram-chaos,marte_arido-9,"Mongolia Interior, China",0.615
+ez-aram-chaos,marte_arido-8,"Al Wahat, Libia",0.639
+ez-aram-chaos,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.692
+ez-aram-chaos,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.734
+ez-aram-chaos,marte_arido-7,"Gobernación de Mutana, Irak",0.748
+ez-aram-chaos,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.817
+ez-arcadia-planitia,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.573
+ez-arcadia-planitia,marte_polar-3,"Nunavut, Canadá",0.58
+ez-arcadia-planitia,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.584
+ez-arcadia-planitia,marte_polar-1,Groenlandia,0.597
+ez-arcadia-planitia,marte_polar-8,"Nunavut, Canadá",0.601
+ez-arcadia-planitia,marte_polar-5,Groenlandia,0.611
+ez-arcadia-planitia,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.63
+ez-arcadia-planitia,marte_arido-7,"Gobernación de Mutana, Irak",0.63
+ez-arcadia-planitia,marte_polar-2,"Nunavut, Canadá",0.632
+ez-arcadia-planitia,marte_arido-5,"Gobernación de Shabwah, Yemen",0.637
+ez-arcadia-planitia,marte_arido-1,Argelia,0.643
+ez-arcadia-planitia,marte_arido-9,"Mongolia Interior, China",0.646
+ez-arcadia-planitia,marte_arido-8,"Al Wahat, Libia",0.688
+ez-arcadia-planitia,marte_polar-4,"Nunavut, Canadá",0.756
+ez-arcadia-planitia,marte_arido-4,"Sinkiang, China",0.766
+ez-arcadia-planitia,marte_polar-6,Groenlandia,0.776
+ez-arcadia-planitia,marte_arido-3,"Región de Antofagasta, Chile",0.776
+ez-arcadia-planitia,marte_polar-7,"Nunavut, Canadá",0.802
+ez-arcadia-planitia,marte_altura-1,"Sinkiang, China",0.819
+ez-arcadia-planitia,marte_altura-2,"Región de Antofagasta, Chile",0.86
+ez-arcadia-planitia,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.869
+ez-arcadia-planitia-43,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.408
+ez-arcadia-planitia-43,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.459
+ez-arcadia-planitia-43,marte_arido-7,"Gobernación de Mutana, Irak",0.556
+ez-arcadia-planitia-43,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.561
+ez-arcadia-planitia-43,marte_arido-5,"Gobernación de Shabwah, Yemen",0.589
+ez-arcadia-planitia-43,marte_arido-1,Argelia,0.597
+ez-arcadia-planitia-43,marte_arido-9,"Mongolia Interior, China",0.605
+ez-arcadia-planitia-43,marte_polar-3,"Nunavut, Canadá",0.64
+ez-arcadia-planitia-43,marte_arido-8,"Al Wahat, Libia",0.661
+ez-arcadia-planitia-43,marte_polar-1,Groenlandia,0.664
+ez-arcadia-planitia-43,marte_polar-5,Groenlandia,0.666
+ez-arcadia-planitia-43,marte_polar-8,"Nunavut, Canadá",0.668
+ez-arcadia-planitia-43,marte_polar-2,"Nunavut, Canadá",0.699
+ez-arcadia-planitia-43,marte_arido-4,"Sinkiang, China",0.752
+ez-arcadia-planitia-43,marte_polar-4,"Nunavut, Canadá",0.814
+ez-arcadia-planitia-43,marte_arido-3,"Región de Antofagasta, Chile",0.819
+ez-arcadia-planitia-43,marte_polar-6,Groenlandia,0.831
+ez-arcadia-planitia-43,marte_polar-7,"Nunavut, Canadá",0.858
+ez-arcadia-planitia-43,marte_altura-1,"Sinkiang, China",0.873
+ez-arcadia-planitia-43,marte_altura-2,"Región de Antofagasta, Chile",0.922
+ez-arcadia-planitia-43,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.936
+ez-ausonia-cavus,marte_arido-3,"Región de Antofagasta, Chile",0.157
+ez-ausonia-cavus,marte_polar-5,Groenlandia,0.189
+ez-ausonia-cavus,marte_arido-4,"Sinkiang, China",0.199
+ez-ausonia-cavus,marte_polar-6,Groenlandia,0.204
+ez-ausonia-cavus,marte_arido-5,"Gobernación de Shabwah, Yemen",0.211
+ez-ausonia-cavus,marte_polar-3,"Nunavut, Canadá",0.223
+ez-ausonia-cavus,marte_arido-1,Argelia,0.254
+ez-ausonia-cavus,marte_arido-9,"Mongolia Interior, China",0.255
+ez-ausonia-cavus,marte_altura-1,"Sinkiang, China",0.263
+ez-ausonia-cavus,marte_polar-1,Groenlandia,0.264
+ez-ausonia-cavus,marte_polar-8,"Nunavut, Canadá",0.269
+ez-ausonia-cavus,marte_arido-8,"Al Wahat, Libia",0.278
+ez-ausonia-cavus,marte_polar-2,"Nunavut, Canadá",0.298
+ez-ausonia-cavus,marte_polar-7,"Nunavut, Canadá",0.337
+ez-ausonia-cavus,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.36
+ez-ausonia-cavus,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.376
+ez-ausonia-cavus,marte_arido-7,"Gobernación de Mutana, Irak",0.394
+ez-ausonia-cavus,marte_altura-2,"Región de Antofagasta, Chile",0.428
+ez-ausonia-cavus,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.49
+ez-ausonia-cavus,marte_polar-4,"Nunavut, Canadá",0.547
+ez-ausonia-cavus,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.626
+ez-cerberus,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.129
+ez-cerberus,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.147
+ez-cerberus,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.175
+ez-cerberus,marte_arido-7,"Gobernación de Mutana, Irak",0.175
+ez-cerberus,marte_arido-5,"Gobernación de Shabwah, Yemen",0.198
+ez-cerberus,marte_arido-1,Argelia,0.205
+ez-cerberus,marte_arido-9,"Mongolia Interior, China",0.213
+ez-cerberus,marte_arido-8,"Al Wahat, Libia",0.27
+ez-cerberus,marte_arido-4,"Sinkiang, China",0.375
+ez-cerberus,marte_polar-5,Groenlandia,0.445
+ez-cerberus,marte_polar-3,"Nunavut, Canadá",0.456
+ez-cerberus,marte_arido-3,"Región de Antofagasta, Chile",0.505
+ez-cerberus,marte_polar-1,Groenlandia,0.535
+ez-cerberus,marte_polar-8,"Nunavut, Canadá",0.535
+ez-cerberus,marte_polar-6,Groenlandia,0.551
+ez-cerberus,marte_polar-2,"Nunavut, Canadá",0.566
+ez-cerberus,marte_altura-1,"Sinkiang, China",0.595
+ez-cerberus,marte_polar-7,"Nunavut, Canadá",0.656
+ez-cerberus,marte_polar-4,"Nunavut, Canadá",0.74
+ez-cerberus,marte_altura-2,"Región de Antofagasta, Chile",0.74
+ez-cerberus,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.83
+ez-columbus-crater,marte_arido-4,"Sinkiang, China",0.105
+ez-columbus-crater,marte_arido-3,"Región de Antofagasta, Chile",0.2
+ez-columbus-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.207
+ez-columbus-crater,marte_polar-5,Groenlandia,0.222
+ez-columbus-crater,marte_arido-8,"Al Wahat, Libia",0.226
+ez-columbus-crater,marte_arido-1,Argelia,0.24
+ez-columbus-crater,marte_polar-6,Groenlandia,0.242
+ez-columbus-crater,marte_arido-9,"Mongolia Interior, China",0.242
+ez-columbus-crater,marte_polar-3,"Nunavut, Canadá",0.288
+ez-columbus-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.361
+ez-columbus-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.369
+ez-columbus-crater,marte_altura-1,"Sinkiang, China",0.377
+ez-columbus-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.379
+ez-columbus-crater,marte_polar-1,Groenlandia,0.398
+ez-columbus-crater,marte_polar-8,"Nunavut, Canadá",0.403
+ez-columbus-crater,marte_polar-2,"Nunavut, Canadá",0.432
+ez-columbus-crater,marte_polar-7,"Nunavut, Canadá",0.451
+ez-columbus-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.493
+ez-columbus-crater,marte_altura-2,"Región de Antofagasta, Chile",0.547
+ez-columbus-crater,marte_polar-4,"Nunavut, Canadá",0.675
+ez-columbus-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.754
+ez-copernicus-crater,marte_arido-8,"Al Wahat, Libia",0.082
+ez-copernicus-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.086
+ez-copernicus-crater,marte_arido-9,"Mongolia Interior, China",0.104
+ez-copernicus-crater,marte_arido-1,Argelia,0.105
+ez-copernicus-crater,marte_arido-4,"Sinkiang, China",0.122
+ez-copernicus-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.216
+ez-copernicus-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.235
+ez-copernicus-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.247
+ez-copernicus-crater,marte_polar-5,Groenlandia,0.323
+ez-copernicus-crater,marte_arido-3,"Región de Antofagasta, Chile",0.34
+ez-copernicus-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.371
+ez-copernicus-crater,marte_polar-3,"Nunavut, Canadá",0.375
+ez-copernicus-crater,marte_polar-6,Groenlandia,0.385
+ez-copernicus-crater,marte_polar-1,Groenlandia,0.477
+ez-copernicus-crater,marte_polar-8,"Nunavut, Canadá",0.479
+ez-copernicus-crater,marte_altura-1,"Sinkiang, China",0.479
+ez-copernicus-crater,marte_polar-2,"Nunavut, Canadá",0.509
+ez-copernicus-crater,marte_polar-7,"Nunavut, Canadá",0.555
+ez-copernicus-crater,marte_altura-2,"Región de Antofagasta, Chile",0.648
+ez-copernicus-crater,marte_polar-4,"Nunavut, Canadá",0.723
+ez-copernicus-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.805
+ez-coprates-chasma,marte_altura-1,"Sinkiang, China",0.071
+ez-coprates-chasma,marte_polar-7,"Nunavut, Canadá",0.143
+ez-coprates-chasma,marte_arido-3,"Región de Antofagasta, Chile",0.157
+ez-coprates-chasma,marte_polar-6,Groenlandia,0.18
+ez-coprates-chasma,marte_altura-2,"Región de Antofagasta, Chile",0.238
+ez-coprates-chasma,marte_polar-2,"Nunavut, Canadá",0.254
+ez-coprates-chasma,marte_polar-5,Groenlandia,0.254
+ez-coprates-chasma,marte_polar-8,"Nunavut, Canadá",0.283
+ez-coprates-chasma,marte_polar-3,"Nunavut, Canadá",0.287
+ez-coprates-chasma,marte_polar-1,Groenlandia,0.288
+ez-coprates-chasma,marte_arido-4,"Sinkiang, China",0.39
+ez-coprates-chasma,marte_arido-5,"Gobernación de Shabwah, Yemen",0.393
+ez-coprates-chasma,marte_polar-4,"Nunavut, Canadá",0.411
+ez-coprates-chasma,marte_arido-9,"Mongolia Interior, China",0.447
+ez-coprates-chasma,marte_arido-1,Argelia,0.448
+ez-coprates-chasma,marte_arido-8,"Al Wahat, Libia",0.477
+ez-coprates-chasma,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.491
+ez-coprates-chasma,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.525
+ez-coprates-chasma,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.567
+ez-coprates-chasma,marte_arido-7,"Gobernación de Mutana, Irak",0.581
+ez-coprates-chasma,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.656
+ez-deuteronilus-mensae,marte_arido-3,"Región de Antofagasta, Chile",0.041
+ez-deuteronilus-mensae,marte_polar-6,Groenlandia,0.053
+ez-deuteronilus-mensae,marte_altura-1,"Sinkiang, China",0.182
+ez-deuteronilus-mensae,marte_polar-5,Groenlandia,0.236
+ez-deuteronilus-mensae,marte_polar-7,"Nunavut, Canadá",0.241
+ez-deuteronilus-mensae,marte_polar-2,"Nunavut, Canadá",0.263
+ez-deuteronilus-mensae,marte_polar-8,"Nunavut, Canadá",0.266
+ez-deuteronilus-mensae,marte_polar-3,"Nunavut, Canadá",0.269
+ez-deuteronilus-mensae,marte_polar-1,Groenlandia,0.27
+ez-deuteronilus-mensae,marte_arido-4,"Sinkiang, China",0.336
+ez-deuteronilus-mensae,marte_altura-2,"Región de Antofagasta, Chile",0.344
+ez-deuteronilus-mensae,marte_arido-5,"Gobernación de Shabwah, Yemen",0.378
+ez-deuteronilus-mensae,marte_arido-1,Argelia,0.428
+ez-deuteronilus-mensae,marte_arido-9,"Mongolia Interior, China",0.429
+ez-deuteronilus-mensae,marte_arido-8,"Al Wahat, Libia",0.447
+ez-deuteronilus-mensae,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.523
+ez-deuteronilus-mensae,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.548
+ez-deuteronilus-mensae,marte_polar-4,"Nunavut, Canadá",0.552
+ez-deuteronilus-mensae,marte_arido-7,"Gobernación de Mutana, Irak",0.564
+ez-deuteronilus-mensae,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.633
+ez-deuteronilus-mensae,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.653
+ez-deuteronilus-mensae-2,marte_arido-4,"Sinkiang, China",0.127
+ez-deuteronilus-mensae-2,marte_arido-5,"Gobernación de Shabwah, Yemen",0.193
+ez-deuteronilus-mensae-2,marte_arido-3,"Región de Antofagasta, Chile",0.199
+ez-deuteronilus-mensae-2,marte_polar-5,Groenlandia,0.203
+ez-deuteronilus-mensae-2,marte_arido-8,"Al Wahat, Libia",0.222
+ez-deuteronilus-mensae-2,marte_arido-1,Argelia,0.228
+ez-deuteronilus-mensae-2,marte_arido-9,"Mongolia Interior, China",0.23
+ez-deuteronilus-mensae-2,marte_polar-3,"Nunavut, Canadá",0.237
+ez-deuteronilus-mensae-2,marte_polar-6,Groenlandia,0.246
+ez-deuteronilus-mensae-2,marte_altura-1,"Sinkiang, China",0.33
+ez-deuteronilus-mensae-2,marte_polar-1,Groenlandia,0.34
+ez-deuteronilus-mensae-2,marte_polar-8,"Nunavut, Canadá",0.344
+ez-deuteronilus-mensae-2,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.346
+ez-deuteronilus-mensae-2,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.352
+ez-deuteronilus-mensae-2,marte_arido-7,"Gobernación de Mutana, Irak",0.364
+ez-deuteronilus-mensae-2,marte_polar-2,"Nunavut, Canadá",0.373
+ez-deuteronilus-mensae-2,marte_polar-7,"Nunavut, Canadá",0.407
+ez-deuteronilus-mensae-2,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.476
+ez-deuteronilus-mensae-2,marte_altura-2,"Región de Antofagasta, Chile",0.499
+ez-deuteronilus-mensae-2,marte_polar-4,"Nunavut, Canadá",0.622
+ez-deuteronilus-mensae-2,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.701
+ez-e-hellas,marte_arido-3,"Región de Antofagasta, Chile",0.146
+ez-e-hellas,marte_arido-4,"Sinkiang, China",0.168
+ez-e-hellas,marte_polar-6,Groenlandia,0.193
+ez-e-hellas,marte_polar-5,Groenlandia,0.236
+ez-e-hellas,marte_arido-5,"Gobernación de Shabwah, Yemen",0.244
+ez-e-hellas,marte_polar-3,"Nunavut, Canadá",0.269
+ez-e-hellas,marte_arido-1,Argelia,0.278
+ez-e-hellas,marte_arido-8,"Al Wahat, Libia",0.279
+ez-e-hellas,marte_arido-9,"Mongolia Interior, China",0.28
+ez-e-hellas,marte_altura-1,"Sinkiang, China",0.299
+ez-e-hellas,marte_polar-1,Groenlandia,0.319
+ez-e-hellas,marte_polar-8,"Nunavut, Canadá",0.323
+ez-e-hellas,marte_polar-2,"Nunavut, Canadá",0.353
+ez-e-hellas,marte_polar-7,"Nunavut, Canadá",0.374
+ez-e-hellas,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.396
+ez-e-hellas,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.4
+ez-e-hellas,marte_arido-7,"Gobernación de Mutana, Irak",0.414
+ez-e-hellas,marte_altura-2,"Región de Antofagasta, Chile",0.47
+ez-e-hellas,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.524
+ez-e-hellas,marte_polar-4,"Nunavut, Canadá",0.598
+ez-e-hellas,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.677
+ez-e-hellas-2,marte_altura-1,"Sinkiang, China",0.069
+ez-e-hellas-2,marte_polar-7,"Nunavut, Canadá",0.134
+ez-e-hellas-2,marte_arido-3,"Región de Antofagasta, Chile",0.155
+ez-e-hellas-2,marte_polar-6,Groenlandia,0.171
+ez-e-hellas-2,marte_altura-2,"Región de Antofagasta, Chile",0.229
+ez-e-hellas-2,marte_polar-5,Groenlandia,0.248
+ez-e-hellas-2,marte_polar-2,"Nunavut, Canadá",0.249
+ez-e-hellas-2,marte_polar-8,"Nunavut, Canadá",0.278
+ez-e-hellas-2,marte_polar-3,"Nunavut, Canadá",0.282
+ez-e-hellas-2,marte_polar-1,Groenlandia,0.283
+ez-e-hellas-2,marte_arido-4,"Sinkiang, China",0.401
+ez-e-hellas-2,marte_arido-5,"Gobernación de Shabwah, Yemen",0.424
+ez-e-hellas-2,marte_polar-4,"Nunavut, Canadá",0.447
+ez-e-hellas-2,marte_arido-1,Argelia,0.478
+ez-e-hellas-2,marte_arido-9,"Mongolia Interior, China",0.478
+ez-e-hellas-2,marte_arido-8,"Al Wahat, Libia",0.502
+ez-e-hellas-2,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.534
+ez-e-hellas-2,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.565
+ez-e-hellas-2,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.597
+ez-e-hellas-2,marte_arido-7,"Gobernación de Mutana, Irak",0.612
+ez-e-hellas-2,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.696
+ez-e-hellas-3,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.037
+ez-e-hellas-3,marte_arido-7,"Gobernación de Mutana, Irak",0.049
+ez-e-hellas-3,marte_arido-9,"Mongolia Interior, China",0.093
+ez-e-hellas-3,marte_arido-1,Argelia,0.095
+ez-e-hellas-3,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.123
+ez-e-hellas-3,marte_arido-8,"Al Wahat, Libia",0.134
+ez-e-hellas-3,marte_arido-5,"Gobernación de Shabwah, Yemen",0.141
+ez-e-hellas-3,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.205
+ez-e-hellas-3,marte_arido-4,"Sinkiang, China",0.289
+ez-e-hellas-3,marte_polar-5,Groenlandia,0.445
+ez-e-hellas-3,marte_polar-3,"Nunavut, Canadá",0.457
+ez-e-hellas-3,marte_arido-3,"Región de Antofagasta, Chile",0.506
+ez-e-hellas-3,marte_polar-1,Groenlandia,0.536
+ez-e-hellas-3,marte_polar-8,"Nunavut, Canadá",0.536
+ez-e-hellas-3,marte_polar-6,Groenlandia,0.551
+ez-e-hellas-3,marte_polar-2,"Nunavut, Canadá",0.567
+ez-e-hellas-3,marte_altura-1,"Sinkiang, China",0.595
+ez-e-hellas-3,marte_polar-7,"Nunavut, Canadá",0.656
+ez-e-hellas-3,marte_altura-2,"Región de Antofagasta, Chile",0.74
+ez-e-hellas-3,marte_polar-4,"Nunavut, Canadá",0.747
+ez-e-hellas-3,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.834
+ez-e-melas-chasma,marte_arido-3,"Región de Antofagasta, Chile",0.053
+ez-e-melas-chasma,marte_polar-6,Groenlandia,0.096
+ez-e-melas-chasma,marte_altura-1,"Sinkiang, China",0.206
+ez-e-melas-chasma,marte_polar-5,Groenlandia,0.246
+ez-e-melas-chasma,marte_polar-7,"Nunavut, Canadá",0.269
+ez-e-melas-chasma,marte_polar-8,"Nunavut, Canadá",0.276
+ez-e-melas-chasma,marte_polar-3,"Nunavut, Canadá",0.279
+ez-e-melas-chasma,marte_polar-1,Groenlandia,0.281
+ez-e-melas-chasma,marte_polar-2,"Nunavut, Canadá",0.288
+ez-e-melas-chasma,marte_arido-4,"Sinkiang, China",0.299
+ez-e-melas-chasma,marte_arido-5,"Gobernación de Shabwah, Yemen",0.319
+ez-e-melas-chasma,marte_altura-2,"Región de Antofagasta, Chile",0.371
+ez-e-melas-chasma,marte_arido-1,Argelia,0.374
+ez-e-melas-chasma,marte_arido-9,"Mongolia Interior, China",0.374
+ez-e-melas-chasma,marte_arido-8,"Al Wahat, Libia",0.397
+ez-e-melas-chasma,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.455
+ez-e-melas-chasma,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.493
+ez-e-melas-chasma,marte_arido-7,"Gobernación de Mutana, Irak",0.508
+ez-e-melas-chasma,marte_polar-4,"Nunavut, Canadá",0.583
+ez-e-melas-chasma,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.586
+ez-e-melas-chasma,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.664
+ez-erebus-montes,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.491
+ez-erebus-montes,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.524
+ez-erebus-montes,marte_arido-7,"Gobernación de Mutana, Irak",0.62
+ez-erebus-montes,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.626
+ez-erebus-montes,marte_polar-3,"Nunavut, Canadá",0.649
+ez-erebus-montes,marte_arido-5,"Gobernación de Shabwah, Yemen",0.654
+ez-erebus-montes,marte_arido-1,Argelia,0.662
+ez-erebus-montes,marte_polar-1,Groenlandia,0.663
+ez-erebus-montes,marte_polar-8,"Nunavut, Canadá",0.667
+ez-erebus-montes,marte_arido-9,"Mongolia Interior, China",0.67
+ez-erebus-montes,marte_polar-5,Groenlandia,0.679
+ez-erebus-montes,marte_polar-2,"Nunavut, Canadá",0.698
+ez-erebus-montes,marte_arido-8,"Al Wahat, Libia",0.726
+ez-erebus-montes,marte_arido-4,"Sinkiang, China",0.803
+ez-erebus-montes,marte_polar-4,"Nunavut, Canadá",0.813
+ez-erebus-montes,marte_arido-3,"Región de Antofagasta, Chile",0.832
+ez-erebus-montes,marte_polar-6,Groenlandia,0.844
+ez-erebus-montes,marte_polar-7,"Nunavut, Canadá",0.87
+ez-erebus-montes,marte_altura-1,"Sinkiang, China",0.886
+ez-erebus-montes,marte_altura-2,"Región de Antofagasta, Chile",0.928
+ez-erebus-montes,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.935
+ez-gale-crater,marte_altura-1,"Sinkiang, China",0.058
+ez-gale-crater,marte_polar-7,"Nunavut, Canadá",0.062
+ez-gale-crater,marte_altura-2,"Región de Antofagasta, Chile",0.126
+ez-gale-crater,marte_polar-2,"Nunavut, Canadá",0.258
+ez-gale-crater,marte_polar-5,Groenlandia,0.266
+ez-gale-crater,marte_arido-3,"Región de Antofagasta, Chile",0.267
+ez-gale-crater,marte_polar-6,Groenlandia,0.281
+ez-gale-crater,marte_polar-8,"Nunavut, Canadá",0.287
+ez-gale-crater,marte_polar-3,"Nunavut, Canadá",0.291
+ez-gale-crater,marte_polar-1,Groenlandia,0.292
+ez-gale-crater,marte_polar-4,"Nunavut, Canadá",0.353
+ez-gale-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.441
+ez-gale-crater,marte_arido-4,"Sinkiang, China",0.5
+ez-gale-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.5
+ez-gale-crater,marte_arido-9,"Mongolia Interior, China",0.558
+ez-gale-crater,marte_arido-1,Argelia,0.559
+ez-gale-crater,marte_arido-8,"Al Wahat, Libia",0.584
+ez-gale-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.628
+ez-gale-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.674
+ez-gale-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.688
+ez-gale-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.753
+ez-gale-crater-2,marte_altura-1,"Sinkiang, China",0.044
+ez-gale-crater-2,marte_polar-7,"Nunavut, Canadá",0.062
+ez-gale-crater-2,marte_altura-2,"Región de Antofagasta, Chile",0.136
+ez-gale-crater-2,marte_arido-3,"Región de Antofagasta, Chile",0.242
+ez-gale-crater-2,marte_polar-6,Groenlandia,0.249
+ez-gale-crater-2,marte_polar-5,Groenlandia,0.257
+ez-gale-crater-2,marte_polar-2,"Nunavut, Canadá",0.258
+ez-gale-crater-2,marte_polar-8,"Nunavut, Canadá",0.287
+ez-gale-crater-2,marte_polar-3,"Nunavut, Canadá",0.291
+ez-gale-crater-2,marte_polar-1,Groenlandia,0.292
+ez-gale-crater-2,marte_polar-4,"Nunavut, Canadá",0.388
+ez-gale-crater-2,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.475
+ez-gale-crater-2,marte_arido-4,"Sinkiang, China",0.493
+ez-gale-crater-2,marte_arido-5,"Gobernación de Shabwah, Yemen",0.496
+ez-gale-crater-2,marte_arido-9,"Mongolia Interior, China",0.555
+ez-gale-crater-2,marte_arido-1,Argelia,0.556
+ez-gale-crater-2,marte_arido-8,"Al Wahat, Libia",0.581
+ez-gale-crater-2,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.622
+ez-gale-crater-2,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.67
+ez-gale-crater-2,marte_arido-7,"Gobernación de Mutana, Irak",0.684
+ez-gale-crater-2,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.747
+ez-gale-crater-3,marte_altura-1,"Sinkiang, China",0.041
+ez-gale-crater-3,marte_polar-7,"Nunavut, Canadá",0.062
+ez-gale-crater-3,marte_altura-2,"Región de Antofagasta, Chile",0.144
+ez-gale-crater-3,marte_arido-3,"Región de Antofagasta, Chile",0.25
+ez-gale-crater-3,marte_polar-2,"Nunavut, Canadá",0.257
+ez-gale-crater-3,marte_polar-5,Groenlandia,0.257
+ez-gale-crater-3,marte_polar-6,Groenlandia,0.265
+ez-gale-crater-3,marte_polar-8,"Nunavut, Canadá",0.286
+ez-gale-crater-3,marte_polar-3,"Nunavut, Canadá",0.29
+ez-gale-crater-3,marte_polar-1,Groenlandia,0.291
+ez-gale-crater-3,marte_polar-4,"Nunavut, Canadá",0.377
+ez-gale-crater-3,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.463
+ez-gale-crater-3,marte_arido-5,"Gobernación de Shabwah, Yemen",0.478
+ez-gale-crater-3,marte_arido-4,"Sinkiang, China",0.483
+ez-gale-crater-3,marte_arido-9,"Mongolia Interior, China",0.537
+ez-gale-crater-3,marte_arido-1,Argelia,0.538
+ez-gale-crater-3,marte_arido-8,"Al Wahat, Libia",0.564
+ez-gale-crater-3,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.607
+ez-gale-crater-3,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.652
+ez-gale-crater-3,marte_arido-7,"Gobernación de Mutana, Irak",0.666
+ez-gale-crater-3,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.733
+ez-gusev-apollinaris-sulci,marte_polar-6,Groenlandia,0.086
+ez-gusev-apollinaris-sulci,marte_arido-3,"Región de Antofagasta, Chile",0.129
+ez-gusev-apollinaris-sulci,marte_polar-5,Groenlandia,0.259
+ez-gusev-apollinaris-sulci,marte_altura-1,"Sinkiang, China",0.275
+ez-gusev-apollinaris-sulci,marte_polar-3,"Nunavut, Canadá",0.293
+ez-gusev-apollinaris-sulci,marte_polar-1,Groenlandia,0.315
+ez-gusev-apollinaris-sulci,marte_polar-7,"Nunavut, Canadá",0.324
+ez-gusev-apollinaris-sulci,marte_polar-8,"Nunavut, Canadá",0.332
+ez-gusev-apollinaris-sulci,marte_polar-2,"Nunavut, Canadá",0.359
+ez-gusev-apollinaris-sulci,marte_arido-4,"Sinkiang, China",0.426
+ez-gusev-apollinaris-sulci,marte_altura-2,"Región de Antofagasta, Chile",0.428
+ez-gusev-apollinaris-sulci,marte_arido-5,"Gobernación de Shabwah, Yemen",0.49
+ez-gusev-apollinaris-sulci,marte_arido-1,Argelia,0.538
+ez-gusev-apollinaris-sulci,marte_arido-9,"Mongolia Interior, China",0.538
+ez-gusev-apollinaris-sulci,marte_arido-8,"Al Wahat, Libia",0.546
+ez-gusev-apollinaris-sulci,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.631
+ez-gusev-apollinaris-sulci,marte_polar-4,"Nunavut, Canadá",0.649
+ez-gusev-apollinaris-sulci,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.658
+ez-gusev-apollinaris-sulci,marte_arido-7,"Gobernación de Mutana, Irak",0.675
+ez-gusev-apollinaris-sulci,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.729
+ez-gusev-apollinaris-sulci,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.762
+ez-gusev-crater,marte_arido-3,"Región de Antofagasta, Chile",0.131
+ez-gusev-crater,marte_polar-6,Groenlandia,0.173
+ez-gusev-crater,marte_polar-5,Groenlandia,0.21
+ez-gusev-crater,marte_arido-4,"Sinkiang, China",0.231
+ez-gusev-crater,marte_altura-1,"Sinkiang, China",0.236
+ez-gusev-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.239
+ez-gusev-crater,marte_polar-3,"Nunavut, Canadá",0.243
+ez-gusev-crater,marte_polar-1,Groenlandia,0.268
+ez-gusev-crater,marte_polar-8,"Nunavut, Canadá",0.28
+ez-gusev-crater,marte_arido-9,"Mongolia Interior, China",0.295
+ez-gusev-crater,marte_arido-1,Argelia,0.296
+ez-gusev-crater,marte_polar-2,"Nunavut, Canadá",0.307
+ez-gusev-crater,marte_polar-7,"Nunavut, Canadá",0.307
+ez-gusev-crater,marte_arido-8,"Al Wahat, Libia",0.323
+ez-gusev-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.377
+ez-gusev-crater,marte_altura-2,"Región de Antofagasta, Chile",0.405
+ez-gusev-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.413
+ez-gusev-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.428
+ez-gusev-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.508
+ez-gusev-crater,marte_polar-4,"Nunavut, Canadá",0.591
+ez-gusev-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.671
+ez-hadriacus-palus,marte_polar-6,Groenlandia,0.073
+ez-hadriacus-palus,marte_arido-3,"Región de Antofagasta, Chile",0.074
+ez-hadriacus-palus,marte_altura-1,"Sinkiang, China",0.24
+ez-hadriacus-palus,marte_polar-5,Groenlandia,0.256
+ez-hadriacus-palus,marte_polar-3,"Nunavut, Canadá",0.289
+ez-hadriacus-palus,marte_polar-1,Groenlandia,0.29
+ez-hadriacus-palus,marte_polar-8,"Nunavut, Canadá",0.292
+ez-hadriacus-palus,marte_polar-7,"Nunavut, Canadá",0.298
+ez-hadriacus-palus,marte_polar-2,"Nunavut, Canadá",0.32
+ez-hadriacus-palus,marte_arido-4,"Sinkiang, China",0.35
+ez-hadriacus-palus,marte_altura-2,"Región de Antofagasta, Chile",0.401
+ez-hadriacus-palus,marte_arido-5,"Gobernación de Shabwah, Yemen",0.433
+ez-hadriacus-palus,marte_arido-1,Argelia,0.477
+ez-hadriacus-palus,marte_arido-8,"Al Wahat, Libia",0.477
+ez-hadriacus-palus,marte_arido-9,"Mongolia Interior, China",0.478
+ez-hadriacus-palus,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.582
+ez-hadriacus-palus,marte_polar-4,"Nunavut, Canadá",0.599
+ez-hadriacus-palus,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.599
+ez-hadriacus-palus,marte_arido-7,"Gobernación de Mutana, Irak",0.617
+ez-hadriacus-palus,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.679
+ez-hadriacus-palus,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.713
+ez-hale-crater,marte_arido-3,"Región de Antofagasta, Chile",0.05
+ez-hale-crater,marte_polar-6,Groenlandia,0.059
+ez-hale-crater,marte_altura-1,"Sinkiang, China",0.174
+ez-hale-crater,marte_polar-7,"Nunavut, Canadá",0.234
+ez-hale-crater,marte_polar-5,Groenlandia,0.242
+ez-hale-crater,marte_polar-2,"Nunavut, Canadá",0.253
+ez-hale-crater,marte_polar-8,"Nunavut, Canadá",0.272
+ez-hale-crater,marte_polar-3,"Nunavut, Canadá",0.275
+ez-hale-crater,marte_polar-1,Groenlandia,0.277
+ez-hale-crater,marte_altura-2,"Región de Antofagasta, Chile",0.336
+ez-hale-crater,marte_arido-4,"Sinkiang, China",0.348
+ez-hale-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.406
+ez-hale-crater,marte_arido-1,Argelia,0.452
+ez-hale-crater,marte_arido-9,"Mongolia Interior, China",0.453
+ez-hale-crater,marte_arido-8,"Al Wahat, Libia",0.462
+ez-hale-crater,marte_polar-4,"Nunavut, Canadá",0.537
+ez-hale-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.552
+ez-hale-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.574
+ez-hale-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.592
+ez-hale-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.618
+ez-hale-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.682
+ez-hebrus-valles,marte_arido-5,"Gobernación de Shabwah, Yemen",0.094
+ez-hebrus-valles,marte_arido-1,Argelia,0.134
+ez-hebrus-valles,marte_arido-9,"Mongolia Interior, China",0.135
+ez-hebrus-valles,marte_arido-4,"Sinkiang, China",0.153
+ez-hebrus-valles,marte_arido-8,"Al Wahat, Libia",0.154
+ez-hebrus-valles,marte_polar-5,Groenlandia,0.237
+ez-hebrus-valles,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.245
+ez-hebrus-valles,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.256
+ez-hebrus-valles,marte_arido-7,"Gobernación de Mutana, Irak",0.273
+ez-hebrus-valles,marte_arido-3,"Región de Antofagasta, Chile",0.278
+ez-hebrus-valles,marte_polar-3,"Nunavut, Canadá",0.291
+ez-hebrus-valles,marte_polar-6,Groenlandia,0.323
+ez-hebrus-valles,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.373
+ez-hebrus-valles,marte_altura-1,"Sinkiang, China",0.391
+ez-hebrus-valles,marte_polar-1,Groenlandia,0.395
+ez-hebrus-valles,marte_polar-8,"Nunavut, Canadá",0.397
+ez-hebrus-valles,marte_polar-2,"Nunavut, Canadá",0.427
+ez-hebrus-valles,marte_polar-7,"Nunavut, Canadá",0.467
+ez-hebrus-valles,marte_altura-2,"Región de Antofagasta, Chile",0.559
+ez-hebrus-valles,marte_polar-4,"Nunavut, Canadá",0.66
+ez-hebrus-valles,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.74
+ez-huygens-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.072
+ez-huygens-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.143
+ez-huygens-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.22
+ez-huygens-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.233
+ez-huygens-crater,marte_arido-1,Argelia,0.302
+ez-huygens-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.305
+ez-huygens-crater,marte_arido-9,"Mongolia Interior, China",0.307
+ez-huygens-crater,marte_arido-8,"Al Wahat, Libia",0.381
+ez-huygens-crater,marte_arido-4,"Sinkiang, China",0.504
+ez-huygens-crater,marte_polar-3,"Nunavut, Canadá",0.534
+ez-huygens-crater,marte_polar-5,Groenlandia,0.54
+ez-huygens-crater,marte_polar-1,Groenlandia,0.594
+ez-huygens-crater,marte_polar-8,"Nunavut, Canadá",0.595
+ez-huygens-crater,marte_polar-2,"Nunavut, Canadá",0.625
+ez-huygens-crater,marte_arido-3,"Región de Antofagasta, Chile",0.626
+ez-huygens-crater,marte_polar-6,Groenlandia,0.666
+ez-huygens-crater,marte_altura-1,"Sinkiang, China",0.701
+ez-huygens-crater,marte_polar-7,"Nunavut, Canadá",0.742
+ez-huygens-crater,marte_polar-4,"Nunavut, Canadá",0.779
+ez-huygens-crater,marte_altura-2,"Región de Antofagasta, Chile",0.82
+ez-huygens-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.878
+ez-hypanis-delta,marte_arido-4,"Sinkiang, China",0.126
+ez-hypanis-delta,marte_arido-3,"Región de Antofagasta, Chile",0.18
+ez-hypanis-delta,marte_polar-6,Groenlandia,0.22
+ez-hypanis-delta,marte_arido-5,"Gobernación de Shabwah, Yemen",0.228
+ez-hypanis-delta,marte_polar-5,Groenlandia,0.232
+ez-hypanis-delta,marte_arido-8,"Al Wahat, Libia",0.251
+ez-hypanis-delta,marte_arido-1,Argelia,0.254
+ez-hypanis-delta,marte_arido-9,"Mongolia Interior, China",0.255
+ez-hypanis-delta,marte_polar-3,"Nunavut, Canadá",0.275
+ez-hypanis-delta,marte_altura-1,"Sinkiang, China",0.361
+ez-hypanis-delta,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.374
+ez-hypanis-delta,marte_polar-1,Groenlandia,0.386
+ez-hypanis-delta,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.39
+ez-hypanis-delta,marte_polar-8,"Nunavut, Canadá",0.391
+ez-hypanis-delta,marte_arido-7,"Gobernación de Mutana, Irak",0.391
+ez-hypanis-delta,marte_polar-2,"Nunavut, Canadá",0.421
+ez-hypanis-delta,marte_polar-7,"Nunavut, Canadá",0.434
+ez-hypanis-delta,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.514
+ez-hypanis-delta,marte_altura-2,"Región de Antofagasta, Chile",0.531
+ez-hypanis-delta,marte_polar-4,"Nunavut, Canadá",0.667
+ez-hypanis-delta,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.747
+ez-ismenius-cavus,marte_altura-1,"Sinkiang, China",0.125
+ez-ismenius-cavus,marte_polar-6,Groenlandia,0.159
+ez-ismenius-cavus,marte_polar-7,"Nunavut, Canadá",0.165
+ez-ismenius-cavus,marte_arido-3,"Región de Antofagasta, Chile",0.195
+ez-ismenius-cavus,marte_polar-5,Groenlandia,0.26
+ez-ismenius-cavus,marte_polar-2,"Nunavut, Canadá",0.261
+ez-ismenius-cavus,marte_altura-2,"Región de Antofagasta, Chile",0.27
+ez-ismenius-cavus,marte_polar-8,"Nunavut, Canadá",0.29
+ez-ismenius-cavus,marte_polar-3,"Nunavut, Canadá",0.294
+ez-ismenius-cavus,marte_polar-1,Groenlandia,0.295
+ez-ismenius-cavus,marte_arido-4,"Sinkiang, China",0.496
+ez-ismenius-cavus,marte_polar-4,"Nunavut, Canadá",0.511
+ez-ismenius-cavus,marte_arido-5,"Gobernación de Shabwah, Yemen",0.537
+ez-ismenius-cavus,marte_arido-1,Argelia,0.591
+ez-ismenius-cavus,marte_arido-9,"Mongolia Interior, China",0.591
+ez-ismenius-cavus,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.593
+ez-ismenius-cavus,marte_arido-8,"Al Wahat, Libia",0.607
+ez-ismenius-cavus,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.668
+ez-ismenius-cavus,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.711
+ez-ismenius-cavus,marte_arido-7,"Gobernación de Mutana, Irak",0.725
+ez-ismenius-cavus,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.794
+ez-jezero-isidis-syrtis,marte_altura-1,"Sinkiang, China",0.134
+ez-jezero-isidis-syrtis,marte_polar-6,Groenlandia,0.154
+ez-jezero-isidis-syrtis,marte_polar-7,"Nunavut, Canadá",0.157
+ez-jezero-isidis-syrtis,marte_arido-3,"Región de Antofagasta, Chile",0.186
+ez-jezero-isidis-syrtis,marte_polar-5,Groenlandia,0.261
+ez-jezero-isidis-syrtis,marte_polar-2,"Nunavut, Canadá",0.262
+ez-jezero-isidis-syrtis,marte_altura-2,"Región de Antofagasta, Chile",0.264
+ez-jezero-isidis-syrtis,marte_polar-8,"Nunavut, Canadá",0.291
+ez-jezero-isidis-syrtis,marte_polar-3,"Nunavut, Canadá",0.294
+ez-jezero-isidis-syrtis,marte_polar-1,Groenlandia,0.296
+ez-jezero-isidis-syrtis,marte_arido-4,"Sinkiang, China",0.486
+ez-jezero-isidis-syrtis,marte_arido-5,"Gobernación de Shabwah, Yemen",0.522
+ez-jezero-isidis-syrtis,marte_polar-4,"Nunavut, Canadá",0.525
+ez-jezero-isidis-syrtis,marte_arido-1,Argelia,0.573
+ez-jezero-isidis-syrtis,marte_arido-9,"Mongolia Interior, China",0.574
+ez-jezero-isidis-syrtis,marte_arido-8,"Al Wahat, Libia",0.594
+ez-jezero-isidis-syrtis,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.608
+ez-jezero-isidis-syrtis,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.656
+ez-jezero-isidis-syrtis,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.693
+ez-jezero-isidis-syrtis,marte_arido-7,"Gobernación de Mutana, Irak",0.707
+ez-jezero-isidis-syrtis,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.782
+ez-kasei-valles,marte_altura-2,"Región de Antofagasta, Chile",0.038
+ez-kasei-valles,marte_polar-7,"Nunavut, Canadá",0.139
+ez-kasei-valles,marte_altura-1,"Sinkiang, China",0.194
+ez-kasei-valles,marte_polar-2,"Nunavut, Canadá",0.263
+ez-kasei-valles,marte_polar-4,"Nunavut, Canadá",0.263
+ez-kasei-valles,marte_polar-8,"Nunavut, Canadá",0.292
+ez-kasei-valles,marte_polar-1,Groenlandia,0.297
+ez-kasei-valles,marte_polar-3,"Nunavut, Canadá",0.31
+ez-kasei-valles,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.351
+ez-kasei-valles,marte_polar-5,Groenlandia,0.398
+ez-kasei-valles,marte_arido-3,"Región de Antofagasta, Chile",0.403
+ez-kasei-valles,marte_polar-6,Groenlandia,0.413
+ez-kasei-valles,marte_arido-5,"Gobernación de Shabwah, Yemen",0.618
+ez-kasei-valles,marte_arido-4,"Sinkiang, China",0.641
+ez-kasei-valles,marte_arido-9,"Mongolia Interior, China",0.676
+ez-kasei-valles,marte_arido-1,Argelia,0.678
+ez-kasei-valles,marte_arido-8,"Al Wahat, Libia",0.716
+ez-kasei-valles,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.731
+ez-kasei-valles,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.791
+ez-kasei-valles,marte_arido-7,"Gobernación de Mutana, Irak",0.801
+ez-kasei-valles,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.852
+ez-mawrth-vallis,marte_polar-6,Groenlandia,0.074
+ez-mawrth-vallis,marte_arido-3,"Región de Antofagasta, Chile",0.076
+ez-mawrth-vallis,marte_altura-1,"Sinkiang, China",0.25
+ez-mawrth-vallis,marte_polar-5,Groenlandia,0.257
+ez-mawrth-vallis,marte_polar-3,"Nunavut, Canadá",0.29
+ez-mawrth-vallis,marte_polar-1,Groenlandia,0.292
+ez-mawrth-vallis,marte_polar-8,"Nunavut, Canadá",0.296
+ez-mawrth-vallis,marte_polar-7,"Nunavut, Canadá",0.312
+ez-mawrth-vallis,marte_polar-2,"Nunavut, Canadá",0.323
+ez-mawrth-vallis,marte_arido-4,"Sinkiang, China",0.341
+ez-mawrth-vallis,marte_altura-2,"Región de Antofagasta, Chile",0.414
+ez-mawrth-vallis,marte_arido-5,"Gobernación de Shabwah, Yemen",0.435
+ez-mawrth-vallis,marte_arido-8,"Al Wahat, Libia",0.465
+ez-mawrth-vallis,marte_arido-1,Argelia,0.474
+ez-mawrth-vallis,marte_arido-9,"Mongolia Interior, China",0.475
+ez-mawrth-vallis,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.584
+ez-mawrth-vallis,marte_polar-4,"Nunavut, Canadá",0.591
+ez-mawrth-vallis,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.596
+ez-mawrth-vallis,marte_arido-7,"Gobernación de Mutana, Irak",0.614
+ez-mawrth-vallis,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.67
+ez-mawrth-vallis,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.715
+ez-mclaughlin-crater,marte_arido-3,"Región de Antofagasta, Chile",0.071
+ez-mclaughlin-crater,marte_polar-6,Groenlandia,0.072
+ez-mclaughlin-crater,marte_polar-5,Groenlandia,0.255
+ez-mclaughlin-crater,marte_altura-1,"Sinkiang, China",0.27
+ez-mclaughlin-crater,marte_polar-3,"Nunavut, Canadá",0.288
+ez-mclaughlin-crater,marte_polar-1,Groenlandia,0.309
+ez-mclaughlin-crater,marte_polar-8,"Nunavut, Canadá",0.324
+ez-mclaughlin-crater,marte_polar-7,"Nunavut, Canadá",0.327
+ez-mclaughlin-crater,marte_polar-2,"Nunavut, Canadá",0.351
+ez-mclaughlin-crater,marte_arido-4,"Sinkiang, China",0.352
+ez-mclaughlin-crater,marte_altura-2,"Región de Antofagasta, Chile",0.43
+ez-mclaughlin-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.43
+ez-mclaughlin-crater,marte_arido-8,"Al Wahat, Libia",0.472
+ez-mclaughlin-crater,marte_arido-1,Argelia,0.476
+ez-mclaughlin-crater,marte_arido-9,"Mongolia Interior, China",0.477
+ez-mclaughlin-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.578
+ez-mclaughlin-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.598
+ez-mclaughlin-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.615
+ez-mclaughlin-crater,marte_polar-4,"Nunavut, Canadá",0.631
+ez-mclaughlin-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.708
+ez-mclaughlin-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.711
+ez-ne-marineris,marte_altura-1,"Sinkiang, China",0.072
+ez-ne-marineris,marte_arido-3,"Región de Antofagasta, Chile",0.14
+ez-ne-marineris,marte_polar-7,"Nunavut, Canadá",0.142
+ez-ne-marineris,marte_polar-6,Groenlandia,0.157
+ez-ne-marineris,marte_altura-2,"Región de Antofagasta, Chile",0.239
+ez-ne-marineris,marte_polar-5,Groenlandia,0.249
+ez-ne-marineris,marte_polar-2,"Nunavut, Canadá",0.25
+ez-ne-marineris,marte_polar-8,"Nunavut, Canadá",0.279
+ez-ne-marineris,marte_polar-3,"Nunavut, Canadá",0.282
+ez-ne-marineris,marte_polar-1,Groenlandia,0.284
+ez-ne-marineris,marte_arido-4,"Sinkiang, China",0.393
+ez-ne-marineris,marte_arido-5,"Gobernación de Shabwah, Yemen",0.403
+ez-ne-marineris,marte_polar-4,"Nunavut, Canadá",0.44
+ez-ne-marineris,marte_arido-9,"Mongolia Interior, China",0.457
+ez-ne-marineris,marte_arido-1,Argelia,0.458
+ez-ne-marineris,marte_arido-8,"Al Wahat, Libia",0.484
+ez-ne-marineris,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.521
+ez-ne-marineris,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.539
+ez-ne-marineris,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.575
+ez-ne-marineris,marte_arido-7,"Gobernación de Mutana, Irak",0.589
+ez-ne-marineris,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.669
+ez-newton-crater,marte_polar-6,Groenlandia,0.073
+ez-newton-crater,marte_arido-3,"Región de Antofagasta, Chile",0.086
+ez-newton-crater,marte_polar-5,Groenlandia,0.249
+ez-newton-crater,marte_polar-3,"Nunavut, Canadá",0.283
+ez-newton-crater,marte_altura-1,"Sinkiang, China",0.293
+ez-newton-crater,marte_polar-1,Groenlandia,0.331
+ez-newton-crater,marte_arido-4,"Sinkiang, China",0.337
+ez-newton-crater,marte_polar-8,"Nunavut, Canadá",0.344
+ez-newton-crater,marte_polar-7,"Nunavut, Canadá",0.351
+ez-newton-crater,marte_polar-2,"Nunavut, Canadá",0.371
+ez-newton-crater,marte_arido-5,"Gobernación de Shabwah, Yemen",0.426
+ez-newton-crater,marte_altura-2,"Región de Antofagasta, Chile",0.454
+ez-newton-crater,marte_arido-8,"Al Wahat, Libia",0.461
+ez-newton-crater,marte_arido-1,Argelia,0.471
+ez-newton-crater,marte_arido-9,"Mongolia Interior, China",0.472
+ez-newton-crater,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.575
+ez-newton-crater,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.593
+ez-newton-crater,marte_arido-7,"Gobernación de Mutana, Irak",0.61
+ez-newton-crater,marte_polar-4,"Nunavut, Canadá",0.643
+ez-newton-crater,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.705
+ez-newton-crater,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.722
+ez-nili-fossae,marte_polar-7,"Nunavut, Canadá",0.092
+ez-nili-fossae,marte_altura-2,"Región de Antofagasta, Chile",0.126
+ez-nili-fossae,marte_altura-1,"Sinkiang, China",0.158
+ez-nili-fossae,marte_polar-2,"Nunavut, Canadá",0.262
+ez-nili-fossae,marte_polar-8,"Nunavut, Canadá",0.292
+ez-nili-fossae,marte_polar-1,Groenlandia,0.297
+ez-nili-fossae,marte_polar-3,"Nunavut, Canadá",0.303
+ez-nili-fossae,marte_polar-6,Groenlandia,0.313
+ez-nili-fossae,marte_polar-5,Groenlandia,0.315
+ez-nili-fossae,marte_arido-3,"Región de Antofagasta, Chile",0.329
+ez-nili-fossae,marte_polar-4,"Nunavut, Canadá",0.409
+ez-nili-fossae,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.496
+ez-nili-fossae,marte_arido-4,"Sinkiang, China",0.607
+ez-nili-fossae,marte_arido-5,"Gobernación de Shabwah, Yemen",0.61
+ez-nili-fossae,marte_arido-9,"Mongolia Interior, China",0.669
+ez-nili-fossae,marte_arido-1,Argelia,0.67
+ez-nili-fossae,marte_arido-8,"Al Wahat, Libia",0.699
+ez-nili-fossae,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.727
+ez-nili-fossae,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.783
+ez-nili-fossae,marte_arido-7,"Gobernación de Mutana, Irak",0.793
+ez-nili-fossae,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.849
+ez-noachis-terra-chloride,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.084
+ez-noachis-terra-chloride,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.12
+ez-noachis-terra-chloride,marte_arido-7,"Gobernación de Mutana, Irak",0.217
+ez-noachis-terra-chloride,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.223
+ez-noachis-terra-chloride,marte_arido-1,Argelia,0.274
+ez-noachis-terra-chloride,marte_arido-5,"Gobernación de Shabwah, Yemen",0.276
+ez-noachis-terra-chloride,marte_arido-9,"Mongolia Interior, China",0.279
+ez-noachis-terra-chloride,marte_arido-8,"Al Wahat, Libia",0.353
+ez-noachis-terra-chloride,marte_arido-4,"Sinkiang, China",0.476
+ez-noachis-terra-chloride,marte_polar-3,"Nunavut, Canadá",0.479
+ez-noachis-terra-chloride,marte_polar-5,Groenlandia,0.486
+ez-noachis-terra-chloride,marte_polar-1,Groenlandia,0.547
+ez-noachis-terra-chloride,marte_polar-8,"Nunavut, Canadá",0.547
+ez-noachis-terra-chloride,marte_arido-3,"Región de Antofagasta, Chile",0.577
+ez-noachis-terra-chloride,marte_polar-2,"Nunavut, Canadá",0.578
+ez-noachis-terra-chloride,marte_polar-6,Groenlandia,0.616
+ez-noachis-terra-chloride,marte_altura-1,"Sinkiang, China",0.651
+ez-noachis-terra-chloride,marte_polar-7,"Nunavut, Canadá",0.688
+ez-noachis-terra-chloride,marte_polar-4,"Nunavut, Canadá",0.756
+ez-noachis-terra-chloride,marte_altura-2,"Región de Antofagasta, Chile",0.764
+ez-noachis-terra-chloride,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.844
+ez-noctis-landing,marte_altura-1,"Sinkiang, China",0.122
+ez-noctis-landing,marte_polar-7,"Nunavut, Canadá",0.157
+ez-noctis-landing,marte_polar-6,Groenlandia,0.205
+ez-noctis-landing,marte_arido-3,"Región de Antofagasta, Chile",0.243
+ez-noctis-landing,marte_polar-2,"Nunavut, Canadá",0.263
+ez-noctis-landing,marte_altura-2,"Región de Antofagasta, Chile",0.263
+ez-noctis-landing,marte_polar-5,Groenlandia,0.272
+ez-noctis-landing,marte_polar-8,"Nunavut, Canadá",0.292
+ez-noctis-landing,marte_polar-1,Groenlandia,0.297
+ez-noctis-landing,marte_polar-3,"Nunavut, Canadá",0.299
+ez-noctis-landing,marte_polar-4,"Nunavut, Canadá",0.505
+ez-noctis-landing,marte_arido-4,"Sinkiang, China",0.541
+ez-noctis-landing,marte_arido-5,"Gobernación de Shabwah, Yemen",0.57
+ez-noctis-landing,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.587
+ez-noctis-landing,marte_arido-1,Argelia,0.624
+ez-noctis-landing,marte_arido-9,"Mongolia Interior, China",0.625
+ez-noctis-landing,marte_arido-8,"Al Wahat, Libia",0.648
+ez-noctis-landing,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.698
+ez-noctis-landing,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.744
+ez-noctis-landing,marte_arido-7,"Gobernación de Mutana, Irak",0.758
+ez-noctis-landing,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.823
+ez-protonilus-mensae,marte_polar-7,"Nunavut, Canadá",0.058
+ez-protonilus-mensae,marte_altura-1,"Sinkiang, China",0.085
+ez-protonilus-mensae,marte_altura-2,"Región de Antofagasta, Chile",0.089
+ez-protonilus-mensae,marte_polar-2,"Nunavut, Canadá",0.254
+ez-protonilus-mensae,marte_polar-8,"Nunavut, Canadá",0.283
+ez-protonilus-mensae,marte_polar-5,Groenlandia,0.286
+ez-protonilus-mensae,marte_polar-3,"Nunavut, Canadá",0.287
+ez-protonilus-mensae,marte_polar-1,Groenlandia,0.288
+ez-protonilus-mensae,marte_arido-3,"Región de Antofagasta, Chile",0.292
+ez-protonilus-mensae,marte_polar-6,Groenlandia,0.301
+ez-protonilus-mensae,marte_polar-4,"Nunavut, Canadá",0.353
+ez-protonilus-mensae,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.441
+ez-protonilus-mensae,marte_arido-5,"Gobernación de Shabwah, Yemen",0.528
+ez-protonilus-mensae,marte_arido-4,"Sinkiang, China",0.54
+ez-protonilus-mensae,marte_arido-9,"Mongolia Interior, China",0.587
+ez-protonilus-mensae,marte_arido-1,Argelia,0.589
+ez-protonilus-mensae,marte_arido-8,"Al Wahat, Libia",0.623
+ez-protonilus-mensae,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.646
+ez-protonilus-mensae,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.701
+ez-protonilus-mensae,marte_arido-7,"Gobernación de Mutana, Irak",0.712
+ez-protonilus-mensae,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.768
+ez-s-meridiani-planum,marte_arido-1,Argelia,0.023
+ez-s-meridiani-planum,marte_arido-9,"Mongolia Interior, China",0.023
+ez-s-meridiani-planum,marte_arido-5,"Gobernación de Shabwah, Yemen",0.059
+ez-s-meridiani-planum,marte_arido-8,"Al Wahat, Libia",0.08
+ez-s-meridiani-planum,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.143
+ez-s-meridiani-planum,marte_arido-7,"Gobernación de Mutana, Irak",0.16
+ez-s-meridiani-planum,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.164
+ez-s-meridiani-planum,marte_arido-4,"Sinkiang, China",0.203
+ez-s-meridiani-planum,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.288
+ez-s-meridiani-planum,marte_polar-5,Groenlandia,0.34
+ez-s-meridiani-planum,marte_polar-3,"Nunavut, Canadá",0.371
+ez-s-meridiani-planum,marte_arido-3,"Región de Antofagasta, Chile",0.39
+ez-s-meridiani-planum,marte_polar-6,Groenlandia,0.436
+ez-s-meridiani-planum,marte_polar-1,Groenlandia,0.463
+ez-s-meridiani-planum,marte_polar-8,"Nunavut, Canadá",0.464
+ez-s-meridiani-planum,marte_altura-1,"Sinkiang, China",0.489
+ez-s-meridiani-planum,marte_polar-2,"Nunavut, Canadá",0.495
+ez-s-meridiani-planum,marte_polar-7,"Nunavut, Canadá",0.562
+ez-s-meridiani-planum,marte_altura-2,"Región de Antofagasta, Chile",0.65
+ez-s-meridiani-planum,marte_polar-4,"Nunavut, Canadá",0.696
+ez-s-meridiani-planum,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.779
+ez-s-meridiani-planum-2,marte_arido-3,"Región de Antofagasta, Chile",0.135
+ez-s-meridiani-planum-2,marte_polar-6,Groenlandia,0.175
+ez-s-meridiani-planum-2,marte_arido-4,"Sinkiang, China",0.177
+ez-s-meridiani-planum-2,marte_polar-5,Groenlandia,0.25
+ez-s-meridiani-planum-2,marte_polar-3,"Nunavut, Canadá",0.284
+ez-s-meridiani-planum-2,marte_arido-8,"Al Wahat, Libia",0.31
+ez-s-meridiani-planum-2,marte_arido-5,"Gobernación de Shabwah, Yemen",0.319
+ez-s-meridiani-planum-2,marte_altura-1,"Sinkiang, China",0.32
+ez-s-meridiani-planum-2,marte_arido-1,Argelia,0.339
+ez-s-meridiani-planum-2,marte_arido-9,"Mongolia Interior, China",0.34
+ez-s-meridiani-planum-2,marte_polar-1,Groenlandia,0.342
+ez-s-meridiani-planum-2,marte_polar-8,"Nunavut, Canadá",0.348
+ez-s-meridiani-planum-2,marte_polar-2,"Nunavut, Canadá",0.376
+ez-s-meridiani-planum-2,marte_polar-7,"Nunavut, Canadá",0.394
+ez-s-meridiani-planum-2,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.455
+ez-s-meridiani-planum-2,marte_arido-7,"Gobernación de Mutana, Irak",0.474
+ez-s-meridiani-planum-2,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.481
+ez-s-meridiani-planum-2,marte_altura-2,"Región de Antofagasta, Chile",0.491
+ez-s-meridiani-planum-2,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.605
+ez-s-meridiani-planum-2,marte_polar-4,"Nunavut, Canadá",0.625
+ez-s-meridiani-planum-2,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.704
+ez-s-nectaris-fossae,marte_arido-3,"Región de Antofagasta, Chile",0.156
+ez-s-nectaris-fossae,marte_arido-4,"Sinkiang, China",0.166
+ez-s-nectaris-fossae,marte_polar-6,Groenlandia,0.19
+ez-s-nectaris-fossae,marte_polar-5,Groenlandia,0.228
+ez-s-nectaris-fossae,marte_arido-5,"Gobernación de Shabwah, Yemen",0.276
+ez-s-nectaris-fossae,marte_polar-3,"Nunavut, Canadá",0.278
+ez-s-nectaris-fossae,marte_arido-8,"Al Wahat, Libia",0.292
+ez-s-nectaris-fossae,marte_arido-1,Argelia,0.31
+ez-s-nectaris-fossae,marte_arido-9,"Mongolia Interior, China",0.312
+ez-s-nectaris-fossae,marte_altura-1,"Sinkiang, China",0.36
+ez-s-nectaris-fossae,marte_polar-1,Groenlandia,0.39
+ez-s-nectaris-fossae,marte_polar-8,"Nunavut, Canadá",0.397
+ez-s-nectaris-fossae,marte_polar-2,"Nunavut, Canadá",0.426
+ez-s-nectaris-fossae,marte_polar-7,"Nunavut, Canadá",0.428
+ez-s-nectaris-fossae,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.428
+ez-s-nectaris-fossae,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.433
+ez-s-nectaris-fossae,marte_arido-7,"Gobernación de Mutana, Irak",0.446
+ez-s-nectaris-fossae,marte_altura-2,"Región de Antofagasta, Chile",0.528
+ez-s-nectaris-fossae,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.556
+ez-s-nectaris-fossae,marte_polar-4,"Nunavut, Canadá",0.678
+ez-s-nectaris-fossae,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.758
+ez-se-marineris,marte_arido-9,"Mongolia Interior, China",0.045
+ez-se-marineris,marte_arido-1,Argelia,0.046
+ez-se-marineris,marte_arido-8,"Al Wahat, Libia",0.061
+ez-se-marineris,marte_arido-5,"Gobernación de Shabwah, Yemen",0.068
+ez-se-marineris,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.162
+ez-se-marineris,marte_arido-4,"Sinkiang, China",0.176
+ez-se-marineris,marte_arido-7,"Gobernación de Mutana, Irak",0.179
+ez-se-marineris,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.188
+ez-se-marineris,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.312
+ez-se-marineris,marte_polar-5,Groenlandia,0.334
+ez-se-marineris,marte_polar-3,"Nunavut, Canadá",0.367
+ez-se-marineris,marte_arido-3,"Región de Antofagasta, Chile",0.377
+ez-se-marineris,marte_polar-6,Groenlandia,0.424
+ez-se-marineris,marte_polar-1,Groenlandia,0.463
+ez-se-marineris,marte_polar-8,"Nunavut, Canadá",0.465
+ez-se-marineris,marte_altura-1,"Sinkiang, China",0.483
+ez-se-marineris,marte_polar-2,"Nunavut, Canadá",0.495
+ez-se-marineris,marte_polar-7,"Nunavut, Canadá",0.554
+ez-se-marineris,marte_altura-2,"Región de Antofagasta, Chile",0.643
+ez-se-marineris,marte_polar-4,"Nunavut, Canadá",0.705
+ez-se-marineris,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.788
+ez-sinus-meridiani,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.123
+ez-sinus-meridiani,marte_arido-5,"Gobernación de Shabwah, Yemen",0.125
+ez-sinus-meridiani,marte_arido-1,Argelia,0.132
+ez-sinus-meridiani,marte_arido-9,"Mongolia Interior, China",0.14
+ez-sinus-meridiani,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.154
+ez-sinus-meridiani,marte_arido-7,"Gobernación de Mutana, Irak",0.168
+ez-sinus-meridiani,marte_arido-8,"Al Wahat, Libia",0.196
+ez-sinus-meridiani,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.252
+ez-sinus-meridiani,marte_arido-4,"Sinkiang, China",0.287
+ez-sinus-meridiani,marte_polar-5,Groenlandia,0.325
+ez-sinus-meridiani,marte_polar-3,"Nunavut, Canadá",0.356
+ez-sinus-meridiani,marte_arido-3,"Región de Antofagasta, Chile",0.387
+ez-sinus-meridiani,marte_polar-6,Groenlandia,0.43
+ez-sinus-meridiani,marte_polar-1,Groenlandia,0.456
+ez-sinus-meridiani,marte_polar-8,"Nunavut, Canadá",0.457
+ez-sinus-meridiani,marte_altura-1,"Sinkiang, China",0.475
+ez-sinus-meridiani,marte_polar-2,"Nunavut, Canadá",0.488
+ez-sinus-meridiani,marte_polar-7,"Nunavut, Canadá",0.544
+ez-sinus-meridiani,marte_altura-2,"Región de Antofagasta, Chile",0.632
+ez-sinus-meridiani,marte_polar-4,"Nunavut, Canadá",0.703
+ez-sinus-meridiani,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.784
+ez-viking,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.452
+ez-viking,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.463
+ez-viking,marte_arido-7,"Gobernación de Mutana, Irak",0.56
+ez-viking,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.566
+ez-viking,marte_arido-5,"Gobernación de Shabwah, Yemen",0.594
+ez-viking,marte_arido-1,Argelia,0.602
+ez-viking,marte_arido-9,"Mongolia Interior, China",0.609
+ez-viking,marte_polar-3,"Nunavut, Canadá",0.614
+ez-viking,marte_polar-5,Groenlandia,0.639
+ez-viking,marte_polar-1,Groenlandia,0.641
+ez-viking,marte_polar-8,"Nunavut, Canadá",0.644
+ez-viking,marte_arido-8,"Al Wahat, Libia",0.666
+ez-viking,marte_polar-2,"Nunavut, Canadá",0.675
+ez-viking,marte_arido-4,"Sinkiang, China",0.743
+ez-viking,marte_arido-3,"Región de Antofagasta, Chile",0.779
+ez-viking,marte_polar-6,Groenlandia,0.791
+ez-viking,marte_polar-4,"Nunavut, Canadá",0.801
+ez-viking,marte_polar-7,"Nunavut, Canadá",0.832
+ez-viking,marte_altura-1,"Sinkiang, China",0.833
+ez-viking,marte_altura-2,"Región de Antofagasta, Chile",0.896
+ez-viking,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.914
+ez-zephyria-planum,marte_arido-10,"Dajla-Río de Oro, Marruecos",0.227
+ez-zephyria-planum,marte_arido-2,"Provincia de Riad, Arabia Saudita",0.278
+ez-zephyria-planum,marte_arido-7,"Gobernación de Mutana, Irak",0.375
+ez-zephyria-planum,marte_arido-6,"Provincia Oriental, Arabia Saudita",0.38
+ez-zephyria-planum,marte_arido-5,"Gobernación de Shabwah, Yemen",0.408
+ez-zephyria-planum,marte_arido-1,Argelia,0.416
+ez-zephyria-planum,marte_arido-9,"Mongolia Interior, China",0.424
+ez-zephyria-planum,marte_polar-3,"Nunavut, Canadá",0.449
+ez-zephyria-planum,marte_polar-5,Groenlandia,0.467
+ez-zephyria-planum,marte_arido-8,"Al Wahat, Libia",0.48
+ez-zephyria-planum,marte_polar-1,Groenlandia,0.489
+ez-zephyria-planum,marte_polar-8,"Nunavut, Canadá",0.491
+ez-zephyria-planum,marte_polar-2,"Nunavut, Canadá",0.522
+ez-zephyria-planum,marte_arido-4,"Sinkiang, China",0.558
+ez-zephyria-planum,marte_arido-3,"Región de Antofagasta, Chile",0.611
+ez-zephyria-planum,marte_polar-6,Groenlandia,0.624
+ez-zephyria-planum,marte_polar-7,"Nunavut, Canadá",0.662
+ez-zephyria-planum,marte_altura-1,"Sinkiang, China",0.665
+ez-zephyria-planum,marte_polar-4,"Nunavut, Canadá",0.68
+ez-zephyria-planum,marte_altura-2,"Región de Antofagasta, Chile",0.733
+ez-zephyria-planum,marte_altura-3,"Provincia de Alto Badajshán, Tayikistán",0.77

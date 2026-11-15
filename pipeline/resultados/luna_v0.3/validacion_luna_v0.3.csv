@@ -1,0 +1,25 @@
+nombre,tipo,verificacion,percentil,dist_celda_km,celda_propia_excluida_por,contraste,glim_clase_celda,glim_volcanica_celda
+"Craters of the Moon, Idaho",analogo_luna,verificada,99.0,7.7,"NDVI mediano 0.27, NDVI verano 0.30",0.01,vb,1.0
+"Kīlauea, Hawái",analogo_luna,verificada,48.2,6.1,"NDVI mediano 0.48, NDVI verano 0.47",0.107,vb,1.0
+"Pinacate, Sonora",analogo_luna,verificada,97.2,5.5,"NDVI mediano 0.18, NDVI verano 0.16",0.014,vb,1.0
+"Askja, Islandia",analogo_luna,verificada,97.6,0.0,—,0.009,vb,1.0
+Lanzarote – Timanfaya,analogo_luna,verificada,100.0,0.0,—,0.025,vb,1.0
+"Mauna Kea, Hawái",analogo_luna,pendiente,65.1,0.0,—,0.1,vi,0.68
+"Meteor Crater, Arizona",impacto,verificada,64.8,18.4,"NDVI mediano 0.16, NDVI verano 0.16",0.078,ss,0.0
+"Al Haruj, Libia",volcanico_prueba,,91.7,0.0,—,0.023,vb,1.0
+"Harrat Khaybar, Arabia Saudí",volcanico_prueba,,99.6,0.0,—,0.013,vb,1.0
+"Harrat Rahat, Arabia Saudí",volcanico_prueba,,92.4,0.0,—,0.02,mt,0.32
+"Hoggar – Atakor, Argelia",volcanico_prueba,,92.9,0.0,—,0.038,vb,1.0
+"Payún Matrú, Argentina",volcanico_prueba,,81.0,0.0,—,0.063,va,1.0
+"Holuhraun, Islandia",volcanico_prueba,,99.9,0.0,—,0.025,vb,1.0
+Gran Erg Oriental (arena),control_arena,,4.0,0.0,—,0.267,su,0.0
+Rub' al-Jali (arena),control_arena,,3.6,0.0,—,0.267,su,0.0
+Taklamakán (arena),control_arena,,48.3,0.0,—,0.115,su,0.0
+Mar de arena del Namib,control_arena,,13.2,12.9,"NDVI mediano 0.16, NDVI verano 0.16",0.218,su,0.0
+Algodones (arena),control_arena,,23.8,0.0,—,0.183,su,0.0
+Madrid,control_ciudad,,,,"NDVI mediano 0.28, NDVI verano 0.27",,sm,0.0
+París,control_ciudad,,,,"NDVI mediano 0.30, NDVI verano 0.34",,su,0.0
+Moscú,control_ciudad,,,,"NDVI mediano 0.35, NDVI verano 0.39",,sm,0.0
+Manaos,control_ciudad,,,,"NDVI mediano 0.42, NDVI verano 0.39",,ss,0.0
+Bombay,control_ciudad,,,,"NDVI mediano 0.24, NDVI verano 0.19",,vb,1.0
+Sídney,control_ciudad,,,,"NDVI mediano 0.35, NDVI verano 0.34",,su,0.0

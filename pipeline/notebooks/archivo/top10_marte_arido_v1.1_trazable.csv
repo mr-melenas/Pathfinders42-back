@@ -1,0 +1,11 @@
+lat,lon,percentil,pais_iso,T_media,P_anual,elevacion,region_geocodificada,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2
+26.0,1.25,100.0,DZ,27.600000381469727,9.5,166.0,Argelia,Río Tinto (MARTE),1494,No,,
+27.0,6.25,99.97,DZ,24.700000762939453,10.0,504.0,"Provincia de Illizi, Argelia",Río Tinto (MARTE),1688,No,,
+23.5,-1.875,99.96,DZ,27.399999618530273,11.4,274.0,Argelia,Lanzarote (ESA PANGAEA),1332,No,,
+22.0,28.75,99.91,,24.0,1.1,290.0,zona remota / fronteriza (sin país en OSM),Río Tinto (MARTE),3795,No,,
+23.0,14.375,99.82,LY,24.200000762939453,11.6,643.0,"Murzuk, Libia",Río Tinto (MARTE),2578,No,,
+25.5,24.375,99.73,LY,22.399999618530273,7.2,371.0,"Al Kufrah, Libia",Río Tinto (MARTE),3208,No,,
+24.5,33.125,99.66,EG,26.700000762939453,3.1,171.0,"Asuán, Egipto",Río Tinto (MARTE),4017,No,,
+22.0,21.875,99.6,LY,23.0,3.0,517.0,"Al Kufrah, Libia",Río Tinto (MARTE),3230,No,,
+26.5,28.75,99.43,EG,22.200000762939453,6.4,209.0,"Nuevo Valle, Egipto",Río Tinto (MARTE),3525,No,,
+19.5,25.625,99.38,SD,23.799999237060547,8.3,575.0,"Darfur del Norte, Sudán",Río Tinto (MARTE),3707,No,,

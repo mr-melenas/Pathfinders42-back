@@ -1,0 +1,25 @@
+nombre,tipo,verificacion,percentil,dist_celda_km,celda_propia_excluida_por,contraste
+"Craters of the Moon, Idaho",analogo_luna,verificada,99.0,7.7,"NDVI mediano 0.27, NDVI verano 0.30",0.01
+"Kīlauea, Hawái",analogo_luna,verificada,48.2,6.1,"NDVI mediano 0.48, NDVI verano 0.47",0.107
+"Pinacate, Sonora",analogo_luna,verificada,97.2,5.5,"NDVI mediano 0.18, NDVI verano 0.16",0.014
+"Askja, Islandia",analogo_luna,verificada,97.6,0.0,—,0.009
+Lanzarote – Timanfaya,analogo_luna,verificada,100.0,0.0,—,0.025
+"Mauna Kea, Hawái",analogo_luna,pendiente,65.1,0.0,—,0.1
+"Meteor Crater, Arizona",impacto,verificada,64.8,18.4,"NDVI mediano 0.16, NDVI verano 0.16",0.078
+"Al Haruj, Libia",volcanico_prueba,,91.7,0.0,—,0.023
+"Harrat Khaybar, Arabia Saudí",volcanico_prueba,,99.6,0.0,—,0.013
+"Harrat Rahat, Arabia Saudí",volcanico_prueba,,92.4,0.0,—,0.02
+"Hoggar – Atakor, Argelia",volcanico_prueba,,92.9,0.0,—,0.038
+"Payún Matrú, Argentina",volcanico_prueba,,81.0,0.0,—,0.063
+"Holuhraun, Islandia",volcanico_prueba,,99.9,0.0,—,0.025
+Gran Erg Oriental (arena),control_arena,,4.0,0.0,—,0.267
+Rub' al-Jali (arena),control_arena,,3.6,0.0,—,0.267
+Taklamakán (arena),control_arena,,48.3,0.0,—,0.115
+Mar de arena del Namib,control_arena,,13.2,12.9,"NDVI mediano 0.16, NDVI verano 0.16",0.218
+Algodones (arena),control_arena,,23.8,0.0,—,0.183
+Madrid,control_ciudad,,,,"NDVI mediano 0.28, NDVI verano 0.27",
+París,control_ciudad,,,,"NDVI mediano 0.30, NDVI verano 0.34",
+Moscú,control_ciudad,,,,"NDVI mediano 0.35, NDVI verano 0.39",
+Manaos,control_ciudad,,,,"NDVI mediano 0.42, NDVI verano 0.39",
+Bombay,control_ciudad,,,,"NDVI mediano 0.24, NDVI verano 0.19",
+Sídney,control_ciudad,,,,"NDVI mediano 0.35, NDVI verano 0.34",

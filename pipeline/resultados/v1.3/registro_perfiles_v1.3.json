@@ -1,0 +1,43 @@
+{
+  "fecha_ejecucion": "2026-10-19T17:27:27",
+  "version": "v1.3",
+  "cambios_vs_v1_2": "v1.2 usaba NDVI normalizado globalmente y subía los controles (Madrid +8); v1.3 usa frac_desnudo, que solo puntúa suelo realmente desnudo; 6 controles en vez de 1",
+  "datos": "clima_merra2_2014_2023.nc (MERRA-2 2014-2023)",
+  "zonas": {
+    "marte_polar": "|lat| >= 60 y T_calido < 10 °C (Köppen polar)",
+    "marte_altura": "|lat| < 60 y elevación >= 2500 m",
+    "marte_arido": "|lat| < 60 y elevación < 2500 m"
+  },
+  "perfiles": {
+    "marte_polar": {
+      "frio": 0.45,
+      "verano_frio": 0.2,
+      "seco": 0.35
+    },
+    "marte_altura": {
+      "frio": 0.25,
+      "seco": 0.35,
+      "presion": 0.25,
+      "desnudo": 0.15
+    },
+    "marte_arido": {
+      "seco": 0.65,
+      "amplitud": 0.15,
+      "desnudo": 0.2
+    }
+  },
+  "componentes": {
+    "frio": "T_media invertida",
+    "verano_frio": "T_calido invertida",
+    "seco": "log1p(P_anual) invertida",
+    "presion": "presion_aprox invertida",
+    "amplitud": "T_calido - T_frio"
+  },
+  "normalizacion": "componentes p1-p99 sobre tierra sin hielo; percentil calculado dentro de cada zona",
+  "seleccion": "regiones = píxeles >= p95 contiguos (8 vecinos), mínimo 2 píxeles; top 10 por percentil máximo y área",
+  "analogo_conocido": "análogo del catálogo a <= 100 km de algún píxel de la región",
+  "geocodificacion": "OSM Nominatim (timeout 10 s) solo del mejor píxel de cada región; nombres no latinos -> país",
+  "descartado": "límite por país: excluía análogos válidos (Axel Heiberg) y no diversificaba el Sahara",
+  "limitaciones": "no une regiones que cruzan el meridiano 180°",
+  "pendiente": "perfil Luna (requiere capa geológica)"
+}

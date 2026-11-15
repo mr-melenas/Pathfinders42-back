@@ -1,0 +1,12 @@
+{
+  "fecha_ejecucion": "2026-10-19T14:15:52",
+  "datos": "MERRA-2 M2TMNXSLV (T2M), M2TMNXFLX (PRECTOTCORR), M2C0NXASM (FRLAND, FRLANDICE, PHIS)",
+  "periodo": "2014-2023",
+  "indice": "v0 = 0.5*frío + 0.5*seco (log1p), normalizado p1-p99 sobre tierra",
+  "mascaras": "tierra > 0.5, hielo < 0.5",
+  "seleccion_top": "15 píxeles, separación mínima 4°",
+  "radio_analogo_km": 300,
+  "criterio_conocido": "≤300 km de un análogo del catálogo; 'Pendiente' si la fuente no está verificada",
+  "geocodificacion": "OpenStreetMap Nominatim, zoom=5",
+  "catalogo": "catalogo_analogos.csv"
+}

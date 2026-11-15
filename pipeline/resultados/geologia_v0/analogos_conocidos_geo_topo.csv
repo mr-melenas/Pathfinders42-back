@@ -1,0 +1,16 @@
+region_id,analogo,sitio,cuerpo,distancia_topo,distancia_geo,distancia_total,sitios_completos
+analogo-luna-kilauea-hawai,"Kīlauea, Hawái",Apollo 14,luna,0.101,0.125,0.113,1
+analogo-luna-craters-of-the-moon-idaho,"Craters of the Moon, Idaho",Apollo 11,luna,0.113,0.15,0.132,8
+analogo-luna-askja-islandia,"Askja, Islandia",Luna 9,luna,0.154,0.15,0.152,1
+analogo-luna-lanzarote-timanfaya,Lanzarote – Timanfaya,Apollo 14,luna,0.17,0.15,0.16,1
+analogo-marte-lanzarote-esa-pangaea,Lanzarote (ESA PANGAEA),Apollo 14,luna,0.17,0.15,0.16,1
+analogo-luna-pinacate-sonora,"Pinacate, Sonora",Apollo 14,luna,0.226,0.15,0.188,0
+analogo-marte-tso-kar-ladakh-isro-hope,"Tso Kar, Ladakh (ISRO HOPE)",IM-1 Odysseus,luna,0.199,0.7,0.45,0
+analogo-marte-valles-secos-de-mcmurdo,Valles Secos de McMurdo,IM-1 Odysseus,luna,0.159,0.8,0.48,0
+analogo-luna-mauna-kea-hawai,"Mauna Kea, Hawái",de Gerlache Rim 2,luna,0.097,0.9,0.498,0
+analogo-marte-cuenca-de-qaidam-occidental-lenghu,Cuenca de Qaidam occidental (Lenghu),Phoenix,marte,0.189,0.347,0.268,1
+analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,"Desierto de Atacama, núcleo hiperárido (ARADS)",Aram Chaos,marte,0.074,0.645,0.36,0
+analogo-luna-meteor-crater-arizona,"Meteor Crater, Arizona",Mars Pathfinder,marte,0.305,0.504,0.404,0
+analogo-marte-rio-tinto-marte,Río Tinto (MARTE),Noctis Landing,marte,0.127,0.75,0.438,0
+analogo-marte-isla-devon-haughton-mars-project,Isla Devon (Haughton-Mars Project),Viking 2,marte,0.143,0.755,0.449,0
+analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),Kasei Valles,marte,0.177,0.8,0.489,0
