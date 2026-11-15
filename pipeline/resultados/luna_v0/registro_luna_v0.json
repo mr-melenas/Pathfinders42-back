@@ -1,0 +1,80 @@
+{
+  "fecha_ejecucion": "2026-10-23T23:20:54",
+  "version": "luna_v0",
+  "datos": {
+    "emisividad": "CAMEL CAM5K30EMCLIM v003, climatología 2003-2021; julio (norte) y enero (sur)",
+    "vegetacion": "VIIRS VNP13C2 v002 2023, NDVI mediano anual"
+  },
+  "indices": {
+    "MI": "e9.1/e10.6",
+    "QI": "e8.6^2/(e8.3*e9.1)",
+    "CI": "e10.6/e11.3",
+    "referencia": "adaptados de Ninomiya (índices ASTER TIR); Corrie, Ninomiya y Aitchison (2010)"
+  },
+  "dominio": {
+    "nieve_max": 0.1,
+    "ndvi_mediano": [
+      -0.02,
+      0.15
+    ],
+    "CI_max": 1.008
+  },
+  "puntuacion": "percentil del MI dentro del dominio",
+  "regiones": {
+    "umbral_percentil": 95,
+    "min_celdas": 10,
+    "orden": "área",
+    "radio_analogo_km": 50
+  },
+  "validacion": {
+    "resumen": [
+      {
+        "tipo": "analogo_luna",
+        "n": 6,
+        "con_dato": 6,
+        "mediana": 84.8,
+        "minimo": 33.3,
+        "maximo": 100.0
+      },
+      {
+        "tipo": "control_arena",
+        "n": 5,
+        "con_dato": 5,
+        "mediana": 10.5,
+        "minimo": 2.5,
+        "maximo": 33.3
+      },
+      {
+        "tipo": "control_ciudad",
+        "n": 6,
+        "con_dato": 0,
+        "mediana": NaN,
+        "minimo": NaN,
+        "maximo": NaN
+      },
+      {
+        "tipo": "impacto",
+        "n": 1,
+        "con_dato": 1,
+        "mediana": 45.6,
+        "minimo": 45.6,
+        "maximo": 45.6
+      },
+      {
+        "tipo": "volcanico_prueba",
+        "n": 6,
+        "con_dato": 5,
+        "mediana": 68.9,
+        "minimo": 58.7,
+        "maximo": 99.6
+      }
+    ],
+    "separacion_medianas": 80.3,
+    "peor_analogo_menos_mejor_control": 0.0
+  },
+  "limitaciones": [
+    "MI alto no es exclusivo del basalto",
+    "celdas de ~5 km mezclan coladas con otros terrenos",
+    "coordenadas de los puntos de referencia aproximadas"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "fecha_ejecucion": "2026-10-18T19:01:53",
+  "version": "v1",
+  "datos": "clima_merra2_2014_2023.nc (MERRA-2 2014-2023)",
+  "perfiles": {
+    "marte_polar": {
+      "frio": 0.35,
+      "verano_frio": 0.25,
+      "seco": 0.3,
+      "presion": 0.1
+    },
+    "marte_arido": {
+      "seco": 0.55,
+      "presion": 0.3,
+      "amplitud": 0.15
+    }
+  },
+  "componentes": {
+    "frio": "T_media invertida",
+    "verano_frio": "T_calido invertida",
+    "seco": "log1p(P_anual) invertida",
+    "presion": "presion_aprox invertida (proxy de altitud/UV)",
+    "amplitud": "T_calido - T_frio"
+  },
+  "normalizacion": "p1-p99 sobre tierra (>0.5) sin hielo (<0.5); salida también en percentil",
+  "seleccion_top": "10 píxeles por perfil, separación mínima 4°",
+  "radio_analogo_km": 300,
+  "pendiente": "perfil Luna (requiere capa geológica)"
+}

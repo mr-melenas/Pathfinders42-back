@@ -1,0 +1,11 @@
+lat,lon,percentil,T_media,P_anual,elevacion,region_geocodificada,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2
+37.0,86.25,100.0,-6.199999809265137,30.7,4736.0,"Sinkiang, China",Lop Nur (cuenca del Tarim),548,No,,
+-22.0,-68.125,99.99,4.800000190734863,16.3,4302.0,"Región de Antofagasta, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",302,No,,
+39.0,93.125,99.92,2.5,27.7,2966.0,"Qinghai, China",Cuenca de Qaidam occidental (Lenghu),37,Sí,https://doi.org/10.1002/2017JE005293,
+37.5,74.375,99.87,-4.599999904632568,79.6,4473.0,"Provincia de Alto Badajshán, Tayikistán","Tso Kar, Ladakh (ISRO HOPE)",571,No,,
+35.0,81.875,99.84,-7.699999809265137,91.1,5315.0,"Xizang, China","Tso Kar, Ladakh (ISRO HOPE)",404,No,,
+-29.5,-70.0,99.68,0.8999999761581421,59.9,4039.0,"Región de Coquimbo, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",600,No,,
+22.0,19.375,99.57,21.100000381469727,8.0,1078.0,"Al Kufrah, Libia",Río Tinto (MARTE),3032,No,,
+23.5,8.75,99.54,23.100000381469727,10.0,923.0,"Yanet, Argelia",Río Tinto (MARTE),2147,No,,
+15.0,48.75,99.54,23.299999237060547,8.7,1262.0,"Gobernación de Hadramaut, Yemen","Tso Kar, Ladakh (ISRO HOPE)",3577,No,,
+23.5,26.25,99.51,20.100000381469727,5.9,890.0,"Nuevo Valle, Egipto",Río Tinto (MARTE),3489,No,,

@@ -1,0 +1,16 @@
+punto,esperado,asignado,coincide,percentil,pixel
+Cuenca de Qaidam occidental (Lenghu),marte_altura,marte_altura,✔,90.8,"38.5, 93.12"
+Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),marte_polar,marte_polar,✔,94.9,"79.0, -91.88"
+Isla Devon (Haughton-Mars Project),marte_polar,marte_polar,✔,85.0,"75.5, -90.00"
+"Desierto de Atacama, núcleo hiperárido (ARADS)",marte_arido,marte_arido,✔,98.0,"-24.0, -70.00"
+Valles Secos de McMurdo,marte_polar,sin píxel válido,✘,,
+Lanzarote (ESA PANGAEA),—,marte_arido,,87.5,"28.0, -12.50"
+Río Tinto (MARTE),—,marte_arido,,60.1,"37.5, -6.25"
+"Tso Kar, Ladakh (ISRO HOPE)",marte_altura,marte_altura,✔,82.3,"33.5, 78.12"
+Lop Nur (cuenca del Tarim),marte_arido,marte_arido,✔,97.4,"40.5, 90.62"
+Madrid (control),control,marte_arido,,58.0,"40.5, -3.75"
+París (control),control,marte_arido,,40.9,"49.0, 2.50"
+Moscú (control),control,marte_arido,,48.4,"55.5, 37.50"
+Manaos (control),control,marte_arido,,5.8,"-3.0, -60.00"
+Bombay (control),control,marte_arido,,3.3,"19.0, 73.12"
+Sídney (control),control,marte_arido,,29.0,"-33.5, 151.25"

@@ -1,0 +1,11 @@
+lat,lon,percentil,T_media,P_anual,elevacion,region_geocodificada,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2
+36.5,86.25,100.0,-7.099999904632568,32.8,5020.0,"Sinkiang, China",Lop Nur (cuenca del Tarim),589,No,,
+35.5,80.625,99.98,-10.300000190734863,91.8,5504.0,"Sinkiang, China","Tso Kar, Ladakh (ISRO HOPE)",343,No,,
+38.5,73.75,99.86,-6.099999904632568,96.4,4545.0,"Provincia de Alto Badajshán, Tayikistán","Tso Kar, Ladakh (ISRO HOPE)",693,No,,
+-22.0,-68.125,99.83,4.800000190734863,16.3,4302.0,"Región de Antofagasta, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",302,No,,
+36.5,90.625,99.78,-6.099999904632568,160.3,4863.0,"Sinkiang, China",Cuenca de Qaidam occidental (Lenghu),340,No,,
+81.5,-73.75,99.77,-17.799999237060547,146.0,840.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),388,No,,
+81.5,-56.25,99.77,-16.899999618530273,123.0,609.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),665,No,,
+81.0,-63.125,99.72,-15.399999618530273,142.4,354.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),546,No,,
+80.5,-69.375,99.7,-16.399999618530273,158.4,540.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),429,No,,
+81.5,-51.875,99.6,-16.100000381469727,144.9,607.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),737,No,,

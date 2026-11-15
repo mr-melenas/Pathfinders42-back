@@ -1,0 +1,21 @@
+rango,region_id,n_celdas,area_km2,percentil_medio,contraste_medio,lat,lon,referencia_mas_cercana,distancia_km,analogo_conocido,fuente,region
+1,1010,1721,51950.0,98.4,0.0232,12.974997,41.574997,"Harrat Rahat, Arabia Saudí",876,No,,"Afar, Etiopía"
+2,1597,1699,46830.0,97.1,0.0207,27.175001,56.175003,"Harrat Khaybar, Arabia Saudí",1326,No,,Irán
+3,1415,1333,37820.0,98.8,0.0199,23.675001,57.175003,"Harrat Khaybar, Arabia Saudí",1601,No,,"Batina Norte, Omán"
+4,2294,811,21050.0,97.6,0.0113,33.075,37.125,"Harrat Khaybar, Arabia Saudí",731,No,,"Gobernacion de Rif Dimashq, Siria"
+5,1217,470,13880.0,98.2,0.0262,17.675001,36.875,"Harrat Rahat, Arabia Saudí",529,No,,"Mar Rojo, Sudán"
+6,2743,523,13090.0,96.8,0.0105,36.075,42.375,"Harrat Khaybar, Arabia Saudí",1092,No,,"Gobernación de Nínive, Irak"
+7,1562,441,12320.0,98.9,0.0143,25.575003,39.72499,"Harrat Khaybar, Arabia Saudí",4,Campo volcánico (sin fuente lunar),,"Provincia de Medina, Arabia Saudita"
+8,2162,443,11680.0,98.4,0.021,31.725,52.175003,"Harrat Khaybar, Arabia Saudí",1295,No,,Irán
+9,1306,373,10910.0,97.0,0.0225,19.325003,36.72499,"Harrat Rahat, Arabia Saudí",424,No,,"Mar Rojo, Sudán"
+10,3161,444,10870.0,97.0,0.0147,37.825,55.574997,"Harrat Khaybar, Arabia Saudí",1832,No,,Irán
+11,2543,338,8670.0,96.7,0.0147,34.175003,41.824997,"Harrat Khaybar, Arabia Saudí",900,No,,"Gobernación de Ambar, Irak"
+12,1494,296,8370.0,98.3,0.0175,24.075003,70.425,"Harrat Khaybar, Arabia Saudí",2959,No,,"Guyarat, India"
+13,899,260,7960.0,97.7,0.0206,8.825003,48.024994,"Harrat Rahat, Arabia Saudí",1744,No,,Somalilandia
+14,1014,259,7860.0,98.3,0.0174,11.724997,41.024994,"Harrat Rahat, Arabia Saudí",1174,No,,"Afar, Etiopía"
+15,1070,260,7830.0,98.1,0.0228,13.474997,45.675003,"Harrat Rahat, Arabia Saudí",1182,No,,"Gobernación de Abyan, Yemen"
+16,1200,234,6930.0,98.0,0.0223,17.124998,37.675003,"Harrat Rahat, Arabia Saudí",576,No,,"Anseba, Eritrea"
+17,1283,231,6760.0,98.6,0.0198,19.175001,41.425003,"Harrat Rahat, Arabia Saudí",297,No,,"Provincia de La Meca, Arabia Saudita"
+18,3419,287,6740.0,97.9,0.0256,40.775,-113.525,"Craters of the Moon, Idaho",194,No,,"Utah, Estados Unidos de América"
+19,1403,232,6640.0,97.9,0.0202,22.525,46.274994,"Harrat Rahat, Arabia Saudí",623,No,,"Provincia de Riad, Arabia Saudita"
+20,815,210,6500.0,98.8,0.0136,3.1750016,36.625,"Harrat Rahat, Arabia Saudí",2152,No,,"Condado de Marsabit, Kenia"

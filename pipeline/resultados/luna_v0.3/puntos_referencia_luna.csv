@@ -1,0 +1,25 @@
+nombre,lat,lon,tipo,verificacion,motivo,fuente
+"Craters of the Moon, Idaho",43.42,-113.52,analogo_luna,verificada,Sistema volcánico basáltico con análogos de formaciones volcánicas lunares (FINESSE/BASALT),https://dsears.hosted.uark.edu/publications/pub%20by%20year/2017%20papers/Heldmann%20et%20al%202017%20-%20Analog%20research%20wrt%20the%20Moon%20(LEAG%20abs%205024).pdf
+"Kīlauea, Hawái",19.41,-155.28,analogo_luna,verificada,Terreno basáltico con rasgos superficiales análogos a los lunares (FINESSE/BASALT),https://dsears.hosted.uark.edu/publications/pub%20by%20year/2017%20papers/Heldmann%20et%20al%202017%20-%20Analog%20research%20wrt%20the%20Moon%20(LEAG%20abs%205024).pdf
+"Pinacate, Sonora",31.77,-113.5,analogo_luna,verificada,Entrenamiento geológico de astronautas Apollo (1965-1967),https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf
+"Askja, Islandia",65.03,-16.75,analogo_luna,verificada,"Entrenamiento geológico de astronautas Apollo (1965, 1967)",https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf
+Lanzarote – Timanfaya,29.0,-13.75,analogo_luna,verificada,Entrenamiento ESA PANGAEA en entornos análogos de la Luna y Marte,https://www.esa.int/ESA_Multimedia/Images/2021/03/Geological_training_in_terrestrial_Moon_and_Mars_analogue_environments
+"Mauna Kea, Hawái",19.82,-155.47,analogo_luna,pendiente,"Sede de pruebas de campo de ISRU para la Luna y Marte (2008, 2010)",https://ntrs.nasa.gov/citations/20100021362
+"Meteor Crater, Arizona",35.03,-111.02,impacto,verificada,Entrenamiento Apollo; cráter de impacto en rocas sedimentarias (no basáltico: no se espera que puntúe),https://www.nasa.gov/wp-content/uploads/static/history/alsj/AstronautGeologyTraining.pdf
+"Al Haruj, Libia",27.25,17.5,volcanico_prueba,,,
+"Harrat Khaybar, Arabia Saudí",25.75,39.9,volcanico_prueba,,,
+"Harrat Rahat, Arabia Saudí",23.0,39.8,volcanico_prueba,,,
+"Hoggar – Atakor, Argelia",23.3,5.65,volcanico_prueba,,,
+"Payún Matrú, Argentina",-36.42,-69.24,volcanico_prueba,,,
+"Holuhraun, Islandia",64.85,-16.83,volcanico_prueba,,,
+Gran Erg Oriental (arena),30.5,7.5,control_arena,,,
+Rub' al-Jali (arena),20.5,50.5,control_arena,,,
+Taklamakán (arena),39.0,83.0,control_arena,,,
+Mar de arena del Namib,-24.5,15.2,control_arena,,,
+Algodones (arena),32.95,-115.05,control_arena,,,
+Madrid,40.4,-3.7,control_ciudad,,,
+París,48.85,2.35,control_ciudad,,,
+Moscú,55.75,37.6,control_ciudad,,,
+Manaos,-3.1,-60.0,control_ciudad,,,
+Bombay,19.1,72.9,control_ciudad,,,
+Sídney,-33.9,151.2,control_ciudad,,,

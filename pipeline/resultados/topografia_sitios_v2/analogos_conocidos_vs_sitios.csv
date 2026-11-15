@@ -1,0 +1,16 @@
+region_id,analogo,cuerpo,sitio_mas_parecido,distancia,sitios_parecidos
+analogo-luna-askja-islandia,"Askja, Islandia",luna,Apollo 16,0.076,10
+analogo-luna-lanzarote-timanfaya,Lanzarote – Timanfaya,luna,Chandrayaan-3,0.093,5
+analogo-luna-meteor-crater-arizona,"Meteor Crater, Arizona",luna,Luna 16,0.094,5
+analogo-luna-mauna-kea-hawai,"Mauna Kea, Hawái",luna,de Gerlache Rim 2,0.097,5
+analogo-luna-kilauea-hawai,"Kīlauea, Hawái",luna,Apollo 14,0.101,3
+analogo-luna-craters-of-the-moon-idaho,"Craters of the Moon, Idaho",luna,Southwest Mare Tranquillitatis Pit,0.102,14
+analogo-luna-pinacate-sonora,"Pinacate, Sonora",luna,Highland 3,0.107,7
+analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,"Desierto de Atacama, núcleo hiperárido (ARADS)",marte,Jezero-Isidis-Syrtis,0.06,16
+analogo-marte-lanzarote-esa-pangaea,Lanzarote (ESA PANGAEA),marte,Apollinaris Sulci,0.072,27
+analogo-marte-isla-devon-haughton-mars-project,Isla Devon (Haughton-Mars Project),marte,Hadriacus Palus,0.101,19
+analogo-marte-rio-tinto-marte,Río Tinto (MARTE),marte,Noctis Landing,0.127,7
+analogo-marte-cuenca-de-qaidam-occidental-lenghu,Cuenca de Qaidam occidental (Lenghu),marte,Cerberus,0.16,4
+analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),marte,Kasei Valles,0.177,1
+analogo-marte-tso-kar-ladakh-isro-hope,"Tso Kar, Ladakh (ISRO HOPE)",marte,Protonilus mensae,0.181,5
+analogo-marte-valles-secos-de-mcmurdo,Valles Secos de McMurdo,marte,Kasei Valles,0.245,0

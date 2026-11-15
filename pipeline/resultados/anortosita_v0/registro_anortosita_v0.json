@@ -1,0 +1,34 @@
+{
+  "version": "anortosita_v0",
+  "fecha": "2026-10-30T18:12+00:00",
+  "fuentes": {
+    "lofoten_flakstadoy": "https://blogs.esa.int/caves/?p=2772",
+    "mistastin": "https://news.westernu.ca/2021/08/astronaut-training/",
+    "stillwater": "https://science.nasa.gov/earth/earth-observatory/montanas-moon-like-rocks-146650",
+    "shawmere": "https://ares.jsc.nasa.gov/projects/simulants/ob-1.html",
+    "white_mountain": "https://ares.jsc.nasa.gov/projects/simulants/greenspar.html",
+    "egersund": "https://www.mn.uio.no/geo/english/studies/mastertheses/earth-structure-planetary/analogues-for-mars-and-the-moon-among-norwegian-ge.html"
+  },
+  "topografia": "Copernicus DEM GLO-30 (AWS)",
+  "parametros": {
+    "radio_km": 10,
+    "umbral_topo": 0.2,
+    "umbral_geo": 0.4,
+    "macrostrat": true
+  },
+  "metricas": {
+    "sitios_tierras_altas": 16,
+    "completos_antes": 0,
+    "completos_ahora": 10,
+    "lugares_tierra": 6,
+    "lugares_macrostrat": 0,
+    "mejor_d_geo_media": 0.058,
+    "mejor_d_topo_media": 0.211
+  },
+  "limitaciones": [
+    "composición de los lugares de la Tierra estimada (ver nota_composicion)",
+    "círculo de 10 km: en Mistastin y en los fiordos, el agua aplanada se excluye",
+    "las tierras altas lunares están cubiertas de regolito y cráteres; los afloramientos de anortosita de la Tierra están erosionados por glaciares",
+    "las unidades de Macrostrat no están verificadas como análogo"
+  ]
+}

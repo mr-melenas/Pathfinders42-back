@@ -1,0 +1,11 @@
+rango,region_id,lat,lon,percentil_max,percentil_medio,n_celdas,area_km2,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2,T_media,P_anual,elevacion,frac_desnudo,pais_iso,region
+1,5,26.0,1.25,100.0,97.8,1366,4830600,Lanzarote (ESA PANGAEA),595,No,,,27.64,9.48,165.59,1.0,DZ,Argelia
+2,4,21.0,47.5,98.55,96.5,166,598600,"Tso Kar, Ladakh (ISRO HOPE)",2602,No,,,28.65,14.32,402.67,1.0,SA,"Provincia de Riad, Arabia Saudita"
+3,1,-24.5,-70.0,98.09,97.8,25,89100,"Desierto de Atacama, núcleo hiperárido (ARADS)",11,Sí,https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/,,15.87,10.27,1893.8,1.0,CL,"Región de Antofagasta, Chile"
+4,11,39.0,86.875,98.01,96.4,154,451400,Lop Nur (cuenca del Tarim),16,Pendiente,https://doi.org/10.1029/2018JE005719,https://science.nasa.gov/earth/earth-observatory/lop-nur-xinjiang-china-51039/,13.22,26.28,985.58,0.97,CN,"Sinkiang, China"
+5,3,15.0,46.25,97.19,95.7,7,26100,"Tso Kar, Ladakh (ISRO HOPE)",3664,No,,,26.5,19.15,1048.28,0.98,YE,"Gobernación de Shabwah, Yemen"
+6,7,27.0,48.125,96.95,96.1,12,41500,"Tso Kar, Ladakh (ISRO HOPE)",2868,No,,,27.01,26.05,191.21,0.94,SA,"Provincia Oriental, Arabia Saudita"
+7,9,29.5,46.25,96.76,95.9,4,13500,"Tso Kar, Ladakh (ISRO HOPE)",2915,No,,,25.2,20.13,266.36,0.72,IQ,"Gobernación de Mutana, Irak"
+8,8,28.0,19.375,96.25,95.6,2,6800,Río Tinto (MARTE),2611,No,,,21.36,31.64,223.15,1.0,LY,"Al Wahat, Libia"
+9,12,41.5,101.25,96.1,95.4,12,34800,Cuenca de Qaidam occidental (Lenghu),649,No,,,10.84,54.14,960.51,1.0,CN,"Mongolia Interior, China"
+10,6,21.5,-14.375,95.71,95.4,5,18000,Lanzarote (ESA PANGAEA),834,No,,,26.89,34.24,194.68,1.0,EH,"Dajla-Río de Oro, Marruecos"

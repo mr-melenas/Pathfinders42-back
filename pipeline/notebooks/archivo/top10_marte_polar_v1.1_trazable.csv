@@ -1,0 +1,11 @@
+lat,lon,percentil,pais_iso,T_media,P_anual,elevacion,region_geocodificada,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2
+81.5,-58.125,100.0,GL,-16.299999237060547,120.2,508.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),635,No,,
+81.5,-65.0,99.79,CA,-15.699999809265137,140.4,266.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),523,No,,
+82.0,-69.375,99.55,CA,-16.200000762939453,105.6,590.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),476,No,,
+81.5,-73.75,99.48,CA,-17.799999237060547,146.0,840.0,"Nunavut, Canadá",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),388,No,,
+81.5,-53.75,99.44,GL,-16.5,134.3,640.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),706,No,,
+82.5,-47.5,96.46,GL,-16.399999618530273,207.4,233.0,Groenlandia,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),805,No,,
+75.5,141.25,76.22,RU,-12.5,343.5,16.0,"República de Sajá, Rusia",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),2512,No,,
+75.5,108.125,71.99,RU,-14.100000381469727,486.3,449.0,"Krai de Krasnoyarsk, Rusia",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),2754,No,,
+75.0,148.125,70.88,RU,-11.600000381469727,343.4,18.0,"República de Sajá, Rusia",Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),2486,No,,
+79.5,20.0,37.9,NO,-6.300000190734863,289.8,128.0,Noruega,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),1927,No,,

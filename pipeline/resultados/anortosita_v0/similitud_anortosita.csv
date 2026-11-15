@@ -1,0 +1,97 @@
+sitio_id,sitio,tipo_sitio,id_t,lugar,verificacion,origen,d_geo,d_topo,d_total,analogo_completo
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.149,0.224,Sí
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.96,0.615,No
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.289,0.394,No
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.987,0.493,No
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.331,0.166,No
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.904,0.452,No
+artemis-haworth,Haworth,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.476,0.388,No
+artemis-haworth,Haworth,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.806,0.538,No
+artemis-haworth,Haworth,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.289,0.394,No
+artemis-haworth,Haworth,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.893,0.447,No
+artemis-haworth,Haworth,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.243,0.121,No
+artemis-haworth,Haworth,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.583,0.291,No
+artemis-malapert-massif,Malapert Massif,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.158,0.229,Sí
+artemis-malapert-massif,Malapert Massif,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.913,0.592,No
+artemis-malapert-massif,Malapert Massif,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.179,0.34,No
+artemis-malapert-massif,Malapert Massif,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.96,0.48,No
+artemis-malapert-massif,Malapert Massif,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.201,0.101,No
+artemis-malapert-massif,Malapert Massif,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.816,0.408,No
+artemis-mons-mouton-plateau,Mons Mouton Plateau,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.369,0.335,No
+artemis-mons-mouton-plateau,Mons Mouton Plateau,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.788,0.529,No
+artemis-mons-mouton-plateau,Mons Mouton Plateau,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.193,0.347,No
+artemis-mons-mouton-plateau,Mons Mouton Plateau,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.884,0.442,No
+artemis-mons-mouton-plateau,Mons Mouton Plateau,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.158,0.079,Sí
+artemis-mons-mouton-plateau,Mons Mouton Plateau,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.578,0.289,No
+artemis-mons-mouton,Mons Mouton,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.377,0.339,No
+artemis-mons-mouton,Mons Mouton,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.851,0.56,No
+artemis-mons-mouton,Mons Mouton,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.194,0.347,No
+artemis-mons-mouton,Mons Mouton,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.926,0.463,No
+artemis-mons-mouton,Mons Mouton,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.171,0.086,Sí
+artemis-mons-mouton,Mons Mouton,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.655,0.328,No
+artemis-nobile-rim-1,Nobile Rim 1,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.167,0.233,Sí
+artemis-nobile-rim-1,Nobile Rim 1,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.875,0.573,No
+artemis-nobile-rim-1,Nobile Rim 1,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.204,0.352,No
+artemis-nobile-rim-1,Nobile Rim 1,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.939,0.469,No
+artemis-nobile-rim-1,Nobile Rim 1,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.203,0.102,No
+artemis-nobile-rim-1,Nobile Rim 1,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.779,0.39,No
+artemis-nobile-rim-2,Nobile Rim 2,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.376,0.338,No
+artemis-nobile-rim-2,Nobile Rim 2,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.795,0.532,No
+artemis-nobile-rim-2,Nobile Rim 2,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.197,0.349,No
+artemis-nobile-rim-2,Nobile Rim 2,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.888,0.444,No
+artemis-nobile-rim-2,Nobile Rim 2,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.149,0.074,Sí
+artemis-nobile-rim-2,Nobile Rim 2,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.589,0.294,No
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.369,0.335,No
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.858,0.564,No
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.176,0.338,No
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.923,0.462,No
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.16,0.08,Sí
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.694,0.347,No
+artemis-slater-plain,Slater Plain,region_aterrizaje_artemis,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.545,0.422,No
+artemis-slater-plain,Slater Plain,region_aterrizaje_artemis,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.74,0.505,No
+artemis-slater-plain,Slater Plain,region_aterrizaje_artemis,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.376,0.438,No
+artemis-slater-plain,Slater Plain,region_aterrizaje_artemis,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.849,0.424,No
+artemis-slater-plain,Slater Plain,region_aterrizaje_artemis,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.342,0.171,No
+artemis-slater-plain,Slater Plain,region_aterrizaje_artemis,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.471,0.235,No
+apollo-16,Apollo 16,aterrizaje_tripulado,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.725,0.512,No
+apollo-16,Apollo 16,aterrizaje_tripulado,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.374,0.322,No
+apollo-16,Apollo 16,aterrizaje_tripulado,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.475,0.617,0.546,No
+apollo-16,Apollo 16,aterrizaje_tripulado,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.025,0.512,0.269,No
+apollo-16,Apollo 16,aterrizaje_tripulado,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.025,0.584,0.304,No
+apollo-16,Apollo 16,aterrizaje_tripulado,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.025,0.147,0.086,Sí
+aterrizaje-surveyor-7,Surveyor 7,aterrizaje_robotico,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.718,0.509,No
+aterrizaje-surveyor-7,Surveyor 7,aterrizaje_robotico,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.619,0.445,No
+aterrizaje-surveyor-7,Surveyor 7,aterrizaje_robotico,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.59,0.545,No
+aterrizaje-surveyor-7,Surveyor 7,aterrizaje_robotico,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.763,0.382,No
+aterrizaje-surveyor-7,Surveyor 7,aterrizaje_robotico,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.561,0.281,No
+aterrizaje-surveyor-7,Surveyor 7,aterrizaje_robotico,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.237,0.118,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,aterrizaje_robotico,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.788,0.544,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,aterrizaje_robotico,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.288,0.279,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,aterrizaje_robotico,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.725,0.613,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,aterrizaje_robotico,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.448,0.224,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,aterrizaje_robotico,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.684,0.342,No
+aterrizaje-chandrayaan-3,Chandrayaan-3,aterrizaje_robotico,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.201,0.101,No
+aterrizaje-slim,SLIM,aterrizaje_robotico,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.641,0.471,No
+aterrizaje-slim,SLIM,aterrizaje_robotico,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.783,0.526,No
+aterrizaje-slim,SLIM,aterrizaje_robotico,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.47,0.485,No
+aterrizaje-slim,SLIM,aterrizaje_robotico,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.882,0.441,No
+aterrizaje-slim,SLIM,aterrizaje_robotico,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.425,0.212,No
+aterrizaje-slim,SLIM,aterrizaje_robotico,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.524,0.262,No
+aterrizaje-im-1-odysseus,IM-1 Odysseus,aterrizaje_robotico,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.332,0.316,No
+aterrizaje-im-1-odysseus,IM-1 Odysseus,aterrizaje_robotico,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.671,0.471,No
+aterrizaje-im-1-odysseus,IM-1 Odysseus,aterrizaje_robotico,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.217,0.358,No
+aterrizaje-im-1-odysseus,IM-1 Odysseus,aterrizaje_robotico,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.749,0.374,No
+aterrizaje-im-1-odysseus,IM-1 Odysseus,aterrizaje_robotico,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.17,0.085,Sí
+aterrizaje-im-1-odysseus,IM-1 Odysseus,aterrizaje_robotico,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.567,0.283,No
+aterrizaje-im-2-athena,IM-2 Athena,aterrizaje_robotico,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.768,0.534,No
+aterrizaje-im-2-athena,IM-2 Athena,aterrizaje_robotico,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.599,0.434,No
+aterrizaje-im-2-athena,IM-2 Athena,aterrizaje_robotico,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.66,0.58,No
+aterrizaje-im-2-athena,IM-2 Athena,aterrizaje_robotico,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.746,0.373,No
+aterrizaje-im-2-athena,IM-2 Athena,aterrizaje_robotico,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.633,0.317,No
+aterrizaje-im-2-athena,IM-2 Athena,aterrizaje_robotico,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.191,0.096,Sí
+aterrizaje-chang-e-7,Chang'e 7,aterrizaje_planificado,lofoten_flakstadoy,"Lofoten (macizo de Flakstadøy), Noruega",verificada,ficha,0.3,0.539,0.419,No
+aterrizaje-chang-e-7,Chang'e 7,aterrizaje_planificado,mistastin,"Cráter Mistastin (Kamestastin), Labrador",verificada,ficha,0.27,0.845,0.557,No
+aterrizaje-chang-e-7,Chang'e 7,aterrizaje_planificado,stillwater,"Complejo de Stillwater (Picket Pin), Montana",verificada,ficha,0.5,0.349,0.424,No
+aterrizaje-chang-e-7,Chang'e 7,aterrizaje_planificado,shawmere,"Anortosita de Shawmere (Foleyet), Ontario",verificada,ficha,0.0,0.921,0.461,No
+aterrizaje-chang-e-7,Chang'e 7,aterrizaje_planificado,white_mountain,"White Mountain (Qaqortorsuaq), Groenlandia",verificada,ficha,0.0,0.305,0.152,No
+aterrizaje-chang-e-7,Chang'e 7,aterrizaje_planificado,egersund,"Anortosita de Egersund (Rogaland), Noruega",candidato,ficha,0.0,0.651,0.326,No

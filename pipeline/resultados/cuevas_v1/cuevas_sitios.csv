@@ -1,0 +1,98 @@
+id,nombre,cuerpo,tipo,lat,lon,cueva_mas_cercana,km_cueva_mas_cercana,clase_mas_cercana,n_cuevas_radio,clase_cueva,region_ct,perfil_ct,clase_cueva_tierra_ct,posibles_tubos_lava_ct,cuevas_documentadas_ct,d_cuevas_ct,d_topo_ct,analogo_cueva_terreno
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,luna,region_aterrizaje_artemis,-83.633,-68.737,Schomberger A 1,421.7,cueva,0,,,,,,,,,—
+artemis-haworth,Haworth,luna,region_aterrizaje_artemis,-86.745,-22.852,Schomberger A 1,305.2,cueva,0,,,,,,,,,—
+artemis-malapert-massif,Malapert Massif,luna,region_aterrizaje_artemis,-85.99,-0.236,Schomberger A 1,257.8,cueva,0,,,,,,,,,—
+artemis-mons-mouton-plateau,Mons Mouton Plateau,luna,region_aterrizaje_artemis,-84.245,30.049,Schomberger A 1,188.7,cueva,0,,,,,,,,,—
+artemis-mons-mouton,Mons Mouton,luna,region_aterrizaje_artemis,-85.422,31.755,Schomberger A 1,224.7,cueva,0,,,,,,,,,—
+artemis-nobile-rim-1,Nobile Rim 1,luna,region_aterrizaje_artemis,-85.429,37.359,Schomberger A 1,228.4,cueva,0,,,,,,,,,—
+artemis-nobile-rim-2,Nobile Rim 2,luna,region_aterrizaje_artemis,-83.949,58.81,Schomberger A 1,231.9,cueva,0,,,,,,,,,—
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,luna,region_aterrizaje_artemis,-88.213,-64.544,Schomberger A 1,366.0,cueva,0,,,,,,,,,—
+artemis-slater-plain,Slater Plain,luna,region_aterrizaje_artemis,-87.152,125.57,Schomberger A 1,386.8,cueva,0,,,,,,,,,—
+apollo-11,Apollo 11,luna,aterrizaje_tripulado,0.674,23.473,Southwest Mare Tranquillitatis B Pit,111.4,tubo_lava,0,,,,,,,,,—
+apollo-12,Apollo 12,luna,aterrizaje_tripulado,-3.013,-23.422,Copernicus 5,377.1,cueva,0,,,,,,,,,—
+apollo-14,Apollo 14,luna,aterrizaje_tripulado,-3.646,-17.472,Lalande 13,266.4,cueva,0,,,,,,,,,—
+apollo-15,Apollo 15,luna,aterrizaje_tripulado,26.132,3.633,Aristillus 4,234.3,cueva,0,,,,,,,,,—
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,-8.973,15.501,Dollond E 1a,39.9,cueva,4,cueva,"Región de Antofagasta, Chile",marte,cueva,0.0,,0.0,0.13,Sí
+apollo-17,Apollo 17,luna,aterrizaje_tripulado,20.191,30.772,Mare Tranquillitatis Pit,366.6,tubo_lava,0,,,,,,,,,—
+aterrizaje-luna-9,Luna 9,luna,aterrizaje_robotico,7.083,-64.367,West Marius Hills Pit,269.4,tubo_lava,0,,,,,,,,,—
+aterrizaje-luna-13,Luna 13,luna,aterrizaje_robotico,18.867,-62.05,West Marius Hills Pit,196.8,tubo_lava,0,,,,,,,,,—
+aterrizaje-surveyor-1,Surveyor 1,luna,aterrizaje_robotico,-2.474,-43.339,Kepler 4a,356.7,cueva,0,,,,,,,,,—
+aterrizaje-surveyor-3,Surveyor 3,luna,aterrizaje_robotico,-3.015,-23.418,Copernicus 5,377.1,cueva,0,,,,,,,,,—
+aterrizaje-surveyor-5,Surveyor 5,luna,aterrizaje_robotico,1.461,23.195,Southwest Mare Tranquillitatis B Pit,93.1,tubo_lava,0,,,,,,,,,—
+aterrizaje-surveyor-6,Surveyor 6,luna,aterrizaje_robotico,0.474,-1.427,Lalande 5a,261.2,cueva,0,,,,,,,,,—
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,-40.98,-11.514,Tycho 5d,49.6,cueva,5,cueva,Río Tinto (MARTE),marte,cueva,0.0,,0.0,0.093,Sí
+aterrizaje-luna-16,Luna 16,luna,aterrizaje_robotico,-0.683,56.3,Central Mare Fecunditatis Pit,231.8,tubo_lava,0,,,,,,,,,—
+aterrizaje-luna-17,Luna 17,luna,aterrizaje_robotico,38.283,-35.0,Highland 3,165.2,cueva,0,,,,,,,,,—
+aterrizaje-luna-20,Luna 20,luna,aterrizaje_robotico,3.567,56.5,Central Mare Fecunditatis Pit,273.8,tubo_lava,0,,,,,,,,,—
+aterrizaje-luna-21,Luna 21,luna,aterrizaje_robotico,25.85,30.45,Mare Serenitatis Pit,440.9,tubo_lava,0,,,,,,,,,—
+aterrizaje-luna-23,Luna 23,luna,aterrizaje_robotico,12.75,62.2,Picard 1,228.3,cueva,0,,,,,,,,,—
+aterrizaje-luna-24,Luna 24,luna,aterrizaje_robotico,12.75,62.2,Picard 1,228.3,cueva,0,,,,,,,,,—
+aterrizaje-chang-e-3,Chang'e 3,luna,aterrizaje_robotico,44.117,-19.517,Sinus Iridum Pit,204.8,tubo_lava,0,,,,,,,,,—
+aterrizaje-chang-e-4,Chang'e 4,luna,aterrizaje_robotico,-45.456,177.589,Mare Ingenii Pit,390.9,tubo_lava,0,,,,,,,,,—
+aterrizaje-chang-e-5,Chang'e 5,luna,aterrizaje_robotico,43.057,-51.916,Highland 3,272.8,cueva,0,,,,,,,,,—
+aterrizaje-chang-e-6,Chang'e 6,luna,aterrizaje_robotico,-41.639,-153.985,Das 4d,622.8,cueva,0,,,,,,,,,—
+aterrizaje-chandrayaan-3,Chandrayaan-3,luna,aterrizaje_robotico,-69.373,32.319,Schomberger A 1,269.5,cueva,0,,,,,,,,,—
+aterrizaje-slim,SLIM,luna,aterrizaje_robotico,-13.316,25.251,Dollond E 1d,298.0,cueva,0,,,,,,,,,—
+aterrizaje-im-1-odysseus,IM-1 Odysseus,luna,aterrizaje_robotico,-84.9,12.9,Schomberger A 1,213.7,cueva,0,,,,,,,,,—
+aterrizaje-blue-ghost-m1,Blue Ghost M1,luna,aterrizaje_robotico,18.562,61.81,Picard 1,242.0,cueva,0,,,,,,,,,—
+aterrizaje-im-2-athena,IM-2 Athena,luna,aterrizaje_robotico,-84.791,29.196,Schomberger A 1,204.8,cueva,0,,,,,,,,,—
+aterrizaje-mars-3,Mars 3,marte,aterrizaje_robotico,-45.0,-158.0,-134.54138,1639.2,tubo_lava,0,,,,,,,,,—
+aterrizaje-viking-1,Viking 1,marte,aterrizaje_robotico,22.27,-47.95,-56.56943000000001,542.5,cueva,0,,,,,,,,,—
+aterrizaje-viking-2,Viking 2,marte,aterrizaje_robotico,47.64,134.29,142.21596999999997,969.1,cueva,0,,,,,,,,,—
+aterrizaje-mars-pathfinder,Mars Pathfinder,marte,aterrizaje_robotico,19.13,-33.303,-10.907619999999952,1310.5,cueva,0,,,,,,,,,—
+aterrizaje-spirit-mer-a,Spirit (MER-A),marte,aterrizaje_robotico,-14.568,175.473,172.82364,775.8,cueva,0,,,,,,,,,—
+aterrizaje-opportunity-mer-b,Opportunity (MER-B),marte,aterrizaje_robotico,-1.946,-5.526,-15.786190000000033,624.5,tubo_lava,0,,,,,,,,,—
+aterrizaje-phoenix,Phoenix,marte,aterrizaje_robotico,68.22,-125.7,-119.58667000000003,1303.1,cueva,0,,,,,,,,,—
+aterrizaje-curiosity-msl,Curiosity (MSL),marte,aterrizaje_robotico,-4.59,137.442,155.00775,1401.6,cueva,0,,,,,,,,,—
+aterrizaje-insight,InSight,marte,aterrizaje_robotico,4.502,135.623,127.13782000000003,1110.4,cueva,0,,,,,,,,,—
+aterrizaje-perseverance-mars-2020,Perseverance (Mars 2020),marte,aterrizaje_robotico,18.445,77.451,68.11360000000002,605.9,cueva,0,,,,,,,,,—
+aterrizaje-tianwen-1,Tianwen-1,marte,aterrizaje_robotico,25.1,109.7,122.04604999999998,703.0,tubo_lava,0,,,,,,,,,—
+aterrizaje-rosalind-franklin-exomars,Rosalind Franklin (ExoMars),marte,aterrizaje_planificado,18.2,-24.55,-10.907619999999952,923.2,cueva,0,,,,,,,,,—
+aterrizaje-chang-e-7,Chang'e 7,luna,aterrizaje_planificado,-88.8,123.4,Schomberger A 1,369.0,cueva,0,,,,,,,,,—
+ez-e-melas-chasma,E. Melas Chasma,marte,exploration_zone,-11.7,-70.0,-74.85723999999999,1613.8,cueva,0,,,,,,,,,—
+ez-coprates-chasma,Coprates Chasma,marte,exploration_zone,-11.7,-66.6,-74.85723999999999,1660.5,cueva,0,,,,,,,,,—
+ez-viking,Viking,marte,exploration_zone,22.3,-48.3,-56.56943000000001,525.6,cueva,0,,,,,,,,,—
+ez-acidalia-planitia,Acidalia Planitia,marte,exploration_zone,20.0,-40.0,-56.56943000000001,989.5,cueva,0,,,,,,,,,—
+ez-ne-marineris,NE Marineris,marte,exploration_zone,-4.1,-35.2,-15.786190000000033,1180.0,tubo_lava,0,,,,,,,,,—
+ez-se-marineris,SE Marineris,marte,exploration_zone,-18.8,-49.2,-15.786190000000033,2252.9,tubo_lava,0,,,,,,,,,—
+ez-gale-crater,Gale Crater,marte,exploration_zone,-4.6,137.4,155.00775,1403.9,cueva,0,,,,,,,,,—
+ez-gale-crater-2,Gale Crater 2,marte,exploration_zone,-4.6,137.0,155.00775,1421.3,cueva,0,,,,,,,,,—
+ez-gale-crater-3,Gale Crater 3,marte,exploration_zone,-4.7,137.1,155.00775,1420.9,cueva,0,,,,,,,,,—
+ez-sinus-meridiani,Sinus Meridiani,marte,exploration_zone,-2.3,-6.4,-15.786190000000033,580.0,tubo_lava,0,,,,,,,,,—
+ez-s-meridiani-planum,S. Meridiani Planum,marte,exploration_zone,-3.2,-4.5,-15.786190000000033,703.1,tubo_lava,0,,,,,,,,,—
+ez-s-meridiani-planum-2,S. Meridiani Planum 2,marte,exploration_zone,-2.9,-5.4,-15.786190000000033,647.0,tubo_lava,0,,,,,,,,,—
+ez-gusev-crater,Gusev Crater,marte,exploration_zone,-14.5,175.4,172.82364,771.0,cueva,0,,,,,,,,,—
+ez-gusev-apollinaris-sulci,Gusev-Apollinaris Sulci,marte,exploration_zone,-13.0,175.0,172.82364,679.5,cueva,0,,,,,,,,,—
+ez-apollinaris-sulci,Apollinaris Sulci,marte,exploration_zone,-12.7,176.7,172.95874000000003,687.9,cueva,0,,,,,,,,,—
+ez-zephyria-planum,Zephyria Planum,marte,exploration_zone,-1.4,157.1,161.59868,574.5,cueva,0,,,,,,,,,—
+ez-hebrus-valles,Hebrus Valles,marte,exploration_zone,20.1,126.6,127.13782000000003,80.7,cueva,0,,,,,,,,,—
+ez-hypanis-delta,Hypanis Delta,marte,exploration_zone,11.7,-45.3,-56.56943000000001,1102.9,cueva,0,,,,,,,,,—
+ez-jezero-isidis-syrtis,Jezero-Isidis-Syrtis,marte,exploration_zone,17.7,77.0,68.11360000000002,611.0,cueva,0,,,,,,,,,—
+ez-nili-fossae,Nili Fossae,marte,exploration_zone,22.1,77.0,68.11360000000002,494.8,cueva,0,,,,,,,,,—
+ez-aram-chaos,Aram Chaos,marte,exploration_zone,2.4,-20.0,-15.786190000000033,272.4,tubo_lava,0,,,,,,,,,—
+ez-cerberus,Cerberus,marte,exploration_zone,10.0,162.0,161.13710000000003,54.5,cueva,0,,,,,,,,,—
+ez-s-nectaris-fossae,S. Nectaris Fossae,marte,exploration_zone,-28.9,-59.7,-74.85723999999999,2746.4,cueva,0,,,,,,,,,—
+ez-hadriacus-palus,Hadriacus Palus,marte,exploration_zone,-26.8,77.5,68.11360000000002,3043.7,cueva,0,,,,,,,,,—
+ez-mawrth-vallis,Mawrth Vallis,marte,exploration_zone,24.3,-19.2,-10.907619999999952,479.6,cueva,0,,,,,,,,,—
+ez-mclaughlin-crater,McLaughlin Crater,marte,exploration_zone,21.9,-22.4,-10.907619999999952,699.9,cueva,0,,,,,,,,,—
+ez-arabia-terra,Arabia Terra,marte,exploration_zone,0.4,-8.3,-15.786190000000033,442.9,tubo_lava,0,,,,,,,,,—
+ez-columbus-crater,Columbus Crater,marte,exploration_zone,-29.0,-166.0,-134.54138,1673.5,tubo_lava,0,,,,,,,,,—
+ez-huygens-crater,Huygens Crater,marte,exploration_zone,-13.5,55.5,68.11360000000002,2326.5,cueva,0,,,,,,,,,—
+ez-noctis-landing,Noctis Landing,marte,exploration_zone,-6.5,-92.5,-100.07873999999998,563.6,cueva,0,,,,,,,,,—
+ez-deuteronilus-mensae,Deuteronilus Mensae,marte,exploration_zone,39.1,23.2,25.79002,315.3,cueva,0,,,,,,,,,—
+ez-e-hellas,E. Hellas,marte,exploration_zone,-40.0,104.0,143.21915,2206.4,cueva,0,,,,,,,,,—
+ez-e-hellas-2,E. Hellas 2,marte,exploration_zone,-39.1,101.9,143.21915,2288.1,cueva,0,,,,,,,,,—
+ez-deuteronilus-mensae-2,Deuteronilus Mensae 2,marte,exploration_zone,41.0,22.0,25.79002,245.3,cueva,0,,,,,,,,,—
+ez-ismenius-cavus,Ismenius Cavus,marte,exploration_zone,33.8,17.2,25.79002,723.7,cueva,0,,,,,,,,,—
+ez-e-hellas-3,E. Hellas 3,marte,exploration_zone,-35.4,94.0,143.21915,2618.5,cueva,0,,,,,,,,,—
+ez-hale-crater,Hale Crater,marte,exploration_zone,-35.8,-36.3,4.976609999999994,1929.6,cueva,0,,,,,,,,,—
+ez-noachis-terra-chloride,Noachis Terra Chloride,marte,exploration_zone,-37.2,-9.5,4.976460000000003,683.7,cueva,0,,,,,,,,,—
+ez-arcadia-planitia,Arcadia Planitia,marte,exploration_zone,39.0,172.0,-171.86633,1177.9,cueva,0,,,,,,,,,—
+ez-erebus-montes,Erebus Montes,marte,exploration_zone,39.0,-167.9,-171.48337000000004,870.6,cueva,0,,,,,,,,,—
+ez-acheron-fossae,Acheron Fossae,marte,exploration_zone,39.8,-139.4,-120.98846000000003,920.3,cueva,0,,,,,,,,,—
+ez-newton-crater,Newton Crater,marte,exploration_zone,-40.6,-160.0,-134.54138,1565.7,tubo_lava,0,,,,,,,,,—
+ez-protonilus-mensae,Protonilus mensae,marte,exploration_zone,42.2,48.1,25.810180000000003,965.5,cueva,0,,,,,,,,,—
+ez-arcadia-planitia-43,Arcadia Planitia,marte,exploration_zone,46.2,-171.2,-171.48337000000004,1278.0,cueva,0,,,,,,,,,—
+ez-copernicus-crater,Copernicus Crater,marte,exploration_zone,-49.2,-169.2,143.36012,1836.4,cueva,0,,,,,,,,,—
+ez-ausonia-cavus,Ausonia Cavus,marte,exploration_zone,-32.0,96.5,143.21915,2768.9,cueva,0,,,,,,,,,—
+ez-kasei-valles,Kasei Valles,marte,exploration_zone,24.8,-72.6,-75.41205000000002,278.7,cueva,0,,,,,,,,,—

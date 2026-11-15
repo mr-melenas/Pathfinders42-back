@@ -1,0 +1,11 @@
+lat,lon,percentil,pais_iso,T_media,P_anual,elevacion,region_geocodificada,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2
+36.5,86.25,100.0,CN,-7.099999904632568,32.8,5020.0,"Sinkiang, China",Lop Nur (cuenca del Tarim),589,No,,
+-22.0,-68.125,98.7,CL,4.800000190734863,16.3,4302.0,"Región de Antofagasta, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",302,No,,
+35.5,80.625,98.35,CN,-10.300000190734863,91.8,5504.0,"Sinkiang, China","Tso Kar, Ladakh (ISRO HOPE)",343,No,,
+37.5,74.375,95.95,TJ,-4.599999904632568,79.6,4473.0,"Provincia de Alto Badajshán, Tayikistán","Tso Kar, Ladakh (ISRO HOPE)",571,No,,
+37.5,90.625,94.79,CN,-3.0,60.3,4190.0,"Sinkiang, China",Cuenca de Qaidam occidental (Lenghu),269,Sí,https://doi.org/10.1002/2017JE005293,
+-29.5,-70.0,89.57,CL,0.8999999761581421,59.9,4039.0,"Región de Coquimbo, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",600,No,,
+-11.5,-76.25,72.57,PE,7.5,103.3,4138.0,"Junín, Perú","Desierto de Atacama, núcleo hiperárido (ARADS)",1549,No,,
+33.0,77.5,69.41,IN,-7.5,628.6,4987.0,"Ladaj, India","Tso Kar, Ladakh (ISRO HOPE)",57,Sí,https://indico.fais.uj.edu.pl/event/45/contributions/302/,
+36.0,70.625,68.72,AF,-4.099999904632568,361.6,4195.0,"Provincia de Badajshán, Afganistán","Tso Kar, Ladakh (ISRO HOPE)",738,No,,
+-18.0,-69.375,63.03,CL,6.800000190734863,158.1,4209.0,"Región de Arica y Parinacota, Chile","Desierto de Atacama, núcleo hiperárido (ARADS)",681,No,,
