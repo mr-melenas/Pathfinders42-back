@@ -46,6 +46,10 @@ class Pareja(BaseModel):
 
     id: str | None = Field(examples=["lofoten_flakstadoy"])
     nombre: str = Field(examples=["Lofoten (macizo de Flakstadøy), Noruega"])
+    lat: float | None = Field(
+        default=None, examples=[68.1], description="Latitud del lugar de la Tierra (centro, si es una región)"
+    )
+    lon: float | None = Field(default=None, examples=[13.25], description="Longitud del lugar de la Tierra")
     distancia: float | None = Field(
         description="Distancia principal de la capa (0 = igual, 1 = nada parecido)"
     )

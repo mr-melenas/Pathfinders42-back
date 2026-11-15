@@ -73,3 +73,15 @@ def test_geojson(cliente):
     assert g["type"] == "FeatureCollection"
     assert len(g["features"]) == 3
     assert all(f["geometry"] for f in g["features"])
+
+
+def test_parejas_con_posicion_en_la_tierra(cliente):
+    """Cada pareja trae lat/lon del lugar de la Tierra si alguna capa lo publica (hielo, cuevas, anortosita)."""
+    parejas = cliente.get(
+        "/api/v1/sitios/artemis-malapert-massif/parejas", params={"capa": "anortosita"}
+    ).json()
+    lofoten = next(p for p in parejas if p["id"] == "lofoten_flakstadoy")
+    assert (lofoten["lat"], lofoten["lon"]) == (68.1, 13.25)
+    resumen = cliente.get("/api/v1/sitios/artemis-malapert-massif").json()["resumen"]
+    hielo = next(r for r in resumen if r["capa"] == "hielo")
+    assert hielo["mejor"]["lat"] is not None and hielo["mejor"]["lon"] is not None
