@@ -1,0 +1,10 @@
+id,nombre,pais,lat,lon,perfil,referencia,url,url_2,verificacion
+qaidam,Cuenca de Qaidam occidental (Lenghu),China,38.7,93.3,Marte altura (árido-frío),"Anglés & Li (2017), JGR Planets",https://doi.org/10.1002/2017JE005293,,verificada
+axel_heiberg,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),Canadá,79.4,-90.73,Marte polar,Frontiers in Microbiology (2017),https://doi.org/10.3389/fmicb.2017.02527,https://astrobiology.com/2009/03/27/a-skype-chat-and-tour-with-astrobiologist-dale-andersen-on-axel-heiberg-island/,verificada
+devon,Isla Devon (Haughton-Mars Project),Canadá,75.43,-89.87,Marte polar / Luna (cráter),Mars Institute - HMP,https://marsinstitute.no/hmp,,verificada
+atacama,"Desierto de Atacama, núcleo hiperárido (ARADS)",Chile,-24.1,-70.0,Marte árido,NASA Astrobiology - ARADS,https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/,,verificada
+mcmurdo,Valles Secos de McMurdo,Antártida,-77.5,161.5,Marte polar,NASA NTRS 20100003844,https://ntrs.nasa.gov/citations/20100003844,https://ntrs.nasa.gov/citations/19920038367,verificada
+lanzarote,Lanzarote (ESA PANGAEA),España,29.0,-13.75,Luna / Marte volcánico,ESA - Pangaea,https://www.esa.int/ESA_Multimedia/Images/2021/03/Geological_training_in_terrestrial_Moon_and_Mars_analogue_environments,,verificada
+rio_tinto,Río Tinto (MARTE),España,37.7,-6.55,Marte ácido/ferroso,NASA NTRS 20040062221,https://ntrs.nasa.gov/citations/20040062221,https://arxiv.org/pdf/1401.7434,verificada
+tso_kar,"Tso Kar, Ladakh (ISRO HOPE)",India,33.3,78.0,Marte altura (árido-frío),Planetary Science Conference 2025,https://indico.fais.uj.edu.pl/event/45/contributions/302/,,verificada
+lop_nur,Lop Nur (cuenca del Tarim),China,40.43,90.79,Marte árido,"AGU JGR Planets, doi:10.1029/2018JE005719 (sin verificar)",https://doi.org/10.1029/2018JE005719,https://science.nasa.gov/earth/earth-observatory/lop-nur-xinjiang-china-51039/,pendiente

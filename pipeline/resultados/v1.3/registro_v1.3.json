@@ -1,0 +1,130 @@
+{
+  "fecha_ejecucion": "2026-10-19T19:52:40",
+  "version_activa": "v1.3",
+  "versiones": {
+    "v1.1": {
+      "marte_polar": {
+        "frio": 0.45,
+        "verano_frio": 0.2,
+        "seco": 0.35
+      },
+      "marte_altura": {
+        "frio": 0.3,
+        "seco": 0.4,
+        "presion": 0.3
+      },
+      "marte_arido": {
+        "seco": 0.8,
+        "amplitud": 0.2
+      }
+    },
+    "v1.2": {
+      "marte_polar": {
+        "frio": 0.45,
+        "verano_frio": 0.2,
+        "seco": 0.35
+      },
+      "marte_altura": {
+        "frio": 0.25,
+        "seco": 0.35,
+        "presion": 0.25,
+        "sin_vegetacion": 0.15
+      },
+      "marte_arido": {
+        "seco": 0.65,
+        "amplitud": 0.15,
+        "sin_vegetacion": 0.2
+      }
+    },
+    "v1.3": {
+      "marte_polar": {
+        "frio": 0.45,
+        "verano_frio": 0.2,
+        "seco": 0.35
+      },
+      "marte_altura": {
+        "frio": 0.25,
+        "seco": 0.35,
+        "presion": 0.25,
+        "desnudo": 0.15
+      },
+      "marte_arido": {
+        "seco": 0.65,
+        "amplitud": 0.15,
+        "desnudo": 0.2
+      }
+    }
+  },
+  "zonas": {
+    "marte_polar": "|lat| >= 60 y T_calido < 10 °C",
+    "marte_altura": "|lat| < 60 y elevación >= 2500 m",
+    "marte_arido": "|lat| < 60 y elevación < 2500 m"
+  },
+  "datos": {
+    "clima": "MERRA-2 2014-2023 (M2TMNXSLV, M2TMNXFLX, M2C0NXASM)",
+    "vegetacion": "VIIRS VNP13C2 v002 2023, umbral suelo desnudo NDVI < 0.15",
+    "control_calidad": "GPM IMERG v07 mensual"
+  },
+  "regiones": "celdas >= p95 contiguas, mínimo 2; análogo a <= 100 km",
+  "controles": {
+    "Madrid": [
+      40.4,
+      -3.7
+    ],
+    "París": [
+      48.85,
+      2.35
+    ],
+    "Moscú": [
+      55.75,
+      37.6
+    ],
+    "Manaos": [
+      -3.1,
+      -60.0
+    ],
+    "Bombay": [
+      19.1,
+      72.9
+    ],
+    "Sídney": [
+      -33.9,
+      151.2
+    ]
+  },
+  "catalogo": "Google Sheet ficha_analogos (9 análogos verificados o pendientes)",
+  "comparacion_versiones": [
+    {
+      "version": "v1.1",
+      "mediana_analogos": 90.0,
+      "mediana_controles": 34.9,
+      "max_control": 57.9,
+      "separacion_medianas": 55.1,
+      "peor_analogo_menos_mejor_control": 21.4
+    },
+    {
+      "version": "v1.2",
+      "mediana_analogos": 90.4,
+      "mediana_controles": 38.3,
+      "max_control": 65.9,
+      "separacion_medianas": 52.1,
+      "peor_analogo_menos_mejor_control": 13.4
+    },
+    {
+      "version": "v1.3",
+      "mediana_analogos": 92.8,
+      "mediana_controles": 35.0,
+      "max_control": 58.0,
+      "separacion_medianas": 57.9,
+      "peor_analogo_menos_mejor_control": 24.3
+    }
+  ],
+  "descartadas": {
+    "v1.2": "NDVI normalizado globalmente subía los controles"
+  },
+  "pendiente": [
+    "perfil Luna (capa geológica)",
+    "verificar Lop Nur",
+    "candidatos de la ficha"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": "topografia_v1",
+  "fecha": "2026-10-26T21:02:07",
+  "datos": "NASA ASTER GDEM v3 (ASTGTM v003), doi:10.5067/ASTER/ASTGTM.003",
+  "parametros": {
+    "radio_analogo_km": 10,
+    "lado_relieve_m": 1200,
+    "max_minutos": 40
+  },
+  "progreso": "1053/1053 teselas",
+  "limitaciones": [
+    "a 30 m el ruido vertical de ASTER infla la pendiente del terreno llano: comparar a 240 m",
+    "ASTER no cubre más allá de 83° N/S"
+  ]
+}

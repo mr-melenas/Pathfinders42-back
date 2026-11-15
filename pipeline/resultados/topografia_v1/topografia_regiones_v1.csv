@@ -1,0 +1,57 @@
+region_id,cuerpo,tipo,region,teselas_hechas,completa,elev_media_m,elev_min_m,elev_max_m,mediana_30m,p90_30m,pct_lt5_30m,pct_lt10_30m,pct_lt15_30m,mediana_240m,p90_240m,pct_lt5_240m,pct_lt10_240m,pct_lt15_240m,relieve_mediana,relieve_p90,relieve_pct_lt50,relieve_pct_lt100,relieve_pct_lt200
+luna-1,luna,region_candidata,"Afar, Etiopía",19/19,True,290,-235,2156,5.2,18.8,48.4,75.5,85.7,1.8,9.8,78.8,90.7,96.1,40.0,180.0,58.6,77.0,92.0
+luna-2,luna,region_candidata,"Gobernacion de Rif Dimashq, Siria",10/10,True,803,437,2070,4.8,10.5,55.2,89.0,96.3,1.2,3.5,94.0,97.9,99.2,25.0,85.0,81.9,92.3,97.6
+luna-3,luna,region_candidata,"Provincia de Medina, Arabia Saudita",5/5,True,1105,394,2088,4.8,11.0,56.0,87.9,95.5,1.2,3.0,95.5,98.7,99.6,25.0,60.0,87.2,96.1,99.4
+luna-4,luna,region_candidata,"Afar, Etiopía",5/5,True,477,86,1251,4.0,10.0,64.9,90.0,95.8,1.0,4.8,91.1,97.8,99.3,20.0,90.0,76.8,92.3,98.6
+luna-5,luna,region_candidata,"Condado de Marsabit, Kenia",4/4,True,482,325,1128,4.2,11.2,59.0,87.3,95.8,1.0,3.8,94.2,98.6,99.5,25.0,70.0,82.7,94.8,98.8
+luna-6,luna,region_candidata,"Provincia de La Meca, Arabia Saudita",4/4,True,1254,1037,1630,3.8,7.5,71.9,96.5,99.1,1.0,2.2,98.3,99.8,100.0,20.0,50.0,92.0,98.8,100.0
+luna-7,luna,region_candidata,Islandia,6/6,True,648,268,1682,5.8,18.2,45.2,74.9,86.1,2.0,11.0,76.1,88.7,94.0,60.0,185.0,46.9,68.5,92.0
+luna-8,luna,region_candidata,"Afar, Etiopía",3/3,True,466,219,1306,4.0,12.0,64.7,87.0,93.5,1.5,6.5,86.0,95.7,98.2,35.0,125.0,64.2,85.5,96.7
+luna-9,luna,region_candidata,"Provincia de Tabuk, Arabia Saudita",3/3,True,1424,770,2116,6.5,19.2,37.8,69.2,83.4,3.0,10.0,70.1,90.4,97.1,70.0,155.0,36.2,71.8,96.4
+luna-10,luna,region_candidata,"Tibesti, Chad",4/4,True,1681,984,3073,11.0,28.2,19.9,46.0,63.8,6.2,18.2,43.3,69.3,84.4,135.0,330.0,13.5,35.6,71.9
+luna-11,luna,region_candidata,Islandia,5/5,True,698,402,1256,7.2,23.0,33.7,65.3,80.8,3.0,11.8,70.0,87.4,93.9,75.0,175.0,35.9,68.0,93.5
+luna-12,luna,region_candidata,"Kunene, Namibia",2/2,True,767,326,1487,8.0,17.2,25.7,63.6,85.0,2.5,7.0,82.3,95.6,98.9,50.0,125.0,52.1,84.9,98.3
+luna-13,luna,region_candidata,"Provincia de Medina, Arabia Saudita",4/4,True,880,573,1397,4.2,9.0,64.0,92.6,97.4,1.2,3.0,95.8,98.9,99.6,30.0,60.0,86.0,96.1,99.5
+luna-14,luna,region_candidata,Irán,4/4,True,1021,366,1934,13.0,30.5,18.3,40.2,56.7,7.2,18.8,36.6,63.9,81.6,160.0,310.0,12.4,27.6,64.7
+luna-15,luna,region_candidata,"Provincia de La Meca, Arabia Saudita",1/1,True,1238,975,1668,7.0,19.8,35.5,67.8,82.5,2.0,10.0,72.4,90.6,97.6,65.0,160.0,45.7,72.8,96.5
+luna-16,luna,region_candidata,"Condado de Turkana, Kenia",2/2,True,427,248,1141,5.0,16.0,51.2,78.3,88.9,1.5,8.2,80.2,93.4,98.2,40.0,155.0,58.8,77.0,95.2
+luna-17,luna,region_candidata,"Gobernación de Lahij, Yemen",4/4,True,269,0,822,7.2,22.8,34.6,63.5,77.8,2.2,10.8,74.4,89.1,95.5,50.0,190.0,50.0,72.6,91.6
+luna-18,luna,region_candidata,"Tibesti, Chad",2/2,True,1521,1038,2878,11.5,26.5,17.7,43.7,63.8,6.2,15.5,41.3,72.0,89.1,130.0,275.0,14.0,34.0,77.9
+luna-19,luna,region_candidata,"Provincia de Medina, Arabia Saudita",2/2,True,1091,698,1531,4.8,10.5,54.4,88.5,95.8,1.5,3.5,94.4,98.1,99.3,30.0,75.0,83.6,94.3,98.7
+luna-20,luna,region_candidata,"Provincia de Tabuk, Arabia Saudita",4/4,True,963,460,1675,6.8,26.5,37.1,64.5,74.8,3.0,16.2,64.2,79.4,88.7,80.0,275.0,33.9,58.2,81.1
+analogo-luna-craters-of-the-moon-idaho,luna,analogo_conocido,"Craters of the Moon, Idaho",1/1,True,1728,1623,2286,4.8,11.5,53.8,87.0,93.3,1.2,5.8,89.2,94.0,97.0,25.0,120.0,77.9,87.4,94.2
+analogo-luna-kilauea-hawai,luna,analogo_conocido,"Kīlauea, Hawái",1/1,True,1131,832,1622,4.8,10.5,54.8,88.4,97.0,2.8,4.8,91.8,98.6,99.7,55.0,105.0,41.3,89.0,100.0
+analogo-luna-pinacate-sonora,luna,analogo_conocido,"Pinacate, Sonora",1/1,True,432,142,1190,6.8,15.5,34.5,74.3,89.4,3.8,9.0,68.5,92.6,98.7,100.0,210.0,8.6,50.6,88.6
+analogo-luna-askja-islandia,luna,analogo_conocido,"Askja, Islandia",2/2,True,966,461,1509,7.2,25.2,34.1,62.6,76.2,5.0,19.0,50.0,72.7,84.5,155.0,400.0,16.0,33.5,65.5
+analogo-luna-lanzarote-timanfaya,luna,analogo_conocido,Lanzarote – Timanfaya,2/2,True,173,-3,606,5.2,17.8,48.8,74.5,86.5,2.8,9.5,75.6,90.9,97.0,80.0,200.0,29.8,65.2,90.7
+analogo-luna-mauna-kea-hawai,luna,analogo_conocido,"Mauna Kea, Hawái",1/1,True,3033,1931,4223,13.8,23.0,6.4,28.4,58.2,12.5,18.2,4.0,30.2,71.2,265.0,390.0,0.1,0.8,25.1
+analogo-luna-meteor-crater-arizona,luna,analogo_conocido,"Meteor Crater, Arizona",4/4,True,1662,1516,1769,4.5,8.8,60.8,94.4,98.8,1.0,2.0,99.6,99.6,99.8,25.0,35.0,98.5,98.9,100.0
+marte_polar-1,marte,region_candidata,Groenlandia,71/71,True,369,-142,1885,6.8,23.0,42.6,67.5,81.0,3.8,16.8,59.5,79.8,88.3,95.0,355.0,36.2,53.1,75.4
+marte_polar-2,marte,region_candidata,"Nunavut, Canadá",8/8,True,279,-9,1344,7.2,26.0,35.8,57.1,72.5,5.0,20.5,50.6,70.7,82.7,120.0,370.0,31.5,45.6,68.1
+marte_polar-3,marte,region_candidata,"Nunavut, Canadá",22/22,True,302,-1,1705,6.2,22.2,40.7,64.6,79.7,3.5,15.8,60.4,80.0,89.3,85.0,290.0,38.7,55.0,78.3
+marte_polar-4,marte,region_candidata,"Nunavut, Canadá",6/6,True,415,0,1404,16.0,35.8,22.2,34.3,47.4,13.5,29.2,26.2,39.9,55.1,320.0,525.0,15.4,18.1,28.4
+marte_polar-5,marte,region_candidata,Groenlandia,4/4,True,194,0,765,5.8,19.0,43.8,69.3,84.6,2.5,7.2,79.5,95.6,98.7,50.0,115.0,52.6,86.2,99.2
+marte_polar-6,marte,region_candidata,Groenlandia,2/2,True,402,0,1066,7.5,21.8,32.9,64.9,81.4,2.8,7.0,81.0,95.7,98.4,45.0,120.0,57.6,86.3,96.9
+marte_polar-7,marte,region_candidata,"Nunavut, Canadá",2/2,True,342,0,942,9.5,22.2,28.1,58.1,77.7,4.8,15.0,53.1,78.6,90.3,115.0,255.0,24.4,44.6,79.5
+marte_polar-8,marte,region_candidata,"Nunavut, Canadá",6/6,True,183,0,985,6.5,23.2,42.2,62.0,76.9,4.2,17.2,54.1,74.3,86.5,105.0,295.0,34.8,49.3,73.6
+marte_altura-1,marte,region_candidata,"Sinkiang, China",40/40,True,4929,1843,7999,10.2,33.0,24.5,49.9,65.0,5.2,25.2,49.7,66.9,76.7,125.0,520.0,25.5,44.7,63.1
+marte_altura-2,marte,region_candidata,"Región de Antofagasta, Chile",5/5,True,4120,2061,6148,9.8,25.0,22.6,51.3,70.5,6.2,18.8,42.8,68.8,83.6,140.0,370.0,17.2,38.1,67.0
+marte_altura-3,marte,region_candidata,"Provincia de Alto Badajshán, Tayikistán",4/4,True,4524,3378,5883,20.5,36.5,13.4,26.5,37.8,16.2,29.5,18.2,31.4,46.2,375.0,590.0,6.9,11.5,21.9
+marte_arido-1,marte,region_candidata,Argelia,557/557,True,459,-206,3439,6.5,15.0,37.5,74.8,90.4,1.2,4.0,94.0,98.4,99.4,25.0,65.0,83.0,95.7,98.9
+marte_arido-2,marte,region_candidata,"Provincia de Riad, Arabia Saudita",75/75,True,536,11,1522,4.5,10.8,56.2,88.3,96.5,1.0,2.8,97.0,99.5,99.8,20.0,50.0,91.0,98.7,99.8
+marte_arido-3,marte,region_candidata,"Región de Antofagasta, Chile",16/16,True,1379,0,4769,5.2,15.5,49.4,79.1,89.6,2.5,9.2,76.0,91.6,96.7,55.0,180.0,46.7,73.9,92.6
+marte_arido-4,marte,region_candidata,"Sinkiang, China",75/75,True,1096,-200,5352,6.0,13.8,40.7,78.7,92.1,1.5,4.2,92.7,98.1,99.1,35.0,80.0,75.6,94.7,98.6
+marte_arido-5,marte,region_candidata,"Gobernación de Shabwah, Yemen",8/8,True,984,728,2156,5.8,16.5,45.6,77.3,88.1,1.0,5.8,88.8,94.3,97.3,20.0,130.0,81.2,87.6,95.1
+marte_arido-6,marte,region_candidata,"Provincia Oriental, Arabia Saudita",11/11,True,214,0,513,5.2,10.8,47.1,87.4,97.9,1.0,1.8,99.9,100.0,100.0,20.0,30.0,99.4,100.0,100.0
+marte_arido-7,marte,region_candidata,"Gobernación de Mutana, Irak",5/5,True,197,0,375,6.0,12.8,40.3,80.6,95.0,1.0,1.8,99.9,100.0,100.0,20.0,30.0,99.1,100.0,100.0
+marte_arido-8,marte,region_candidata,"Al Wahat, Libia",2/2,True,205,59,352,7.0,14.5,32.0,73.0,91.7,1.2,2.5,99.0,99.8,100.0,25.0,45.0,94.9,99.3,100.0
+marte_arido-9,marte,region_candidata,"Mongolia Interior, China",11/11,True,1011,827,1420,6.2,13.0,38.1,79.6,94.1,1.0,3.0,95.8,99.5,99.9,20.0,60.0,87.8,97.5,100.0
+marte_arido-10,marte,region_candidata,"Dajla-Río de Oro, Marruecos",5/5,True,167,51,489,5.5,10.8,46.6,87.4,97.9,0.8,1.2,99.8,99.9,100.0,15.0,20.0,99.4,99.8,100.0
+analogo-marte-cuenca-de-qaidam-occidental-lenghu,marte,analogo_conocido,Cuenca de Qaidam occidental (Lenghu),1/1,True,2788,2713,2966,5.8,12.0,42.1,83.2,95.7,1.2,3.5,96.9,100.0,100.0,30.0,70.0,77.8,97.3,100.0
+analogo-marte-isla-axel-heiberg-gypsum-hill-m-a-r-s,marte,analogo_conocido,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),2/2,True,412,0,1374,13.8,31.2,9.8,32.1,54.9,10.8,25.0,24.6,47.2,67.8,260.0,440.0,7.8,15.7,35.5
+analogo-marte-isla-devon-haughton-mars-project,marte,analogo_conocido,Isla Devon (Haughton-Mars Project),2/2,True,207,62,346,8.2,20.0,26.2,60.2,81.4,3.5,7.5,72.7,96.4,99.2,65.0,100.0,29.8,91.6,100.0
+analogo-marte-desierto-de-atacama-nucleo-hiperarido-ar,marte,analogo_conocido,"Desierto de Atacama, núcleo hiperárido (ARADS)",2/2,True,1159,942,1648,6.8,15.8,34.7,71.2,88.8,4.0,9.8,62.7,91.3,99.3,90.0,175.0,21.6,58.5,95.7
+analogo-marte-valles-secos-de-mcmurdo,marte,analogo_conocido,Valles Secos de McMurdo,1/1,True,895,42,2076,16.8,37.8,9.6,28.4,46.4,13.0,32.5,17.1,40.4,56.1,335.0,675.0,1.7,11.1,29.1
+analogo-marte-lanzarote-esa-pangaea,marte,analogo_conocido,Lanzarote (ESA PANGAEA),2/2,True,173,-3,606,5.2,17.8,48.8,74.5,86.5,2.8,9.5,75.6,90.9,97.0,80.0,200.0,29.8,65.2,90.7
+analogo-marte-rio-tinto-marte,marte,analogo_conocido,Río Tinto (MARTE),1/1,True,365,107,679,10.2,20.5,17.4,48.6,74.2,5.2,10.8,49.8,87.7,98.1,110.0,185.0,2.8,43.0,94.0
+analogo-marte-tso-kar-ladakh-isro-hope,marte,analogo_conocido,"Tso Kar, Ladakh (ISRO HOPE)",2/2,True,4775,4506,5985,9.8,27.5,29.8,51.3,65.3,7.8,22.5,43.5,57.0,70.8,215.0,490.0,28.7,34.2,47.8

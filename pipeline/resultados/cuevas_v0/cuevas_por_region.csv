@@ -1,0 +1,42 @@
+region_id,cuerpo,perfil,rango,region,entradas_cueva,posibles_tubos_lava,ejemplos
+marte_polar-1,marte,marte_polar,1,Groenlandia,0,0,
+marte_polar-2,marte,marte_polar,2,"Nunavut, Canadá",0,0,
+marte_polar-3,marte,marte_polar,3,"Nunavut, Canadá",0,0,
+marte_polar-4,marte,marte_polar,4,"Nunavut, Canadá",0,0,
+marte_polar-5,marte,marte_polar,5,Groenlandia,0,0,
+marte_polar-6,marte,marte_polar,6,Groenlandia,0,0,
+marte_polar-7,marte,marte_polar,7,"Nunavut, Canadá",0,0,
+marte_polar-8,marte,marte_polar,8,"Nunavut, Canadá",0,0,
+marte_altura-1,marte,marte_altura,1,"Sinkiang, China",0,0,
+marte_altura-2,marte,marte_altura,2,"Región de Antofagasta, Chile",0,0,
+marte_altura-3,marte,marte_altura,3,"Provincia de Alto Badajshán, Tayikistán",0,0,
+marte_arido-1,marte,marte_arido,1,Argelia,41,1,كهف الجارة Jarrah Cave; Sannur Cave; Maghara (small)
+marte_arido-2,marte,marte_arido,2,"Provincia de Riad, Arabia Saudita",94,0,غار الذئابة; غار; غار الخشبات
+marte_arido-3,marte,marte_arido,3,"Región de Antofagasta, Chile",4,0,
+marte_arido-4,marte,marte_arido,4,"Sinkiang, China",11,0,39窟; 27窟; 26 窟
+marte_arido-5,marte,marte_arido,5,"Gobernación de Shabwah, Yemen",0,0,
+marte_arido-6,marte,marte_arido,6,"Provincia Oriental, Arabia Saudita",7,0,كهف الفندق; كهف الطحالب; كهف الكبسة
+marte_arido-7,marte,marte_arido,7,"Gobernación de Mutana, Irak",0,0,
+marte_arido-8,marte,marte_arido,8,"Al Wahat, Libia",0,0,
+marte_arido-9,marte,marte_arido,9,"Mongolia Interior, China",0,0,
+marte_arido-10,marte,marte_arido,10,"Dajla-Río de Oro, Marruecos",0,0,
+luna-1,luna,luna,1,"Afar, Etiopía",0,0,
+luna-2,luna,luna,2,"Gobernacion de Rif Dimashq, Siria",8,1,يريبة; خربة القصير; مغارة الدم
+luna-3,luna,luna,3,"Provincia de Medina, Arabia Saudita",12,12,غار ماكر الشياهين; كهف أم جرسان; أم جرسان 2
+luna-4,luna,luna,4,"Afar, Etiopía",0,0,
+luna-5,luna,luna,5,"Condado de Marsabit, Kenia",0,0,
+luna-6,luna,luna,6,"Provincia de La Meca, Arabia Saudita",1,1,كهف الحباشي
+luna-7,luna,luna,7,Islandia,12,12,Grjótagjá; Kirkja; Stóragjá
+luna-8,luna,luna,8,"Afar, Etiopía",0,0,
+luna-9,luna,luna,9,"Provincia de Tabuk, Arabia Saudita",0,0,
+luna-10,luna,luna,10,"Tibesti, Chad",0,0,
+luna-11,luna,luna,11,Islandia,4,4,Íshellir við Hrafntinnusker; Landmannahellir
+luna-12,luna,luna,12,"Kunene, Namibia",0,0,
+luna-13,luna,luna,13,"Provincia de Medina, Arabia Saudita",1,0,كهف بني حرام
+luna-14,luna,luna,14,Irán,0,0,
+luna-15,luna,luna,15,"Provincia de La Meca, Arabia Saudita",0,0,
+luna-16,luna,luna,16,"Condado de Turkana, Kenia",0,0,
+luna-17,luna,luna,17,"Gobernación de Lahij, Yemen",0,0,
+luna-18,luna,luna,18,"Tibesti, Chad",0,0,
+luna-19,luna,luna,19,"Provincia de Medina, Arabia Saudita",0,0,
+luna-20,luna,luna,20,"Provincia de Tabuk, Arabia Saudita",0,0,

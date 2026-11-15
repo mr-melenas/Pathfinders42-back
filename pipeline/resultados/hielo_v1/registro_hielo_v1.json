@@ -1,0 +1,39 @@
+{
+ "notebook": "hielo_v1.ipynb",
+ "ejecutado": "2026-11-14T13:32:06+00:00",
+ "parametros": {
+  "radio_punto_km": 10.0,
+  "radio_lend_km": 20.0,
+  "lat_casquete": -80.0,
+  "n_discos_azar": 2000,
+  "diviner_f_hielo": 0.25,
+  "percentil_senal": 75,
+  "lend_z": 2.0
+ },
+ "fuentes": [
+  {
+   "instrumento": "Diviner PRP",
+   "producto": "LRO-L-DLRE (vía hielo_v0)",
+   "url": "https://pds-geosciences.wustl.edu/missions/lro/diviner.htm"
+  },
+  {
+   "instrumento": "Mini-RF",
+   "producto": "LRO-L-MRFLRO-5-GLOBAL-MOSAIC-V1.0, CPR 32 ppd",
+   "url": "https://pds-geosciences.wustl.edu/lro/lro-l-mrflro-5-global-mosaic-v1/lromrf_1001/data/32ppd/global_cpr_32ppd_simp_0c.img"
+  },
+  {
+   "instrumento": "LEND",
+   "producto": "LRO-L-LEND-4/5-RDR-V1.0, ALD polo sur",
+   "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lend-2-edr-v1/lrolen_0xxx/data"
+  }
+ ],
+ "conteos": {
+  "sitios": 12,
+  "niveles": {
+   "moderada": 8,
+   "débil": 4
+  },
+  "pixeles_minirf": 319476,
+  "celdas_lend": 14400
+ }
+}
