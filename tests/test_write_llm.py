@@ -71,6 +71,15 @@ def test_empty_answer_is_retried_then_falls_back_to_template():
     assert "vacío" in generator.reminders[1]
 
 
+def test_fragments_from_the_same_source_are_merged():
+    a = {"fuente": "F", "url": "u", "texto": "uno"}
+    b = {"fuente": "G", "url": "v", "texto": "dos"}
+    c = {"fuente": "F", "url": "u", "texto": "tres"}
+    merged = writer.merge_by_source([a, b, c])
+    assert [f["fuente"] for f in merged] == ["F", "G"] and merged[0]["texto"] == "uno … tres"
+    assert merged[1] is b and a["texto"] == "uno"
+
+
 def test_two_invalid_attempts_fall_back_to_template():
     generator = FakeGenerator(["Vale 0.5.", "Vale 0.7."])
     result = writer.write_explanation(DATA, "q", FakeRetriever(), generator, "PLANTILLA")
@@ -100,9 +109,9 @@ def test_site_input_builds_data_query_and_template():
     explanation = explain_record(SAMPLE_RECORD)
     data, query, template = writer.site_input(explanation)
     assert script.site_input is writer.site_input
-    assert set(data) == {"nombre", "cuerpo", "resumen", "donde_funciona", "donde_falla", "capas"}
+    assert set(data) == {"nombre", "cuerpo", "resumen", "donde_funciona", "donde_falla", "capas", "por_uso"}
     assert "Askja, Islandia" in query and "Malapert Massif" in query
-    assert template.startswith(explanation["resumen"]) and "brecha ts media: -121.7 °C" in template
+    assert template.startswith(explanation["resumen"]) and "temperatura media: 122 °C más fría" in template
 
 
 def test_invented_citation_triggers_retry():

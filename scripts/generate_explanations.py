@@ -29,12 +29,20 @@ def main(
     output_path = Path(output_path)
     response = httpx.get(f"{base_url}/sitios", timeout=30)
     response.raise_for_status()
+    # Usos de misión (capa usos_v0): mejor pareja de cada uso. Si la capa no está, se omite.
+    uses_res = httpx.get(f"{base_url}/usos", timeout=30)
+    use_names = {u["id"]: u["nombre"] for u in uses_res.json()["usos"]} if uses_res.status_code == 200 else {}
     explanations = {}
     for site in response.json():
         rec_res = httpx.get(f"{base_url}/sitios/{site['id']}", timeout=30)
         rec_res.raise_for_status()
         record = rec_res.json()
-        explanations[site["id"]] = explain_record(record, index)
+        uses = {}
+        for use_id in use_names:
+            r = httpx.get(f"{base_url}/usos/{use_id}/sitios/{site['id']}", params={"n": 1}, timeout=30)
+            if r.status_code == 200 and r.json():
+                uses[use_id] = r.json()[0]
+        explanations[site["id"]] = explain_record(record, index, uses, use_names)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(explanations, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(explanations)} explicaciones escritas en {output_path} / explanations written")
