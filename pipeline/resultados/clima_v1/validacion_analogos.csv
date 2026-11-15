@@ -1,0 +1,16 @@
+cuerpo,analogo,mejor_sitio,dist_clima,sitios_parecidos,parecido
+marte,Cuenca de Qaidam occidental (Lenghu),Columbus Crater,0.106,13,True
+marte,"Desierto de Atacama, núcleo hiperárido (ARADS)",Opportunity (MER-B),0.132,11,True
+marte,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),Viking 2,0.022,13,True
+marte,Isla Devon (Haughton-Mars Project),Viking 2,0.03,13,True
+marte,Lanzarote (ESA PANGAEA),InSight,0.07,19,True
+marte,Río Tinto (MARTE),Tianwen-1,0.097,23,True
+marte,"Tso Kar, Ladakh (ISRO HOPE)",Ismenius Cavus,0.074,14,True
+marte,Valles Secos de McMurdo,Viking 2,0.057,11,True
+luna,"Askja, Islandia",Mons Mouton,0.063,13,True
+luna,"Craters of the Moon, Idaho",Luna 17,0.159,8,True
+luna,"Kīlauea, Hawái",Blue Ghost M1,0.054,17,True
+luna,Lanzarote – Timanfaya,Luna 24,0.039,17,True
+luna,"Mauna Kea, Hawái",Apollo 16,0.134,7,True
+luna,"Meteor Crater, Arizona",Surveyor 6,0.123,6,True
+luna,"Pinacate, Sonora",Luna 9,0.068,14,True

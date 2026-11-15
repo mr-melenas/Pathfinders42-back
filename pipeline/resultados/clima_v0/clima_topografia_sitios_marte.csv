@@ -1,0 +1,60 @@
+id,nombre,tipo,t_media,mas_parecida_clima,distancia_clima,mas_parecida_total,clima_de_esa,topografia_de_esa,distancia_total,hay_parecido
+aterrizaje-mars-3,Mars 3,aterrizaje_robotico,-69.4,Isla Devon (Haughton-Mars Project),0.058,Groenlandia,0.196,0.108,0.152,Sí
+aterrizaje-viking-1,Viking 1,aterrizaje_robotico,-54.9,Río Tinto (MARTE),0.152,"Dajla-Río de Oro, Marruecos",0.333,0.366,0.35,No
+aterrizaje-viking-2,Viking 2,aterrizaje_robotico,-75.5,"Nunavut, Canadá",0.069,Groenlandia,0.209,0.16,0.184,Sí
+aterrizaje-mars-pathfinder,Mars Pathfinder,aterrizaje_robotico,-51.9,Lanzarote (ESA PANGAEA),0.029,"Al Wahat, Libia",0.293,0.093,0.193,Sí
+aterrizaje-spirit-mer-a,Spirit (MER-A),aterrizaje_robotico,-58.1,"Tso Kar, Ladakh (ISRO HOPE)",0.072,Cuenca de Qaidam occidental (Lenghu),0.093,0.236,0.164,Sí
+aterrizaje-opportunity-mer-b,Opportunity (MER-B),aterrizaje_robotico,-49.7,"Provincia Oriental, Arabia Saudita",0.065,Argelia,0.106,0.174,0.14,Sí
+aterrizaje-phoenix,Phoenix,aterrizaje_robotico,-97.8,"Nunavut, Canadá",0.108,"Mongolia Interior, China",0.389,0.19,0.29,No
+aterrizaje-curiosity-msl,Curiosity (MSL),aterrizaje_robotico,-51.4,"Al Wahat, Libia",0.087,"Sinkiang, China",0.208,0.103,0.156,Sí
+aterrizaje-insight,InSight,aterrizaje_robotico,-52.7,Río Tinto (MARTE),0.062,"Dajla-Río de Oro, Marruecos",0.233,0.458,0.346,No
+aterrizaje-perseverance-mars-2020,Perseverance (Mars 2020),aterrizaje_robotico,-51.0,"Desierto de Atacama, núcleo hiperárido (ARADS)",0.056,"Región de Antofagasta, Chile",0.093,0.114,0.104,Sí
+aterrizaje-tianwen-1,Tianwen-1,aterrizaje_robotico,-59.1,"Provincia de Alto Badajshán, Tayikistán",0.034,"Mongolia Interior, China",0.185,0.43,0.308,No
+aterrizaje-rosalind-franklin-exomars,Rosalind Franklin (ExoMars),aterrizaje_planificado,-52.4,Lanzarote (ESA PANGAEA),0.063,"Provincia de Riad, Arabia Saudita",0.344,0.094,0.219,No
+ez-e-melas-chasma,E. Melas Chasma,exploration_zone,-50.6,"Gobernación de Mutana, Irak",0.128,"Región de Antofagasta, Chile",0.276,0.073,0.175,Sí
+ez-coprates-chasma,Coprates Chasma,exploration_zone,-50.6,"Gobernación de Mutana, Irak",0.124,"Sinkiang, China",0.249,0.147,0.198,Sí
+ez-viking,Viking,exploration_zone,-54.9,Río Tinto (MARTE),0.152,"Dajla-Río de Oro, Marruecos",0.333,0.441,0.387,No
+ez-acidalia-planitia,Acidalia Planitia,exploration_zone,-53.0,Lanzarote (ESA PANGAEA),0.119,"Sinkiang, China",0.308,0.099,0.204,No
+ez-ne-marineris,NE Marineris,exploration_zone,-48.4,"Provincia Oriental, Arabia Saudita",0.168,Lanzarote (ESA PANGAEA),0.229,0.152,0.19,Sí
+ez-se-marineris,SE Marineris,exploration_zone,-49.2,"Sinkiang, China",0.166,Cuenca de Qaidam occidental (Lenghu),0.242,0.067,0.154,Sí
+ez-gale-crater,Gale Crater,exploration_zone,-51.4,"Al Wahat, Libia",0.087,"Sinkiang, China",0.208,0.103,0.156,Sí
+ez-gale-crater-2,Gale Crater 2,exploration_zone,-51.4,"Al Wahat, Libia",0.087,Río Tinto (MARTE),0.098,0.203,0.151,Sí
+ez-gale-crater-3,Gale Crater 3,exploration_zone,-51.4,"Al Wahat, Libia",0.087,"Sinkiang, China",0.208,0.1,0.154,Sí
+ez-sinus-meridiani,Sinus Meridiani,exploration_zone,-49.7,"Provincia Oriental, Arabia Saudita",0.065,"Provincia de Riad, Arabia Saudita",0.135,0.126,0.13,Sí
+ez-s-meridiani-planum,S. Meridiani Planum,exploration_zone,-49.7,"Provincia Oriental, Arabia Saudita",0.065,Argelia,0.106,0.059,0.082,Sí
+ez-s-meridiani-planum-2,S. Meridiani Planum 2,exploration_zone,-49.7,"Provincia Oriental, Arabia Saudita",0.065,"Región de Antofagasta, Chile",0.259,0.157,0.208,No
+ez-gusev-crater,Gusev Crater,exploration_zone,-58.1,"Tso Kar, Ladakh (ISRO HOPE)",0.072,Cuenca de Qaidam occidental (Lenghu),0.093,0.261,0.177,Sí
+ez-gusev-apollinaris-sulci,Gusev-Apollinaris Sulci,exploration_zone,-58.1,"Tso Kar, Ladakh (ISRO HOPE)",0.072,Groenlandia,0.249,0.198,0.224,No
+ez-apollinaris-sulci,Apollinaris Sulci,exploration_zone,-58.1,"Tso Kar, Ladakh (ISRO HOPE)",0.072,"Desierto de Atacama, núcleo hiperárido (ARADS)",0.295,0.099,0.197,Sí
+ez-zephyria-planum,Zephyria Planum,exploration_zone,-59.4,"Sinkiang, China",0.131,"Dajla-Río de Oro, Marruecos",0.359,0.211,0.285,No
+ez-hebrus-valles,Hebrus Valles,exploration_zone,-56.7,Río Tinto (MARTE),0.092,Cuenca de Qaidam occidental (Lenghu),0.168,0.071,0.12,Sí
+ez-hypanis-delta,Hypanis Delta,exploration_zone,-52.8,"Región de Antofagasta, Chile",0.068,"Región de Antofagasta, Chile",0.068,0.217,0.143,Sí
+ez-jezero-isidis-syrtis,Jezero-Isidis-Syrtis,exploration_zone,-51.0,"Desierto de Atacama, núcleo hiperárido (ARADS)",0.056,"Desierto de Atacama, núcleo hiperárido (ARADS)",0.056,0.068,0.062,Sí
+ez-nili-fossae,Nili Fossae,exploration_zone,-53.7,"Región de Antofagasta, Chile",0.08,Río Tinto (MARTE),0.08,0.143,0.111,Sí
+ez-aram-chaos,Aram Chaos,exploration_zone,-48.1,Lanzarote (ESA PANGAEA),0.149,"Desierto de Atacama, núcleo hiperárido (ARADS)",0.242,0.079,0.16,Sí
+ez-cerberus,Cerberus,exploration_zone,-59.0,"Región de Antofagasta, Chile",0.12,"Gobernación de Shabwah, Yemen",0.31,0.179,0.244,No
+ez-s-nectaris-fossae,S. Nectaris Fossae,exploration_zone,-56.8,Cuenca de Qaidam occidental (Lenghu),0.066,"Sinkiang, China",0.089,0.162,0.126,Sí
+ez-hadriacus-palus,Hadriacus Palus,exploration_zone,-56.8,Groenlandia,0.115,Groenlandia,0.167,0.116,0.142,Sí
+ez-mawrth-vallis,Mawrth Vallis,exploration_zone,-53.7,"Región de Antofagasta, Chile",0.127,"Región de Antofagasta, Chile",0.127,0.125,0.126,Sí
+ez-mclaughlin-crater,McLaughlin Crater,exploration_zone,-53.7,"Región de Antofagasta, Chile",0.127,"Región de Antofagasta, Chile",0.127,0.135,0.131,Sí
+ez-arabia-terra,Arabia Terra,exploration_zone,-49.7,"Gobernación de Shabwah, Yemen",0.118,"Al Wahat, Libia",0.159,0.173,0.166,Sí
+ez-columbus-crater,Columbus Crater,exploration_zone,-58.6,"Tso Kar, Ladakh (ISRO HOPE)",0.109,"Sinkiang, China",0.176,0.08,0.128,Sí
+ez-huygens-crater,Huygens Crater,exploration_zone,-51.5,Cuenca de Qaidam occidental (Lenghu),0.079,"Gobernación de Mutana, Irak",0.126,0.234,0.18,Sí
+ez-noctis-landing,Noctis Landing,exploration_zone,-60.4,"Tso Kar, Ladakh (ISRO HOPE)",0.148,"Sinkiang, China",0.148,0.224,0.186,Sí
+ez-deuteronilus-mensae,Deuteronilus Mensae,exploration_zone,-65.8,"Tso Kar, Ladakh (ISRO HOPE)",0.103,Groenlandia,0.152,0.136,0.144,Sí
+ez-e-hellas,E. Hellas,exploration_zone,-72.1,"Nunavut, Canadá",0.061,Groenlandia,0.234,0.13,0.182,Sí
+ez-e-hellas-2,E. Hellas 2,exploration_zone,-65.8,"Nunavut, Canadá",0.04,"Nunavut, Canadá",0.044,0.128,0.086,Sí
+ez-deuteronilus-mensae-2,Deuteronilus Mensae 2,exploration_zone,-69.4,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),0.072,"Sinkiang, China",0.248,0.09,0.169,Sí
+ez-ismenius-cavus,Ismenius Cavus,exploration_zone,-68.1,"Tso Kar, Ladakh (ISRO HOPE)",0.207,"Sinkiang, China",0.216,0.247,0.231,No
+ez-e-hellas-3,E. Hellas 3,exploration_zone,-64.3,"Nunavut, Canadá",0.089,"Mongolia Interior, China",0.276,0.083,0.18,Sí
+ez-hale-crater,Hale Crater,exploration_zone,-63.5,"Nunavut, Canadá",0.077,Groenlandia,0.09,0.128,0.109,Sí
+ez-noachis-terra-chloride,Noachis Terra Chloride,exploration_zone,-65.1,"Nunavut, Canadá",0.055,"Mongolia Interior, China",0.195,0.251,0.223,No
+ez-arcadia-planitia,Arcadia Planitia,exploration_zone,-65.2,Groenlandia,0.122,"Nunavut, Canadá",0.134,0.609,0.372,No
+ez-erebus-montes,Erebus Montes,exploration_zone,-70.2,"Nunavut, Canadá",0.199,"Nunavut, Canadá",0.199,0.691,0.445,No
+ez-acheron-fossae,Acheron Fossae,exploration_zone,-71.9,"Tso Kar, Ladakh (ISRO HOPE)",0.234,Cuenca de Qaidam occidental (Lenghu),0.247,0.14,0.194,Sí
+ez-newton-crater,Newton Crater,exploration_zone,-69.4,Isla Devon (Haughton-Mars Project),0.058,Isla Devon (Haughton-Mars Project),0.058,0.146,0.102,Sí
+ez-protonilus-mensae,Protonilus mensae,exploration_zone,-69.1,Isla Axel Heiberg (Gypsum Hill / M.A.R.S.),0.081,"Nunavut, Canadá",0.117,0.112,0.114,Sí
+ez-arcadia-planitia-43,Arcadia Planitia,exploration_zone,-75.8,Groenlandia,0.062,Groenlandia,0.062,0.693,0.377,No
+ez-copernicus-crater,Copernicus Crater,exploration_zone,-77.5,"Nunavut, Canadá",0.1,"Sinkiang, China",0.449,0.102,0.276,No
+ez-ausonia-cavus,Ausonia Cavus,exploration_zone,-60.3,Groenlandia,0.046,Groenlandia,0.046,0.185,0.115,Sí
+ez-kasei-valles,Kasei Valles,exploration_zone,-66.6,"Región de Antofagasta, Chile",0.192,"Región de Antofagasta, Chile",0.192,0.069,0.13,Sí

@@ -1,0 +1,161 @@
+sitio_id,sitio,cuerpo,tipo_sitio,sitio_lat,sitio_lon,f_hielo_sitio,mejor_nivel,mejor_tierra_id,mejor_tierra,capas_ok,capas_fallan,similitud,d_topo,d_geo,n_parejas_alta_media
+artemis-peak-near-cabeus-b,Peak Near Cabeus B,luna,region_aterrizaje_artemis,-83.6375,-68.7495,0.292,Media,lofoten_flakstadoy,Lofoten (macizo de Flakstadøy),"topografía, geología",,0.626,0.149,0.3,4
+artemis-haworth,Haworth,luna,region_aterrizaje_artemis,-86.7639,-22.777,0.615,Media,askja,Askja,"hielo, clima","topografía, geología",0.319,0.422,1.0,1
+artemis-malapert-massif,Malapert Massif,luna,region_aterrizaje_artemis,-85.9948,-0.2358,0.21,Media,lofoten_flakstadoy,Lofoten (macizo de Flakstadøy),"topografía, geología",,0.615,0.158,0.3,4
+artemis-mons-mouton-plateau,Mons Mouton Plateau,luna,region_aterrizaje_artemis,-84.3347,30.5923,0.194,Media,white_mountain,White Mountain (Qaqortorsuaq),"topografía, geología",,0.802,0.158,0.0,1
+artemis-mons-mouton,Mons Mouton,luna,region_aterrizaje_artemis,-85.4266,31.7428,0.465,Media,white_mountain,White Mountain (Qaqortorsuaq),"topografía, geología",,0.786,0.171,0.0,3
+artemis-nobile-rim-1,Nobile Rim 1,luna,region_aterrizaje_artemis,-85.4364,37.347,0.353,Media,lofoten_flakstadoy,Lofoten (macizo de Flakstadøy),"topografía, geología",,0.604,0.167,0.3,2
+artemis-nobile-rim-2,Nobile Rim 2,luna,region_aterrizaje_artemis,-83.9541,58.8215,0.337,Media,white_mountain,White Mountain (Qaqortorsuaq),"topografía, geología",,0.814,0.149,0.0,4
+artemis-de-gerlache-rim-2,de Gerlache Rim 2,luna,region_aterrizaje_artemis,-88.23,-64.6284,0.262,Media,white_mountain,White Mountain (Qaqortorsuaq),"topografía, geología",,0.8,0.16,0.0,4
+artemis-slater-plain,Slater Plain,luna,region_aterrizaje_artemis,-87.1637,125.5377,0.541,Media,askja,Askja,"hielo, clima","topografía, geología",0.419,0.33,1.0,1
+apollo-11,Apollo 11,luna,aterrizaje_tripulado,0.6742,23.4731,0.0,Alta,luna-3,"Luna (basalto) — Provincia de Medina, Arabia Saudita","topografía, geología, clima",,0.756,0.102,0.15,6
+apollo-12,Apollo 12,luna,aterrizaje_tripulado,-3.0128,-23.4219,0.0,Media,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","geología, clima",topografía,0.54,0.396,0.15,3
+apollo-14,Apollo 14,luna,aterrizaje_tripulado,-3.6459,-17.4719,0.0,Alta,lanzarote,Lanzarote (ESA PANGAEA),"topografía, geología, clima",,0.724,0.17,0.15,5
+apollo-15,Apollo 15,luna,aterrizaje_tripulado,26.1324,3.6333,0.0,Media,luna-1,"Luna (basalto) — Afar, Etiopía","topografía, geología",,0.566,0.194,0.307,3
+apollo-16,Apollo 16,luna,aterrizaje_tripulado,-8.9734,15.5011,0.0,Media,egersund,Anortosita de Egersund (Rogaland),"topografía, geología",,0.801,0.147,0.025,3
+apollo-17,Apollo 17,luna,aterrizaje_tripulado,20.1911,30.7723,0.0,Media,kilauea,Kīlauea,"geología, clima",topografía,0.545,0.461,0.134,4
+aterrizaje-luna-9,Luna 9,luna,aterrizaje_robotico,7.0833,-64.3667,0.0,Alta,luna-9,"Luna (basalto) — Provincia de Tabuk, Arabia Saudita","topografía, geología, clima",,0.699,0.194,0.15,6
+aterrizaje-luna-13,Luna 13,luna,aterrizaje_robotico,18.8667,-62.05,0.0,Media,luna-5,"Luna (basalto) — Condado de Marsabit, Kenia","geología, clima",topografía,0.508,0.556,0.162,3
+aterrizaje-surveyor-1,Surveyor 1,luna,aterrizaje_robotico,-2.4739,-43.3389,0.0,Media,luna-5,"Luna (basalto) — Condado de Marsabit, Kenia","geología, clima",topografía,0.488,0.345,0.162,4
+aterrizaje-surveyor-3,Surveyor 3,luna,aterrizaje_robotico,-3.015,-23.4181,0.0,Media,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","geología, clima",topografía,0.542,0.394,0.15,3
+aterrizaje-surveyor-5,Surveyor 5,luna,aterrizaje_robotico,1.4611,23.195,0.0,Alta,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología, clima",,0.79,0.155,0.15,5
+aterrizaje-surveyor-6,Surveyor 6,luna,aterrizaje_robotico,0.4742,-1.4275,0.0,Alta,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología, clima",,0.793,0.068,0.15,6
+aterrizaje-surveyor-7,Surveyor 7,luna,aterrizaje_robotico,-40.98,-11.5139,0.0,Baja,egersund,Anortosita de Egersund (Rogaland),geología,topografía,0.704,0.237,0.0,0
+aterrizaje-luna-16,Luna 16,luna,aterrizaje_robotico,-0.6833,56.3,0.0,Alta,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología, clima",,0.749,0.111,0.15,4
+aterrizaje-luna-17,Luna 17,luna,aterrizaje_robotico,38.2833,-35.0,0.0,Media,craters_moon,Craters of the Moon,"geología, clima",topografía,0.472,0.55,0.15,2
+aterrizaje-luna-20,Luna 20,luna,aterrizaje_robotico,3.5667,56.5,0.0,Alta,luna-14,Luna (basalto) — Irán,"topografía, geología, clima",,0.662,0.094,0.347,3
+aterrizaje-luna-21,Luna 21,luna,aterrizaje_robotico,25.85,30.45,0.0,Alta,craters_moon,Craters of the Moon,"topografía, geología, clima",,0.639,0.16,0.162,6
+aterrizaje-luna-23,Luna 23,luna,aterrizaje_robotico,12.75,62.2,0.0,Alta,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología, clima",,0.702,0.102,0.15,4
+aterrizaje-luna-24,Luna 24,luna,aterrizaje_robotico,12.75,62.2,0.0,Alta,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología, clima",,0.702,0.102,0.15,4
+aterrizaje-chang-e-3,Chang'e 3,luna,aterrizaje_robotico,44.1167,-19.5167,0.0,Media,luna-7,Luna (basalto) — Islandia,"geología, clima",topografía,0.484,0.51,0.15,1
+aterrizaje-chang-e-4,Chang'e 4,luna,aterrizaje_robotico,-45.4561,177.5886,0.0,Media,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología",,0.711,0.156,0.15,4
+aterrizaje-chang-e-5,Chang'e 5,luna,aterrizaje_robotico,43.0575,-51.9161,0.0,Media,luna-7,Luna (basalto) — Islandia,"geología, clima",topografía,0.458,0.589,0.15,1
+aterrizaje-chang-e-6,Chang'e 6,luna,aterrizaje_robotico,-41.6386,-153.9853,0.0,Baja,luna-7,Luna (basalto) — Islandia,geología,"topografía, clima",0.424,0.584,0.15,0
+aterrizaje-chandrayaan-3,Chandrayaan-3,luna,aterrizaje_robotico,-69.3731,32.3189,0.0,Media,askja,Askja,"topografía, clima",geología,0.412,0.174,1.0,1
+aterrizaje-slim,SLIM,luna,aterrizaje_robotico,-13.3161,25.2511,0.0,Media,luna-14,Luna (basalto) — Irán,"topografía, clima",geología,0.408,0.153,0.866,1
+aterrizaje-im-1-odysseus,IM-1 Odysseus,luna,aterrizaje_robotico,-84.9,12.9,0.968,Media,white_mountain,White Mountain (Qaqortorsuaq),"topografía, geología",,0.787,0.17,0.0,3
+aterrizaje-blue-ghost-m1,Blue Ghost M1,luna,aterrizaje_robotico,18.5622,61.8103,0.0,Media,luna-5,"Luna (basalto) — Condado de Marsabit, Kenia","topografía, geología",clima,0.598,0.155,0.162,4
+aterrizaje-im-2-athena,IM-2 Athena,luna,aterrizaje_robotico,-84.7906,29.1958,0.453,Alta,askja,Askja,"topografía, hielo, clima",geología,0.566,0.196,1.0,3
+aterrizaje-mars-3,Mars 3,marte,aterrizaje_robotico,-45.0,-158.0,0.175,Media,marte_polar-5,Marte polar — Groenlandia,"topografía, clima",geología,0.515,0.109,0.85,3
+aterrizaje-viking-1,Viking 1,marte,aterrizaje_robotico,22.27,-47.95,0.093,Baja,marte_arido-8,"Marte árido — Al Wahat, Libia",topografía,"geología, clima",0.417,0.121,0.5,0
+aterrizaje-viking-2,Viking 2,marte,aterrizaje_robotico,47.64,134.29,1.0,Alta,devon,Isla Devon (Haughton-Mars Project),"topografía, hielo, clima",geología,0.656,0.143,0.755,6
+aterrizaje-mars-pathfinder,Mars Pathfinder,marte,aterrizaje_robotico,19.13,-33.3033,0.027,Baja,marte_arido-4,"Marte árido — Sinkiang, China",topografía,"geología, clima",0.354,0.12,0.511,0
+aterrizaje-spirit-mer-a,Spirit (MER-A),marte,aterrizaje_robotico,-14.5684,175.4726,0.023,Media,luna-7,Luna (basalto) — Islandia,"topografía, geología",,0.82,0.069,0.15,5
+aterrizaje-opportunity-mer-b,Opportunity (MER-B),marte,aterrizaje_robotico,-1.9462,-5.5257,0.147,Baja,luna-1,"Luna (basalto) — Afar, Etiopía",topografía,geología,0.512,0.154,0.473,0
+aterrizaje-phoenix,Phoenix,marte,aterrizaje_robotico,68.22,-125.7,1.0,Media,marte_polar-6,Marte polar — Groenlandia,"hielo, clima","topografía, geología",0.52,0.386,0.71,5
+aterrizaje-curiosity-msl,Curiosity (MSL),marte,aterrizaje_robotico,-4.5895,137.4417,0.109,Media,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","geología, clima",topografía,0.485,0.271,0.337,1
+aterrizaje-insight,InSight,marte,aterrizaje_robotico,4.5024,135.6234,0.1,Baja,marte_arido-7,"Marte árido — Gobernación de Mutana, Irak",topografía,"geología, clima",0.37,0.166,0.637,0
+aterrizaje-perseverance-mars-2020,Perseverance (Mars 2020),marte,aterrizaje_robotico,18.4447,77.4508,0.172,Alta,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","topografía, geología, clima",,0.631,0.079,0.332,2
+aterrizaje-tianwen-1,Tianwen-1,marte,aterrizaje_robotico,25.1,109.7,0.075,Baja,marte_arido-8,"Marte árido — Al Wahat, Libia",topografía,"geología, clima",0.492,0.126,0.5,0
+aterrizaje-rosalind-franklin-exomars,Rosalind Franklin (ExoMars),marte,aterrizaje_planificado,18.2,-24.55,0.048,Baja,luna-2,"Luna (basalto) — Gobernacion de Rif Dimashq, Siria",topografía,geología,0.529,0.155,0.444,0
+aterrizaje-chang-e-7,Chang'e 7,luna,aterrizaje_planificado,-88.8,123.4,0.393,Media,askja,Askja,"hielo, clima","topografía, geología",0.432,0.488,1.0,2
+ez-e-melas-chasma,E. Melas Chasma,marte,exploration_zone,-11.7,-70.0,0.206,Media,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","topografía, hielo","geología, clima",0.555,0.061,0.43,4
+ez-coprates-chasma,Coprates Chasma,marte,exploration_zone,-11.7,-66.6,0.261,Media,askja,Askja,"topografía, hielo",geología,0.45,0.111,0.979,2
+ez-viking,Viking,marte,exploration_zone,22.3,-48.3,0.088,Baja,marte_arido-7,"Marte árido — Gobernación de Mutana, Irak",topografía,"geología, clima",0.371,0.059,0.637,0
+ez-acidalia-planitia,Acidalia Planitia,marte,exploration_zone,20.0,-40.0,0.077,Baja,qaidam,Cuenca de Qaidam occidental (Lenghu),geología,topografía,0.386,0.292,0.398,0
+ez-ne-marineris,NE Marineris,marte,exploration_zone,-4.1,-35.2,0.088,Media,marte_altura-1,"Marte de altura — Sinkiang, China","topografía, geología",,0.663,0.141,0.257,2
+ez-se-marineris,SE Marineris,marte,exploration_zone,-18.8,-49.2,0.066,Baja,luna-2,"Luna (basalto) — Gobernacion de Rif Dimashq, Siria",topografía,geología,0.583,0.112,0.444,0
+ez-gale-crater,Gale Crater,marte,exploration_zone,-4.6,137.4,0.145,Media,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","geología, clima",topografía,0.492,0.258,0.346,1
+ez-gale-crater-2,Gale Crater 2,marte,exploration_zone,-4.6,137.0,0.075,Media,luna-14,Luna (basalto) — Irán,"topografía, geología",,0.543,0.178,0.375,2
+ez-gale-crater-3,Gale Crater 3,marte,exploration_zone,-4.7,137.1,0.082,Baja,marte_altura-1,"Marte de altura — Sinkiang, China",topografía,geología,0.614,0.09,0.437,0
+ez-sinus-meridiani,Sinus Meridiani,marte,exploration_zone,-2.3,-6.4,0.224,Media,luna-4,"Luna (basalto) — Afar, Etiopía","topografía, hielo",geología,0.571,0.086,0.5,8
+ez-s-meridiani-planum,S. Meridiani Planum,marte,exploration_zone,-3.2,-4.5,0.116,Baja,luna-2,"Luna (basalto) — Gobernacion de Rif Dimashq, Siria",topografía,geología,0.594,0.103,0.444,0
+ez-s-meridiani-planum-2,S. Meridiani Planum 2,marte,exploration_zone,-2.9,-5.4,0.175,Media,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","topografía, clima",geología,0.514,0.182,0.548,1
+ez-gusev-crater,Gusev Crater,marte,exploration_zone,-14.5,175.4,0.014,Media,luna-11,Luna (basalto) — Islandia,"topografía, geología",,0.811,0.076,0.15,6
+ez-gusev-apollinaris-sulci,Gusev-Apollinaris Sulci,marte,exploration_zone,-13.0,175.0,0.093,Media,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","topografía, clima",geología,0.505,0.142,0.504,1
+ez-apollinaris-sulci,Apollinaris Sulci,marte,exploration_zone,-12.7,176.7,0.129,Media,marte_arido-3,"Marte árido — Región de Antofagasta, Chile","topografía, clima",geología,0.555,0.108,0.453,1
+ez-zephyria-planum,Zephyria Planum,marte,exploration_zone,-1.4,157.1,0.054,Baja,marte_arido-1,Marte árido — Argelia,topografía,"geología, clima",0.529,0.109,0.49,0
+ez-hebrus-valles,Hebrus Valles,marte,exploration_zone,20.1,126.6,0.059,Baja,marte_arido-4,"Marte árido — Sinkiang, China",topografía,"geología, clima",0.378,0.111,0.513,0
+ez-hypanis-delta,Hypanis Delta,marte,exploration_zone,11.7,-45.3,0.016,Baja,luna-1,"Luna (basalto) — Afar, Etiopía",topografía,geología,0.512,0.154,0.473,0
+ez-jezero-isidis-syrtis,Jezero-Isidis-Syrtis,marte,exploration_zone,17.7,77.0,0.215,Alta,lanzarote,Lanzarote (ESA PANGAEA),"topografía, hielo, clima",geología,0.54,0.124,0.633,9
+ez-nili-fossae,Nili Fossae,marte,exploration_zone,22.1,77.0,0.102,Media,luna-14,Luna (basalto) — Irán,"topografía, geología",,0.586,0.154,0.355,2
+ez-aram-chaos,Aram Chaos,marte,exploration_zone,2.4,-20.0,0.029,Baja,marte_polar-3,"Marte polar — Nunavut, Canadá",topografía,geología,0.523,0.129,0.505,0
+ez-cerberus,Cerberus,marte,exploration_zone,10.0,162.0,0.02,Media,luna-5,"Luna (basalto) — Condado de Marsabit, Kenia","topografía, geología",,0.723,0.147,0.149,3
+ez-s-nectaris-fossae,S. Nectaris Fossae,marte,exploration_zone,-28.9,-59.7,1.0,Media,devon,Isla Devon (Haughton-Mars Project),"topografía, hielo",geología,0.509,0.189,0.8,3
+ez-hadriacus-palus,Hadriacus Palus,marte,exploration_zone,-26.8,77.5,0.789,Media,marte_polar-5,Marte polar — Groenlandia,"topografía, hielo","geología, clima",0.445,0.061,0.85,2
+ez-mawrth-vallis,Mawrth Vallis,marte,exploration_zone,24.3,-19.2,0.558,Media,lanzarote,Lanzarote (ESA PANGAEA),"topografía, clima","geología, hielo",0.388,0.108,0.633,1
+ez-mclaughlin-crater,McLaughlin Crater,marte,exploration_zone,21.9,-22.4,0.052,Media,lanzarote,Lanzarote (ESA PANGAEA),"topografía, clima",geología,0.489,0.142,0.633,1
+ez-arabia-terra,Arabia Terra,marte,exploration_zone,0.4,-8.3,0.027,Baja,luna-19,"Luna (basalto) — Provincia de Medina, Arabia Saudita",topografía,geología,0.476,0.1,0.639,0
+ez-columbus-crater,Columbus Crater,marte,exploration_zone,-29.0,-166.0,0.057,Baja,luna-1,"Luna (basalto) — Afar, Etiopía",topografía,geología,0.504,0.16,0.473,0
+ez-huygens-crater,Huygens Crater,marte,exploration_zone,-13.5,55.5,0.0,Media,marte_arido-6,"Marte árido — Provincia Oriental, Arabia Saudita","topografía, clima",geología,0.51,0.078,0.779,2
+ez-noctis-landing,Noctis Landing,marte,exploration_zone,-6.5,-92.5,0.1,Media,marte_altura-1,"Marte de altura — Sinkiang, China","geología, clima",topografía,0.637,0.207,0.255,2
+ez-deuteronilus-mensae,Deuteronilus Mensae,marte,exploration_zone,39.1,23.2,1.0,Media,devon,Isla Devon (Haughton-Mars Project),"topografía, hielo",geología,0.527,0.168,1.0,4
+ez-e-hellas,E. Hellas,marte,exploration_zone,-40.0,104.0,0.995,Alta,marte_polar-6,Marte polar — Groenlandia,"topografía, hielo, clima",geología,0.693,0.095,0.673,5
+ez-e-hellas-2,E. Hellas 2,marte,exploration_zone,-39.1,101.9,0.973,Alta,marte_polar-7,"Marte polar — Nunavut, Canadá","topografía, hielo, clima",geología,0.608,0.123,0.691,6
+ez-deuteronilus-mensae-2,Deuteronilus Mensae 2,marte,exploration_zone,41.0,22.0,1.0,Alta,marte_polar-6,Marte polar — Groenlandia,"topografía, hielo, clima",geología,0.605,0.057,0.775,4
+ez-ismenius-cavus,Ismenius Cavus,marte,exploration_zone,33.8,17.2,1.0,Media,marte_polar-7,"Marte polar — Nunavut, Canadá","topografía, hielo",geología,0.577,0.162,0.691,2
+ez-e-hellas-3,E. Hellas 3,marte,exploration_zone,-35.4,94.0,0.977,Media,luna-6,"Luna (basalto) — Provincia de La Meca, Arabia Saudita","topografía, geología",hielo,0.561,0.052,0.15,7
+ez-hale-crater,Hale Crater,marte,exploration_zone,-35.8,-36.3,0.122,Media,marte_polar-5,Marte polar — Groenlandia,"topografía, clima",geología,0.456,0.101,0.85,2
+ez-noachis-terra-chloride,Noachis Terra Chloride,marte,exploration_zone,-37.2,-9.5,0.295,Baja,marte_arido-2,"Marte árido — Provincia de Riad, Arabia Saudita",topografía,"geología, hielo",0.433,0.129,0.631,0
+ez-arcadia-planitia,Arcadia Planitia,marte,exploration_zone,39.0,172.0,1.0,Media,qaidam,Cuenca de Qaidam occidental (Lenghu),"geología, clima","topografía, hielo",0.284,0.455,0.398,1
+ez-erebus-montes,Erebus Montes,marte,exploration_zone,39.0,-167.9,1.0,Baja,marte_polar-6,Marte polar — Groenlandia,hielo,"topografía, geología",0.333,0.806,1.0,0
+ez-acheron-fossae,Acheron Fossae,marte,exploration_zone,39.8,-139.4,1.0,Media,luna-2,"Luna (basalto) — Gobernacion de Rif Dimashq, Siria","topografía, geología",hielo,0.421,0.151,0.287,5
+ez-newton-crater,Newton Crater,marte,exploration_zone,-40.6,-160.0,0.918,Alta,marte_polar-5,Marte polar — Groenlandia,"topografía, hielo, clima",geología,0.601,0.1,0.85,5
+ez-protonilus-mensae,Protonilus mensae,marte,exploration_zone,42.2,48.1,1.0,Alta,marte_polar-8,"Marte polar — Nunavut, Canadá","topografía, geología, hielo",clima,0.687,0.123,0.303,6
+ez-arcadia-planitia-43,Arcadia Planitia,marte,exploration_zone,46.2,-171.2,1.0,Media,marte_polar-6,Marte polar — Groenlandia,"hielo, clima","topografía, geología",0.464,0.784,1.0,1
+ez-copernicus-crater,Copernicus Crater,marte,exploration_zone,-49.2,-169.2,1.0,Alta,marte_polar-6,Marte polar — Groenlandia,"topografía, hielo, clima",geología,0.653,0.168,0.673,4
+ez-ausonia-cavus,Ausonia Cavus,marte,exploration_zone,-32.0,96.5,0.923,Media,luna-7,Luna (basalto) — Islandia,"topografía, geología",hielo,0.548,0.067,0.15,7
+ez-kasei-valles,Kasei Valles,marte,exploration_zone,24.8,-72.6,0.086,Media,luna-14,Luna (basalto) — Irán,"topografía, geología",,0.656,0.098,0.355,3
+cueva-luna-marius-hills-pit,Marius Hills Pit,luna,cueva (tragaluz_tubo_lava),14.0917,-56.7701,,Baja,luna-13,"Luna (basalto) — Provincia de Medina, Arabia Saudita",topografía,,0.83,0.068,,0
+cueva-luna-west-marius-hills-pit,West Marius Hills Pit,luna,cueva (tragaluz_tubo_lava),13.5507,-58.1733,,Baja,meteor_crater,Meteor Crater (cráter Barringer),topografía,,0.72,0.112,,0
+cueva-luna-mare-tranquillitatis-pit,Mare Tranquillitatis Pit,luna,cueva (tragaluz_tubo_lava),8.3355,33.222,,Baja,kazumura,"Kazumura Cave, Hawái",forma de cueva,topografía,0.361,0.788,,0
+cueva-luna-southwest-mare-tranquillitatis-pit,Southwest Mare Tranquillitatis Pit,luna,cueva (pozo_colapso),4.1438,24.6871,,Baja,luna-13,"Luna (basalto) — Provincia de Medina, Arabia Saudita",topografía,,0.833,0.067,,0
+cueva-luna-southwest-mare-tranquillitatis-b-pit,Southwest Mare Tranquillitatis B Pit,luna,cueva (pozo_colapso),4.1438,24.6867,,Baja,luna-13,"Luna (basalto) — Provincia de Medina, Arabia Saudita",topografía,,0.833,0.067,,0
+cueva-luna-mare-ingenii-pit,Mare Ingenii Pit,luna,cueva (tragaluz_tubo_lava),-35.9494,166.0559,,Baja,kazumura,"Kazumura Cave, Hawái",forma de cueva,topografía,0.392,0.902,,0
+cueva-luna-runge-pit,Runge Pit,luna,cueva (pozo_colapso),-2.7024,86.78,,Baja,luna-19,"Luna (basalto) — Provincia de Medina, Arabia Saudita",topografía,,0.713,0.115,,0
+cueva-luna-lacus-mortis-pit,Lacus Mortis Pit,luna,cueva (tragaluz_tubo_lava),44.9608,25.6119,,Media,undara,Tubos de lava de Undara,"topografía, forma de cueva",,0.552,0.186,,1
+cueva-luna-compton-pit,Compton Pit,luna,cueva (pozo_colapso),56.2247,106.1955,,Baja,luna-2,"Luna (basalto) — Gobernacion de Rif Dimashq, Siria",topografía,,0.78,0.088,,0
+cueva-luna-north-procellarum-1-pit,North Procellarum 1 Pit,luna,cueva (pozo_colapso),35.4097,-45.6398,,Sin respaldo,luna-4,"Luna (basalto) — Afar, Etiopía",,topografía,0.27,0.292,,0
+cueva-luna-north-procellarum-2-pit,North Procellarum 2 Pit,luna,cueva (pozo_colapso),35.3433,-45.6553,,Sin respaldo,luna-4,"Luna (basalto) — Afar, Etiopía",,topografía,0.228,0.309,,0
+cueva-luna-sinus-iridum-pit,Sinus Iridum Pit,luna,cueva (pozo_colapso),45.623,-28.811,,Sin respaldo,luna-5,"Luna (basalto) — Condado de Marsabit, Kenia",,topografía,0.435,0.226,,0
+cueva-luna-mare-insularum-pit,Mare Insularum Pit,luna,cueva (pozo_colapso),8.6861,-29.0335,,Baja,luna-16,"Luna (basalto) — Condado de Turkana, Kenia",topografía,,0.818,0.073,,0
+cueva-luna-mare-moscoviense-pit,Mare Moscoviense Pit,luna,cueva (pozo_colapso),29.5025,150.4647,,Sin respaldo,luna-4,"Luna (basalto) — Afar, Etiopía",,topografía,0.12,0.352,,0
+cueva-luna-mare-serenitatis-pit,Mare Serenitatis Pit,luna,cueva (pozo_colapso),35.1041,17.4017,,Baja,kilauea_pozos,"Cráteres de colapso del Kīlauea (Devil's Throat, Chain of Craters)",forma de cueva,topografía,0.46,0.798,,0
+cueva-luna-central-mare-fecunditatis-pit,Central Mare Fecunditatis Pit,luna,cueva (pozo_colapso),-0.9182,48.6595,,Baja,luna-2,"Luna (basalto) — Gobernacion de Rif Dimashq, Siria",topografía,,0.613,0.155,,0
+cueva-luna-southwest-mare-fecunditatis-pit,Southwest Mare Fecunditatis Pit,luna,cueva (tierras_altas),-6.7521,42.7595,,Baja,luna-17,"Luna (basalto) — Gobernación de Lahij, Yemen",topografía,,0.795,0.082,,0
+cueva-luna-schlter-pit,Schlter Pit,luna,cueva (tierras_altas),-5.8395,-83.05,,Baja,luna-9,"Luna (basalto) — Provincia de Tabuk, Arabia Saudita",topografía,,0.785,0.086,,0
+cueva-luna-highland-1,Highland 1,luna,cueva (tierras_altas),43.9662,23.0836,,Baja,luna-18,"Luna (basalto) — Tibesti, Chad",topografía,,0.698,0.121,,0
+cueva-luna-highland-2,Highland 2,luna,cueva (tierras_altas),41.1563,18.8206,,Baja,askja,Askja,topografía,,0.752,0.099,,0
+cueva-luna-highland-3,Highland 3,luna,cueva (tierras_altas),42.3941,-39.6924,,Baja,pinacate,Sierra del Pinacate,topografía,,0.733,0.107,,0
+cueva-luna-copernicus-lb3,Copernicus LB3,luna,cueva (fundido_impacto),10.0954,-20.0769,,Baja,luna-19,"Luna (basalto) — Provincia de Medina, Arabia Saudita",topografía,,0.893,0.043,,0
+cueva-luna-crookes-1,Crookes 1,luna,cueva (fundido_impacto),-10.2424,-165.2464,,Baja,luna-14,Luna (basalto) — Irán,topografía,,0.645,0.142,,0
+cueva-luna-king-28,King 28,luna,cueva (fundido_impacto),6.3016,119.8593,,Sin respaldo,luna-17,"Luna (basalto) — Gobernación de Lahij, Yemen",,topografía,0.455,0.218,,0
+cueva-luna-tharp-1a,Tharp 1a,luna,cueva (fundido_impacto),-30.6002,145.6809,,Sin respaldo,mauna_kea,"Mauna Kea, laderas bajas (PISCES)",,topografía,0.285,0.286,,0
+cueva-luna-jackson-1c,Jackson 1c,luna,cueva (fundido_impacto),22.4214,-163.7093,,Baja,askja,Askja,topografía,,0.703,0.119,,0
+cueva-luna-tycho-5b,Tycho 5b,luna,cueva (fundido_impacto),-42.6179,-11.3637,,Baja,luna-10,"Luna (basalto) — Tibesti, Chad",topografía,,0.833,0.067,,0
+cueva-luna-weiner-f-1,Weiner F 1,luna,cueva (fundido_impacto),41.0722,149.9284,,Baja,mauna_kea,"Mauna Kea, laderas bajas (PISCES)",topografía,,0.532,0.187,,0
+cueva-luna-stevinus-1,Stevinus 1,luna,cueva (fundido_impacto),-32.4259,54.6378,,Baja,luna-20,"Luna (basalto) — Provincia de Tabuk, Arabia Saudita",topografía,,0.758,0.097,,0
+cueva-marte-cc0093,CC0093,marte,cueva (entrada_lateral),8.86151,-104.05042,,Baja,marte_polar-8,"Marte polar — Nunavut, Canadá",topografía,,0.583,0.167,,0
+cueva-marte-cc0713,CC0713,marte,cueva (entrada_lateral),9.61115,161.13155,,Sin respaldo,tso_kar,"Tso Kar, Ladakh (ISRO HOPE)",,topografía,0.475,0.21,,0
+cueva-marte-cc0727,CC0727,marte,cueva (entrada_lateral),44.09782,-83.69427,,Baja,marte_arido-3,"Marte árido — Región de Antofagasta, Chile",topografía,,0.77,0.092,,0
+cueva-marte-cc0730,CC0730,marte,cueva (entrada_lateral),7.23542,161.57014,,Baja,marte_arido-5,"Marte árido — Gobernación de Shabwah, Yemen",topografía,,0.558,0.177,,0
+cueva-marte-cc0742,CC0742,marte,cueva (entrada_lateral),17.7379,-133.41586,,Baja,marte_arido-3,"Marte árido — Región de Antofagasta, Chile",topografía,,0.72,0.112,,0
+cueva-marte-cc0832,CC0832,marte,cueva (entrada_lateral),11.40808,155.00775,,Baja,marte_arido-4,"Marte árido — Sinkiang, China",topografía,,0.645,0.142,,0
+cueva-marte-cc0843,CC0843,marte,cueva (entrada_lateral),23.26966,-110.5006,,Baja,marte_arido-7,"Marte árido — Gobernación de Mutana, Irak",topografía,,0.833,0.067,,0
+cueva-marte-cc0846,CC0846,marte,cueva (entrada_lateral),28.02429,-109.1796,,Baja,marte_arido-2,"Marte árido — Provincia de Riad, Arabia Saudita",topografía,,0.853,0.059,,0
+cueva-marte-cc0712,CC0712,marte,cueva (fractura),9.62994,161.09708,,Baja,tso_kar,"Tso Kar, Ladakh (ISRO HOPE)",topografía,,0.53,0.188,,0
+cueva-marte-cc0728,CC0728,marte,cueva (fractura),7.21164,161.59868,,Baja,marte_arido-5,"Marte árido — Gobernación de Shabwah, Yemen",topografía,,0.638,0.145,,0
+cueva-marte-cc0803,CC0803,marte,cueva (fractura),28.40052,-57.47086,,Baja,lanzarote,Lanzarote (ESA PANGAEA),topografía,,0.718,0.113,,0
+cueva-marte-cc0807,CC0807,marte,cueva (fractura),35.07336,-102.45764,,Baja,marte_polar-6,Marte polar — Groenlandia,topografía,,0.698,0.121,,0
+cueva-marte-cc0823,CC0823,marte,cueva (fractura),33.81435,-120.67973,,Baja,marte_arido-4,"Marte árido — Sinkiang, China",topografía,,0.657,0.137,,0
+cueva-marte-cc0828,CC0828,marte,cueva (fractura),36.08857,-118.29231,,Baja,marte_arido-4,"Marte árido — Sinkiang, China",topografía,,0.613,0.155,,0
+cueva-marte-cc0829,CC0829,marte,cueva (fractura),35.24773,-119.99619,,Baja,marte_polar-6,Marte polar — Groenlandia,topografía,,0.78,0.088,,0
+cueva-marte-cc0831,CC0831,marte,cueva (fractura),33.23537,-106.43706,,Baja,krafla_fisuras,Fisuras y pozos tectónicos de Krafla,topografía,,0.835,0.066,,0
+cueva-marte-cc0808,CC0808,marte,cueva (karst_sal),23.84433,68.1136,,Baja,marte_polar-5,Marte polar — Groenlandia,topografía,,0.818,0.073,,0
+cueva-marte-cc0830,CC0830,marte,cueva (karst_sal),44.16867,25.68934,,Baja,marte_arido-3,"Marte árido — Región de Antofagasta, Chile",topografía,,0.818,0.073,,0
+cueva-marte-apc121,APC121,marte,cueva (pozo_colapso),25.23291,-100.67358,,Baja,marte_arido-3,"Marte árido — Región de Antofagasta, Chile",topografía,,0.835,0.066,,0
+cueva-marte-apc129,APC129,marte,cueva (pozo_colapso),-2.09052,-128.12079,,Baja,marte_arido-6,"Marte árido — Provincia Oriental, Arabia Saudita",topografía,,0.538,0.185,,0
+cueva-marte-apc099,APC099,marte,cueva (pozo_colapso),-17.46004,-117.47009,,Baja,marte_arido-6,"Marte árido — Provincia Oriental, Arabia Saudita",topografía,,0.562,0.175,,0
+cueva-marte-apc085,APC085,marte,cueva (pozo_colapso),17.28099,-112.44855,,Sin respaldo,marte_arido-10,"Marte árido — Dajla-Río de Oro, Marruecos",,topografía,0.42,0.232,,0
+cueva-marte-apc074,APC074,marte,cueva (pozo_colapso),-13.94,-120.78,,Sin respaldo,marte_polar-6,Marte polar — Groenlandia,,topografía,0.195,0.322,,0
+cueva-marte-apc075,APC075,marte,cueva (pozo_colapso),-5.5332,-118.60693,,Baja,kilauea_pozos,"Cráteres de colapso del Kīlauea (Devil's Throat, Chain of Craters)",forma de cueva,topografía,0.256,0.538,,0
+cueva-marte-apc073,APC073,marte,cueva (pozo_colapso),-16.33,-114.11,,Baja,marte_arido-8,"Marte árido — Al Wahat, Libia",topografía,,0.772,0.091,,0
+cueva-marte-apc140,APC140,marte,cueva (pozo_colapso),-4.35956,-107.75275,,Media,kilauea_pozos,"Cráteres de colapso del Kīlauea (Devil's Throat, Chain of Craters)","topografía, forma de cueva",,0.687,0.118,,1
+cueva-marte-cc0221,CC0221,marte,cueva (tragaluz_tubo_lava),-11.51587,-120.34462,,Baja,atacama,"Desierto de Atacama, núcleo hiperárido (ARADS)",topografía,,0.802,0.079,,0
+cueva-marte-cc0253,CC0253,marte,cueva (tragaluz_tubo_lava),3.75879,-111.51709,,Baja,marte_arido-3,"Marte árido — Región de Antofagasta, Chile",topografía,,0.695,0.122,,0
+cueva-marte-cc0256,CC0256,marte,cueva (tragaluz_tubo_lava),6.30237,-109.44093,,Sin respaldo,marte_arido-6,"Marte árido — Provincia Oriental, Arabia Saudita",,topografía,0.445,0.222,,0
+cueva-marte-cc0272,CC0272,marte,cueva (tragaluz_tubo_lava),34.21344,-11.03809,,Baja,marte_polar-3,"Marte polar — Nunavut, Canadá",topografía,,0.85,0.06,,0
+cueva-marte-cc0274,CC0274,marte,cueva (tragaluz_tubo_lava),-2.37024,-117.84375,,Sin respaldo,marte_arido-6,"Marte árido — Provincia Oriental, Arabia Saudita",,topografía,0.473,0.211,,0
+cueva-marte-cc0304,CC0304,marte,cueva (tragaluz_tubo_lava),-1.41553,-123.69714,,Baja,marte_arido-6,"Marte árido — Provincia Oriental, Arabia Saudita",topografía,,0.643,0.143,,0
+cueva-marte-cc0348,CC0348,marte,cueva (tragaluz_tubo_lava),0.59424,-123.66943,,Baja,marte_arido-8,"Marte árido — Al Wahat, Libia",topografía,,0.652,0.139,,0
+cueva-marte-cc0510,CC0510,marte,cueva (tragaluz_tubo_lava),-14.08301,-125.33466,,Sin respaldo,marte_polar-6,Marte polar — Groenlandia,,topografía,0.485,0.206,,0

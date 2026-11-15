@@ -1,0 +1,42 @@
+region_id,cuerpo,region,teselas_hechas,cobertura_teselas,elev_media_m,elev_min_m,elev_max_m,mediana_30m,p90_30m,pct_lt5_30m,pct_lt10_30m,pct_lt15_30m,mediana_240m,p90_240m,pct_lt5_240m,pct_lt10_240m,pct_lt15_240m,distancia_apollo,relieve_vs_apollo
+luna-1,luna,"Afar, Etiopía",6/6,0.77,284,-235,1689,5.2,18.5,49.2,76.0,86.0,1.8,9.5,79.0,90.8,96.1,0.055,parecido a Apollo
+luna-2,luna,"Gobernacion de Rif Dimashq, Siria",6/6,0.98,807,523,2070,4.8,10.5,55.4,89.1,96.4,1.2,3.5,94.1,98.0,99.2,0.229,más llano que Apollo
+luna-3,luna,"Provincia de Medina, Arabia Saudita",5/5,1.0,1105,394,2088,4.8,11.0,56.0,87.9,95.5,1.2,3.0,95.5,98.7,99.6,0.252,más llano que Apollo
+luna-4,luna,"Afar, Etiopía",5/5,1.0,477,86,1251,4.0,10.0,64.9,90.0,95.8,1.0,4.8,91.1,97.8,99.3,0.194,parecido a Apollo
+luna-5,luna,"Condado de Marsabit, Kenia",3/3,1.0,482,325,1128,4.2,11.2,59.0,87.3,95.8,1.0,3.8,94.2,98.6,99.5,0.217,más llano que Apollo
+luna-6,luna,"Provincia de La Meca, Arabia Saudita",4/4,1.0,1254,1037,1630,3.8,7.5,71.9,96.5,99.1,1.0,2.2,98.3,99.8,100.0,0.315,más llano que Apollo
+luna-7,luna,Islandia,6/6,1.0,648,268,1682,5.8,18.2,45.2,74.9,86.1,2.0,11.0,76.1,88.7,94.0,0.081,parecido a Apollo
+luna-8,luna,"Afar, Etiopía",3/3,1.0,466,219,1306,4.0,12.0,64.7,87.0,93.5,1.5,6.5,86.0,95.7,98.2,0.109,parecido a Apollo
+luna-9,luna,"Provincia de Tabuk, Arabia Saudita",3/3,1.0,1424,770,2116,6.5,19.2,37.8,69.2,83.4,3.0,10.0,70.1,90.4,97.1,0.246,más llano que Apollo
+luna-10,luna,"Tibesti, Chad",4/4,1.0,1681,984,3073,11.0,28.2,19.9,46.0,63.8,6.2,18.2,43.3,69.3,84.4,0.394,más abrupto que Apollo
+luna-11,luna,Islandia,5/5,1.0,698,402,1256,7.2,23.0,33.7,65.3,80.8,3.0,11.8,70.0,87.4,93.9,0.208,más llano que Apollo
+luna-12,luna,"Kunene, Namibia",2/2,1.0,767,326,1487,8.0,17.2,25.7,63.6,85.0,2.5,7.0,82.3,95.6,98.9,0.223,más llano que Apollo
+luna-13,luna,"Provincia de Medina, Arabia Saudita",4/4,1.0,880,573,1397,4.2,9.0,64.0,92.6,97.4,1.2,3.0,95.8,98.9,99.6,0.25,más llano que Apollo
+luna-14,luna,Irán,3/3,1.0,1021,366,1934,13.0,30.5,18.3,40.2,56.7,7.2,18.8,36.6,63.9,81.6,0.424,más abrupto que Apollo
+luna-15,luna,"Provincia de La Meca, Arabia Saudita",1/1,1.0,1238,975,1668,7.0,19.8,35.5,67.8,82.5,2.0,10.0,72.4,90.6,97.6,0.103,parecido a Apollo
+luna-16,luna,"Condado de Turkana, Kenia",2/2,1.0,427,248,1141,5.0,16.0,51.2,78.3,88.9,1.5,8.2,80.2,93.4,98.2,0.082,parecido a Apollo
+luna-17,luna,"Gobernación de Lahij, Yemen",3/3,1.0,269,0,822,7.2,22.8,34.6,63.5,77.8,2.2,10.8,74.4,89.1,95.5,0.135,parecido a Apollo
+luna-18,luna,"Tibesti, Chad",2/2,1.0,1521,1038,2878,11.5,26.5,17.7,43.7,63.8,6.2,15.5,41.3,72.0,89.1,0.407,más abrupto que Apollo
+luna-19,luna,"Provincia de Medina, Arabia Saudita",2/2,1.0,1091,698,1531,4.8,10.5,54.4,88.5,95.8,1.5,3.5,94.4,98.1,99.3,0.234,más llano que Apollo
+luna-20,luna,"Provincia de Tabuk, Arabia Saudita",3/3,1.0,963,460,1675,6.8,26.5,37.1,64.5,74.8,3.0,16.2,64.2,79.4,88.7,0.229,más abrupto que Apollo
+marte_polar-1,marte,Groenlandia,6/6,0.16,345,-106,1482,6.8,26.0,42.2,64.2,77.3,4.2,20.5,55.1,75.0,84.2,,no aplica
+marte_polar-2,marte,"Nunavut, Canadá",6/6,0.97,269,-9,1344,6.8,25.5,36.6,57.9,73.2,4.8,20.0,51.4,71.4,83.2,,no aplica
+marte_polar-3,marte,"Nunavut, Canadá",6/6,0.6,277,0,1562,5.8,20.0,43.5,68.3,82.6,2.8,14.0,66.3,83.5,91.3,,no aplica
+marte_polar-4,marte,"Nunavut, Canadá",6/6,1.0,415,0,1404,16.0,35.8,22.2,34.3,47.4,13.5,29.2,26.2,39.9,55.1,,no aplica
+marte_polar-5,marte,Groenlandia,4/4,1.0,194,0,765,5.8,19.0,43.8,69.3,84.6,2.5,7.2,79.5,95.6,98.7,,no aplica
+marte_polar-6,marte,Groenlandia,2/2,1.0,402,0,1066,7.5,21.8,32.9,64.9,81.4,2.8,7.0,81.0,95.7,98.4,,no aplica
+marte_polar-7,marte,"Nunavut, Canadá",2/2,1.0,342,0,942,9.5,22.2,28.1,58.1,77.7,4.8,15.0,53.1,78.6,90.3,,no aplica
+marte_polar-8,marte,"Nunavut, Canadá",6/6,1.0,183,0,985,6.5,23.2,42.2,62.0,76.9,4.2,17.2,54.1,74.3,86.5,,no aplica
+marte_altura-1,marte,"Sinkiang, China",6/6,0.27,4924,2693,6925,8.5,25.2,28.5,58.3,75.2,4.0,17.0,58.8,78.9,87.8,,no aplica
+marte_altura-2,marte,"Región de Antofagasta, Chile",5/5,1.0,4120,2061,6148,9.8,25.0,22.6,51.3,70.5,6.2,18.8,42.8,68.8,83.6,,no aplica
+marte_altura-3,marte,"Provincia de Alto Badajshán, Tayikistán",4/4,1.0,4524,3378,5883,20.5,36.5,13.4,26.5,37.8,16.2,29.5,18.2,31.4,46.2,,no aplica
+marte_arido-1,marte,Argelia,6/6,0.01,209,91,491,5.8,11.8,44.1,84.4,96.1,1.0,3.0,96.4,99.7,100.0,,no aplica
+marte_arido-2,marte,"Provincia de Riad, Arabia Saudita",6/6,0.12,600,82,1522,4.2,10.5,58.0,88.6,96.0,0.8,2.5,96.2,98.8,99.5,,no aplica
+marte_arido-3,marte,"Región de Antofagasta, Chile",6/6,0.64,1525,0,4769,5.0,13.8,50.9,82.3,91.9,2.5,8.0,79.8,93.9,98.0,,no aplica
+marte_arido-4,marte,"Sinkiang, China",6/6,0.12,1122,96,2695,5.8,12.5,42.8,82.5,94.7,1.5,3.2,97.0,99.6,99.9,,no aplica
+marte_arido-5,marte,"Gobernación de Shabwah, Yemen",6/6,0.96,977,728,2156,5.8,16.2,45.7,77.7,88.6,1.0,5.5,89.6,94.7,97.5,,no aplica
+marte_arido-6,marte,"Provincia Oriental, Arabia Saudita",6/6,0.93,217,0,513,5.5,10.8,46.7,87.4,97.9,1.0,1.8,99.9,100.0,100.0,,no aplica
+marte_arido-7,marte,"Gobernación de Mutana, Irak",5/5,1.0,197,0,375,6.0,12.8,40.3,80.6,95.0,1.0,1.8,99.9,100.0,100.0,,no aplica
+marte_arido-8,marte,"Al Wahat, Libia",2/2,1.0,205,59,352,7.0,14.5,32.0,73.0,91.7,1.2,2.5,99.0,99.8,100.0,,no aplica
+marte_arido-9,marte,"Mongolia Interior, China",6/6,0.84,997,827,1330,6.2,12.8,38.4,80.1,94.3,1.0,3.0,96.1,99.6,100.0,,no aplica
+marte_arido-10,marte,"Dajla-Río de Oro, Marruecos",5/5,1.0,167,51,489,5.5,10.8,46.6,87.4,97.9,0.8,1.2,99.8,99.9,100.0,,no aplica

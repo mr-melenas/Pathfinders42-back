@@ -105,6 +105,27 @@ def get_generator():
     return ApiGenerator()
 
 
+def _analog(site_id: str | None, earth_id: str) -> dict:
+    """
+    ES: Ficha del análogo (capa analogos) con los límites de la Tierra de su cuerpo.
+    EN: Analog record (analogos layer) with the Earth limits of its body.
+    """
+    from app.dependencias import obtener_datos
+
+    if not site_id:
+        raise HTTPException(422, "tierra_id necesita sitio_id.")
+    analogs = obtener_datos().analogos
+    site, record = analogs.sitio(site_id), analogs.ficha(site_id, earth_id)
+    if site is None or record is None:
+        raise HTTPException(404, f"{earth_id} no es pareja de {site_id}.")
+    return {
+        **record,
+        "sitio_nombre": site["nombre"],
+        "cuerpo": site["cuerpo"],
+        "limites_tierra": analogs.limites(site["cuerpo"]),
+    }
+
+
 @router.post("/preguntar")
 def ask(body: Question, request: Request) -> dict:
     """

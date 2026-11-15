@@ -1,0 +1,21 @@
+{
+  "version": "topografia_v0",
+  "fecha": "2026-10-26T10:08:52",
+  "datos": {
+    "tierra": "NASA ASTER GDEM v3 (ASTGTM v003), doi:10.5067/ASTER/ASTGTM.003",
+    "luna": "NASA LRO LOLA LDEM_128 (PDS LRO-L-LOLA-4-GDR-V1.0): https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_128.img",
+    "sitios_apollo": "LROC (2016), Coordinates of Human Features, sistema Mean Earth"
+  },
+  "parametros": {
+    "max_teselas_por_region": 6,
+    "radio_apollo_km": 10,
+    "umbral_parecido_apollo": 0.2
+  },
+  "progreso": "179/179 teselas",
+  "limitaciones": [
+    "en regiones grandes solo se procesan las teselas con más solape (ver cobertura_teselas)",
+    "ASTER GDEM tiene artefactos en zonas muy planas o con nubes persistentes",
+    "a 30 m el ruido vertical de ASTER infla la pendiente del terreno llano (desiertos planos: 4–7° a 30 m frente a ~1° a 240 m); se compara a 240 m",
+    "la comparación con Apollo es a ~240 m; los riesgos de aterrizaje se miden a escala de metros"
+  ]
+}

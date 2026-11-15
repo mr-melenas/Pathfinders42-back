@@ -1,0 +1,25 @@
+nombre,tipo,verificacion,percentil,dist_celda_km,celda_propia_excluida_por
+"Craters of the Moon, Idaho",analogo_luna,verificada,95.9,3.7,NDVI mediano 0.27
+"Kīlauea, Hawái",analogo_luna,verificada,32.9,6.1,NDVI mediano 0.48
+"Pinacate, Sonora",analogo_luna,verificada,79.1,5.5,NDVI mediano 0.18
+"Askja, Islandia",analogo_luna,verificada,81.5,0.0,—
+Lanzarote – Timanfaya,analogo_luna,verificada,100.0,0.0,—
+"Mauna Kea, Hawái",analogo_luna,pendiente,45.3,0.0,—
+"Meteor Crater, Arizona",impacto,verificada,45.1,18.4,NDVI mediano 0.16
+"Al Haruj, Libia",volcanico_prueba,,67.9,0.0,—
+"Harrat Khaybar, Arabia Saudí",volcanico_prueba,,99.6,0.0,—
+"Harrat Rahat, Arabia Saudí",volcanico_prueba,,68.6,0.0,—
+"Hoggar – Atakor, Argelia",volcanico_prueba,,69.2,0.0,—
+"Payún Matrú, Argentina",volcanico_prueba,,58.1,0.0,—
+"Holuhraun, Islandia",volcanico_prueba,,99.9,0.0,—
+Gran Erg Oriental (arena),control_arena,,2.7,0.0,—
+Rub' al-Jali (arena),control_arena,,2.5,0.0,—
+Taklamakán (arena),control_arena,,32.9,0.0,—
+Mar de arena del Namib,control_arena,,10.4,8.7,NDVI mediano 0.16
+Algodones (arena),control_arena,,16.1,0.0,—
+Madrid,control_ciudad,,,,NDVI mediano 0.28
+París,control_ciudad,,,,NDVI mediano 0.30
+Moscú,control_ciudad,,,,NDVI mediano 0.35
+Manaos,control_ciudad,,,,NDVI mediano 0.42
+Bombay,control_ciudad,,,,NDVI mediano 0.24
+Sídney,control_ciudad,,,,NDVI mediano 0.35

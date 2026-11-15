@@ -1,0 +1,9 @@
+rango,region_id,lat,lon,percentil_max,percentil_medio,n_pixeles,area_km2,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2,T_media,P_anual,elevacion,pais_iso,region_geocodificada
+1,3,25.5,1.25,100.0,97.8,1353,4780200,Lanzarote (ESA PANGAEA),701,No,,,27.8,10.9,229.5,DZ,"Provincia de Adrar, Argelia"
+2,2,21.0,46.25,98.43,96.5,200,726000,"Tso Kar, Ladakh (ISRO HOPE)",2602,No,,,27.1,14.5,636.5,SA,"Provincia de Riad, Arabia Saudita"
+3,12,39.0,86.875,98.24,96.6,140,410600,Lop Nur (cuenca del Tarim),16,Pendiente,https://doi.org/10.1029/2018JE005719,https://science.nasa.gov/earth/earth-observatory/lop-nur-xinjiang-china-51039/,13.2,26.3,985.6,CN,"Sinkiang, China"
+4,1,-23.5,-69.375,98.11,97.7,25,89100,"Desierto de Atacama, núcleo hiperárido (ARADS)",11,Sí,https://astrobiology.nasa.gov/news/nasa-tests-life-detection-drill-in-the-atacama-desert/,,17.3,9.7,1841.7,CL,"Región de Antofagasta, Chile"
+5,8,27.5,48.125,98.05,96.4,21,71800,"Tso Kar, Ladakh (ISRO HOPE)",2850,No,,,27.1,17.9,149.3,SA,"Provincia Oriental, Arabia Saudita"
+6,13,41.5,101.25,95.93,95.4,11,31900,Cuenca de Qaidam occidental (Lenghu),649,No,,,10.8,54.1,960.5,CN,"Mongolia Interior, China"
+7,4,21.5,-14.375,95.37,95.3,2,7200,Lanzarote (ESA PANGAEA),836,No,,,26.9,34.2,194.7,EH,"Dajla-Río de Oro, Marruecos"
+8,11,31.5,62.5,95.23,95.2,2,6600,"Tso Kar, Ladakh (ISRO HOPE)",1468,No,,,22.7,49.3,575.1,AF,"Provincia de Nimruz, Afganistán"

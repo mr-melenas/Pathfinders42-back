@@ -1,0 +1,65 @@
+{
+  "version": "cuevas_v0",
+  "fecha": "2026-10-24T21:20:37",
+  "metodo": {
+    "osm": "nwr[\"natural\"=\"cave_entrance\"] por caja de región + 25 km (Overpass API)",
+    "posible_tubo_lava": "celda GLiM >= 50 % volcánica o nombre/etiquetas con lava, tubo, hellir…",
+    "region": "dentro del polígono o a <= 25 km"
+  },
+  "recuentos": {
+    "entradas_osm": 960,
+    "en_regiones": 195,
+    "posibles_tubos_lava_en_regiones": 31
+  },
+  "validacion": [
+    {
+      "cueva": "La Corona (Cueva de los Verdes / Túnel de la Atlántida), Lanzarote",
+      "analogo_de": "luna",
+      "entradas_osm_5km": 33,
+      "nombres_osm": "Cueva de Los Siete Lagos; Jameo de Cinco Dedos; Las Cuevas de Maguez; Cueva de La Paloma",
+      "glim_clase": "vb",
+      "glim_volcanica_pct": 40,
+      "region_mas_cercana": "marte_arido-1",
+      "nombre_region": "Argelia",
+      "dist_region_km": 539
+    },
+    {
+      "cueva": "Valentine Cave, Lava Beds National Monument, California",
+      "analogo_de": "marte",
+      "entradas_osm_5km": 53,
+      "nombres_osm": "Merrill Ice Cave; Big Painted Cave; Symbol Bridge; Skull Cave",
+      "glim_clase": "vi",
+      "glim_volcanica_pct": 100,
+      "region_mas_cercana": "marte_polar-8",
+      "nombre_region": "Nunavut, Canadá",
+      "dist_region_km": 4288
+    },
+    {
+      "cueva": "Tubos de lava del Mauna Loa (HI-SEAS), Hawái",
+      "analogo_de": "luna y marte",
+      "entradas_osm_5km": 0,
+      "nombres_osm": "",
+      "glim_clase": "vb",
+      "glim_volcanica_pct": 100,
+      "region_mas_cercana": "marte_polar-8",
+      "nombre_region": "Nunavut, Canadá",
+      "dist_region_km": 7268
+    },
+    {
+      "cueva": "Surtshellir–Stefanshellir (Hallmundarhraun), Islandia",
+      "analogo_de": "luna y marte",
+      "entradas_osm_5km": 9,
+      "nombres_osm": "Surtshellir; Stefánshellir",
+      "glim_clase": "vb",
+      "glim_volcanica_pct": 100,
+      "region_mas_cercana": "luna-11",
+      "nombre_region": "Islandia",
+      "dist_region_km": 77
+    }
+  ],
+  "limitaciones": [
+    "cobertura de OpenStreetMap desigual por país: los recuentos son mínimos",
+    "una entrada en roca volcánica no garantiza que sea un tubo de lava",
+    "coordenadas de las cuevas documentadas aproximadas"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "version": "clima_v1",
+ "fecha": "2026-10-29T00:05:05",
+ "datos": {
+  "tierra": "NASA MODIS Aqua MYD11C3 v061 (doi:10.5067/MODIS/MYD11C3.061), 2014–2023",
+  "marte": "MACDA v2.0 en ARCO-Mars (de clima_v0)",
+  "luna": "LRO Diviner GCP (Williams et al. 2017, doi:10.1016/j.icarus.2016.08.012) y PRP (Paige et al. 2010, doi:10.1126/science.1187726); PDS4 lro_diviner_derived1 (doi:10.17189/wj0s-w188)"
+ },
+ "parametros": {
+  "medidas": {
+   "marte": [
+    "ts_media",
+    "ts_min",
+    "amplitud_anual",
+    "osc_diaria"
+   ],
+   "luna": [
+    "ts_media",
+    "ts_min",
+    "ts_max",
+    "osc_diaria"
+   ]
+  },
+  "paso_ref_celdas": 10,
+  "min_meses": 9,
+  "radio_sitio_luna_km": 15,
+  "umbral_parecido": 0.2
+ },
+ "resultados": {
+  "marte_clima": 55,
+  "marte_total": 42,
+  "luna_clima": 37,
+  "luna_total": 14,
+  "analogos_validados": "15/15"
+ },
+ "limitaciones": [
+  "MODIS Aqua solo ve el cielo despejado y pasa a las 13:30 y 01:30: la mínima real (al amanecer) es algo más fría que la de las 01:30",
+  "la órbita de Aqua se ha ido desplazando desde 2022 (pasa algo más tarde)",
+  "la comparación es relativa (percentiles): la Luna y Marte son mucho más extremos que cualquier lugar de la Tierra; las brechas en °C lo muestran",
+  "Marte en celdas de 5° (MACDA) y la Luna en celdas de 0,5° (~15 km): un cráter pequeño recibe la temperatura de toda la celda",
+  "Diviner GCP mezcla todas las estaciones (2009–2015): en el polo sur la máxima de verano y la de invierno difieren mucho",
+  "los sitios de Marte y la Luna se comparan entre sí (percentil dentro de los sitios), no frente a todo el cuerpo",
+  "la Luna no tiene estaciones apreciables: se usa la máxima en lugar de la amplitud anual"
+ ]
+}

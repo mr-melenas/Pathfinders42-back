@@ -1,0 +1,42 @@
+{
+  "version": "cuevas_v2",
+  "fecha": "2026-10-30T07:31+00:00",
+  "fuentes": {
+    "luna": "LROC Lunar Pit Atlas (Wagner y Robinson 2021)",
+    "luna_nubes": "Zenodo 6622042 (Wagner y Robinson 2022)",
+    "luna_t_interior": "Horvath et al. 2022, GRL, doi:10.1029/2022GL099710",
+    "luna_tubo": "Carrer et al. 2024, Nature Astronomy",
+    "marte": "Mars Global Cave Candidate Catalog (Cushing)",
+    "marte_profundidad": "PITS, Zenodo 8308454",
+    "tierra_forma": "Pyroduct Digital Catalog v3.0, Zenodo 23456401; Sauro et al. 2020",
+    "tierra_topografia": "Copernicus DEM GLO-30 (AWS)",
+    "tierra_cuevas": "ficha de análogos"
+  },
+  "parametros": {
+    "max_por_tipo_marte": 8,
+    "max_fundido_luna": 8,
+    "umbral_topo": 0.2,
+    "radio_cueva_tierra_km": 10,
+    "t_sombra_pozo_K": 290
+  },
+  "metricas": {
+    "sitios_cueva_luna": 29,
+    "sitios_cueva_marte": 34,
+    "con_topografia": true,
+    "luna_si": 2,
+    "luna_mismo_tipo_terreno_distinto": 14,
+    "luna_mismo_tipo_sin_topografia": 0,
+    "luna_sin_cueva_del_mismo_tipo": 13,
+    "marte_si": 5,
+    "marte_mismo_tipo_terreno_distinto": 21,
+    "marte_mismo_tipo_sin_topografia": 0,
+    "marte_sin_cueva_del_mismo_tipo": 8,
+    "tubos_pyroduct": 95
+  },
+  "limitaciones": [
+    "la clase de cueva se deduce del terreno y de los rasgos del atlas (Luna) o del código del catálogo (Marte)",
+    "la forma solo compara profundidad/diámetro; en la Tierra hay pocas medidas publicadas de colapsos",
+    "temperatura interior: en la Luna solo medida en Mare Tranquillitatis y Mare Ingenii; en la Tierra se aproxima con la superficie media (MODIS)",
+    "coordenadas de varias cuevas de la Tierra aproximadas (ver ficha)"
+  ]
+}

@@ -1,0 +1,4 @@
+rango,region_id,lat,lon,percentil_max,percentil_medio,n_celdas,area_km2,analogo_mas_cercano,distancia_km,analogo_conocido,fuente,fuente_2,T_media,P_anual,elevacion,frac_desnudo,pais_iso,region
+1,2,37.0,86.25,100.0,97.6,68,212600,"Tso Kar, Ladakh (ISRO HOPE)",184,No,,,-6.23,30.71,4735.94,0.99,CN,"Sinkiang, China"
+2,1,-22.0,-68.125,98.77,97.5,3,10800,"Desierto de Atacama, núcleo hiperárido (ARADS)",302,No,,,4.76,16.32,4301.78,0.89,CL,"Región de Antofagasta, Chile"
+3,3,39.0,73.75,95.95,95.9,2,6000,"Tso Kar, Ladakh (ISRO HOPE)",693,No,,,-6.26,118.03,4443.16,0.99,TJ,"Provincia de Alto Badajshán, Tayikistán"

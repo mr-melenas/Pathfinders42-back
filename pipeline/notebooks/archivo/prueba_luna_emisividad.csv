@@ -1,0 +1,14 @@
+punto,tipo,desnudo,NDVI,MI,QI,CI,percentil_MI_en_desnudo
+"Al Haruj, Libia (campo basáltico)",volcánico,True,0.103,0.988,1.008,0.996,93.3
+"Harrat Khaybar, Arabia Saudí (basalto)",volcánico,True,0.126,1.007,1.002,1.0,99.6
+"Harrat Rahat, Arabia Saudí (basalto)",volcánico,False,0.255,0.989,0.996,0.998,93.8
+"Hoggar – Atakor, Argelia (basalto)",volcánico,True,0.119,0.99,0.986,0.994,94.3
+"Pinacate, México (basalto)",volcánico,False,0.256,0.994,0.995,1.002,96.5
+"Payún Matrú, Argentina (basalto)",volcánico,False,0.074,0.978,0.992,0.997,87.8
+"Holuhraun, Islandia (basalto)",volcánico,True,0.038,1.012,1.004,1.006,99.9
+Lanzarote – Timanfaya (basalto),volcánico,False,0.153,1.018,1.0,0.998,100.0
+Gran Erg Oriental (arena),arena,True,0.124,0.758,1.085,0.987,4.6
+Rub' al-Jali (arena),arena,True,0.101,0.756,1.094,0.99,4.1
+Taklamakán (arena),arena,True,0.075,0.912,1.014,0.985,52.9
+Mar de arena del Namib (arena),arena,False,0.162,0.791,1.059,0.985,12.5
+Algodones (arena),arena,True,0.094,0.84,1.033,0.99,27.2
