@@ -97,3 +97,15 @@ def test_rag_completo():
     assert {"limites", "metodo", "ficha"} <= tipos
     assert all(f["url"] for f in fragmentos if f["tipo"] == "limites")
     assert all(e["limites"] for e in explicaciones.values())
+
+
+def test_analogos_reales():
+    """Con los datos reales: una ficha por pareja de usos, y Lofoten verificada y apta para Malapert."""
+    datos = Datos(DATA)
+    if not datos.analogos.disponible:
+        pytest.skip("sin capa analogos")
+    n_usos = sum(len(s["parejas"]) for s in datos.usos.archivo["sitios"].values())
+    n_analogos = sum(len(s["analogos"]) for s in datos.analogos.archivo["sitios"].values())
+    assert n_analogos == n_usos
+    f = datos.analogos.ficha("artemis-malapert-massif", "lofoten_flakstadoy")
+    assert f["verificacion"] == "verificada" and f["apta"]
